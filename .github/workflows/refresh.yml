@@ -1,0 +1,45 @@
+name: Refresh dashboard data
+
+# Runs every evening + whenever you push new data + on demand.
+# Cron is in UTC. 01:00 UTC ≈ 9pm ET (EDT) / 8pm ET (EST).
+# Note: GitHub's scheduled runs can be delayed minutes-to-an-hour under load,
+# and scheduled workflows auto-disable after 60 days with no repo activity —
+# the daily commit below keeps the repo active, so that won't trigger.
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  push:
+    branches: [ main ]
+    paths: [ "*.xlsx", "build.py" ]     # rebuild when you commit fresh data
+  workflow_dispatch: {}                  # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pandas openpyxl
+
+      - name: Build data.json
+        run: python build.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "actions@github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: nightly data refresh ($(date -u +%F))"
+            git push
+          fi

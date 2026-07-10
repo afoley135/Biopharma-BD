@@ -135,8 +135,8 @@ tbody tr:hover{background:var(--bg)}
     </div>
     <div class="splitbar" id="splitBar"></div>
     <div class="splitkey">
-      <span><i style="background:var(--deal)"></i>Deals &amp; collaborations</span>
-      <span><i style="background:var(--raise)"></i>Fundraises, IPOs &amp; reverse mergers</span>
+      <span><i style="background:var(--deal)"></i>Deals &amp; collaborations <b class="mono" id="legDeal"></b></span>
+      <span><i style="background:var(--raise)"></i>Fundraises, IPOs &amp; reverse mergers <b class="mono" id="legRaise"></b></span>
       <span style="margin-left:auto;color:var(--faint)">Undisclosed values excluded from totals</span>
     </div>
   </section>
@@ -214,8 +214,10 @@ function renderHero(){
     `FX: 1 EUR = <span class="mono">$${DATA.fx.EUR_USD}</span>`;
   const dPct = total? (dealSum/total*100):50, rPct=100-dPct;
   document.getElementById("splitBar").innerHTML =
-    `<span class="seg-deal" style="flex:${dealSum||1}">${fmtM(dealSum)} deals</span>`+
-    `<span class="seg-raise" style="flex:${raiseSum||1}">${fmtM(raiseSum)} raised</span>`;
+    `<span class="seg-deal" style="flex:${dealSum||1}">${dPct>=14?fmtM(dealSum)+" deals":""}</span>`+
+    `<span class="seg-raise" style="flex:${raiseSum||1}">${rPct>=14?fmtM(raiseSum)+" raised":""}</span>`;
+  document.getElementById("legDeal").textContent = fmtM(dealSum);
+  document.getElementById("legRaise").textContent = fmtM(raiseSum);
 }
 
 /* ---------- chart defaults ---------- */
@@ -224,10 +226,13 @@ Chart.defaults.font.size=12;
 Chart.defaults.color=css('--muted');
 const gridClr=css('--line2');
 const noGrid={grid:{display:false},border:{display:false}};
+const shorten = s => (s && s.length>22) ? s.slice(0,21)+"…" : s;
+// category (y) axis for horizontal bars: truncate long names; full name stays in the tooltip
+const yCat = {...noGrid, ticks:{callback:function(v){return shorten(this.getLabelForValue(v));}}};
 const hBar=(scaleMax)=>({indexAxis:'y',responsive:true,maintainAspectRatio:false,
   plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+fmtM(c.raw)}}},
   scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{callback:v=>fmtM(v)}},
-          y:{...noGrid}}});
+          y:yCat}});
 
 /* ---------- top acquirers ---------- */
 function chartAcquirers(){
@@ -259,7 +264,7 @@ function chartInvestors(){
         borderRadius:4,barThickness:15}]},
     options:{...hBar(),plugins:{legend:{display:false},
       tooltip:{callbacks:{label:c=>` ${c.raw} financing${c.raw>1?'s':''} · led ${rows[c.dataIndex][1].lead}`}}},
-      scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{precision:0,stepSize:1}},y:{...noGrid}}}});
+      scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{precision:0,stepSize:1}},y:yCat}}});
 }
 
 /* ---------- capital by month ---------- */

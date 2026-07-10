@@ -1,0 +1,965 @@
+{
+  "generated": "2026-07-06T19:55:22+00:00",
+  "fx": {
+    "EUR_USD": 1.08,
+    "GBP_USD": 1.27
+  },
+  "records": {
+    "M&A": [
+      {
+        "Date": "2026-07-06",
+        "Buyer": "Novartis",
+        "Seller": "Myricx Bio",
+        "Structure": "Acquisition",
+        "Upfront": "$1.1B",
+        "Total Deal Value": "$1.5B",
+        "Modality": "ADC",
+        "Indication(s)": "Soild tumor",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/novartis-commits-1-1b-upfront-to-take-myricx-bio-and-its-next-gen-adc-platform/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Novartis%20commits%2011B%20upfront%20to%20take%20Myricx%20Bio%20and%20its%20next-gen%20ADC%20platform",
+        "date": "2026-07-06",
+        "Upfront_parsed": {
+          "raw": "$1.1B",
+          "currency": "USD",
+          "musd": 1100.0,
+          "musd_native": 1100.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "AstraZeneca",
+        "Seller": "CSPC",
+        "Structure": "R&D collaboration",
+        "Upfront": "$30M",
+        "Total Deal Value": "$1.2B",
+        "Modality": "siRNA",
+        "Indication(s)": "Renal disease",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/after-landmark-deal-astrazeneca-goes-to-cspc-again-in-up-to-1-7b-pact/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-0470dcba-702a4be3&utm_medium=email&utm_campaign=1089%20-%20Sandoz%20goes%20DTC%20Enterprise&utm_content=1089%20-%20Sandoz%20goes%20DTC%20Enterprise+CID_711af74bd322c9528cd5321954351d53&utm_source=ENDPOINTS%20emails&utm_term=After%20landmark%20deal%20AstraZeneca%20goes%20to%20CSPC%20again%20in%20up%20to%2017B%20pact",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.2B",
+          "currency": "USD",
+          "musd": 1200.0,
+          "musd_native": 1200.0
+        },
+        "value_musd": 1200.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "Takeda",
+        "Seller": "Insilico",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$60M",
+        "Total Deal Value": "$600M",
+        "Modality": "AI drug discovery",
+        "Indication(s)": "Cross-TA",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$60M",
+          "currency": "USD",
+          "musd": 60.0,
+          "musd_native": 60.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$600M",
+          "currency": "USD",
+          "musd": 600.0,
+          "musd_native": 600.0
+        },
+        "value_musd": 600.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "United Therapeutics",
+        "Seller": "Thymmune",
+        "Structure": "Acquisition",
+        "Upfront": "$140M",
+        "Total Deal Value": "$300M",
+        "Modality": "Regenerative medicine",
+        "Indication(s)": "Thymic cells",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$140M",
+          "currency": "USD",
+          "musd": 140.0,
+          "musd_native": 140.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$300M",
+          "currency": "USD",
+          "musd": 300.0,
+          "musd_native": 300.0
+        },
+        "value_musd": 300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-01",
+        "Buyer": "Ipsen",
+        "Seller": "Memo Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "\u20ac200M",
+        "Total Deal Value": "\u20ac500M",
+        "Modality": null,
+        "Indication(s)": "Antiviral",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/ipsen-to-scoop-up-memo-therapeutics-and-its-kidney-infection-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-939ba3cb-e7c13492&utm_medium=email&utm_campaign=1188%20-%20Biotechs%20megaround%20rebound%20Enterprise&utm_content=1188%20-%20Biotechs%20megaround%20rebound%20Enterprise+CID_37dd3482855e0bd957460178b43c8ae7&utm_source=ENDPOINTS%20emails&utm_term=Ipsen%20to%20scoop%20up%20Memo%20Therapeutics%20and%20its%20kidney%20infection%20drug",
+        "date": "2026-07-01",
+        "Upfront_parsed": {
+          "raw": "\u20ac200M",
+          "currency": "EUR",
+          "musd": 216.0,
+          "musd_native": 200.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "\u20ac500M",
+          "currency": "EUR",
+          "musd": 540.0,
+          "musd_native": 500.0
+        },
+        "value_musd": 540.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-29",
+        "Buyer": "Ipsen",
+        "Seller": "Kartos Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "$450M",
+        "Total Deal Value": "$1.75B",
+        "Modality": null,
+        "Indication(s)": "Oncology",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/ipsen-to-buy-blood-cancer-company-kartos-therapeutics-for-450m-upfront/",
+        "date": "2026-06-29",
+        "Upfront_parsed": {
+          "raw": "$450M",
+          "currency": "USD",
+          "musd": 450.0,
+          "musd_native": 450.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.75B",
+          "currency": "USD",
+          "musd": 1750.0,
+          "musd_native": 1750.0
+        },
+        "value_musd": 1750.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-25",
+        "Buyer": "Merck KGaA",
+        "Seller": "Bio-Techne",
+        "Structure": "Acquisition",
+        "Upfront": "$11.3B",
+        "Total Deal Value": "$11.3B",
+        "Modality": "Antibodies & reagents",
+        "Indication(s)": null,
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/merck-kgaa-makes-largest-deal-in-a-decade-in-11-3b-buy-for-bio-techne/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Merck%20KGaA%20makes%20largest%20deal%20in%20a%20decade%20in%20113B%20buy%20for%20Bio-Techne",
+        "date": "2026-06-25",
+        "Upfront_parsed": {
+          "raw": "$11.3B",
+          "currency": "USD",
+          "musd": 11300.0,
+          "musd_native": 11300.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$11.3B",
+          "currency": "USD",
+          "musd": 11300.0,
+          "musd_native": 11300.0
+        },
+        "value_musd": 11300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-24",
+        "Buyer": "Lilly",
+        "Seller": "Abbisko",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1.9B",
+        "Modality": null,
+        "Indication(s)": null,
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/lilly-offers-up-to-1-9b-in-new-drug-discovery-deal-with-abbisko/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20offers%20up%20to%2019B%20in%20new%20drug%20discovery%20deal%20with%20Abbisko",
+        "date": "2026-06-24",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.9B",
+          "currency": "USD",
+          "musd": 1900.0,
+          "musd_native": 1900.0
+        },
+        "value_musd": 1900.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-24",
+        "Buyer": "Novartis",
+        "Seller": "Antares Therapeutics",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$105M",
+        "Total Deal Value": "$1.8B",
+        "Modality": "Small molecules",
+        "Indication(s)": "Oncology",
+        "Source": "Link",
+        "category": "M&A",
+        "url": "https://endpoints.news/novartis-taps-antares-in-small-molecule-discovery-pact-with-105m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-496d6d38-3d37fa61&utm_medium=email&utm_campaign=2476%20-%20Biotech%20CEOs%20are%20in%20a%20good%20mood%20Enterprise&utm_content=2476%20-%20Biotech%20CEOs%20are%20in%20a%20good%20mood%20Enterprise+CID_b62db56025f6a3983d5fe545d3d5d5f0&utm_source=ENDPOINTS%20emails&utm_term=Novartis%20taps%20Antares%20in%20small%20molecule%20discovery%20pact%20with%20105M%20upfront",
+        "date": "2026-06-24",
+        "Upfront_parsed": {
+          "raw": "$105M",
+          "currency": "USD",
+          "musd": 105.0,
+          "musd_native": 105.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.8B",
+          "currency": "USD",
+          "musd": 1800.0,
+          "musd_native": 1800.0
+        },
+        "value_musd": 1800.0,
+        "investors": []
+      }
+    ],
+    "Licensing": [
+      {
+        "Date": "2026-07-06",
+        "Buyer": "Roche",
+        "Seller": "Astex",
+        "Structure": "Licensing",
+        "Upfront": "$25M",
+        "Total Deal Value": "$490M",
+        "Focus Area": "Breast cancer",
+        "Source": "Link",
+        "category": "Licensing",
+        "url": "https://endpoints.news/roche-aims-to-bolster-breast-cancer-pipeline-with-early-stage-astex-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-d47816ee-a02281b7&utm_medium=email&utm_campaign=2483%20-%20Krazatis%20colorectal%20cancer%20failure%20by%20the%20numbers%20Enterprise&utm_content=2483%20-%20Krazatis%20colorectal%20cancer%20failure%20by%20the%20numbers%20Enterprise+CID_575046564ea65b30652f500e2e7319ed&utm_source=ENDPOINTS%20emails&utm_term=Roches%2025M%20Astex%20deal%20is%20small%20money%20upfront%20but%20a%20big%20signal%20for%20breast%20cancer%20goals",
+        "date": "2026-07-06",
+        "Upfront_parsed": {
+          "raw": "$25M",
+          "currency": "USD",
+          "musd": 25.0,
+          "musd_native": 25.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$490M",
+          "currency": "USD",
+          "musd": 490.0,
+          "musd_native": 490.0
+        },
+        "value_musd": 490.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "Fosun",
+        "Seller": "Junshi Biosciences",
+        "Structure": "Licensing",
+        "Upfront": "$31.6M",
+        "Total Deal Value": "$165.6M",
+        "Focus Area": "Psoriasis",
+        "Source": "Link",
+        "category": "Licensing",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$31.6M",
+          "currency": "USD",
+          "musd": 31.6,
+          "musd_native": 31.6
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$165.6M",
+          "currency": "USD",
+          "musd": 165.6,
+          "musd_native": 165.6
+        },
+        "value_musd": 165.6,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-25",
+        "Buyer": "Recordati",
+        "Seller": "Ionis",
+        "Structure": "Licensing",
+        "Upfront": "$30M",
+        "Total Deal Value": null,
+        "Focus Area": "Rare disease",
+        "Source": "Link",
+        "category": "Licensing",
+        "url": "https://endpoints.news/recordati-licenses-ionis-drug-vaxarts-barda-funding-is-cut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Recordati%20licenses%20Ionis%20drug%20Vaxarts%20BARDA%20funding%20is%20cut",
+        "date": "2026-06-25",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      }
+    ],
+    "Fundraises": [
+      {
+        "Date": "2026-07-02",
+        "Company": "Celea Therapeutics",
+        "Round": null,
+        "Amount": "$180M",
+        "Focus Area": "IPF",
+        "Lead 1": "PureTech Health",
+        "Lead 2": null,
+        "Investor 3": "RA Capital",
+        "Investor 4": "Leaps by Bayer",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://endpoints.news/ipf-biotech-celea-gets-180m-to-follow-paths-of-puretechs-karuna-seaport/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=IPF%20biotech%20Celea%20gets%20180M%20to%20follow%20paths%20of%20PureTechs%20Karuna%20Seaport",
+        "date": "2026-07-02",
+        "Amount_parsed": {
+          "raw": "$180M",
+          "currency": "USD",
+          "musd": 180.0,
+          "musd_native": 180.0
+        },
+        "value_musd": 180.0,
+        "investors": [
+          {
+            "name": "PureTech Health",
+            "lead": true
+          },
+          {
+            "name": "RA Capital",
+            "lead": false
+          },
+          {
+            "name": "Leaps by Bayer",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-30",
+        "Company": "Beeline Medicines",
+        "Round": "Extension",
+        "Amount": "$126M",
+        "Focus Area": "Autoimmune",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Bain Capital",
+        "Investor 4": "Canada Pension Plan Investment Board",
+        "Investor 5": "BMS",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": null,
+        "category": "Fundraises",
+        "url": null,
+        "date": "2026-06-30",
+        "Amount_parsed": {
+          "raw": "$126M",
+          "currency": "USD",
+          "musd": 126.0,
+          "musd_native": 126.0
+        },
+        "value_musd": 126.0,
+        "investors": [
+          {
+            "name": "Bain Capital",
+            "lead": false
+          },
+          {
+            "name": "Canada Pension Plan Investment Board",
+            "lead": false
+          },
+          {
+            "name": "BMS",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-26",
+        "Company": "Lycia Therapeutics",
+        "Round": "Series D",
+        "Amount": "$75M",
+        "Focus Area": "Protein degraders",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Janus Henderson",
+        "Investor 4": "Balyasny Asset Management",
+        "Investor 5": "OrbiMed",
+        "Investor 6": "RTW",
+        "Investor 7": "Venrock Healthcare Partners",
+        "Investor 8": "Lilly",
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://endpoints.news/lycia-raises-75m-for-food-allergy-and-graves-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-bee886ab-cab211f2&utm_medium=email&utm_campaign=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise&utm_content=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise+CID_af97630177f9a2b5260b5ded74ca58fe&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20raises%2075M%20for%20food%20allergy%20and%20Graves%20disease",
+        "date": "2026-06-26",
+        "Amount_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "value_musd": 75.0,
+        "investors": [
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "Balyasny Asset Management",
+            "lead": false
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "RTW",
+            "lead": false
+          },
+          {
+            "name": "Venrock Healthcare Partners",
+            "lead": false
+          },
+          {
+            "name": "Lilly",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-25",
+        "Company": "Leyden Labs",
+        "Round": null,
+        "Amount": "\u20ac40M",
+        "Focus Area": "Antiviral",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "European Innovation Council",
+        "Investor 4": "Invest-NL",
+        "Investor 5": "Gates Foundation",
+        "Investor 6": "ClavystBio",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://endpoints.news/recordati-licenses-ionis-drug-vaxarts-barda-funding-is-cut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Recordati%20licenses%20Ionis%20drug%20Vaxarts%20BARDA%20funding%20is%20cut",
+        "date": "2026-06-25",
+        "Amount_parsed": {
+          "raw": "\u20ac40M",
+          "currency": "EUR",
+          "musd": 43.2,
+          "musd_native": 40.0
+        },
+        "value_musd": 43.2,
+        "investors": [
+          {
+            "name": "European Innovation Council",
+            "lead": false
+          },
+          {
+            "name": "Invest-NL",
+            "lead": false
+          },
+          {
+            "name": "Gates Foundation",
+            "lead": false
+          },
+          {
+            "name": "ClavystBio",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-25",
+        "Company": "Oblenio Bio",
+        "Round": "Series B",
+        "Amount": "$62M",
+        "Focus Area": "Autoimmune",
+        "Lead 1": "Pfizer Ventures",
+        "Lead 2": null,
+        "Investor 3": "Deep Track Capital",
+        "Investor 4": "GV",
+        "Investor 5": "Aditum Bio",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://e.endpointsnews.com/t/t-l-wktukkk-tkirddlith-x/",
+        "date": "2026-06-25",
+        "Amount_parsed": {
+          "raw": "$62M",
+          "currency": "USD",
+          "musd": 62.0,
+          "musd_native": 62.0
+        },
+        "value_musd": 62.0,
+        "investors": [
+          {
+            "name": "Pfizer Ventures",
+            "lead": true
+          },
+          {
+            "name": "Deep Track Capital",
+            "lead": false
+          },
+          {
+            "name": "GV",
+            "lead": false
+          },
+          {
+            "name": "Aditum Bio",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-24",
+        "Company": "RQ Bio",
+        "Round": "Series A",
+        "Amount": "$115M",
+        "Focus Area": "Antiviral",
+        "Lead 1": "Frazier Life Sciences",
+        "Lead 2": null,
+        "Investor 3": "EQT Life Sciences",
+        "Investor 4": "Forbion",
+        "Investor 5": "Monograph",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://endpoints.news/rq-bio-secures-115m-series-a-for-virus-targeting-antibody-pipeline/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=UK%20biotech%20secures%20115M%20to%20advance%20portfolio%20of%20virus-targeting%20antibodies",
+        "date": "2026-06-24",
+        "Amount_parsed": {
+          "raw": "$115M",
+          "currency": "USD",
+          "musd": 115.0,
+          "musd_native": 115.0
+        },
+        "value_musd": 115.0,
+        "investors": [
+          {
+            "name": "Frazier Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "EQT Life Sciences",
+            "lead": false
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "Monograph",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-24",
+        "Company": "Ollin Biosciences",
+        "Round": "Series B",
+        "Amount": "$330M",
+        "Focus Area": "Ophthalmology",
+        "Lead 1": "TCGX",
+        "Lead 2": "ARCH",
+        "Investor 3": "Others (crossover, sovereign wealth, institutional investors)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "url": "https://endpoints.news/ollin-nets-330m-to-run-phase-3-trials-of-vabysmo-challenger-from-china/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=Ollin%20nets%20330M%20to%20run%20Phase%203%20trials%20of%20Vabysmo%20challenger%20from%20China",
+        "date": "2026-06-24",
+        "Amount_parsed": {
+          "raw": "$330M",
+          "currency": "USD",
+          "musd": 330.0,
+          "musd_native": 330.0
+        },
+        "value_musd": 330.0,
+        "investors": [
+          {
+            "name": "TCGX",
+            "lead": true
+          },
+          {
+            "name": "ARCH",
+            "lead": true
+          }
+        ]
+      }
+    ],
+    "IPO": [
+      {
+        "Listing date": "2026-07-02",
+        "IPO date": null,
+        "Company": "Scribe Therapeutics",
+        "Amount": null,
+        "Modality": "Epigenetic silencing",
+        "Lead indication": "Hypercholesterolemia",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing source": "Link",
+        "IPO source": null,
+        "category": "IPO",
+        "url": "https://endpoints.news/scribe-therapeutics-files-for-ipo-in-test-of-appetite-for-early-stage-biotechs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Scribe%20Therapeutics%20files%20for%20IPO%20in%20test%20of%20public%20appetite%20for%20earlier-stage%20biotechs",
+        "date": "2026-07-02",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      }
+    ],
+    "Reverse mergers": [
+      {
+        "Date": "2026-06-25",
+        "Company": "Remix Bio",
+        "Target": "Passage Bio",
+        "Target residual ownership": "0.07",
+        "Private placement": "$100M",
+        "Focus Area": "Small molecule mRNA degraders",
+        "Investor 1": "Decheng Capital",
+        "Investor 2": "The Column Group",
+        "Investor 3": "Lynx1 Capital Management",
+        "Investor 4": "Foresite Capital",
+        "Investor 5": "Atlas Venture",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": null,
+        "category": "Reverse mergers",
+        "url": null,
+        "date": "2026-06-25",
+        "Private placement_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": [
+          {
+            "name": "Decheng Capital",
+            "lead": true
+          },
+          {
+            "name": "The Column Group",
+            "lead": false
+          },
+          {
+            "name": "Lynx1 Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Foresite Capital",
+            "lead": false
+          },
+          {
+            "name": "Atlas Venture",
+            "lead": false
+          }
+        ]
+      }
+    ]
+  },
+  "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "PureTech Health",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "RA Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "Leaps by Bayer",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "Bain Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "Canada Pension Plan Investment Board",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "BMS",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Balyasny Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "RTW",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Venrock Healthcare Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "European Innovation Council",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "Invest-NL",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "Gates Foundation",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "ClavystBio",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Pfizer Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Deep Track Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "GV",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Aditum Bio",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Frazier Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "EQT Life Sciences",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Monograph",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "Ollin Biosciences",
+      "value_musd": 330.0,
+      "name": "TCGX",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "Ollin Biosciences",
+      "value_musd": 330.0,
+      "name": "ARCH",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Decheng Capital",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "The Column Group",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Lynx1 Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Foresite Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Atlas Venture",
+      "lead": false
+    }
+  ]
+}

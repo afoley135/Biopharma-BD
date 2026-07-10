@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capital Flow — Biopharma M&A & Fundraise Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#F5F6F8; --surface:#FFFFFF; --line:#E4E7EC; --line2:#EEF0F3;
+  --ink:#12161C; --muted:#5A6472; --faint:#8A93A0;
+  --deal:#3B4B7A;      /* M&A / deals  */
+  --deal-soft:#8894BC;
+  --raise:#0E7C6B;     /* fundraises   */
+  --raise-soft:#5FB3A3;
+  --amber:#B45309;     /* licensing/other */
+  --amber-soft:#D9A066;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.mono{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;margin:0;letter-spacing:-.01em}
+a{color:var(--deal);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* top bar */
+.topbar{
+  position:sticky;top:0;z-index:20;background:rgba(245,246,248,.85);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:1180px;margin:0 auto;padding:16px 24px;
+  display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:12px}
+.brand h1{font-size:20px;font-weight:700}
+.brand .tag{font-size:12px;color:var(--muted);font-weight:500;
+  border-left:1px solid var(--line);padding-left:12px}
+.updated{font-size:12px;color:var(--faint)}
+.updated b{color:var(--muted);font-weight:600}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;
+  background:var(--raise);margin-right:5px;vertical-align:middle}
+
+main{max-width:1180px;margin:0 auto;padding:28px 24px 80px}
+
+/* hero */
+.hero{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 28px;margin-bottom:26px}
+.hero-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:20px}
+.hero-total .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.hero-total .val{font-family:'Space Grotesk';font-size:44px;font-weight:700;line-height:1;margin-top:6px}
+.hero-total .val small{font-size:20px;color:var(--muted);font-weight:500}
+.hero-meta{text-align:right;font-size:12px;color:var(--muted);line-height:1.7}
+.hero-meta .mono{color:var(--ink);font-weight:500}
+/* split bar (signature element) */
+.splitbar{height:34px;border-radius:8px;overflow:hidden;display:flex;
+  border:1px solid var(--line)}
+.splitbar span{display:flex;align-items:center;padding:0 12px;color:#fff;
+  font-family:'IBM Plex Mono';font-size:12px;font-weight:500;white-space:nowrap;min-width:0}
+.seg-deal{background:var(--deal)} .seg-raise{background:var(--raise)}
+.splitkey{display:flex;gap:22px;margin-top:12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.splitkey i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:middle}
+
+/* grid */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:26px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
+.card.wide{grid-column:1/-1}
+.card h3{font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:space-between}
+.card h3 .sub{font-size:11px;color:var(--faint);font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.chart-wrap{position:relative;margin-top:14px}
+.note{font-size:11px;color:var(--faint);margin-top:10px}
+
+/* database */
+.db{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.db-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px 0;flex-wrap:wrap;gap:12px}
+.tabs{display:flex;gap:2px;flex-wrap:wrap}
+.tab{font-family:'Space Grotesk';font-size:13px;font-weight:500;color:var(--muted);
+  background:none;border:none;padding:8px 14px;border-radius:8px 8px 0 0;cursor:pointer}
+.tab .n{font-family:'IBM Plex Mono';font-size:11px;color:var(--faint);margin-left:6px}
+.tab.active{color:var(--ink);background:var(--bg)}
+.tab:hover:not(.active){color:var(--ink)}
+.search{border:1px solid var(--line);border-radius:8px;padding:7px 12px;font-family:'Inter';
+  font-size:13px;width:220px;max-width:40vw;color:var(--ink)}
+.search:focus{outline:none;border-color:var(--deal)}
+.table-scroll{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{font-family:'Space Grotesk';font-weight:500;font-size:11px;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--faint);text-align:left;padding:10px 14px;
+  border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
+th:hover{color:var(--muted)}
+td{padding:11px 14px;border-bottom:1px solid var(--line2);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--bg)}
+.val-cell{font-family:'IBM Plex Mono';font-weight:500;white-space:nowrap}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;
+  font-weight:500;white-space:nowrap}
+.pill-deal{background:#EAEDF5;color:var(--deal)}
+.pill-raise{background:#E4F2EE;color:var(--raise)}
+.pill-amber{background:#F6ECDE;color:var(--amber)}
+.lead-tag{font-size:10px;color:var(--raise);font-weight:600;margin-left:5px}
+.empty{padding:40px;text-align:center;color:var(--faint);font-size:13px}
+
+@media(max-width:820px){
+  .grid{grid-template-columns:1fr}
+  .hero-total .val{font-size:34px}
+  main{padding:20px 16px 60px}
+  .topbar-in{padding:14px 16px}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  <div class="brand">
+    <h1>Capital&nbsp;Flow</h1>
+    <span class="tag">Biopharma M&amp;A &amp; fundraise intelligence</span>
+  </div>
+  <div class="updated"><span class="dot"></span>Data updated <b id="genDate">—</b> · auto-refreshes nightly</div>
+</div></div>
+
+<main>
+  <section class="hero">
+    <div class="hero-top">
+      <div class="hero-total">
+        <div class="lbl">Total capital tracked</div>
+        <div class="val" id="totalCap">—</div>
+      </div>
+      <div class="hero-meta" id="heroMeta"></div>
+    </div>
+    <div class="splitbar" id="splitBar"></div>
+    <div class="splitkey">
+      <span><i style="background:var(--deal)"></i>Deals &amp; collaborations</span>
+      <span><i style="background:var(--raise)"></i>Fundraises, IPOs &amp; reverse mergers</span>
+      <span style="margin-left:auto;color:var(--faint)">Undisclosed values excluded from totals</span>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Top acquirers &amp; dealmakers <span class="sub">by disclosed value</span></h3>
+      <div class="chart-wrap"><canvas id="chAcq" height="240"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Most active investors <span class="sub">by financings</span></h3>
+      <div class="chart-wrap"><canvas id="chInv" height="240"></canvas></div>
+    </div>
+    <div class="card wide">
+      <h3>Capital by month <span class="sub">deals vs. financings ($M)</span></h3>
+      <div class="chart-wrap"><canvas id="chTime" height="150"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Deal &amp; raise size distribution <span class="sub">count by band</span></h3>
+      <div class="chart-wrap"><canvas id="chBucket" height="240"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Average raise by round <span class="sub">$M</span></h3>
+      <div class="chart-wrap"><canvas id="chRound" height="240"></canvas></div>
+      <div class="note" id="roundNote"></div>
+    </div>
+  </section>
+
+  <section class="db">
+    <div class="db-head">
+      <div class="tabs" id="tabs"></div>
+      <input class="search" id="search" placeholder="Filter table…">
+    </div>
+    <div class="table-scroll"><div id="tableHost"></div></div>
+  </section>
+</main>
+
+<script>
+/* ───────────────────────────────────────────────────────────────
+   DATA. In production, delete this const and uncomment the fetch
+   at the bottom so the page loads the nightly-built data.json.
+   ─────────────────────────────────────────────────────────────── */
+const DATA = {
+  "generated": "2026-07-10T15:06:27+00:00",
+  "fx": {
+    "EUR_USD": 1.08,
+    "GBP_USD": 1.27
+  },
+  "categories": [
+    "Deals",
+    "Licensing",
+    "Fundraises",
+    "IPO",
+    "Reverse mergers",
+    "Royalty deals"
+  ],
+  "side": {
+    "Deals": "deal",
+    "Licensing": "deal",
+    "Fundraises": "raise",
+    "IPO": "raise",
+    "Reverse mergers": "raise",
+    "Royalty deals": "raise"
+  },
+  "records": {
+    "Deals": [
+      {
+        "Date": "2026-07-06",
+        "Buyer": "Novartis",
+        "Seller": "Myricx Bio",
+        "Structure": "Acquisition",
+        "Upfront": "$1.1B",
+        "Total Deal Value": "$1.5B",
+        "Modality": "ADC",
+        "Indication(s)": "Soild tumor",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/novartis-commits-1-1b-upfront-to-take-myricx-bio-and-its-next-gen-adc-platform/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Novartis%20commits%2011B%20upfront%20to%20take%20Myricx%20Bio%20and%20its%20next-gen%20ADC%20platform",
+        "date": "2026-07-06",
+        "Upfront_parsed": {
+          "raw": "$1.1B",
+          "currency": "USD",
+          "musd": 1100.0,
+          "musd_native": 1100.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "AstraZeneca",
+        "Seller": "CSPC",
+        "Structure": "R&D collaboration",
+        "Upfront": "$30M",
+        "Total Deal Value": "$1.2B",
+        "Modality": "siRNA",
+        "Indication(s)": "Renal disease",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/after-landmark-deal-astrazeneca-goes-to-cspc-again-in-up-to-1-7b-pact/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-0470dcba-702a4be3&utm_medium=email&utm_campaign=1089%20-%20Sandoz%20goes%20DTC%20Enterprise&utm_content=1089%20-%20Sandoz%20goes%20DTC%20Enterprise+CID_711af74bd322c9528cd5321954351d53&utm_source=ENDPOINTS%20emails&utm_term=After%20landmark%20deal%20AstraZeneca%20goes%20to%20CSPC%20again%20in%20up%20to%2017B%20pact",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.2B",
+          "currency": "USD",
+          "musd": 1200.0,
+          "musd_native": 1200.0
+        },
+        "value_musd": 1200.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "Takeda",
+        "Seller": "Insilico",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$60M",
+        "Total Deal Value": "$600M",
+        "Modality": "AI drug discovery",
+        "Indication(s)": "Cross-TA",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$60M",
+          "currency": "USD",
+          "musd": 60.0,
+          "musd_native": 60.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$600M",
+          "currency": "USD",
+          "musd": 600.0,
+          "musd_native": 600.0
+        },
+        "value_musd": 600.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "United Therapeutics",
+        "Seller": "Thymmune",
+        "Structure": "Acquisition",
+        "Upfront": "$140M",
+        "Total Deal Value": "$300M",
+        "Modality": "Regenerative medicine",
+        "Indication(s)": "Thymic cells",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$140M",
+          "currency": "USD",
+          "musd": 140.0,
+          "musd_native": 140.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$300M",
+          "currency": "USD",
+          "musd": 300.0,
+          "musd_native": 300.0
+        },
+        "value_musd": 300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-01",
+        "Buyer": "Ipsen",
+        "Seller": "Memo Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "\u20ac200M",
+        "Total Deal Value": "\u20ac500M",
+        "Modality": null,
+        "Indication(s)": "Antiviral",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/ipsen-to-scoop-up-memo-therapeutics-and-its-kidney-infection-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-939ba3cb-e7c13492&utm_medium=email&utm_campaign=1188%20-%20Biotechs%20megaround%20rebound%20Enterprise&utm_content=1188%20-%20Biotechs%20megaround%20rebound%20Enterprise+CID_37dd3482855e0bd957460178b43c8ae7&utm_source=ENDPOINTS%20emails&utm_term=Ipsen%20to%20scoop%20up%20Memo%20Therapeutics%20and%20its%20kidney%20infection%20drug",
+        "date": "2026-07-01",
+        "Upfront_parsed": {
+          "raw": "\u20ac200M",
+          "currency": "EUR",
+          "musd": 216.0,
+          "musd_native": 200.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "\u20ac500M",
+          "currency": "EUR",
+          "musd": 540.0,
+          "musd_native": 500.0
+        },
+        "value_musd": 540.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-29",
+        "Buyer": "Ipsen",
+        "Seller": "Kartos Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "$450M",
+        "Total Deal Value": "$1.75B",
+        "Modality": null,
+        "Indication(s)": "Oncology",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/ipsen-to-buy-blood-cancer-company-kartos-therapeutics-for-450m-upfront/",
+        "date": "2026-06-29",
+        "Upfront_parsed": {
+          "raw": "$450M",
+          "currency": "USD",
+          "musd": 450.0,
+          "musd_native": 450.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.75B",
+          "currency": "USD",
+          "musd": 1750.0,
+          "musd_native": 1750.0
+        },
+        "value_musd": 1750.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-25",
+        "Buyer": "Merck KGaA",
+        "Seller": "Bio-Techne",
+        "Structure": "Acquisition",
+        "Upfront": "$11.3B",
+        "Total Deal Value": "$11.3B",
+        "Modality": "Antibodies & reagents",
+        "Indication(s)": null,
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/merck-kgaa-makes-largest-deal-in-a-decade-in-11-3b-buy-for-bio-techne/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Merck%20KGaA%20makes%20largest%20deal%20in%20a%20decade%20in%20113B%20buy%20for%20Bio-Techne",
+        "date": "2026-06-25",
+        "Upfront_parsed": {
+          "raw": "$11.3B",
+          "currency": "USD",
+          "musd": 11300.0,
+          "musd_native": 11300.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$11.3B",
+          "currency": "USD",
+          "musd": 11300.0,
+          "musd_native": 11300.0
+        },
+        "value_musd": 11300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-24",
+        "Buyer": "Lilly",
+        "Seller": "Abbisko",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1.9B",
+        "Modality": null,
+        "Indication(s)": null,
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/lilly-offers-up-to-1-9b-in-new-drug-discovery-deal-with-abbisko/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20offers%20up%20to%2019B%20in%20new%20drug%20discovery%20deal%20with%20Abbisko",
+        "date": "2026-06-24",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.9B",
+          "currency": "USD",
+          "musd": 1900.0,
+          "musd_native": 1900.0
+        },
+        "value_musd": 1900.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-24",
+        "Buyer": "Novartis",
+        "Seller": "Antares Therapeutics",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$105M",
+        "Total Deal Value": "$1.8B",
+        "Modality": "Small molecules",
+        "Indication(s)": "Oncology",
+        "Source": "Link",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/novartis-taps-antares-in-small-molecule-discovery-pact-with-105m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-496d6d38-3d37fa61&utm_medium=email&utm_campaign=2476%20-%20Biotech%20CEOs%20are%20in%20a%20good%20mood%20Enterprise&utm_content=2476%20-%20Biotech%20CEOs%20are%20in%20a%20good%20mood%20Enterprise+CID_b62db56025f6a3983d5fe545d3d5d5f0&utm_source=ENDPOINTS%20emails&utm_term=Novartis%20taps%20Antares%20in%20small%20molecule%20discovery%20pact%20with%20105M%20upfront",
+        "date": "2026-06-24",
+        "Upfront_parsed": {
+          "raw": "$105M",
+          "currency": "USD",
+          "musd": 105.0,
+          "musd_native": 105.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.8B",
+          "currency": "USD",
+          "musd": 1800.0,
+          "musd_native": 1800.0
+        },
+        "value_musd": 1800.0,
+        "investors": []
+      }
+    ],
+    "Licensing": [
+      {
+        "Date": "2026-07-06",
+        "Buyer": "Roche",
+        "Seller": "Astex",
+        "Structure": "Licensing",
+        "Upfront": "$25M",
+        "Total Deal Value": "$490M",
+        "Focus Area": "Breast cancer",
+        "Source": "Link",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/roche-aims-to-bolster-breast-cancer-pipeline-with-early-stage-astex-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-d47816ee-a02281b7&utm_medium=email&utm_campaign=2483%20-%20Krazatis%20colorectal%20cancer%20failure%20by%20the%20numbers%20Enterprise&utm_content=2483%20-%20Krazatis%20colorectal%20cancer%20failure%20by%20the%20numbers%20Enterprise+CID_575046564ea65b30652f500e2e7319ed&utm_source=ENDPOINTS%20emails&utm_term=Roches%2025M%20Astex%20deal%20is%20small%20money%20upfront%20but%20a%20big%20signal%20for%20breast%20cancer%20goals",
+        "date": "2026-07-06",
+        "Upfront_parsed": {
+          "raw": "$25M",
+          "currency": "USD",
+          "musd": 25.0,
+          "musd_native": 25.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$490M",
+          "currency": "USD",
+          "musd": 490.0,
+          "musd_native": 490.0
+        },
+        "value_musd": 490.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-02",
+        "Buyer": "Fosun",
+        "Seller": "Junshi Biosciences",
+        "Structure": "Licensing",
+        "Upfront": "$31.6M",
+        "Total Deal Value": "$165.6M",
+        "Focus Area": "Psoriasis",
+        "Source": "Link",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/vertexs-sickle-cell-therapy-approved-for-kids-united-therapeutics-buys-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=Vertexs%20sickle%20cell%20therapy%20approved%20for%20kids%20United%20Therapeutics%20buys%20startup",
+        "date": "2026-07-02",
+        "Upfront_parsed": {
+          "raw": "$31.6M",
+          "currency": "USD",
+          "musd": 31.6,
+          "musd_native": 31.6
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$165.6M",
+          "currency": "USD",
+          "musd": 165.6,
+          "musd_native": 165.6
+        },
+        "value_musd": 165.6,
+        "investors": []
+      },
+      {
+        "Date": "2026-06-25",
+        "Buyer": "Recordati",
+        "Seller": "Ionis",
+        "Structure": "Licensing",
+        "Upfront": "$30M",
+        "Total Deal Value": null,
+        "Focus Area": "Rare disease",
+        "Source": "Link",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/recordati-licenses-ionis-drug-vaxarts-barda-funding-is-cut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Recordati%20licenses%20Ionis%20drug%20Vaxarts%20BARDA%20funding%20is%20cut",
+        "date": "2026-06-25",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": null,
+        "value_musd": 30.0,
+        "investors": []
+      }
+    ],
+    "Fundraises": [
+      {
+        "Date": "2026-07-02",
+        "Company": "Celea Therapeutics",
+        "Round": null,
+        "Amount": "$180M",
+        "Focus Area": "IPF",
+        "Lead 1": "PureTech Health",
+        "Lead 2": null,
+        "Investor 3": "RA Capital",
+        "Investor 4": "Leaps by Bayer",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/ipf-biotech-celea-gets-180m-to-follow-paths-of-puretechs-karuna-seaport/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=IPF%20biotech%20Celea%20gets%20180M%20to%20follow%20paths%20of%20PureTechs%20Karuna%20Seaport",
+        "date": "2026-07-02",
+        "Amount_parsed": {
+          "raw": "$180M",
+          "currency": "USD",
+          "musd": 180.0,
+          "musd_native": 180.0
+        },
+        "value_musd": 180.0,
+        "investors": [
+          {
+            "name": "PureTech Health",
+            "lead": true
+          },
+          {
+            "name": "RA Capital",
+            "lead": false
+          },
+          {
+            "name": "Leaps by Bayer",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-30",
+        "Company": "Beeline Medicines",
+        "Round": "Extension",
+        "Amount": "$126M",
+        "Focus Area": "Autoimmune",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Bain Capital",
+        "Investor 4": "Canada Pension Plan Investment Board",
+        "Investor 5": "BMS",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": null,
+        "category": "Fundraises",
+        "side": "raise",
+        "url": null,
+        "date": "2026-06-30",
+        "Amount_parsed": {
+          "raw": "$126M",
+          "currency": "USD",
+          "musd": 126.0,
+          "musd_native": 126.0
+        },
+        "value_musd": 126.0,
+        "investors": [
+          {
+            "name": "Bain Capital",
+            "lead": false
+          },
+          {
+            "name": "Canada Pension Plan Investment Board",
+            "lead": false
+          },
+          {
+            "name": "BMS",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-26",
+        "Company": "Lycia Therapeutics",
+        "Round": "Series D",
+        "Amount": "$75M",
+        "Focus Area": "Protein degraders",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Janus Henderson",
+        "Investor 4": "Balyasny Asset Management",
+        "Investor 5": "OrbiMed",
+        "Investor 6": "RTW",
+        "Investor 7": "Venrock Healthcare Partners",
+        "Investor 8": "Lilly",
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/lycia-raises-75m-for-food-allergy-and-graves-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-bee886ab-cab211f2&utm_medium=email&utm_campaign=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise&utm_content=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise+CID_af97630177f9a2b5260b5ded74ca58fe&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20raises%2075M%20for%20food%20allergy%20and%20Graves%20disease",
+        "date": "2026-06-26",
+        "Amount_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "value_musd": 75.0,
+        "investors": [
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "Balyasny Asset Management",
+            "lead": false
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "RTW",
+            "lead": false
+          },
+          {
+            "name": "Venrock Healthcare Partners",
+            "lead": false
+          },
+          {
+            "name": "Lilly",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-25",
+        "Company": "Leyden Labs",
+        "Round": null,
+        "Amount": "\u20ac40M",
+        "Focus Area": "Antiviral",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "European Innovation Council",
+        "Investor 4": "Invest-NL",
+        "Investor 5": "Gates Foundation",
+        "Investor 6": "ClavystBio",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/recordati-licenses-ionis-drug-vaxarts-barda-funding-is-cut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Recordati%20licenses%20Ionis%20drug%20Vaxarts%20BARDA%20funding%20is%20cut",
+        "date": "2026-06-25",
+        "Amount_parsed": {
+          "raw": "\u20ac40M",
+          "currency": "EUR",
+          "musd": 43.2,
+          "musd_native": 40.0
+        },
+        "value_musd": 43.2,
+        "investors": [
+          {
+            "name": "European Innovation Council",
+            "lead": false
+          },
+          {
+            "name": "Invest-NL",
+            "lead": false
+          },
+          {
+            "name": "Gates Foundation",
+            "lead": false
+          },
+          {
+            "name": "ClavystBio",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-25",
+        "Company": "Oblenio Bio",
+        "Round": "Series B",
+        "Amount": "$62M",
+        "Focus Area": "Autoimmune",
+        "Lead 1": "Pfizer Ventures",
+        "Lead 2": null,
+        "Investor 3": "Deep Track Capital",
+        "Investor 4": "GV",
+        "Investor 5": "Aditum Bio",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://e.endpointsnews.com/t/t-l-wktukkk-tkirddlith-x/",
+        "date": "2026-06-25",
+        "Amount_parsed": {
+          "raw": "$62M",
+          "currency": "USD",
+          "musd": 62.0,
+          "musd_native": 62.0
+        },
+        "value_musd": 62.0,
+        "investors": [
+          {
+            "name": "Pfizer Ventures",
+            "lead": true
+          },
+          {
+            "name": "Deep Track Capital",
+            "lead": false
+          },
+          {
+            "name": "GV",
+            "lead": false
+          },
+          {
+            "name": "Aditum Bio",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-24",
+        "Company": "RQ Bio",
+        "Round": "Series A",
+        "Amount": "$115M",
+        "Focus Area": "Antiviral",
+        "Lead 1": "Frazier Life Sciences",
+        "Lead 2": null,
+        "Investor 3": "EQT Life Sciences",
+        "Investor 4": "Forbion",
+        "Investor 5": "Monograph",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/rq-bio-secures-115m-series-a-for-virus-targeting-antibody-pipeline/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=UK%20biotech%20secures%20115M%20to%20advance%20portfolio%20of%20virus-targeting%20antibodies",
+        "date": "2026-06-24",
+        "Amount_parsed": {
+          "raw": "$115M",
+          "currency": "USD",
+          "musd": 115.0,
+          "musd_native": 115.0
+        },
+        "value_musd": 115.0,
+        "investors": [
+          {
+            "name": "Frazier Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "EQT Life Sciences",
+            "lead": false
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "Monograph",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-06-24",
+        "Company": "Ollin Biosciences",
+        "Round": "Series B",
+        "Amount": "$330M",
+        "Focus Area": "Ophthalmology",
+        "Lead 1": "TCGX",
+        "Lead 2": "ARCH",
+        "Investor 3": "Others (crossover, sovereign wealth, institutional investors)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/ollin-nets-330m-to-run-phase-3-trials-of-vabysmo-challenger-from-china/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=Ollin%20nets%20330M%20to%20run%20Phase%203%20trials%20of%20Vabysmo%20challenger%20from%20China",
+        "date": "2026-06-24",
+        "Amount_parsed": {
+          "raw": "$330M",
+          "currency": "USD",
+          "musd": 330.0,
+          "musd_native": 330.0
+        },
+        "value_musd": 330.0,
+        "investors": [
+          {
+            "name": "TCGX",
+            "lead": true
+          },
+          {
+            "name": "ARCH",
+            "lead": true
+          }
+        ]
+      }
+    ],
+    "IPO": [
+      {
+        "Listing date": "2026-07-02",
+        "IPO date": null,
+        "Company": "Scribe Therapeutics",
+        "Amount": null,
+        "Modality": "Epigenetic silencing",
+        "Lead indication": "Hypercholesterolemia",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing source": "Link",
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": "https://endpoints.news/scribe-therapeutics-files-for-ipo-in-test-of-appetite-for-early-stage-biotechs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Scribe%20Therapeutics%20files%20for%20IPO%20in%20test%20of%20public%20appetite%20for%20earlier-stage%20biotechs",
+        "date": "2026-07-02",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      }
+    ],
+    "Reverse mergers": [
+      {
+        "Date": "2026-06-25",
+        "Company": "Remix Bio",
+        "Target": "Passage Bio",
+        "Target residual ownership": "0.07",
+        "Private placement": "$100M",
+        "Focus Area": "Small molecule mRNA degraders",
+        "Investor 1": "Decheng Capital",
+        "Investor 2": "The Column Group",
+        "Investor 3": "Lynx1 Capital Management",
+        "Investor 4": "Foresite Capital",
+        "Investor 5": "Atlas Venture",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": null,
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": null,
+        "date": "2026-06-25",
+        "Private placement_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": [
+          {
+            "name": "Decheng Capital",
+            "lead": true
+          },
+          {
+            "name": "The Column Group",
+            "lead": false
+          },
+          {
+            "name": "Lynx1 Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Foresite Capital",
+            "lead": false
+          },
+          {
+            "name": "Atlas Venture",
+            "lead": false
+          }
+        ]
+      }
+    ],
+    "Royalty deals": []
+  },
+  "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "PureTech Health",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "RA Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-02",
+      "company": "Celea Therapeutics",
+      "value_musd": 180.0,
+      "name": "Leaps by Bayer",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "Bain Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "Canada Pension Plan Investment Board",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-30",
+      "company": "Beeline Medicines",
+      "value_musd": 126.0,
+      "name": "BMS",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Balyasny Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "RTW",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Venrock Healthcare Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-26",
+      "company": "Lycia Therapeutics",
+      "value_musd": 75.0,
+      "name": "Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "European Innovation Council",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "Invest-NL",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "Gates Foundation",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Leyden Labs",
+      "value_musd": 43.2,
+      "name": "ClavystBio",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Pfizer Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Deep Track Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "GV",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-25",
+      "company": "Oblenio Bio",
+      "value_musd": 62.0,
+      "name": "Aditum Bio",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Frazier Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "EQT Life Sciences",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "RQ Bio",
+      "value_musd": 115.0,
+      "name": "Monograph",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "Ollin Biosciences",
+      "value_musd": 330.0,
+      "name": "TCGX",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-06-24",
+      "company": "Ollin Biosciences",
+      "value_musd": 330.0,
+      "name": "ARCH",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Decheng Capital",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "The Column Group",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Lynx1 Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Foresite Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-06-25",
+      "company": "Remix Bio",
+      "value_musd": 100.0,
+      "name": "Atlas Venture",
+      "lead": false
+    }
+  ]
+};
+
+/* ---------- helpers ---------- */
+/* categories & their deal/raise side come from the data, so new tabs
+   (Royalty deals, or anything you add later) appear with no code change.
+   CATS is populated in boot(), after the data has loaded. */
+let CATS = [];
+const isDeal = r => (r.side || (DATA.side||{})[r.category]) === "deal";
+const fmtM = v => v==null ? "—" : v>=1000 ? "$"+(v/1000).toFixed(v%1000?1:0)+"B"
+                                          : "$"+Math.round(v)+"M";
+const monthKey = d => d ? d.slice(0,7) : null;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+function allRecords(){ return CATS.flatMap(c => (DATA.records[c]||[])); }
+
+/* ---------- hero ---------- */
+function renderHero(){
+  document.getElementById("genDate").textContent =
+    (DATA.generated||"").slice(0,10) || "—";
+  let dealSum=0, raiseSum=0, n=0, dates=[];
+  allRecords().forEach(r=>{
+    n++; if(r.date) dates.push(r.date);
+    if(r.value_musd!=null){ isDeal(r)?dealSum+=r.value_musd:raiseSum+=r.value_musd; }
+  });
+  const total = dealSum+raiseSum;
+  document.getElementById("totalCap").innerHTML =
+    total>=1000 ? `$${(total/1000).toFixed(1)}<small>B</small>` : `$${Math.round(total)}<small>M</small>`;
+  dates.sort();
+  const span = dates.length ? `${dates[0]} → ${dates[dates.length-1]}` : "—";
+  document.getElementById("heroMeta").innerHTML =
+    `<span class="mono">${n}</span> events tracked<br>`+
+    `<span class="mono">${span}</span><br>`+
+    `FX: 1 EUR = <span class="mono">$${DATA.fx.EUR_USD}</span>`;
+  const dPct = total? (dealSum/total*100):50, rPct=100-dPct;
+  document.getElementById("splitBar").innerHTML =
+    `<span class="seg-deal" style="flex:${dealSum||1}">${fmtM(dealSum)} deals</span>`+
+    `<span class="seg-raise" style="flex:${raiseSum||1}">${fmtM(raiseSum)} raised</span>`;
+}
+
+/* ---------- chart defaults ---------- */
+Chart.defaults.font.family="'Inter',sans-serif";
+Chart.defaults.font.size=12;
+Chart.defaults.color=css('--muted');
+const gridClr=css('--line2');
+const noGrid={grid:{display:false},border:{display:false}};
+const hBar=(scaleMax)=>({indexAxis:'y',responsive:true,maintainAspectRatio:false,
+  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+fmtM(c.raw)}}},
+  scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{callback:v=>fmtM(v)}},
+          y:{...noGrid}}});
+
+/* ---------- top acquirers ---------- */
+function chartAcquirers(){
+  const m={};
+  allRecords().filter(isDeal).forEach(r=>{
+    const b=r.Buyer; if(!b) return;
+    m[b]=m[b]||{v:0,n:0}; m[b].n++; if(r.value_musd) m[b].v+=r.value_musd;
+  });
+  const rows=Object.entries(m).sort((a,b)=>b[1].v-a[1].v).slice(0,8);
+  new Chart(chAcq,{type:'bar',
+    data:{labels:rows.map(r=>r[0]),
+      datasets:[{data:rows.map(r=>r[1].v),backgroundColor:css('--deal'),
+                 borderRadius:4,barThickness:16}]},
+    options:hBar()});
+}
+
+/* ---------- top investors ---------- */
+function chartInvestors(){
+  const m={};
+  (DATA.investors||[]).forEach(iv=>{
+    m[iv.name]=m[iv.name]||{n:0,lead:0,v:0};
+    m[iv.name].n++; if(iv.lead)m[iv.name].lead++; if(iv.value_musd)m[iv.name].v+=iv.value_musd;
+  });
+  const rows=Object.entries(m).sort((a,b)=>b[1].n-a[1].n||b[1].v-a[1].v).slice(0,9);
+  new Chart(chInv,{type:'bar',
+    data:{labels:rows.map(r=>r[0]),
+      datasets:[{data:rows.map(r=>r[1].n),
+        backgroundColor:rows.map(r=>r[1].lead?css('--raise'):css('--raise-soft')),
+        borderRadius:4,barThickness:15}]},
+    options:{...hBar(),plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>` ${c.raw} financing${c.raw>1?'s':''} · led ${rows[c.dataIndex][1].lead}`}}},
+      scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{precision:0,stepSize:1}},y:{...noGrid}}}});
+}
+
+/* ---------- capital by month ---------- */
+function chartTime(){
+  const mk={};
+  allRecords().forEach(r=>{
+    const k=monthKey(r.date); if(!k||r.value_musd==null) return;
+    mk[k]=mk[k]||{deal:0,raise:0};
+    isDeal(r)?mk[k].deal+=r.value_musd:mk[k].raise+=r.value_musd;
+  });
+  const keys=Object.keys(mk).sort();
+  new Chart(chTime,{type:'bar',
+    data:{labels:keys,datasets:[
+      {label:'Deals',data:keys.map(k=>mk[k].deal),backgroundColor:css('--deal'),borderRadius:4,stack:'s'},
+      {label:'Financings',data:keys.map(k=>mk[k].raise),backgroundColor:css('--raise'),borderRadius:4,stack:'s'}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'top',align:'end',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'rectRounded'}},
+        tooltip:{callbacks:{label:c=>` ${c.dataset.label}: ${fmtM(c.raw)}`}}},
+      scales:{x:{...noGrid,stacked:true},
+              y:{stacked:true,grid:{color:gridClr},border:{display:false},ticks:{callback:v=>fmtM(v)}}}}});
+}
+
+/* ---------- size buckets ---------- */
+function chartBuckets(){
+  const bands=[[0,50,'<$50M'],[50,100,'$50–100M'],[100,250,'$100–250M'],
+               [250,1000,'$250M–1B'],[1000,1e9,'>$1B']];
+  const deal=bands.map(()=>0), raise=bands.map(()=>0);
+  allRecords().forEach(r=>{
+    if(r.value_musd==null) return;
+    const i=bands.findIndex(b=>r.value_musd>=b[0]&&r.value_musd<b[1]);
+    if(i<0)return; isDeal(r)?deal[i]++:raise[i]++;
+  });
+  new Chart(chBucket,{type:'bar',
+    data:{labels:bands.map(b=>b[2]),datasets:[
+      {label:'Deals',data:deal,backgroundColor:css('--deal'),borderRadius:4,stack:'s'},
+      {label:'Financings',data:raise,backgroundColor:css('--raise'),borderRadius:4,stack:'s'}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'top',align:'end',labels:{boxWidth:10,boxHeight:10,usePointStyle:true,pointStyle:'rectRounded'}}},
+      scales:{x:{...noGrid,stacked:true},
+              y:{stacked:true,grid:{color:gridClr},border:{display:false},ticks:{precision:0,stepSize:1}}}}});
+}
+
+/* ---------- avg raise by round ---------- */
+function chartRound(){
+  const m={};
+  (DATA.records["Fundraises"]||[]).forEach(r=>{
+    const rd=r.Round; if(!rd||r.value_musd==null) return;
+    m[rd]=m[rd]||{sum:0,n:0}; m[rd].sum+=r.value_musd; m[rd].n++;
+  });
+  const order=["Seed","Series A","Series B","Series C","Series D","Extension"];
+  const rows=Object.entries(m).map(([k,v])=>[k,v.sum/v.n,v.n])
+    .sort((a,b)=>{const ia=order.indexOf(a[0]),ib=order.indexOf(b[0]);
+      return (ia<0?99:ia)-(ib<0?99:ib);});
+  new Chart(chRound,{type:'bar',
+    data:{labels:rows.map(r=>r[0]),
+      datasets:[{data:rows.map(r=>r[1]),backgroundColor:css('--raise'),borderRadius:4,barThickness:26}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>` avg ${fmtM(c.raw)} · n=${rows[c.dataIndex][2]}`}}},
+      scales:{x:{...noGrid},y:{grid:{color:gridClr},border:{display:false},ticks:{callback:v=>fmtM(v)}}}}});
+  document.getElementById("roundNote").textContent =
+    "Averages over small samples; hover for n per round.";
+}
+
+/* ---------- database tables ---------- */
+const COLS={
+  "Deals":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Modality","Indication(s)","Source"],
+  "Licensing":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Focus Area","Source"],
+  "Fundraises":["date","Company","Round","Amount","Focus Area","__inv","Source"],
+  "IPO":["date","Company","Amount","Modality","Lead indication","__inv","Listing source"],
+  "Reverse mergers":["date","Company","Target","Private placement","Focus Area","__inv","Source"],
+};
+const HEAD={date:"Date","__inv":"Investors"};
+const INTERNAL=new Set(["category","side","url","date","investors","value_musd",
+                        "Date","Listing date","IPO date"]);
+const URLCOLS=new Set(["URL","Url","url","Source URL","Source url","Link URL"]);
+const SRCCOLS=new Set(["Source","Listing source","IPO source"]);
+/* columns for any tab: explicit map, else derived from the data (so Royalty
+   deals — and future tabs — render without hardcoding) */
+function colsFor(cat){
+  if(COLS[cat]) return COLS[cat];
+  const recs=(DATA.records||{})[cat]||[], seen=[], has={};
+  recs.forEach(r=>Object.keys(r).forEach(k=>{
+    if(INTERNAL.has(k)||k.endsWith("_parsed")||has[k]) return;
+    has[k]=1; seen.push(k);
+  }));
+  const body=seen.filter(k=>!URLCOLS.has(k)&&!SRCCOLS.has(k));
+  const out=["date",...body];
+  if(recs.some(r=>(r.investors||[]).length)) out.push("__inv");
+  if(recs.some(r=>r.url)) out.push("Source");
+  return out;
+}
+let curCat=null, sortCol=null, sortDir=1, filter="";
+
+function pillClass(cat){
+  const deal=(DATA.side||{})[cat]==="deal";
+  return deal?(cat==="Licensing"?"pill-amber":"pill-deal"):"pill-raise";
+}
+
+function cellVal(r,c){
+  if(c==="__inv") return (r.investors||[]).map(iv=>iv.name+(iv.lead?"★":"")).join(", ");
+  return r[c]==null?"":String(r[c]);
+}
+function renderTable(){
+  const cols=colsFor(curCat), recs=(DATA.records[curCat]||[]).slice();
+  let rows=recs.filter(r=>!filter ||
+    cols.some(c=>cellVal(r,c).toLowerCase().includes(filter)));
+  if(sortCol){
+    rows.sort((a,b)=>{
+      let x=cellVal(a,sortCol),y=cellVal(b,sortCol);
+      const nx=parseFloat(x.replace(/[^0-9.]/g,'')),ny=parseFloat(y.replace(/[^0-9.]/g,''));
+      if(!isNaN(nx)&&!isNaN(ny)){x=nx;y=ny;}
+      return (x>y?1:x<y?-1:0)*sortDir;
+    });
+  }
+  const money=new Set(["Upfront","Total Deal Value","Amount","Private placement"]);
+  let h="<table><thead><tr>";
+  cols.forEach(c=>h+=`<th data-c="${c}">${HEAD[c]||c}</th>`);
+  h+="</tr></thead><tbody>";
+  if(!rows.length) h+=`<tr><td colspan="${cols.length}"><div class="empty">No rows match “${filter}”.</div></td></tr>`;
+  rows.forEach(r=>{
+    h+="<tr>";
+    cols.forEach(c=>{
+      let v=cellVal(r,c);
+      if(c==="date") v=`<span class="mono">${v||"—"}</span>`;
+      else if(c==="Source"||c==="Listing source"||c==="IPO source"){
+        const url=r["url"]; v = url?`<a href="${url}" target="_blank" rel="noopener">${v||"source"}↗</a>`:(v||"—");
+      }
+      else if(money.has(c)){
+        const p=r[c+"_parsed"];
+        v=`<span class="val-cell">${v||"—"}${p&&p.currency!=='USD'?` <span style="color:var(--faint)">≈${fmtM(p.musd)}</span>`:""}</span>`;
+      }
+      else if(c==="__inv"){
+        v=(r.investors||[]).map(iv=>iv.name+(iv.lead?'<span class="lead-tag">LEAD</span>':'')).join(", ")||"—";
+      }
+      else if((c==="Buyer"||c==="Company")) v=`<span class="pill ${pillClass(curCat)}">${v||"—"}</span>`;
+      h+=`<td>${v||"—"}</td>`;
+    });
+    h+="</tr>";
+  });
+  h+="</tbody></table>";
+  const host=document.getElementById("tableHost");
+  host.innerHTML=h;
+  host.querySelectorAll("th").forEach(th=>th.onclick=()=>{
+    const c=th.dataset.c;
+    if(sortCol===c) sortDir*=-1; else {sortCol=c;sortDir=1;}
+    renderTable();
+  });
+}
+function renderTabs(){
+  const t=document.getElementById("tabs");
+  t.innerHTML=CATS.map(c=>{
+    const n=(DATA.records[c]||[]).length;
+    return `<button class="tab${c===curCat?' active':''}" data-c="${c}">${c}<span class="n">${n}</span></button>`;
+  }).join("");
+  t.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
+    curCat=b.dataset.c;sortCol=null;renderTabs();renderTable();});
+}
+
+/* ---------- boot ---------- */
+function boot(){
+  CATS = (DATA.categories && DATA.categories.length)
+           ? DATA.categories : Object.keys(DATA.records||{});
+  curCat = CATS[0];
+  renderHero();
+  chartAcquirers();chartInvestors();chartTime();chartBuckets();chartRound();
+  renderTabs();renderTable();
+  document.getElementById("search").addEventListener("input",e=>{
+    filter=e.target.value.toLowerCase().trim();renderTable();});
+}
+
+boot();
+</script>
+</body>
+</html>

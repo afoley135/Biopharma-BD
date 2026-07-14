@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T04:30:40+00:00",
+  "generated": "2026-07-14T03:57:24+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,31 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-07-13",
+        "Buyer": "China Medical System",
+        "Seller": "Insilico",
+        "Structure": "R&D collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$177M",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "CNS",
+        "Source": "Link",
+        "URL": "https://endpoints.news/tris-pharmas-crl-for-narcolepsy-drug-agenus-abandons-phase-3-crc-trial/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6b3c881-b2e95fd8&utm_medium=email&utm_campaign=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise&utm_content=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise+CID_b596aea9af7e7efa8c01eba769e55a48&utm_source=ENDPOINTS%20emails&utm_term=Tris%20Pharmas%20CRL%20for%20narcolepsy%20drug%20Agenus%20abandons%20Phase%203%20CRC%20trial",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/tris-pharmas-crl-for-narcolepsy-drug-agenus-abandons-phase-3-crc-trial/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6b3c881-b2e95fd8&utm_medium=email&utm_campaign=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise&utm_content=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise+CID_b596aea9af7e7efa8c01eba769e55a48&utm_source=ENDPOINTS%20emails&utm_term=Tris%20Pharmas%20CRL%20for%20narcolepsy%20drug%20Agenus%20abandons%20Phase%203%20CRC%20trial",
+        "date": "2026-07-13",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$177M",
+          "currency": "USD",
+          "musd": 177.0,
+          "musd_native": 177.0
+        },
+        "value_musd": 177.0,
+        "investors": []
+      },
       {
         "Date": "2026-07-09",
         "Buyer": "Tarsus",
@@ -527,6 +552,45 @@
     ],
     "Fundraises": [
       {
+        "Date": "2026-07-13",
+        "Company": "Drug Farm",
+        "Round": "Series D",
+        "Amount": "$55M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "ROSAH syndrome (rare genetic disorder)",
+        "Lead 1": "Shanghai Pudong Leading Area Investment Center",
+        "Lead 2": "Shanghai Puxing Collaborative Private Equity Fund Partnership Enterprise",
+        "Investor 3": "Others (not disclosed)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/tris-pharmas-crl-for-narcolepsy-drug-agenus-abandons-phase-3-crc-trial/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6b3c881-b2e95fd8&utm_medium=email&utm_campaign=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise&utm_content=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise+CID_b596aea9af7e7efa8c01eba769e55a48&utm_source=ENDPOINTS%20emails&utm_term=Tris%20Pharmas%20CRL%20for%20narcolepsy%20drug%20Agenus%20abandons%20Phase%203%20CRC%20trial",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/tris-pharmas-crl-for-narcolepsy-drug-agenus-abandons-phase-3-crc-trial/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6b3c881-b2e95fd8&utm_medium=email&utm_campaign=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise&utm_content=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise+CID_b596aea9af7e7efa8c01eba769e55a48&utm_source=ENDPOINTS%20emails&utm_term=Tris%20Pharmas%20CRL%20for%20narcolepsy%20drug%20Agenus%20abandons%20Phase%203%20CRC%20trial",
+        "date": "2026-07-13",
+        "Amount_parsed": {
+          "raw": "$55M",
+          "currency": "USD",
+          "musd": 55.0,
+          "musd_native": 55.0
+        },
+        "value_musd": 55.0,
+        "investors": [
+          {
+            "name": "Shanghai Pudong Leading Area Investment Center",
+            "lead": true
+          },
+          {
+            "name": "Shanghai Puxing Collaborative Private Equity Fund Partnership Enterprise",
+            "lead": true
+          }
+        ]
+      },
+      {
         "Date": "2026-07-09",
         "Company": "Alchemab",
         "Round": "Series A Extension",
@@ -1009,6 +1073,57 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-07-10",
+        "IPO date": null,
+        "Company": "Apnimed",
+        "Amount": null,
+        "Modality": "Small molecule",
+        "Lead indication": "Sleep apnea",
+        "Investor 1": "Morningside",
+        "Investor 2": "Alpha Wave",
+        "Investor 3": "Shionogi",
+        "Investor 4": "Columbia Fund",
+        "Investor 5": "Tao Invest",
+        "Investor 6": "Miller",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing source": "Link",
+        "IPO source": null,
+        "URL": "https://endpoints.news/apnimed-files-for-ipo-as-fda-reviews-its-sleep-apnea-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-71ae0985-05f49edc&utm_medium=email&utm_campaign=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise&utm_content=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise+CID_cc14948236fdb065bcd857b2e13a7bd4&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20files%20for%20IPO%20as%20FDA%20reviews%20its%20sleep%20apnea%20drug",
+        "category": "IPO",
+        "side": "raise",
+        "url": "https://endpoints.news/apnimed-files-for-ipo-as-fda-reviews-its-sleep-apnea-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-71ae0985-05f49edc&utm_medium=email&utm_campaign=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise&utm_content=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise+CID_cc14948236fdb065bcd857b2e13a7bd4&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20files%20for%20IPO%20as%20FDA%20reviews%20its%20sleep%20apnea%20drug",
+        "date": "2026-07-10",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Morningside",
+            "lead": true
+          },
+          {
+            "name": "Alpha Wave",
+            "lead": false
+          },
+          {
+            "name": "Shionogi",
+            "lead": false
+          },
+          {
+            "name": "Columbia Fund",
+            "lead": false
+          },
+          {
+            "name": "Tao Invest",
+            "lead": false
+          },
+          {
+            "name": "Miller",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Listing date": "2026-07-08",
         "IPO date": null,
         "Company": "Kalohexis",
@@ -1190,6 +1305,22 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-13",
+      "company": "Drug Farm",
+      "value_musd": 55.0,
+      "name": "Shanghai Pudong Leading Area Investment Center",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-13",
+      "company": "Drug Farm",
+      "value_musd": 55.0,
+      "name": "Shanghai Puxing Collaborative Private Equity Fund Partnership Enterprise",
+      "lead": true
+    },
     {
       "category": "Fundraises",
       "date": "2026-07-09",
@@ -1469,6 +1600,54 @@
       "value_musd": 330.0,
       "name": "ARCH",
       "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Morningside",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Alpha Wave",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Shionogi",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Columbia Fund",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Tao Invest",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-07-10",
+      "company": "Apnimed",
+      "value_musd": null,
+      "name": "Miller",
+      "lead": false
     },
     {
       "category": "Reverse mergers",

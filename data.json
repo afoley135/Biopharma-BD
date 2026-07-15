@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T03:57:24+00:00",
+  "generated": "2026-07-15T03:58:34+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -434,6 +434,66 @@
       }
     ],
     "Licensing": [
+      {
+        "Date": "2026-07-14",
+        "Buyer": "Avere Therapeutics",
+        "Seller": "Hansoh Pharmaceutical",
+        "Structure": "Licensing",
+        "Upfront": "$120M",
+        "Total Deal Value": "$2.3B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Autoimmune",
+        "Source": "Link",
+        "URL": "https://endpoints.news/former-akero-team-announces-new-ii-company-avere-with-china-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-58586a73-2c02fd2a&utm_medium=email&utm_campaign=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise&utm_content=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise+CID_7a575f9b0d1ecaa7cc5a3cdda070d889&utm_source=ENDPOINTS%20emails&utm_term=After%2047B%20sale%20to%20Novo%20Nordisk%20former%20Akero%20team%20announces%20new%20II%20company%20with%20China%20drug",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/former-akero-team-announces-new-ii-company-avere-with-china-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-58586a73-2c02fd2a&utm_medium=email&utm_campaign=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise&utm_content=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise+CID_7a575f9b0d1ecaa7cc5a3cdda070d889&utm_source=ENDPOINTS%20emails&utm_term=After%2047B%20sale%20to%20Novo%20Nordisk%20former%20Akero%20team%20announces%20new%20II%20company%20with%20China%20drug",
+        "date": "2026-07-14",
+        "Upfront_parsed": {
+          "raw": "$120M",
+          "currency": "USD",
+          "musd": 120.0,
+          "musd_native": 120.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.3B",
+          "currency": "USD",
+          "musd": 2300.0,
+          "musd_native": 2300.0
+        },
+        "value_musd": 2300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-14",
+        "Buyer": "AstraZeneca",
+        "Seller": "Dizal",
+        "Structure": "Licensing",
+        "Upfront": "$600M",
+        "Total Deal Value": "$1.5B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "NSCLC",
+        "Source": "Link",
+        "URL": "https://endpoints.news/astrazeneca-to-take-rights-to-dizals-lung-cancer-pill-zegfrovy/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-58586a73-2c02fd2a&utm_medium=email&utm_campaign=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise&utm_content=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise+CID_7a575f9b0d1ecaa7cc5a3cdda070d889&utm_source=ENDPOINTS%20emails&utm_term=AstraZeneca%20to%20take%20rights%20to%20Dizals%20lung%20cancer%20pill%20for%20600M%20upfront",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/astrazeneca-to-take-rights-to-dizals-lung-cancer-pill-zegfrovy/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-58586a73-2c02fd2a&utm_medium=email&utm_campaign=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise&utm_content=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise+CID_7a575f9b0d1ecaa7cc5a3cdda070d889&utm_source=ENDPOINTS%20emails&utm_term=AstraZeneca%20to%20take%20rights%20to%20Dizals%20lung%20cancer%20pill%20for%20600M%20upfront",
+        "date": "2026-07-14",
+        "Upfront_parsed": {
+          "raw": "$600M",
+          "currency": "USD",
+          "musd": 600.0,
+          "musd_native": 600.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
       {
         "Date": "2026-07-08",
         "Buyer": "AstraZeneca",
@@ -1177,6 +1237,37 @@
       }
     ],
     "Reverse mergers": [
+      {
+        "Date": "2026-07-14",
+        "Company": "Avere Therapeutics",
+        "Target": "NextCure",
+        "Target residual ownership": "1%",
+        "Private placement": "$320M",
+        "Modality": "Small molecule",
+        "Lead indication": "Autoimmune",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": null,
+        "URL": null,
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": null,
+        "date": "2026-07-14",
+        "Private placement_parsed": {
+          "raw": "$320M",
+          "currency": "USD",
+          "musd": 320.0,
+          "musd_native": 320.0
+        },
+        "value_musd": 320.0,
+        "investors": []
+      },
       {
         "Date": "2026-07-09",
         "Company": "Scipher Medicine",

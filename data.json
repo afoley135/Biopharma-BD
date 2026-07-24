@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T04:16:01+00:00",
+  "generated": "2026-07-24T04:15:29+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -872,6 +872,104 @@
     ],
     "Fundraises": [
       {
+        "Date": "2026-07-22",
+        "Company": "Tikva Allocell",
+        "Round": "Series A",
+        "Amount": "$8M",
+        "Modality": "Allogeneic cell therapy",
+        "Lead indication(s)": "Solid tumor",
+        "Lead 1": "Kantharos Capital",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/mentari-adds-200m-to-migraine-mission-royaltys-latest-attr-cm-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Mentari%20adds%20200M%20to%20migraine%20mission%20Royaltys%20latest%20ATTR-CM%20deal",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/mentari-adds-200m-to-migraine-mission-royaltys-latest-attr-cm-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Mentari%20adds%20200M%20to%20migraine%20mission%20Royaltys%20latest%20ATTR-CM%20deal",
+        "date": "2026-07-22",
+        "Amount_parsed": {
+          "raw": "$8M",
+          "currency": "USD",
+          "musd": 8.0,
+          "musd_native": 8.0
+        },
+        "value_musd": 8.0,
+        "investors": [
+          {
+            "name": "Kantharos Capital",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-07-22",
+        "Company": "Crystalys",
+        "Round": "Series B",
+        "Amount": "$130M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Gout",
+        "Lead 1": "Frazier Life Sciences",
+        "Lead 2": null,
+        "Investor 3": "Wellington Management",
+        "Investor 4": "HBM Healthcare Investments",
+        "Investor 5": "Soleus Capital",
+        "Investor 6": "Cormorant Asset Management",
+        "Investor 7": "Novo Holdings",
+        "Investor 8": "Catalys Pacific",
+        "Investor 9": "SR One",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://endpoints.news/crystalys-gets-130m-for-phase-3-tests-of-sobi-rivaling-gout-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Crystalys%20gets%20130M%20to%20take%20Sobi-rivaling%20gout%20drug%20to%20market",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/crystalys-gets-130m-for-phase-3-tests-of-sobi-rivaling-gout-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Crystalys%20gets%20130M%20to%20take%20Sobi-rivaling%20gout%20drug%20to%20market",
+        "date": "2026-07-22",
+        "Amount_parsed": {
+          "raw": "$130M",
+          "currency": "USD",
+          "musd": 130.0,
+          "musd_native": 130.0
+        },
+        "value_musd": 130.0,
+        "investors": [
+          {
+            "name": "Frazier Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "Wellington Management",
+            "lead": false
+          },
+          {
+            "name": "HBM Healthcare Investments",
+            "lead": false
+          },
+          {
+            "name": "Soleus Capital",
+            "lead": false
+          },
+          {
+            "name": "Cormorant Asset Management",
+            "lead": false
+          },
+          {
+            "name": "Novo Holdings",
+            "lead": false
+          },
+          {
+            "name": "Catalys Pacific",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-07-15",
         "Company": "Nava Therapeutics",
         "Round": "Series A",
@@ -886,6 +984,8 @@
         "Investor 6": "Readout Capital",
         "Investor 7": "Alexandria Venture Investments",
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/nava-therapeutics-emerges-with-89m-for-lipid-nanoparticles/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Lipid%20nanoparticle%20startup%20Nava%20emerges%20with%2089M%20to%20target%20T%20cells%20and%20kidney",
         "category": "Fundraises",
@@ -941,6 +1041,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/radiopharma-maker-advancell-hauls-in-315m-for-pluvicto-challenger/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Radiopharma%20maker%20AdvanCell%20hauls%20in%20315M%20for%20Pluvicto%20challenger",
         "category": "Fundraises",
@@ -984,6 +1086,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/genetic-medicine-startup-lyora-launches-with-editas-biogen-stalled-programs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-58586a73-2c02fd2a&utm_medium=email&utm_campaign=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise&utm_content=1196%20-%20AstraZeneca%20licenses%20Dizals%20lung%20cancer%20drug%20Enterprise+CID_7a575f9b0d1ecaa7cc5a3cdda070d889&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Genetic%20medicine%20startup%20launches%20to%20speed%20programs%20that%20stalled%20at%20Editas%20Biogen",
         "category": "Fundraises",
@@ -1014,6 +1118,8 @@
         "Investor 6": "Jefferson Life Sciences",
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": null,
         "URL": null,
         "category": "Fundraises",
@@ -1065,6 +1171,8 @@
         "Investor 6": "OpenAI",
         "Investor 7": "Yosemite",
         "Investor 8": "Others (not disclosed)",
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/chai-discovery-gets-400m-tripling-valuation-from-seven-months-ago/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-817e297e-f524be27&utm_medium=email&utm_campaign=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise&utm_content=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise+CID_018b3a9cb21a4efdab44790a6a52945c&utm_source=ENDPOINTS%20emails&utm_term=Chai%20Discovery%20gets%20400M%20tripling%20valuation%20from%20seven%20months%20ago",
         "category": "Fundraises",
@@ -1124,6 +1232,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/tris-pharmas-crl-for-narcolepsy-drug-agenus-abandons-phase-3-crc-trial/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6b3c881-b2e95fd8&utm_medium=email&utm_campaign=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise&utm_content=2488%20-%20Whats%20in%20store%20for%20biopharma%20in%20the%20second%20half%20of%202026%20Enterprise+CID_b596aea9af7e7efa8c01eba769e55a48&utm_source=ENDPOINTS%20emails&utm_term=Tris%20Pharmas%20CRL%20for%20narcolepsy%20drug%20Agenus%20abandons%20Phase%203%20CRC%20trial",
         "category": "Fundraises",
@@ -1163,6 +1273,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/ipsen-succeeds-in-migraine-trials-tarsus-buys-irenix-for-75m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3b432c85-4f19bbdc&utm_medium=email&utm_campaign=2486%20-%20Lilly%20distances%20itself%20with%20sizzling%20MA%20pace%20Enterprise&utm_content=2486%20-%20Lilly%20distances%20itself%20with%20sizzling%20MA%20pace%20Enterprise+CID_b065aa8974c3893a36b133f926a68881&utm_source=ENDPOINTS%20emails&utm_term=Ipsen%20succeeds%20in%20migraine%20trials%20Tarsus%20buys%20iRenix%20for%2075M%20upfront",
         "category": "Fundraises",
@@ -1198,6 +1310,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/novartis-cuts-new-jersey-jobs-otr-lg-chem-explore-china-cancer-drugs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-e2656f88-963ff8d1&utm_medium=email&utm_campaign=1193%20-%20AstraZeneca%20Ionis%20tumble%20after%20heart%20trial%20fail%20Enterprise&utm_content=1193%20-%20AstraZeneca%20Ionis%20tumble%20after%20heart%20trial%20fail%20Enterprise+CID_97fad17f7b56943290c89b1460a4a08a&utm_source=ENDPOINTS%20emails&utm_term=Novartis%20cuts%20New%20Jersey%20jobs%20OTR%20LG%20Chem%20explore%20China%20cancer%20drugs",
         "category": "Fundraises",
@@ -1228,6 +1342,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/meiragtx-buys-back-gene-therapy-from-j-storm-brings-in-56m-series-c/",
         "category": "Fundraises",
@@ -1271,6 +1387,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/french-gene-therapy-biotech-gets-e33m-to-follow-krystals-blueprint/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-12101099-664a87c0&utm_medium=email&utm_campaign=1191%20-%20Vertex%20to%20enter%20endocrinology%20arena%20in%2010B%20Crinetics%20buy%20Enterprise&utm_content=1191%20-%20Vertex%20to%20enter%20endocrinology%20arena%20in%2010B%20Crinetics%20buy%20Enterprise+CID_f9e1ab9fddb0b70a1247461b91f046e3&utm_source=ENDPOINTS%20emails&utm_term=French%20gene%20therapy%20biotech%20gets%2033M%20to%20follow%20Krystals%20blueprint",
         "category": "Fundraises",
@@ -1322,6 +1440,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/ipf-biotech-celea-gets-180m-to-follow-paths-of-puretechs-karuna-seaport/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b68a4761-c2d0d038&utm_medium=email&utm_campaign=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise&utm_content=2482%20-%20Celea%20gets%20180M%20to%20follow%20its%20PureTech%20siblings%20Enterprise+CID_63013b4eb62f46708d1e826d1ff44eb0&utm_source=ENDPOINTS%20emails&utm_term=IPF%20biotech%20Celea%20gets%20180M%20to%20follow%20paths%20of%20PureTechs%20Karuna%20Seaport",
         "category": "Fundraises",
@@ -1365,6 +1485,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/beeline-adds-126m-to-bain-backed-immunology-pipeline-from-bristol-myers/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-aee3e96b-dab97e32&utm_medium=email&utm_campaign=2480%20-%20Abivax%20expects%20easy%20FDA%20approval%20despite%20cancer%20cases%20Enterprise&utm_content=2480%20-%20Abivax%20expects%20easy%20FDA%20approval%20despite%20cancer%20cases%20Enterprise+CID_417a3340408d88059b121665874dcadd&utm_source=ENDPOINTS%20emails&utm_term=Beeline%20adds%20126M%20to%20Bain-backed%20immunology%20pipeline%20from%20Bristol%20Myers",
         "category": "Fundraises",
@@ -1408,6 +1530,8 @@
         "Investor 6": "RTW",
         "Investor 7": "Venrock Healthcare Partners",
         "Investor 8": "Lilly",
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/lycia-raises-75m-for-food-allergy-and-graves-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-bee886ab-cab211f2&utm_medium=email&utm_campaign=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise&utm_content=2478%20-%20Akeso%20defends%20China%20trial%20Enterprise+CID_af97630177f9a2b5260b5ded74ca58fe&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20raises%2075M%20for%20food%20allergy%20and%20Graves%20disease",
         "category": "Fundraises",
@@ -1463,6 +1587,8 @@
         "Investor 6": "ClavystBio",
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/recordati-licenses-ionis-drug-vaxarts-barda-funding-is-cut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Recordati%20licenses%20Ionis%20drug%20Vaxarts%20BARDA%20funding%20is%20cut",
         "category": "Fundraises",
@@ -1510,6 +1636,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://e.endpointsnews.com/t/t-l-wktukkk-tkirddlith-x/",
         "category": "Fundraises",
@@ -1557,6 +1685,8 @@
         "Investor 6": "Others (not disclosed)",
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/rq-bio-secures-115m-series-a-for-virus-targeting-antibody-pipeline/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=UK%20biotech%20secures%20115M%20to%20advance%20portfolio%20of%20virus-targeting%20antibodies",
         "category": "Fundraises",
@@ -1604,6 +1734,8 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
         "Source": "Link",
         "URL": "https://endpoints.news/ollin-nets-330m-to-run-phase-3-trials-of-vabysmo-challenger-from-china/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2206a82f-565c3f76&utm_medium=email&utm_campaign=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise&utm_content=1183%20-%20Ollins%20330M%20megaraise%20Lilly%20strikes%20another%20deal%20with%20Abbisko%20Enterprise+CID_9c9eaaf59fe433dd019ce8d37b7788ea&utm_source=ENDPOINTS%20emails&utm_term=Ollin%20nets%20330M%20to%20run%20Phase%203%20trials%20of%20Vabysmo%20challenger%20from%20China",
         "category": "Fundraises",
@@ -1959,6 +2091,37 @@
     ],
     "Reverse mergers": [
       {
+        "Date": "2026-07-23",
+        "Company": "Scancell",
+        "Target": "Neuphoria Therapeutics",
+        "Target residual ownership": "14.50%",
+        "Private placement": "$39.1M",
+        "Modality": "Immunotherapy",
+        "Lead indication": "Melanoma",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/07/23/3331958/0/en/scancell-and-neuphoria-therapeutics-announce-merger-agreement-and-financing.html",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/07/23/3331958/0/en/scancell-and-neuphoria-therapeutics-announce-merger-agreement-and-financing.html",
+        "date": "2026-07-23",
+        "Private placement_parsed": {
+          "raw": "$39.1M",
+          "currency": "USD",
+          "musd": 39.1,
+          "musd_native": 39.1
+        },
+        "value_musd": 39.1,
+        "investors": []
+      },
+      {
         "Date": "2026-07-17",
         "Company": "Kira Pharmaceuticals",
         "Target": "Jasper Therapeutics",
@@ -2152,6 +2315,29 @@
     ],
     "Royalty deals": [
       {
+        "Date": "2026-07-22",
+        "Company": "Neurimmune",
+        "Upfront": "$125M",
+        "Total": "$425M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "ATTR-CM",
+        "Investor": "Royalty Pharma",
+        "Source": "Link",
+        "URL": "https://endpoints.news/mentari-adds-200m-to-migraine-mission-royaltys-latest-attr-cm-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Mentari%20adds%20200M%20to%20migraine%20mission%20Royaltys%20latest%20ATTR-CM%20deal",
+        "category": "Royalty deals",
+        "side": "raise",
+        "url": "https://endpoints.news/mentari-adds-200m-to-migraine-mission-royaltys-latest-attr-cm-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9a87cc2a-eedd5b73&utm_medium=email&utm_campaign=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise&utm_content=2495%20-%20Lillys%20springboard%20back%20into%20neuropsych%20Enterprise+CID_cc1183e583a813b29bffc8ab4b659ef8&utm_source=ENDPOINTS%20emails&utm_term=Mentari%20adds%20200M%20to%20migraine%20mission%20Royaltys%20latest%20ATTR-CM%20deal",
+        "date": "2026-07-22",
+        "Upfront_parsed": {
+          "raw": "$125M",
+          "currency": "USD",
+          "musd": 125.0,
+          "musd_native": 125.0
+        },
+        "value_musd": 125.0,
+        "investors": []
+      },
+      {
         "Date": "2026-07-08",
         "Company": "MeiraGTx",
         "Upfront": "$135M",
@@ -2177,6 +2363,70 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Tikva Allocell",
+      "value_musd": 8.0,
+      "name": "Kantharos Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Frazier Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Wellington Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "HBM Healthcare Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Soleus Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Cormorant Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Novo Holdings",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-22",
+      "company": "Crystalys",
+      "value_musd": 130.0,
+      "name": "Catalys Pacific",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-07-15",

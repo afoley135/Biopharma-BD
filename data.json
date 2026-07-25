@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T04:15:29+00:00",
+  "generated": "2026-07-25T04:11:30+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -1764,11 +1764,11 @@
     "IPO": [
       {
         "Listing date": "2026-07-17",
-        "IPO date": null,
+        "IPO date": "2026-07-23",
         "Company": "Latigo Biotherapeutics",
         "Target price": "$14 / share",
         "Target raise": "$96M",
-        "Amount": null,
+        "Amount": "$129M",
         "Modality": "Small molecule",
         "Lead indication": "Acute pain",
         "Investor 1": "WestLake Biopartners",
@@ -1781,13 +1781,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-010c3127-7556a67e&utm_medium=email&utm_campaign=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise&utm_content=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise+CID_bc31b1bd363ad7e4cda26ce273ab5238&utm_source=ENDPOINTS%20emails&utm_term=Updated%20BlossomHill%20and%20Latigo%20join%20flourishing%20IPO%20queue%20with%20cancer%20pain%20drugs",
         "Target source": "https://endpoints.news/scribes-96m-ipo-scholar-rock-awaits-site-classification-for-apitegromab/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a5949886-d1ce0fdf&utm_medium=email&utm_campaign=2493%20-%20What%20Anthropic%20wants%20in%20biotech%20Enterprise&utm_content=2493%20-%20What%20Anthropic%20wants%20in%20biotech%20Enterprise+CID_d647eec16c34b098c5f6366c6345d0c1&utm_source=ENDPOINTS%20emails&utm_term=Scribes%2096M%20IPO%20Scholar%20Rock%20awaits%20site%20classification%20for%20apitegromab",
-        "IPO source": null,
+        "IPO source": "https://endpoints.news/gene-editor-scribe-starts-second-half-ipo-spree-with-129m-listing/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ccfa781f-b8a0ef46&utm_medium=email&utm_campaign=1204%20-%20Sanofi%20drops%20OX40L%20drug%20in%20eczema%20Enterprise&utm_content=1204%20-%20Sanofi%20drops%20OX40L%20drug%20in%20eczema%20Enterprise+CID_1e8be48f1ffeaef9ff7152ae32c831fd&utm_source=ENDPOINTS%20emails&utm_term=Gene%20editor%20Scribe%20Therapeutics%20starts%20second-half%20IPO%20spree%20with%20129M%20listing",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-07-17",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$129M",
+          "currency": "USD",
+          "musd": 129.0,
+          "musd_native": 129.0
+        },
+        "value_musd": 129.0,
         "investors": [
           {
             "name": "WestLake Biopartners",
@@ -2895,7 +2900,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 129.0,
       "name": "WestLake Biopartners",
       "lead": true
     },
@@ -2903,7 +2908,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 129.0,
       "name": "Foresite Capital",
       "lead": false
     },
@@ -2911,7 +2916,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 129.0,
       "name": "5AM Ventures",
       "lead": false
     },
@@ -2919,7 +2924,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 129.0,
       "name": "Blue Owl Healthcare",
       "lead": false
     },

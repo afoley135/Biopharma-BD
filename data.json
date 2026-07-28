@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T04:37:07+00:00",
+  "generated": "2026-07-28T04:10:43+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-07-27",
+        "Buyer": "Argenx",
+        "Seller": "Forte Biosciences",
+        "Structure": "Acquisition",
+        "Upfront": "$2.2B",
+        "Total Deal Value": "$2.2B",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Autoimmune disease",
+        "Source": "Link",
+        "URL": "https://endpoints.news/argenx-to-pick-up-autoimmune-biotech-forte-biosciences-for-2-2b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ec2e3558-9874a201&utm_medium=email&utm_campaign=1205%20-%20AstraZenecas%20lackluster%20Phase%203%20readouts%20continue%20Enterprise&utm_content=1205%20-%20AstraZenecas%20lackluster%20Phase%203%20readouts%20continue%20Enterprise+CID_8e783c9dfe91f8496ecd1ea60e2d4d91&utm_source=ENDPOINTS%20emails&utm_term=Argenx%20to%20pick%20up%20autoimmune%20biotech%20Forte%20Biosciences%20for%2022B",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/argenx-to-pick-up-autoimmune-biotech-forte-biosciences-for-2-2b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ec2e3558-9874a201&utm_medium=email&utm_campaign=1205%20-%20AstraZenecas%20lackluster%20Phase%203%20readouts%20continue%20Enterprise&utm_content=1205%20-%20AstraZenecas%20lackluster%20Phase%203%20readouts%20continue%20Enterprise+CID_8e783c9dfe91f8496ecd1ea60e2d4d91&utm_source=ENDPOINTS%20emails&utm_term=Argenx%20to%20pick%20up%20autoimmune%20biotech%20Forte%20Biosciences%20for%2022B",
+        "date": "2026-07-27",
+        "Upfront_parsed": {
+          "raw": "$2.2B",
+          "currency": "USD",
+          "musd": 2200.0,
+          "musd_native": 2200.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.2B",
+          "currency": "USD",
+          "musd": 2200.0,
+          "musd_native": 2200.0
+        },
+        "value_musd": 2200.0,
+        "investors": []
+      },
       {
         "Date": "2026-07-21",
         "Buyer": "Samsung Bio",
@@ -1989,7 +2019,7 @@
         "IPO date": null,
         "Company": "Apnimed",
         "Target price": null,
-        "Target raise": null,
+        "Target raise": "$135M",
         "Amount": null,
         "Modality": "Small molecule",
         "Lead indication": "Sleep apnea",
@@ -2002,7 +2032,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/apnimed-files-for-ipo-as-fda-reviews-its-sleep-apnea-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-71ae0985-05f49edc&utm_medium=email&utm_campaign=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise&utm_content=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise+CID_cc14948236fdb065bcd857b2e13a7bd4&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20files%20for%20IPO%20as%20FDA%20reviews%20its%20sleep%20apnea%20drug",
-        "Target source": null,
+        "Target source": "https://endpoints.news/yarrow-to-begin-trading-as-it-targets-graves-fda-approves-otsukas-adhd-pill/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-35087655-4152e10c&utm_medium=email&utm_campaign=2498%20-%20Looking%20for%20a%20fresh%20start%20Sarepta%20taps%20outsider%20as%20new%20CEO%20Enterprise&utm_content=2498%20-%20Looking%20for%20a%20fresh%20start%20Sarepta%20taps%20outsider%20as%20new%20CEO%20Enterprise+CID_800b85dc7c548ee84f3bc2a35b167d93&utm_source=ENDPOINTS%20emails&utm_term=Yarrow%20to%20begin%20trading%20as%20it%20targets%20Graves%20FDA%20approves%20Otsukas%20ADHD%20pill",
         "IPO source": null,
         "category": "IPO",
         "side": "raise",
@@ -2095,6 +2125,66 @@
       }
     ],
     "Reverse mergers": [
+      {
+        "Date": "2026-07-27",
+        "Company": "Yarrow Bioscience",
+        "Target": "VYNE Therapeutics Inc",
+        "Target residual ownership": null,
+        "Private placement": "$200M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication": "Graves' Disease",
+        "Investor 1": "RTW Investments",
+        "Investor 2": "OrbiMed",
+        "Investor 3": "Janus Henderson",
+        "Investor 4": "venBio Partners",
+        "Investor 5": "Logos Capital",
+        "Investor 6": "LifeSci Venture Partners",
+        "Investor 7": "Perceptive Advisors",
+        "Investor 8": null,
+        "Source": "Link",
+        "URL": "https://ir.yarrowbioscience.com/news-releases/news-release-details/yarrow-bioscience-announces-closing-merger-vyne-therapeutics-and",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://ir.yarrowbioscience.com/news-releases/news-release-details/yarrow-bioscience-announces-closing-merger-vyne-therapeutics-and",
+        "date": "2026-07-27",
+        "Private placement_parsed": {
+          "raw": "$200M",
+          "currency": "USD",
+          "musd": 200.0,
+          "musd_native": 200.0
+        },
+        "value_musd": 200.0,
+        "investors": [
+          {
+            "name": "RTW Investments",
+            "lead": true
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "venBio Partners",
+            "lead": false
+          },
+          {
+            "name": "Logos Capital",
+            "lead": false
+          },
+          {
+            "name": "LifeSci Venture Partners",
+            "lead": false
+          },
+          {
+            "name": "Perceptive Advisors",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-07-23",
         "Company": "Scancell",
@@ -3086,6 +3176,62 @@
       "company": "Apnimed",
       "value_musd": null,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "RTW Investments",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "venBio Partners",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "Logos Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "LifeSci Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-27",
+      "company": "Yarrow Bioscience",
+      "value_musd": 200.0,
+      "name": "Perceptive Advisors",
       "lead": false
     },
     {

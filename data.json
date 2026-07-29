@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T04:10:43+00:00",
+  "generated": "2026-07-29T04:13:15+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -901,6 +901,96 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-07-28",
+        "Company": "Claris Bio",
+        "Round": "Series B",
+        "Amount": "$118M",
+        "Modality": "Eye drop",
+        "Lead indication(s)": "Limbal stem cell deficiency",
+        "Lead 1": "Samsara BioCapital",
+        "Lead 2": "Catalio Capital Management",
+        "Investor 3": "Adage Capital Management",
+        "Investor 4": "Sofinnova Investments",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/claris-collects-118m-to-take-eye-drop-into-pivotal-testing-next-year/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a23a2f67-d660b83e&utm_medium=email&utm_campaign=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise&utm_content=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise+CID_2da2e221553bd76cd603386fa7a3e016&utm_source=ENDPOINTS%20emails&utm_term=Claris%20collects%20118M%20to%20take%20eye%20drop%20into%20pivotal%20testing%20next%20year",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/claris-collects-118m-to-take-eye-drop-into-pivotal-testing-next-year/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a23a2f67-d660b83e&utm_medium=email&utm_campaign=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise&utm_content=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise+CID_2da2e221553bd76cd603386fa7a3e016&utm_source=ENDPOINTS%20emails&utm_term=Claris%20collects%20118M%20to%20take%20eye%20drop%20into%20pivotal%20testing%20next%20year",
+        "date": "2026-07-28",
+        "Amount_parsed": {
+          "raw": "$118M",
+          "currency": "USD",
+          "musd": 118.0,
+          "musd_native": 118.0
+        },
+        "value_musd": 118.0,
+        "investors": [
+          {
+            "name": "Samsara BioCapital",
+            "lead": true
+          },
+          {
+            "name": "Catalio Capital Management",
+            "lead": true
+          },
+          {
+            "name": "Adage Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Sofinnova Investments",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-07-28",
+        "Company": "Core Biomedicine",
+        "Round": "Series A",
+        "Amount": "$21M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Oncology",
+        "Lead 1": "UTokyo Innovation Platform Co.",
+        "Lead 2": "Elikon Venture",
+        "Investor 3": "Others (not disclosed)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/oak-hill-bio-merges-with-ra-capital-spac-innocares-tyk2-drug-hits-in-phase-3/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a23a2f67-d660b83e&utm_medium=email&utm_campaign=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise&utm_content=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise+CID_2da2e221553bd76cd603386fa7a3e016&utm_source=ENDPOINTS%20emails&utm_term=Oak%20Hill%20Bio%20merges%20with%20RA%20Capital%20SPAC%20InnoCares%20TYK2%20drug%20hits%20in%20Phase%203",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/oak-hill-bio-merges-with-ra-capital-spac-innocares-tyk2-drug-hits-in-phase-3/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a23a2f67-d660b83e&utm_medium=email&utm_campaign=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise&utm_content=2499%20-%20Alnylams%20bumpy%202026%20explained%20Enterprise+CID_2da2e221553bd76cd603386fa7a3e016&utm_source=ENDPOINTS%20emails&utm_term=Oak%20Hill%20Bio%20merges%20with%20RA%20Capital%20SPAC%20InnoCares%20TYK2%20drug%20hits%20in%20Phase%203",
+        "date": "2026-07-28",
+        "Amount_parsed": {
+          "raw": "$21M",
+          "currency": "USD",
+          "musd": 21.0,
+          "musd_native": 21.0
+        },
+        "value_musd": 21.0,
+        "investors": [
+          {
+            "name": "UTokyo Innovation Platform Co.",
+            "lead": true
+          },
+          {
+            "name": "Elikon Venture",
+            "lead": true
+          }
+        ]
+      },
       {
         "Date": "2026-07-22",
         "Company": "Tikva Allocell",
@@ -2458,6 +2548,54 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Claris Bio",
+      "value_musd": 118.0,
+      "name": "Samsara BioCapital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Claris Bio",
+      "value_musd": 118.0,
+      "name": "Catalio Capital Management",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Claris Bio",
+      "value_musd": 118.0,
+      "name": "Adage Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Claris Bio",
+      "value_musd": 118.0,
+      "name": "Sofinnova Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Core Biomedicine",
+      "value_musd": 21.0,
+      "name": "UTokyo Innovation Platform Co.",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-28",
+      "company": "Core Biomedicine",
+      "value_musd": 21.0,
+      "name": "Elikon Venture",
+      "lead": true
+    },
     {
       "category": "Fundraises",
       "date": "2026-07-22",

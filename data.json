@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T03:57:32+00:00",
+  "generated": "2026-07-31T04:22:58+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,86 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-07-30",
+        "Buyer": "GSK",
+        "Seller": "Relation Bio",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$110M",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/relation-promises-transformationally-different-success-rates-in-expanded-gsk-pact/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-a0c8d188-d49246d1&utm_medium=email&utm_campaign=1208%20-%20JJs%2025B%20buyout%20option%20amps%20up%20in%20vivo%20CAR-T%20race%20Enterprise&utm_content=1208%20-%20JJs%2025B%20buyout%20option%20amps%20up%20in%20vivo%20CAR-T%20race%20Enterprise+CID_3facfa394e932974243475e9bce4d732&utm_source=ENDPOINTS%20emails&utm_term=Relation%20promises%20transformationally%20different%20success%20rates%20in%20expanded%20AI%20pact%20with%20GSK",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/relation-promises-transformationally-different-success-rates-in-expanded-gsk-pact/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-a0c8d188-d49246d1&utm_medium=email&utm_campaign=1208%20-%20JJs%2025B%20buyout%20option%20amps%20up%20in%20vivo%20CAR-T%20race%20Enterprise&utm_content=1208%20-%20JJs%2025B%20buyout%20option%20amps%20up%20in%20vivo%20CAR-T%20race%20Enterprise+CID_3facfa394e932974243475e9bce4d732&utm_source=ENDPOINTS%20emails&utm_term=Relation%20promises%20transformationally%20different%20success%20rates%20in%20expanded%20AI%20pact%20with%20GSK",
+        "date": "2026-07-30",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$110M",
+          "currency": "USD",
+          "musd": 110.0,
+          "musd_native": 110.0
+        },
+        "value_musd": 110.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-29",
+        "Buyer": "Vertex",
+        "Seller": "AbCellera",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$28M",
+        "Total Deal Value": null,
+        "Modality": "Bispecific antibodies",
+        "Lead indication(s)": "Autoimmune disease",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260729349425/en/AbCellera-Announces-Collaboration-with-Vertex-to-Discover-Multispecific-T-Cell-Engagers-for-Autoimmune-Diseases-and-Other-Conditions",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20260729349425/en/AbCellera-Announces-Collaboration-with-Vertex-to-Discover-Multispecific-T-Cell-Engagers-for-Autoimmune-Diseases-and-Other-Conditions",
+        "date": "2026-07-29",
+        "Upfront_parsed": {
+          "raw": "$28M",
+          "currency": "USD",
+          "musd": 28.0,
+          "musd_native": 28.0
+        },
+        "Total Deal Value_parsed": null,
+        "value_musd": 28.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-07-29",
+        "Buyer": "J&J",
+        "Seller": "Sail Biomedicines",
+        "Structure": "R&D collaboration",
+        "Upfront": "$785M",
+        "Total Deal Value": "$3.575B",
+        "Modality": "In vivo CAR-T",
+        "Lead indication(s)": "Autoimmune disease",
+        "Source": "Link",
+        "URL": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-Announces-Collaboration-with-Sail-Biomedicines-to-Advance-in-vivo-CAR-T-Programs-and-Transform-Autoimmune-Disease-Through-Immune-Reset/default.aspx",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-Announces-Collaboration-with-Sail-Biomedicines-to-Advance-in-vivo-CAR-T-Programs-and-Transform-Autoimmune-Disease-Through-Immune-Reset/default.aspx",
+        "date": "2026-07-29",
+        "Upfront_parsed": {
+          "raw": "$785M",
+          "currency": "USD",
+          "musd": 785.0,
+          "musd_native": 785.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$3.575B",
+          "currency": "USD",
+          "musd": 3575.0,
+          "musd_native": 3575.0
+        },
+        "value_musd": 3575.0,
+        "investors": []
+      },
       {
         "Date": "2026-07-27",
         "Buyer": "Argenx",
@@ -901,6 +981,63 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-07-29",
+        "Company": "Qureight",
+        "Round": "Series B",
+        "Amount": "$20M",
+        "Modality": "Imaging platform",
+        "Lead indication(s)": "Heart & lung disease",
+        "Lead 1": "Molten Ventures",
+        "Lead 2": null,
+        "Investor 3": "Hargreave Hale AIM VCT",
+        "Investor 4": "XTX Ventures",
+        "Investor 5": "Guiness Ventures",
+        "Investor 6": "Meltwind",
+        "Investor 7": "Ascension",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/ateas-hep-c-pill-equal-to-gileads-abcellera-inks-second-deal-in-two-months/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-46c17920-329bee79&utm_medium=email&utm_campaign=2500%20-%20Reverse%20merger%20mania%20continues%20Enterprise&utm_content=2500%20-%20Reverse%20merger%20mania%20continues%20Enterprise+CID_fc0d460b0ee2228d0b19e149708e7e36&utm_source=ENDPOINTS%20emails&utm_term=Ateas%20hep%20C%20pill%20equal%20to%20Gileads%20AbCellera%20inks%20second%20deal%20in%20two%20months",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/ateas-hep-c-pill-equal-to-gileads-abcellera-inks-second-deal-in-two-months/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-46c17920-329bee79&utm_medium=email&utm_campaign=2500%20-%20Reverse%20merger%20mania%20continues%20Enterprise&utm_content=2500%20-%20Reverse%20merger%20mania%20continues%20Enterprise+CID_fc0d460b0ee2228d0b19e149708e7e36&utm_source=ENDPOINTS%20emails&utm_term=Ateas%20hep%20C%20pill%20equal%20to%20Gileads%20AbCellera%20inks%20second%20deal%20in%20two%20months",
+        "date": "2026-07-29",
+        "Amount_parsed": {
+          "raw": "$20M",
+          "currency": "USD",
+          "musd": 20.0,
+          "musd_native": 20.0
+        },
+        "value_musd": 20.0,
+        "investors": [
+          {
+            "name": "Molten Ventures",
+            "lead": true
+          },
+          {
+            "name": "Hargreave Hale AIM VCT",
+            "lead": false
+          },
+          {
+            "name": "XTX Ventures",
+            "lead": false
+          },
+          {
+            "name": "Guiness Ventures",
+            "lead": false
+          },
+          {
+            "name": "Meltwind",
+            "lead": false
+          },
+          {
+            "name": "Ascension",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-07-28",
         "Company": "Claris Bio",
@@ -2014,8 +2151,8 @@
         "Listing date": "2026-07-15",
         "IPO date": null,
         "Company": "Braveheart Bio",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$16 / share",
+        "Target raise": "$275M",
         "Amount": null,
         "Modality": "Small molecule",
         "Lead indication": "Obstructive hypertrophic cardiomyopathy",
@@ -2028,7 +2165,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/braveheart-files-for-ipo-to-fund-phase-3-of-hengruis-cytokinetics-rival/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20files%20for%20IPO%20to%20fund%20Phase%203%20of%20Hengruis%20Cytokinetics%20rival",
-        "Target source": null,
+        "Target source": "https://endpoints.news/pfizers-phase-3-win-for-litfulo-braveheart-attovia-eye-ipos-of-275m-182m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-17d5108c-638f87d5&utm_medium=email&utm_campaign=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise&utm_content=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise+CID_7348845e5b87a2d932232a6d2d396528&utm_source=ENDPOINTS%20emails&utm_term=Pfizers%20Phase%203%20win%20for%20Litfulo%20Braveheart%20Attovia%20eye%20IPOs%20of%20275M%20182M",
         "IPO source": null,
         "category": "IPO",
         "side": "raise",
@@ -2059,8 +2196,8 @@
         "Listing date": null,
         "IPO date": null,
         "Company": "Attovia",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$16 / share",
+        "Target raise": "$182M",
         "Amount": null,
         "Modality": "Monoclonal antibody",
         "Lead indication": "Chronic pruritis",
@@ -2073,7 +2210,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/ii-startup-attovia-files-to-go-public-as-biotech-listings-momentum-builds/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-37a4abd9-43fe3c80&utm_medium=email&utm_campaign=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise&utm_content=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise+CID_38c87d35ddb7da8c2e559543093b824c&utm_source=ENDPOINTS%20emails&utm_term=II%20startup%20Attovia%20files%20to%20go%20public%20as%20biotech%20listings%20momentum%20builds",
-        "Target source": null,
+        "Target source": "https://endpoints.news/pfizers-phase-3-win-for-litfulo-braveheart-attovia-eye-ipos-of-275m-182m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-17d5108c-638f87d5&utm_medium=email&utm_campaign=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise&utm_content=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise+CID_7348845e5b87a2d932232a6d2d396528&utm_source=ENDPOINTS%20emails&utm_term=Pfizers%20Phase%203%20win%20for%20Litfulo%20Braveheart%20Attovia%20eye%20IPOs%20of%20275M%20182M",
         "IPO source": null,
         "category": "IPO",
         "side": "raise",
@@ -2216,6 +2353,142 @@
     ],
     "Reverse mergers": [
       {
+        "Date": "2026-07-29",
+        "Company": "Caldera Therapeutics",
+        "Target": "Synlogic",
+        "Target residual ownership": "2.30%",
+        "Private placement": "$278M",
+        "Modality": "Bispecific antibody",
+        "Lead indication": "Inflammatory bowel disease",
+        "Investor 1": "Bain Capital Life Sciences",
+        "Investor 2": "TCGX",
+        "Investor 3": "Atlas Venture",
+        "Investor 4": "venBio Partners",
+        "Investor 5": "Omega Funds",
+        "Investor 6": "Blackstone Multi-Asset Investing",
+        "Investor 7": "LAV",
+        "Investor 8": "Wellington Management",
+        "Investor 9": "Janus Henderson",
+        "Investor 10": "Sirenia Capital Management",
+        "Investor 11": "Vivo Capital",
+        "Investor 12": "Others (not disclosed)",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260729485031/en/Synlogic-and-Caldera-Therapeutics-Announce-Merger-Agreement-and-Concurrent-Private-Placement",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260729485031/en/Synlogic-and-Caldera-Therapeutics-Announce-Merger-Agreement-and-Concurrent-Private-Placement",
+        "date": "2026-07-29",
+        "Private placement_parsed": {
+          "raw": "$278M",
+          "currency": "USD",
+          "musd": 278.0,
+          "musd_native": 278.0
+        },
+        "value_musd": 278.0,
+        "investors": [
+          {
+            "name": "Bain Capital Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "TCGX",
+            "lead": false
+          },
+          {
+            "name": "Atlas Venture",
+            "lead": false
+          },
+          {
+            "name": "venBio Partners",
+            "lead": false
+          },
+          {
+            "name": "Omega Funds",
+            "lead": false
+          },
+          {
+            "name": "Blackstone Multi-Asset Investing",
+            "lead": false
+          },
+          {
+            "name": "LAV",
+            "lead": false
+          },
+          {
+            "name": "Wellington Management",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-07-29",
+        "Company": "Vidya Therapeutics",
+        "Target": "Processa Pharmaceuticals",
+        "Target residual ownership": "0.90%",
+        "Private placement": "$200M",
+        "Modality": "Small molecule",
+        "Lead indication": "Food allergy",
+        "Investor 1": "Bain Capital Life Sciences",
+        "Investor 2": "Janus Henderson",
+        "Investor 3": "RA Capital Management",
+        "Investor 4": "SilverArc Capital",
+        "Investor 5": "ADAR1 Capital Management",
+        "Investor 6": "Cormorant Asset Management",
+        "Investor 7": "Integral Health Asset Management",
+        "Investor 8": "Marshall Wace",
+        "Investor 9": "Octagon Capital",
+        "Investor 10": "Soleus Capital",
+        "Investor 11": "Others (not disclosed)",
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/07/29/3335130/0/en/processa-pharmaceuticals-inc-announces-acquisition-of-vidya-therapeutics-inc-and-approximately-200-million-concurrent-private-placement-to-advance-btk-inhibitor-vt-7208-in-multiple.html",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/07/29/3335130/0/en/processa-pharmaceuticals-inc-announces-acquisition-of-vidya-therapeutics-inc-and-approximately-200-million-concurrent-private-placement-to-advance-btk-inhibitor-vt-7208-in-multiple.html",
+        "date": "2026-07-29",
+        "Private placement_parsed": {
+          "raw": "$200M",
+          "currency": "USD",
+          "musd": 200.0,
+          "musd_native": 200.0
+        },
+        "value_musd": 200.0,
+        "investors": [
+          {
+            "name": "Bain Capital Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "RA Capital Management",
+            "lead": false
+          },
+          {
+            "name": "SilverArc Capital",
+            "lead": false
+          },
+          {
+            "name": "ADAR1 Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Cormorant Asset Management",
+            "lead": false
+          },
+          {
+            "name": "Integral Health Asset Management",
+            "lead": false
+          },
+          {
+            "name": "Marshall Wace",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-07-27",
         "Company": "Yarrow Bioscience",
         "Target": "VYNE Therapeutics Inc",
@@ -2231,6 +2504,10 @@
         "Investor 6": "LifeSci Venture Partners",
         "Investor 7": "Perceptive Advisors",
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://ir.yarrowbioscience.com/news-releases/news-release-details/yarrow-bioscience-announces-closing-merger-vyne-therapeutics-and",
         "category": "Reverse mergers",
@@ -2291,6 +2568,10 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://www.globenewswire.com/news-release/2026/07/23/3331958/0/en/scancell-and-neuphoria-therapeutics-announce-merger-agreement-and-financing.html",
         "category": "Reverse mergers",
@@ -2322,6 +2603,10 @@
         "Investor 6": "Balyasny Asset Management",
         "Investor 7": "SilverArc Capital",
         "Investor 8": "Others",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://www.globenewswire.com/news-release/2026/07/16/3328849/0/en/jasper-therapeutics-announces-merger-with-kira-pharmaceuticals.html",
         "category": "Reverse mergers",
@@ -2382,6 +2667,10 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://endpoints.news/former-akero-team-announces-new-ii-company-avere-with-china-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-817e297e-f524be27&utm_medium=email&utm_campaign=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise&utm_content=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise+CID_018b3a9cb21a4efdab44790a6a52945c&utm_source=ENDPOINTS%20emails&utm_term=After%2047B%20sale%20to%20Novo%20Nordisk%20former%20Akero%20team%20announces%20new%20II%20company%20with%20China%20drug",
         "category": "Reverse mergers",
@@ -2413,6 +2702,10 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://www.sciphermedicine.com/chemomab-therapeutics-and-precision-medicine-pioneer-scipher-medicine-announce/",
         "category": "Reverse mergers",
@@ -2461,6 +2754,10 @@
         "Investor 6": "Others (not disclosed)",
         "Investor 7": null,
         "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
         "Source": "Link",
         "URL": "https://endpoints.news/remix-does-reverse-merger-with-passage-bio-for-mrna-degrader/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f6bb95f4-82e102ad&utm_medium=email&utm_campaign=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise&utm_content=2477%20-%20Papers%20retraction%20could%20add%20fuel%20to%20China%20hawks%20Enterprise+CID_4ae50735e1f33f4ae5f354603c0e7e4d&utm_source=ENDPOINTS%20emails&utm_term=Remix%20to%20take%20Nasdaq%20spot%20of%20Passage%20Bio%20in%20reverse%20merger%20for%20mRNA%20degrader",
         "category": "Reverse mergers",
@@ -2548,6 +2845,54 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "Molten Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "Hargreave Hale AIM VCT",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "XTX Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "Guiness Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "Meltwind",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-07-29",
+      "company": "Qureight",
+      "value_musd": 20.0,
+      "name": "Ascension",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-07-28",
@@ -3314,6 +3659,134 @@
       "company": "Apnimed",
       "value_musd": null,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "Bain Capital Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "TCGX",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "Atlas Venture",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "venBio Partners",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "Omega Funds",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "Blackstone Multi-Asset Investing",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "LAV",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Caldera Therapeutics",
+      "value_musd": 278.0,
+      "name": "Wellington Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "Bain Capital Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "RA Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "SilverArc Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "ADAR1 Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "Cormorant Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "Integral Health Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-07-29",
+      "company": "Vidya Therapeutics",
+      "value_musd": 200.0,
+      "name": "Marshall Wace",
       "lead": false
     },
     {

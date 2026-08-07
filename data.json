@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T04:13:30+00:00",
+  "generated": "2026-08-07T03:50:00+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-08-06",
+        "Buyer": "Tarsus Pharmaceuticals",
+        "Seller": "Alkeus Pharmaceuticals",
+        "Structure": "Acquisition",
+        "Upfront": "$450M",
+        "Total Deal Value": "$800M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Stargardt disease",
+        "Source": "Link",
+        "URL": "https://endpoints.news/tarsus-bets-450m-on-alkeus-stargardt-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-657cfde9-11266ab0&utm_medium=email&utm_campaign=2506%20-%20A%20clue%20to%20Intellias%20gene%20editing%20safety%20woes%20Enterprise&utm_content=2506%20-%20A%20clue%20to%20Intellias%20gene%20editing%20safety%20woes%20Enterprise+CID_80d6735ec6e641f52133b2445daece8b&utm_source=ENDPOINTS%20emails&utm_term=Tarsus%20bets%20450M%20on%20Alkeus%20Stargardt%20drug",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/tarsus-bets-450m-on-alkeus-stargardt-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-657cfde9-11266ab0&utm_medium=email&utm_campaign=2506%20-%20A%20clue%20to%20Intellias%20gene%20editing%20safety%20woes%20Enterprise&utm_content=2506%20-%20A%20clue%20to%20Intellias%20gene%20editing%20safety%20woes%20Enterprise+CID_80d6735ec6e641f52133b2445daece8b&utm_source=ENDPOINTS%20emails&utm_term=Tarsus%20bets%20450M%20on%20Alkeus%20Stargardt%20drug",
+        "date": "2026-08-06",
+        "Upfront_parsed": {
+          "raw": "$450M",
+          "currency": "USD",
+          "musd": 450.0,
+          "musd_native": 450.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$800M",
+          "currency": "USD",
+          "musd": 800.0,
+          "musd_native": 800.0
+        },
+        "value_musd": 800.0,
+        "investors": []
+      },
       {
         "Date": "2026-08-03",
         "Buyer": "Pathos AI",
@@ -1101,6 +1131,132 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-08-06",
+        "Company": "LifeMine Therapeutics",
+        "Round": "Series E",
+        "Amount": "$188M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Transplant immunosuppression",
+        "Lead 1": "Milky Way Investments",
+        "Lead 2": null,
+        "Investor 3": "Bezos Expeditions",
+        "Investor 4": "Gates Frontier",
+        "Investor 5": "RA Capital",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/greg-verdines-lifemine-raises-263m-for-safer-immunosuppressant/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Greg%20Verdines%20LifeMine%20raises%20263M%20for%20safer%20immunosuppressant",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/greg-verdines-lifemine-raises-263m-for-safer-immunosuppressant/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Greg%20Verdines%20LifeMine%20raises%20263M%20for%20safer%20immunosuppressant",
+        "date": "2026-08-06",
+        "Amount_parsed": {
+          "raw": "$188M",
+          "currency": "USD",
+          "musd": 188.0,
+          "musd_native": 188.0
+        },
+        "value_musd": 188.0,
+        "investors": [
+          {
+            "name": "Milky Way Investments",
+            "lead": true
+          },
+          {
+            "name": "Bezos Expeditions",
+            "lead": false
+          },
+          {
+            "name": "Gates Frontier",
+            "lead": false
+          },
+          {
+            "name": "RA Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-06",
+        "Company": "LifeMine Therapeutics",
+        "Round": "Series D",
+        "Amount": "$75M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Transplant immunosuppression",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/greg-verdines-lifemine-raises-263m-for-safer-immunosuppressant/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Greg%20Verdines%20LifeMine%20raises%20263M%20for%20safer%20immunosuppressant",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/greg-verdines-lifemine-raises-263m-for-safer-immunosuppressant/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Greg%20Verdines%20LifeMine%20raises%20263M%20for%20safer%20immunosuppressant",
+        "date": "2026-08-06",
+        "Amount_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "value_musd": 75.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-06",
+        "Company": "Vedanta Biosciences",
+        "Round": null,
+        "Amount": "$60M",
+        "Modality": "Microbiome",
+        "Lead indication(s)": "C. diff",
+        "Lead 1": "AMR Action Fund",
+        "Lead 2": "BNP Paribas Asset Management Alts",
+        "Investor 3": "BARDA",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/vedanta-gets-60m-to-finish-phase-3-for-c-diff-microbiome-therapy/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Vedanta%20gets%2060M%20to%20finish%20Phase%203%20for%20C%20diff%20microbiome%20therapy",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/vedanta-gets-60m-to-finish-phase-3-for-c-diff-microbiome-therapy/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Vedanta%20gets%2060M%20to%20finish%20Phase%203%20for%20C%20diff%20microbiome%20therapy",
+        "date": "2026-08-06",
+        "Amount_parsed": {
+          "raw": "$60M",
+          "currency": "USD",
+          "musd": 60.0,
+          "musd_native": 60.0
+        },
+        "value_musd": 60.0,
+        "investors": [
+          {
+            "name": "AMR Action Fund",
+            "lead": true
+          },
+          {
+            "name": "BNP Paribas Asset Management Alts",
+            "lead": true
+          },
+          {
+            "name": "BARDA",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-08-05",
         "Company": "Mironid",
@@ -2508,11 +2664,11 @@
       },
       {
         "Listing date": "2026-07-15",
-        "IPO date": null,
+        "IPO date": "2026-08-06",
         "Company": "Braveheart Bio",
         "Target price": "$16 / share",
         "Target raise": "$275M",
-        "Amount": null,
+        "Amount": "$383M",
         "Modality": "Small molecule",
         "Lead indication": "Obstructive hypertrophic cardiomyopathy",
         "Investor 1": "Forbion",
@@ -2525,13 +2681,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/braveheart-files-for-ipo-to-fund-phase-3-of-hengruis-cytokinetics-rival/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20files%20for%20IPO%20to%20fund%20Phase%203%20of%20Hengruis%20Cytokinetics%20rival",
         "Target source": "https://endpoints.news/pfizers-phase-3-win-for-litfulo-braveheart-attovia-eye-ipos-of-275m-182m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-17d5108c-638f87d5&utm_medium=email&utm_campaign=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise&utm_content=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise+CID_7348845e5b87a2d932232a6d2d396528&utm_source=ENDPOINTS%20emails&utm_term=Pfizers%20Phase%203%20win%20for%20Litfulo%20Braveheart%20Attovia%20eye%20IPOs%20of%20275M%20182M",
-        "IPO source": null,
+        "IPO source": "https://endpoints.news/braveheart-lands-383m-ipo-to-take-hengrui-cardio-drug-into-phase-3/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20lands%20383M%20IPO%20to%20take%20Hengrui%20cardio%20drug%20into%20Phase%203",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-07-15",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$383M",
+          "currency": "USD",
+          "musd": 383.0,
+          "musd_native": 383.0
+        },
+        "value_musd": 383.0,
         "investors": [
           {
             "name": "Forbion",
@@ -3219,6 +3380,62 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "LifeMine Therapeutics",
+      "value_musd": 188.0,
+      "name": "Milky Way Investments",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "LifeMine Therapeutics",
+      "value_musd": 188.0,
+      "name": "Bezos Expeditions",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "LifeMine Therapeutics",
+      "value_musd": 188.0,
+      "name": "Gates Frontier",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "LifeMine Therapeutics",
+      "value_musd": 188.0,
+      "name": "RA Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "Vedanta Biosciences",
+      "value_musd": 60.0,
+      "name": "AMR Action Fund",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "Vedanta Biosciences",
+      "value_musd": 60.0,
+      "name": "BNP Paribas Asset Management Alts",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-06",
+      "company": "Vedanta Biosciences",
+      "value_musd": 60.0,
+      "name": "BARDA",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-08-05",
@@ -4023,7 +4240,7 @@
       "category": "IPO",
       "date": "2026-07-15",
       "company": "Braveheart Bio",
-      "value_musd": null,
+      "value_musd": 383.0,
       "name": "Forbion",
       "lead": true
     },
@@ -4031,7 +4248,7 @@
       "category": "IPO",
       "date": "2026-07-15",
       "company": "Braveheart Bio",
-      "value_musd": null,
+      "value_musd": 383.0,
       "name": "OrbiMed",
       "lead": false
     },
@@ -4039,7 +4256,7 @@
       "category": "IPO",
       "date": "2026-07-15",
       "company": "Braveheart Bio",
-      "value_musd": null,
+      "value_musd": 383.0,
       "name": "a16z",
       "lead": false
     },
@@ -4047,7 +4264,7 @@
       "category": "IPO",
       "date": "2026-07-15",
       "company": "Braveheart Bio",
-      "value_musd": null,
+      "value_musd": 383.0,
       "name": "Hengrui",
       "lead": false
     },

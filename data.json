@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T03:50:00+00:00",
+  "generated": "2026-08-08T02:54:25+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -2541,11 +2541,11 @@
       },
       {
         "Listing date": "2026-07-17",
-        "IPO date": null,
+        "IPO date": "2026-08-07",
         "Company": "Latigo Biotherapeutics",
         "Target price": "$17 / share",
         "Target raise": "$247M",
-        "Amount": null,
+        "Amount": "$346M",
         "Modality": "Small molecule",
         "Lead indication": "Acute pain",
         "Investor 1": "WestLake Biopartners",
@@ -2558,13 +2558,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-010c3127-7556a67e&utm_medium=email&utm_campaign=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise&utm_content=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise+CID_bc31b1bd363ad7e4cda26ce273ab5238&utm_source=ENDPOINTS%20emails&utm_term=Updated%20BlossomHill%20and%20Latigo%20join%20flourishing%20IPO%20queue%20with%20cancer%20pain%20drugs",
         "Target source": "https://endpoints.news/curium-buys-radiopharma-rival-lantheus-for-8b-sandoz-settles-price-fixing-case/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3a11282d-4e4bbf74&utm_medium=email&utm_campaign=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise&utm_content=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise+CID_b365945e6bfb7d776ea6cf1725537b78&utm_source=ENDPOINTS%20emails&utm_term=Curium%20buys%20Lantheus%20for%208B%20Sandoz%20settles%20price-fixing%20cases",
-        "IPO source": null,
+        "IPO source": "https://endpoints.news/blossomhill-latigo-cap-four-ipo-week-with-combined-496m-haul/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d72f9e30-a3750969&utm_medium=email&utm_campaign=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise&utm_content=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise+CID_695ccd6726ac6c4add8e9ba9b1ca74fd&utm_source=ENDPOINTS%20emails&utm_term=BlossomHill%20Latigo%20cap%20four-IPO%20week%20with%20combined%20496M%20haul",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-07-17",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$346M",
+          "currency": "USD",
+          "musd": 346.0,
+          "musd_native": 346.0
+        },
+        "value_musd": 346.0,
         "investors": [
           {
             "name": "WestLake Biopartners",
@@ -2586,11 +2591,11 @@
       },
       {
         "Listing date": "2026-07-17",
-        "IPO date": null,
+        "IPO date": "2026-08-07",
         "Company": "BlossomHill Therapeutics",
         "Target price": "$16 / share",
         "Target raise": "$111M",
-        "Amount": null,
+        "Amount": "$150M",
         "Modality": "Small molecule",
         "Lead indication": "NSCLC",
         "Investor 1": "Cormorant Asset Management",
@@ -2603,13 +2608,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b611f023-c24b677a&utm_medium=email&utm_campaign=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise&utm_content=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise+CID_c13b17e553fe8443290a006a883c2289&utm_source=ENDPOINTS%20emails&utm_term=Tagrisso-chasing%20BlossomHill%20enters%20Nasdaq%20queue%20as%20biotech%20IPOs%20flourish",
         "Target source": "https://endpoints.news/curium-buys-radiopharma-rival-lantheus-for-8b-sandoz-settles-price-fixing-case/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3a11282d-4e4bbf74&utm_medium=email&utm_campaign=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise&utm_content=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise+CID_b365945e6bfb7d776ea6cf1725537b78&utm_source=ENDPOINTS%20emails&utm_term=Curium%20buys%20Lantheus%20for%208B%20Sandoz%20settles%20price-fixing%20cases",
-        "IPO source": null,
+        "IPO source": "https://endpoints.news/blossomhill-latigo-cap-four-ipo-week-with-combined-496m-haul/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d72f9e30-a3750969&utm_medium=email&utm_campaign=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise&utm_content=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise+CID_695ccd6726ac6c4add8e9ba9b1ca74fd&utm_source=ENDPOINTS%20emails&utm_term=BlossomHill%20Latigo%20cap%20four-IPO%20week%20with%20combined%20496M%20haul",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-07-17",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$150M",
+          "currency": "USD",
+          "musd": 150.0,
+          "musd_native": 150.0
+        },
+        "value_musd": 150.0,
         "investors": [
           {
             "name": "Cormorant Asset Management",
@@ -4168,7 +4178,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 346.0,
       "name": "WestLake Biopartners",
       "lead": true
     },
@@ -4176,7 +4186,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 346.0,
       "name": "Foresite Capital",
       "lead": false
     },
@@ -4184,7 +4194,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 346.0,
       "name": "5AM Ventures",
       "lead": false
     },
@@ -4192,7 +4202,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
-      "value_musd": null,
+      "value_musd": 346.0,
       "name": "Blue Owl Healthcare",
       "lead": false
     },
@@ -4200,7 +4210,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "BlossomHill Therapeutics",
-      "value_musd": null,
+      "value_musd": 150.0,
       "name": "Cormorant Asset Management",
       "lead": true
     },
@@ -4208,7 +4218,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "BlossomHill Therapeutics",
-      "value_musd": null,
+      "value_musd": 150.0,
       "name": "OrbiMed",
       "lead": false
     },
@@ -4216,7 +4226,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "BlossomHill Therapeutics",
-      "value_musd": null,
+      "value_musd": 150.0,
       "name": "Vivo Capital",
       "lead": false
     },
@@ -4224,7 +4234,7 @@
       "category": "IPO",
       "date": "2026-07-17",
       "company": "BlossomHill Therapeutics",
-      "value_musd": null,
+      "value_musd": 150.0,
       "name": "Janus Henderson",
       "lead": false
     },

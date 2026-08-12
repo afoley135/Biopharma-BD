@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T03:04:36+00:00",
+  "generated": "2026-08-12T03:23:37+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -715,6 +715,37 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-08-11",
+        "Buyer": "Sentynl Therapeutics",
+        "Seller": "Mereo Biopharma",
+        "Structure": "Licensing",
+        "Scope": "US rights",
+        "Upfront": "$40M",
+        "Total Deal Value": "$475M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "AATD-LD",
+        "Source": "Link",
+        "URL": "https://www.mereobiopharma.com/news/option-and-license-agreement/",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.mereobiopharma.com/news/option-and-license-agreement/",
+        "date": "2026-08-11",
+        "Upfront_parsed": {
+          "raw": "$40M",
+          "currency": "USD",
+          "musd": 40.0,
+          "musd_native": 40.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$475M",
+          "currency": "USD",
+          "musd": 475.0,
+          "musd_native": 475.0
+        },
+        "value_musd": 475.0,
+        "investors": []
+      },
+      {
         "Date": "2026-08-03",
         "Buyer": "Pathos AI",
         "Seller": "Alphamab Oncology",
@@ -1131,6 +1162,222 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-08-11",
+        "Company": "Epicrispr Biotechnologies",
+        "Round": "Series C",
+        "Amount": "$90M",
+        "Modality": "Epigenetic editing",
+        "Lead indication(s)": "FSHD",
+        "Lead 1": "Octagon Capital",
+        "Lead 2": "Janus Henderson Investors",
+        "Investor 3": "Fidelity Ventures",
+        "Investor 4": "Sanofi Ventures",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/epicrispr-secures-90m-after-early-data-on-epigenetic-fshd-treatment/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Epicrispr%20secures%2090M%20after%20early%20data%20on%20epigenetic%20FSHD%20treatment",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/epicrispr-secures-90m-after-early-data-on-epigenetic-fshd-treatment/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Epicrispr%20secures%2090M%20after%20early%20data%20on%20epigenetic%20FSHD%20treatment",
+        "date": "2026-08-11",
+        "Amount_parsed": {
+          "raw": "$90M",
+          "currency": "USD",
+          "musd": 90.0,
+          "musd_native": 90.0
+        },
+        "value_musd": 90.0,
+        "investors": [
+          {
+            "name": "Octagon Capital",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson Investors",
+            "lead": true
+          },
+          {
+            "name": "Fidelity Ventures",
+            "lead": false
+          },
+          {
+            "name": "Sanofi Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-11",
+        "Company": "Prana Therapies",
+        "Round": null,
+        "Amount": "$40M",
+        "Modality": "Decoy receptor",
+        "Lead indication(s)": "COPD",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "date": "2026-08-11",
+        "Amount_parsed": {
+          "raw": "$40M",
+          "currency": "USD",
+          "musd": 40.0,
+          "musd_native": 40.0
+        },
+        "value_musd": 40.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-11",
+        "Company": "Aureka Biotechnologies",
+        "Round": "Series B",
+        "Amount": "$100M",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": null,
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Granite Asia",
+        "Investor 4": "HighLight Capital",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "date": "2026-08-11",
+        "Amount_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": [
+          {
+            "name": "Granite Asia",
+            "lead": false
+          },
+          {
+            "name": "HighLight Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-11",
+        "Company": "Infinimmune",
+        "Round": "Series A",
+        "Amount": "$75M",
+        "Modality": "Monoclonal antibodies",
+        "Lead indication(s)": "Atopic dermatitis",
+        "Lead 1": "Regeneron Ventures",
+        "Lead 2": "Playground Global",
+        "Investor 3": "RA Capital Management",
+        "Investor 4": "Goldcrest Capital",
+        "Investor 5": "Merck Global Health Innovation Fund",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/lilly-paid-2b-upfront-for-vaccine-biotechs-infinimmune-raises-75m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20paid%202B%20upfront%20for%20vaccine%20biotechs%20Infinimmune%20raises%2075M",
+        "date": "2026-08-11",
+        "Amount_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "value_musd": 75.0,
+        "investors": [
+          {
+            "name": "Regeneron Ventures",
+            "lead": true
+          },
+          {
+            "name": "Playground Global",
+            "lead": true
+          },
+          {
+            "name": "RA Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Goldcrest Capital",
+            "lead": false
+          },
+          {
+            "name": "Merck Global Health Innovation Fund",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-11",
+        "Company": "Vaderis Therapeutics",
+        "Round": "Series B",
+        "Amount": "$152M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Hereditary hemorrhagic telangiectasia (HHT)",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Goldman Sachs Alternatives",
+        "Investor 4": "TCGX",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/vaderis-gets-152m-to-run-phase-3-of-rare-bleeding-disorder-treatment/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Vaderis%20gets%20152M%20to%20run%20Phase%203%20of%20rare%20bleeding%20disorder%20treatment",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/vaderis-gets-152m-to-run-phase-3-of-rare-bleeding-disorder-treatment/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6a690479-1e339320&utm_medium=email&utm_campaign=2509%20-%20Life%20after%20Legend%20Enterprise&utm_content=2509%20-%20Life%20after%20Legend%20Enterprise+CID_1ea1b66a3527eed1fb20e46dc100dd86&utm_source=ENDPOINTS%20emails&utm_term=Vaderis%20gets%20152M%20to%20run%20Phase%203%20of%20rare%20bleeding%20disorder%20treatment",
+        "date": "2026-08-11",
+        "Amount_parsed": {
+          "raw": "$152M",
+          "currency": "USD",
+          "musd": 152.0,
+          "musd_native": 152.0
+        },
+        "value_musd": 152.0,
+        "investors": [
+          {
+            "name": "Goldman Sachs Alternatives",
+            "lead": false
+          },
+          {
+            "name": "TCGX",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-08-06",
         "Company": "LifeMine Therapeutics",
@@ -3390,6 +3637,110 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Epicrispr Biotechnologies",
+      "value_musd": 90.0,
+      "name": "Octagon Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Epicrispr Biotechnologies",
+      "value_musd": 90.0,
+      "name": "Janus Henderson Investors",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Epicrispr Biotechnologies",
+      "value_musd": 90.0,
+      "name": "Fidelity Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Epicrispr Biotechnologies",
+      "value_musd": 90.0,
+      "name": "Sanofi Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Aureka Biotechnologies",
+      "value_musd": 100.0,
+      "name": "Granite Asia",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Aureka Biotechnologies",
+      "value_musd": 100.0,
+      "name": "HighLight Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Infinimmune",
+      "value_musd": 75.0,
+      "name": "Regeneron Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Infinimmune",
+      "value_musd": 75.0,
+      "name": "Playground Global",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Infinimmune",
+      "value_musd": 75.0,
+      "name": "RA Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Infinimmune",
+      "value_musd": 75.0,
+      "name": "Goldcrest Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Infinimmune",
+      "value_musd": 75.0,
+      "name": "Merck Global Health Innovation Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Vaderis Therapeutics",
+      "value_musd": 152.0,
+      "name": "Goldman Sachs Alternatives",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-11",
+      "company": "Vaderis Therapeutics",
+      "value_musd": 152.0,
+      "name": "TCGX",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-08-06",

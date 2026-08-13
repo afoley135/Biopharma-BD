@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T03:23:37+00:00",
+  "generated": "2026-08-13T03:27:01+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-08-10",
+        "Buyer": "Jazz Pharmaceutials",
+        "Seller": "Actio Biosciences",
+        "Structure": "Acquisition",
+        "Upfront": "$820M",
+        "Total Deal Value": "$1.32B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Epilepsy",
+        "Source": "Link",
+        "URL": "https://endpoints.news/jazz-bets-on-epilepsy-again-by-acquiring-actio-for-820m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=Jazz%20bets%20on%20epilepsy%20again%20by%20acquiring%20Actio%20for%20820M%20upfront",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/jazz-bets-on-epilepsy-again-by-acquiring-actio-for-820m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=Jazz%20bets%20on%20epilepsy%20again%20by%20acquiring%20Actio%20for%20820M%20upfront",
+        "date": "2026-08-10",
+        "Upfront_parsed": {
+          "raw": "$820M",
+          "currency": "USD",
+          "musd": 820.0,
+          "musd_native": 820.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.32B",
+          "currency": "USD",
+          "musd": 1320.0,
+          "musd_native": 1320.0
+        },
+        "value_musd": 1320.0,
+        "investors": []
+      },
       {
         "Date": "2026-08-06",
         "Buyer": "Tarsus Pharmaceuticals",
@@ -746,6 +776,110 @@
         "investors": []
       },
       {
+        "Date": "2026-08-10",
+        "Buyer": "Innovent Biologics",
+        "Seller": "Daiichi Sankyo",
+        "Structure": "Licensing",
+        "Scope": "China rights",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Acute myeloid leukemia",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/innovent-biologics-and-daiichi-sankyo-enter-exclusive-agreement-for-vanflyta-commercialization-in-china-302846648.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/innovent-biologics-and-daiichi-sankyo-enter-exclusive-agreement-for-vanflyta-commercialization-in-china-302846648.html",
+        "date": "2026-08-10",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-10",
+        "Buyer": "Oculis",
+        "Seller": "Accure Therapeutics",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$3.8M",
+        "Total Deal Value": "$3.8M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Optic neuritis",
+        "Source": "Link",
+        "URL": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "date": "2026-08-10",
+        "Upfront_parsed": {
+          "raw": "$3.8M",
+          "currency": "USD",
+          "musd": 3.8,
+          "musd_native": 3.8
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$3.8M",
+          "currency": "USD",
+          "musd": 3.8,
+          "musd_native": 3.8
+        },
+        "value_musd": 3.8,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-10",
+        "Buyer": "Sobi",
+        "Seller": "Innate Pharma",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$75M",
+        "Total Deal Value": "$580M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Cutaneous T-cell lymphoma",
+        "Source": "Link",
+        "URL": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "date": "2026-08-10",
+        "Upfront_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$580M",
+          "currency": "USD",
+          "musd": 580.0,
+          "musd_native": 580.0
+        },
+        "value_musd": 580.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-10",
+        "Buyer": "BeOne",
+        "Seller": "Revolution Medicines",
+        "Structure": "Licensing",
+        "Scope": "Select Asian markets",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Pancreatic cancer",
+        "Source": "Link",
+        "URL": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-e3be9e49-97e40910&utm_medium=email&utm_campaign=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise&utm_content=2508%20-%20Sionna%20plummets%20after%20surprise%20CF%20trial%20failure%20Enterprise+CID_16fee147c7a021acf2cdf6008b54b93b&utm_source=ENDPOINTS%20emails&utm_term=RevMed%20BeOne%20make%20clinical%20trial%20Asia%20deal%20MoonLake%20reports%20Phase%203%20win",
+        "date": "2026-08-10",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
         "Date": "2026-08-03",
         "Buyer": "Pathos AI",
         "Seller": "Alphamab Oncology",
@@ -1163,6 +1297,104 @@
     ],
     "Fundraises": [
       {
+        "Date": "2026-08-12",
+        "Company": "InduPro Therapeutics",
+        "Round": "Series B",
+        "Amount": "$77M",
+        "Modality": "Bispecific antibody",
+        "Lead indication(s)": "Lung cancer",
+        "Lead 1": "The Column Group",
+        "Lead 2": null,
+        "Investor 3": "Vida Ventures",
+        "Investor 4": "MRL Ventures Fund (Merck)",
+        "Investor 5": "Emerson Collective",
+        "Investor 6": "Euclidean Capital",
+        "Investor 7": "Solasta Ventures",
+        "Investor 8": "Sanofi",
+        "Investor 9": "Lilly",
+        "Investor 10": null,
+        "Source": null,
+        "URL": null,
+        "category": "Fundraises",
+        "side": "raise",
+        "url": null,
+        "date": "2026-08-12",
+        "Amount_parsed": {
+          "raw": "$77M",
+          "currency": "USD",
+          "musd": 77.0,
+          "musd_native": 77.0
+        },
+        "value_musd": 77.0,
+        "investors": [
+          {
+            "name": "The Column Group",
+            "lead": true
+          },
+          {
+            "name": "Vida Ventures",
+            "lead": false
+          },
+          {
+            "name": "MRL Ventures Fund (Merck)",
+            "lead": false
+          },
+          {
+            "name": "Emerson Collective",
+            "lead": false
+          },
+          {
+            "name": "Euclidean Capital",
+            "lead": false
+          },
+          {
+            "name": "Solasta Ventures",
+            "lead": false
+          },
+          {
+            "name": "Sanofi",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-12",
+        "Company": "Boulevard Bio",
+        "Round": "Seed",
+        "Amount": "$65M",
+        "Modality": "Multispecific antibodies",
+        "Lead indication(s)": "Autoimmmune",
+        "Lead 1": "Deerfield Management",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/boulevard-bio-dreams-big-in-immunology-with-65m-sights-on-veras-igan-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2f8f3d2a-5bd5aa73&utm_medium=email&utm_campaign=1217%20-%20Another%20win%20for%20Definiums%20oral%20LSD%20Enterprise&utm_content=1217%20-%20Another%20win%20for%20Definiums%20oral%20LSD%20Enterprise+CID_74e88300512b862c804693c57aec68b7&utm_source=ENDPOINTS%20emails&utm_term=Boulevard%20Bio%20dreams%20big%20in%20immunology%20with%2065M%20sights%20on%20Veras%20IgAN%20drug",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/boulevard-bio-dreams-big-in-immunology-with-65m-sights-on-veras-igan-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-2f8f3d2a-5bd5aa73&utm_medium=email&utm_campaign=1217%20-%20Another%20win%20for%20Definiums%20oral%20LSD%20Enterprise&utm_content=1217%20-%20Another%20win%20for%20Definiums%20oral%20LSD%20Enterprise+CID_74e88300512b862c804693c57aec68b7&utm_source=ENDPOINTS%20emails&utm_term=Boulevard%20Bio%20dreams%20big%20in%20immunology%20with%2065M%20sights%20on%20Veras%20IgAN%20drug",
+        "date": "2026-08-12",
+        "Amount_parsed": {
+          "raw": "$65M",
+          "currency": "USD",
+          "musd": 65.0,
+          "musd_native": 65.0
+        },
+        "value_musd": 65.0,
+        "investors": [
+          {
+            "name": "Deerfield Management",
+            "lead": true
+          }
+        ]
+      },
+      {
         "Date": "2026-08-11",
         "Company": "Epicrispr Biotechnologies",
         "Round": "Series C",
@@ -1374,6 +1606,51 @@
           },
           {
             "name": "TCGX",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-10",
+        "Company": "Bios Life",
+        "Round": "Seed",
+        "Amount": "$25M",
+        "Modality": "Cancer screening",
+        "Lead indication(s)": "Oncology",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Redmile",
+        "Investor 4": "Vsquared Ventures",
+        "Investor 5": "Kindred Capital",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/biontech-vets-net-25m-seed-funding-for-virtual-cancer-surveillance-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-54a35f4d-20f9c814&utm_medium=email&utm_campaign=1215%20-%20Silences%20mid-stage%20blood%20disorder%20win%20Enterprise&utm_content=1215%20-%20Silences%20mid-stage%20blood%20disorder%20win%20Enterprise+CID_96be0ce8203afaf9deee824c894471dd&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20BioNTech%20vets%20get%2025M%20seed%20funding%20for%20virtual%20cancer%20surveillance%20startup",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/biontech-vets-net-25m-seed-funding-for-virtual-cancer-surveillance-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-54a35f4d-20f9c814&utm_medium=email&utm_campaign=1215%20-%20Silences%20mid-stage%20blood%20disorder%20win%20Enterprise&utm_content=1215%20-%20Silences%20mid-stage%20blood%20disorder%20win%20Enterprise+CID_96be0ce8203afaf9deee824c894471dd&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20BioNTech%20vets%20get%2025M%20seed%20funding%20for%20virtual%20cancer%20surveillance%20startup",
+        "date": "2026-08-10",
+        "Amount_parsed": {
+          "raw": "$25M",
+          "currency": "USD",
+          "musd": 25.0,
+          "musd_native": 25.0
+        },
+        "value_musd": 25.0,
+        "investors": [
+          {
+            "name": "Redmile",
+            "lead": false
+          },
+          {
+            "name": "Vsquared Ventures",
+            "lead": false
+          },
+          {
+            "name": "Kindred Capital",
             "lead": false
           }
         ]
@@ -3448,7 +3725,7 @@
         "Company": "Avere Therapeutics",
         "Target": "NextCure",
         "Target residual ownership": "1%",
-        "Private placement": "$320M",
+        "Private placement": "$820M",
         "Modality": "Small molecule",
         "Lead indication": "Autoimmune",
         "Investor 1": null,
@@ -3470,12 +3747,12 @@
         "url": "https://endpoints.news/former-akero-team-announces-new-ii-company-avere-with-china-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-817e297e-f524be27&utm_medium=email&utm_campaign=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise&utm_content=2489%20-%20Biogens%20puzzling%20dose%20response%20in%20Alzheimers%20trial%20Enterprise+CID_018b3a9cb21a4efdab44790a6a52945c&utm_source=ENDPOINTS%20emails&utm_term=After%2047B%20sale%20to%20Novo%20Nordisk%20former%20Akero%20team%20announces%20new%20II%20company%20with%20China%20drug",
         "date": "2026-07-14",
         "Private placement_parsed": {
-          "raw": "$320M",
+          "raw": "$820M",
           "currency": "USD",
-          "musd": 320.0,
-          "musd_native": 320.0
+          "musd": 820.0,
+          "musd_native": 820.0
         },
-        "value_musd": 320.0,
+        "value_musd": 820.0,
         "investors": []
       },
       {
@@ -3639,6 +3916,70 @@
   "investors": [
     {
       "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "The Column Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "Vida Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "MRL Ventures Fund (Merck)",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "Emerson Collective",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "Euclidean Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "Solasta Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "InduPro Therapeutics",
+      "value_musd": 77.0,
+      "name": "Sanofi",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-12",
+      "company": "Boulevard Bio",
+      "value_musd": 65.0,
+      "name": "Deerfield Management",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
       "date": "2026-08-11",
       "company": "Epicrispr Biotechnologies",
       "value_musd": 90.0,
@@ -3739,6 +4080,30 @@
       "company": "Vaderis Therapeutics",
       "value_musd": 152.0,
       "name": "TCGX",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-10",
+      "company": "Bios Life",
+      "value_musd": 25.0,
+      "name": "Redmile",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-10",
+      "company": "Bios Life",
+      "value_musd": 25.0,
+      "name": "Vsquared Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-10",
+      "company": "Bios Life",
+      "value_musd": 25.0,
+      "name": "Kindred Capital",
       "lead": false
     },
     {

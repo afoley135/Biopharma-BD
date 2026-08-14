@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T03:27:01+00:00",
+  "generated": "2026-08-14T03:23:57+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,66 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-08-13",
+        "Buyer": "Lilly",
+        "Seller": "Sangamo Therapeutics",
+        "Structure": "Platform acquisition",
+        "Upfront": "$50M",
+        "Total Deal Value": "$50M",
+        "Modality": "Gene therapy",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://investor.sangamo.com/news-releases/news-release-details/sangamo-therapeutics-selects-successful-bidders-following-0",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://investor.sangamo.com/news-releases/news-release-details/sangamo-therapeutics-selects-successful-bidders-following-0",
+        "date": "2026-08-13",
+        "Upfront_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "value_musd": 50.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-13",
+        "Buyer": "PTC Therapeutics",
+        "Seller": "Sangamo Therapeutics",
+        "Structure": "Asset acquisition",
+        "Upfront": "$110M",
+        "Total Deal Value": "$210M",
+        "Modality": "Gene therapy",
+        "Lead indication(s)": "Fabry disease",
+        "Source": "Link",
+        "URL": "https://investor.sangamo.com/news-releases/news-release-details/sangamo-therapeutics-selects-successful-bidders-following-0",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://investor.sangamo.com/news-releases/news-release-details/sangamo-therapeutics-selects-successful-bidders-following-0",
+        "date": "2026-08-13",
+        "Upfront_parsed": {
+          "raw": "$110M",
+          "currency": "USD",
+          "musd": 110.0,
+          "musd_native": 110.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$210M",
+          "currency": "USD",
+          "musd": 210.0,
+          "musd_native": 210.0
+        },
+        "value_musd": 210.0,
+        "investors": []
+      },
       {
         "Date": "2026-08-10",
         "Buyer": "Jazz Pharmaceutials",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T03:23:57+00:00",
+  "generated": "2026-08-15T02:13:30+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -805,6 +805,32 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-08-13",
+        "Buyer": "Perceptive",
+        "Seller": "Ovid Therapeutics",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": "$295M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Epilepsy",
+        "Source": "Link",
+        "URL": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001636651/75ea3011-3ce8-41b6-b1a3-7140436b3506.pdf",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001636651/75ea3011-3ce8-41b6-b1a3-7140436b3506.pdf",
+        "date": "2026-08-13",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$295M",
+          "currency": "USD",
+          "musd": 295.0,
+          "musd_native": 295.0
+        },
+        "value_musd": 295.0,
+        "investors": []
+      },
+      {
         "Date": "2026-08-11",
         "Buyer": "Sentynl Therapeutics",
         "Seller": "Mereo Biopharma",
@@ -1356,6 +1382,95 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-08-14",
+        "Company": "Abcuro",
+        "Round": null,
+        "Amount": "$66M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Inclusion body myositis",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/abcuro-gets-66m-for-phase-3-in-muscle-weakening-condition/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-5394084f-27ce9f16&utm_medium=email&utm_campaign=2512%20-%20Redxs%20reverse%20merger%20redux%20Enterprise&utm_content=2512%20-%20Redxs%20reverse%20merger%20redux%20Enterprise+CID_462995ecdace9a2b6ae0eddb4a850c7f&utm_source=ENDPOINTS%20emails&utm_term=Abcuro%20gets%2066M%20for%20Phase%203%20in%20muscle-weakening%20condition",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/abcuro-gets-66m-for-phase-3-in-muscle-weakening-condition/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-5394084f-27ce9f16&utm_medium=email&utm_campaign=2512%20-%20Redxs%20reverse%20merger%20redux%20Enterprise&utm_content=2512%20-%20Redxs%20reverse%20merger%20redux%20Enterprise+CID_462995ecdace9a2b6ae0eddb4a850c7f&utm_source=ENDPOINTS%20emails&utm_term=Abcuro%20gets%2066M%20for%20Phase%203%20in%20muscle-weakening%20condition",
+        "date": "2026-08-14",
+        "Amount_parsed": {
+          "raw": "$66M",
+          "currency": "USD",
+          "musd": 66.0,
+          "musd_native": 66.0
+        },
+        "value_musd": 66.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-13",
+        "Company": "Khartis Therapeutics",
+        "Round": "Series B",
+        "Amount": "$50M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Thyroid eye disease",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Forge Life Science Partners",
+        "Investor 4": "Longwood Fund",
+        "Investor 5": "Lilly Asia Ventures",
+        "Investor 6": "Alexandria Venture Investors",
+        "Investor 7": "Foresite Capital",
+        "Investor 8": "Nextech Invest",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260813628959/en/Khartis-Therapeutics-Emerges-from-Stealth-with-%2495-Million-in-Funding-to-Advance-Oral-Small-Molecule-Immunology-Pipeline",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260813628959/en/Khartis-Therapeutics-Emerges-from-Stealth-with-%2495-Million-in-Funding-to-Advance-Oral-Small-Molecule-Immunology-Pipeline",
+        "date": "2026-08-13",
+        "Amount_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "value_musd": 50.0,
+        "investors": [
+          {
+            "name": "Forge Life Science Partners",
+            "lead": false
+          },
+          {
+            "name": "Longwood Fund",
+            "lead": false
+          },
+          {
+            "name": "Lilly Asia Ventures",
+            "lead": false
+          },
+          {
+            "name": "Alexandria Venture Investors",
+            "lead": false
+          },
+          {
+            "name": "Foresite Capital",
+            "lead": false
+          },
+          {
+            "name": "Nextech Invest",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-08-12",
         "Company": "InduPro Therapeutics",
@@ -3482,6 +3597,62 @@
     ],
     "Reverse mergers": [
       {
+        "Date": "2026-08-14",
+        "Company": "Redx Pharma",
+        "Target": "Skye Bioscience",
+        "Target residual ownership": "5.38%",
+        "Private placement": "$68M",
+        "Modality": "Small molecule",
+        "Lead indication": "Crohn's disease",
+        "Investor 1": "Abingworth",
+        "Investor 2": "British Business Bank",
+        "Investor 3": "NEXTBio Capital",
+        "Investor 4": "5AM Ventures",
+        "Investor 5": "Redmile",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/08/14/3345392/0/en/skye-bioscience-and-redx-pharma-announce-transaction-agreement-and-125-million-in-financings.html?_gl=1*3z1r3j*_up*MQ..*_ga*MTI3NTYyNTY0Ni4xNzg2NzE0NjUx*_ga_B6167QB2TF*czE3ODY3MTQ2NTAkbzEkZzAkdDE3ODY3MTQ2NTAkajYwJGwwJGgxNzQ2NTA0NTc1*_ga_ERWPGTJ5X8*czE3ODY3MTQ2NTAkbzEkZzAkdDE3ODY3MTQ2NTAkajYwJGwwJGgw",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/08/14/3345392/0/en/skye-bioscience-and-redx-pharma-announce-transaction-agreement-and-125-million-in-financings.html?_gl=1*3z1r3j*_up*MQ..*_ga*MTI3NTYyNTY0Ni4xNzg2NzE0NjUx*_ga_B6167QB2TF*czE3ODY3MTQ2NTAkbzEkZzAkdDE3ODY3MTQ2NTAkajYwJGwwJGgxNzQ2NTA0NTc1*_ga_ERWPGTJ5X8*czE3ODY3MTQ2NTAkbzEkZzAkdDE3ODY3MTQ2NTAkajYwJGwwJGgw",
+        "date": "2026-08-14",
+        "Private placement_parsed": {
+          "raw": "$68M",
+          "currency": "USD",
+          "musd": 68.0,
+          "musd_native": 68.0
+        },
+        "value_musd": 68.0,
+        "investors": [
+          {
+            "name": "Abingworth",
+            "lead": true
+          },
+          {
+            "name": "British Business Bank",
+            "lead": false
+          },
+          {
+            "name": "NEXTBio Capital",
+            "lead": false
+          },
+          {
+            "name": "5AM Ventures",
+            "lead": false
+          },
+          {
+            "name": "Redmile",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-07-29",
         "Company": "Caldera Therapeutics",
         "Target": "Synlogic",
@@ -3926,6 +4097,29 @@
     ],
     "Royalty deals": [
       {
+        "Date": "2026-08-13",
+        "Company": "Zealand Pharma",
+        "Upfront": "$100M",
+        "Total": "$100M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Polycythemia vera",
+        "Investor": "Royalty Pharma",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/08/12/3344048/0/en/zealand-pharma-enters-into-a-usd-100-million-royalty-purchase-and-sale-agreement-with-royalty-pharma-for-the-economics-related-to-rusfertide.html",
+        "category": "Royalty deals",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/08/12/3344048/0/en/zealand-pharma-enters-into-a-usd-100-million-royalty-purchase-and-sale-agreement-with-royalty-pharma-for-the-economics-related-to-rusfertide.html",
+        "date": "2026-08-13",
+        "Upfront_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": []
+      },
+      {
         "Date": "2026-07-22",
         "Company": "Neurimmune",
         "Upfront": "$125M",
@@ -3974,6 +4168,54 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Forge Life Science Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Longwood Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Lilly Asia Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Alexandria Venture Investors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Foresite Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-13",
+      "company": "Khartis Therapeutics",
+      "value_musd": 50.0,
+      "name": "Nextech Invest",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-08-12",
@@ -5140,6 +5382,46 @@
       "company": "Apnimed",
       "value_musd": 192.0,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-14",
+      "company": "Redx Pharma",
+      "value_musd": 68.0,
+      "name": "Abingworth",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-14",
+      "company": "Redx Pharma",
+      "value_musd": 68.0,
+      "name": "British Business Bank",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-14",
+      "company": "Redx Pharma",
+      "value_musd": 68.0,
+      "name": "NEXTBio Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-14",
+      "company": "Redx Pharma",
+      "value_musd": 68.0,
+      "name": "5AM Ventures",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-14",
+      "company": "Redx Pharma",
+      "value_musd": 68.0,
+      "name": "Redmile",
       "lead": false
     },
     {

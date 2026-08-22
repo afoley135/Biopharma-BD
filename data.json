@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T02:23:19+00:00",
+  "generated": "2026-08-22T02:15:36+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -3597,6 +3597,74 @@
     ],
     "Reverse mergers": [
       {
+        "Date": "2026-08-21",
+        "Company": "Ambros Therapeutics",
+        "Target": "Werewolf Therapeutics",
+        "Target residual ownership": "6.80%",
+        "Private placement": "$150M",
+        "Modality": "Small molecule",
+        "Lead indication": "Complex Regional Pain Syndrome - Type 1",
+        "Investor 1": "RA Capital",
+        "Investor 2": "Janus Henderson",
+        "Investor 3": "Aberdeen Investments",
+        "Investor 4": "Adage Capital Partners",
+        "Investor 5": "ADAR1 Capital Management",
+        "Investor 6": "Affinity Asset Advisors",
+        "Investor 7": "Arkin Bio Capital",
+        "Investor 8": "Balyasny Asset Management",
+        "Investor 9": "Patient Square Capital",
+        "Investor 10": "SilverArc Capital",
+        "Investor 11": "Sphera Healthcare",
+        "Investor 12": "Woodline Partners",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/08/21/3349041/0/en/werewolf-therapeutics-and-ambros-therapeutics-announce-merger-agreement-and-concurrent-oversubscribed-150-million-private-placement.html?_gl=1*nnbdjl*_up*MQ..*_ga*MTgzMzcxNjUxMS4xNzg3MzEzNzI2*_ga_B6167QB2TF*czE3ODczMTM3MjYkbzEkZzAkdDE3ODczMTM3MjYkajYwJGwwJGgxMTk2MTg2NDU1*_ga_ERWPGTJ5X8*czE3ODczMTM3MjYkbzEkZzAkdDE3ODczMTM3MjYkajYwJGwwJGgw",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/08/21/3349041/0/en/werewolf-therapeutics-and-ambros-therapeutics-announce-merger-agreement-and-concurrent-oversubscribed-150-million-private-placement.html?_gl=1*nnbdjl*_up*MQ..*_ga*MTgzMzcxNjUxMS4xNzg3MzEzNzI2*_ga_B6167QB2TF*czE3ODczMTM3MjYkbzEkZzAkdDE3ODczMTM3MjYkajYwJGwwJGgxMTk2MTg2NDU1*_ga_ERWPGTJ5X8*czE3ODczMTM3MjYkbzEkZzAkdDE3ODczMTM3MjYkajYwJGwwJGgw",
+        "date": "2026-08-21",
+        "Private placement_parsed": {
+          "raw": "$150M",
+          "currency": "USD",
+          "musd": 150.0,
+          "musd_native": 150.0
+        },
+        "value_musd": 150.0,
+        "investors": [
+          {
+            "name": "RA Capital",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "Aberdeen Investments",
+            "lead": false
+          },
+          {
+            "name": "Adage Capital Partners",
+            "lead": false
+          },
+          {
+            "name": "ADAR1 Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Affinity Asset Advisors",
+            "lead": false
+          },
+          {
+            "name": "Arkin Bio Capital",
+            "lead": false
+          },
+          {
+            "name": "Balyasny Asset Management",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-08-14",
         "Company": "Redx Pharma",
         "Target": "Skye Bioscience",
@@ -5382,6 +5450,70 @@
       "company": "Apnimed",
       "value_musd": 192.0,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "RA Capital",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Aberdeen Investments",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Adage Capital Partners",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "ADAR1 Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Affinity Asset Advisors",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Arkin Bio Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-21",
+      "company": "Ambros Therapeutics",
+      "value_musd": 150.0,
+      "name": "Balyasny Asset Management",
       "lead": false
     },
     {

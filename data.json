@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T02:22:37+00:00",
+  "generated": "2026-08-25T02:17:53+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,101 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-08-20",
+        "Buyer": "Lilly",
+        "Seller": "Amplitude",
+        "Structure": "R&D collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Vaccine",
+        "Lead indication(s)": "Infectious disease",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/amplitude-therapeutics-and-lilly-enter-strategic-collaboration-to-develop-trans-amplifying-rna-vaccines-for-infectious-diseases-302855610.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/amplitude-therapeutics-and-lilly-enter-strategic-collaboration-to-develop-trans-amplifying-rna-vaccines-for-infectious-diseases-302855610.html",
+        "date": "2026-08-20",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-18",
+        "Buyer": "BioMarin",
+        "Seller": "Alesta Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "$275M",
+        "Total Deal Value": "$490M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Hypophosphatasia",
+        "Source": "Link",
+        "URL": "https://www.biomarin.com/news/press-releases/biomarin-to-acquire-alesta-therapeutics-to-gain-ale1-a-potential-first-oral-therapy-for-hypophosphatasia-adding-an-important-clinical-program-to-biomarins-pipeline/",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.biomarin.com/news/press-releases/biomarin-to-acquire-alesta-therapeutics-to-gain-ale1-a-potential-first-oral-therapy-for-hypophosphatasia-adding-an-important-clinical-program-to-biomarins-pipeline/",
+        "date": "2026-08-18",
+        "Upfront_parsed": {
+          "raw": "$275M",
+          "currency": "USD",
+          "musd": 275.0,
+          "musd_native": 275.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$490M",
+          "currency": "USD",
+          "musd": 490.0,
+          "musd_native": 490.0
+        },
+        "value_musd": 490.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-18",
+        "Buyer": "BioArtctic",
+        "Seller": "Mesenkia",
+        "Structure": "R&D collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Glioblastoma",
+        "Source": "Link",
+        "URL": "https://www.bioarctic.com/en/bioarctic-and-mesenkia-enter-oncology-research-collaboration/",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.bioarctic.com/en/bioarctic-and-mesenkia-enter-oncology-research-collaboration/",
+        "date": "2026-08-18",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-17",
+        "Buyer": "Lilly",
+        "Seller": "OmniAb",
+        "Structure": "R&D collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$370M",
+        "Modality": null,
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260812350809/en/OmniAb-Announces-Global-Collaboration-and-License-Agreement-for-Ion-Channel-Program-with-Eli-Lilly-Company",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20260812350809/en/OmniAb-Announces-Global-Collaboration-and-License-Agreement-for-Ion-Channel-Program-with-Eli-Lilly-Company",
+        "date": "2026-08-17",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$370M",
+          "currency": "USD",
+          "musd": 370.0,
+          "musd_native": 370.0
+        },
+        "value_musd": 370.0,
+        "investors": []
+      },
       {
         "Date": "2026-08-13",
         "Buyer": "Lilly",
@@ -805,6 +900,94 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-08-24",
+        "Buyer": "Roche",
+        "Seller": "Hanmi Pharm",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$190M",
+        "Total Deal Value": "$2.3B",
+        "Modality": "Peptide",
+        "Lead indication(s)": "Obesity",
+        "Source": "Link",
+        "URL": "https://www.hanmipharm.com/about/investor-relations/press/detail-4843.hm",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.hanmipharm.com/about/investor-relations/press/detail-4843.hm",
+        "date": "2026-08-24",
+        "Upfront_parsed": {
+          "raw": "$190M",
+          "currency": "USD",
+          "musd": 190.0,
+          "musd_native": 190.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.3B",
+          "currency": "USD",
+          "musd": 2300.0,
+          "musd_native": 2300.0
+        },
+        "value_musd": 2300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-19",
+        "Buyer": "Tolerance Bio",
+        "Seller": "NeoImmune Tech",
+        "Structure": "Licensing",
+        "Scope": "Americas & Europe",
+        "Upfront": null,
+        "Total Deal Value": "$260M",
+        "Modality": "Biologic",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260819138259/en/Tolerance-Bio-Licenses-Clinical-Stage-Long-Acting-Interleukin-7-Therapy-Efineptakin-Alfa-from-NeoImmuneTech-to-Advance-Programs-Targeting-Thymic-Function-and-Immune-Resilience",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20260819138259/en/Tolerance-Bio-Licenses-Clinical-Stage-Long-Acting-Interleukin-7-Therapy-Efineptakin-Alfa-from-NeoImmuneTech-to-Advance-Programs-Targeting-Thymic-Function-and-Immune-Resilience",
+        "date": "2026-08-19",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$260M",
+          "currency": "USD",
+          "musd": 260.0,
+          "musd_native": 260.0
+        },
+        "value_musd": 260.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-18",
+        "Buyer": "Leo Pharma",
+        "Seller": "Tanabe Pharma",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$435M",
+        "Total Deal Value": "$435M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "EPP",
+        "Source": "Link",
+        "URL": "https://endpoints.news/leo-pharma-to-license-tanabes-rare-disease-drug-for-pain-with-sun-exposure/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-a291293c-d6cbbe65&utm_medium=email&utm_campaign=Whats%20driving%20lower%20list%20prices%20Enterprise&utm_content=Whats%20driving%20lower%20list%20prices%20Enterprise+CID_32f5c162b2291016b1e42c5abc0d2f9c&utm_source=ENDPOINTS%20emails&utm_term=Leo%20Pharma%20to%20license%20Tanabes%20rare%20disease%20drug%20for%20pain%20with%20sun%20exposure",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/leo-pharma-to-license-tanabes-rare-disease-drug-for-pain-with-sun-exposure/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-a291293c-d6cbbe65&utm_medium=email&utm_campaign=Whats%20driving%20lower%20list%20prices%20Enterprise&utm_content=Whats%20driving%20lower%20list%20prices%20Enterprise+CID_32f5c162b2291016b1e42c5abc0d2f9c&utm_source=ENDPOINTS%20emails&utm_term=Leo%20Pharma%20to%20license%20Tanabes%20rare%20disease%20drug%20for%20pain%20with%20sun%20exposure",
+        "date": "2026-08-18",
+        "Upfront_parsed": {
+          "raw": "$435M",
+          "currency": "USD",
+          "musd": 435.0,
+          "musd_native": 435.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$435M",
+          "currency": "USD",
+          "musd": 435.0,
+          "musd_native": 435.0
+        },
+        "value_musd": 435.0,
+        "investors": []
+      },
+      {
         "Date": "2026-08-13",
         "Buyer": "Perceptive",
         "Seller": "Ovid Therapeutics",
@@ -1382,6 +1565,246 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-08-20",
+        "Company": "Siran Bio",
+        "Round": "Series A",
+        "Amount": "$59M",
+        "Modality": "siRNA",
+        "Lead indication(s)": "Hepatatis B",
+        "Lead 1": "Sunshine Ronghui Capital",
+        "Lead 2": null,
+        "Investor 3": "SDIC Capital",
+        "Investor 4": "Huatai Zijin",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://mp.weixin.qq.com/s/QbvdmJ9JdkgOSnOXHDUaxw",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://mp.weixin.qq.com/s/QbvdmJ9JdkgOSnOXHDUaxw",
+        "date": "2026-08-20",
+        "Amount_parsed": {
+          "raw": "$59M",
+          "currency": "USD",
+          "musd": 59.0,
+          "musd_native": 59.0
+        },
+        "value_musd": 59.0,
+        "investors": [
+          {
+            "name": "Sunshine Ronghui Capital",
+            "lead": true
+          },
+          {
+            "name": "SDIC Capital",
+            "lead": false
+          },
+          {
+            "name": "Huatai Zijin",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-19",
+        "Company": "Network Bio",
+        "Round": null,
+        "Amount": "$50M",
+        "Modality": "AI tissue analysis",
+        "Lead indication(s)": null,
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Section 32",
+        "Investor 4": "Thiel Bio",
+        "Investor 5": "Founders Fund",
+        "Investor 6": "Breyer Capital",
+        "Investor 7": "Blue Venture Fund",
+        "Investor 8": "JSL Health Capital",
+        "Investor 9": "Others (not disclosed)",
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260819858157/en/Network-Bio-Launches-with-%2450-Million-Financing-and-Worlds-Largest-Patient-Tissue-Training-Dataset",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260819858157/en/Network-Bio-Launches-with-%2450-Million-Financing-and-Worlds-Largest-Patient-Tissue-Training-Dataset",
+        "date": "2026-08-19",
+        "Amount_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "value_musd": 50.0,
+        "investors": [
+          {
+            "name": "Section 32",
+            "lead": false
+          },
+          {
+            "name": "Thiel Bio",
+            "lead": false
+          },
+          {
+            "name": "Founders Fund",
+            "lead": false
+          },
+          {
+            "name": "Breyer Capital",
+            "lead": false
+          },
+          {
+            "name": "Blue Venture Fund",
+            "lead": false
+          },
+          {
+            "name": "JSL Health Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-19",
+        "Company": "Kynexis",
+        "Round": "Series A Extension",
+        "Amount": "$47M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Schizophrenia",
+        "Lead 1": "Novartis Venture Fund",
+        "Lead 2": null,
+        "Investor 3": "Forbion",
+        "Investor 4": "Ysios Capital",
+        "Investor 5": "Sunstone Life Science Ventures",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/08/19/3347521/0/en/kynexis-extends-series-a-to-97-million-to-advance-potential-first-in-class-investigational-medicine-for-cognitive-disorders.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/08/19/3347521/0/en/kynexis-extends-series-a-to-97-million-to-advance-potential-first-in-class-investigational-medicine-for-cognitive-disorders.html",
+        "date": "2026-08-19",
+        "Amount_parsed": {
+          "raw": "$47M",
+          "currency": "USD",
+          "musd": 47.0,
+          "musd_native": 47.0
+        },
+        "value_musd": 47.0,
+        "investors": [
+          {
+            "name": "Novartis Venture Fund",
+            "lead": true
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "Ysios Capital",
+            "lead": false
+          },
+          {
+            "name": "Sunstone Life Science Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-08-19",
+        "Company": "Georgiamune",
+        "Round": null,
+        "Amount": "$92.7M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Oncology",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.sec.gov/Archives/edgar/data/2148230/000090514826003774/xslFormDX01/primary_doc.xml",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.sec.gov/Archives/edgar/data/2148230/000090514826003774/xslFormDX01/primary_doc.xml",
+        "date": "2026-08-19",
+        "Amount_parsed": {
+          "raw": "$92.7M",
+          "currency": "USD",
+          "musd": 92.7,
+          "musd_native": 92.7
+        },
+        "value_musd": 92.7,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-17",
+        "Company": "Leal Therapeutics",
+        "Round": "Series A Extension",
+        "Amount": "$30M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "ALS",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Lilly",
+        "Investor 4": "OrbiMed",
+        "Investor 5": "Newpath Partners",
+        "Investor 6": "Euclidean Capital",
+        "Investor 7": "SV Health Investors",
+        "Investor 8": "Chugai Venture Fund",
+        "Investor 9": "Alexandria Venture Investments",
+        "Investor 10": "PhiFund",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/leal-therapeutics-announces-30-million-series-a-extension-and-initiation-of-phase-1b2a-clinical-trial-of-ltx-001-in-schizophrenia-302851387.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/leal-therapeutics-announces-30-million-series-a-extension-and-initiation-of-phase-1b2a-clinical-trial-of-ltx-001-in-schizophrenia-302851387.html",
+        "date": "2026-08-17",
+        "Amount_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "value_musd": 30.0,
+        "investors": [
+          {
+            "name": "Lilly",
+            "lead": false
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "Newpath Partners",
+            "lead": false
+          },
+          {
+            "name": "Euclidean Capital",
+            "lead": false
+          },
+          {
+            "name": "SV Health Investors",
+            "lead": false
+          },
+          {
+            "name": "Chugai Venture Fund",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-08-14",
         "Company": "Abcuro",
@@ -3665,6 +4088,74 @@
         ]
       },
       {
+        "Date": "2026-08-17",
+        "Company": "Slate Medicines",
+        "Target": "Fulcrum Therapeutics",
+        "Target residual ownership": "5%",
+        "Private placement": "$245M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication": "Migraine",
+        "Investor 1": "Frazier Life Sciences",
+        "Investor 2": "Forbion",
+        "Investor 3": "RA Capital Management",
+        "Investor 4": "Deep Track Capital",
+        "Investor 5": "Foresite Capital",
+        "Investor 6": "OrbiMed",
+        "Investor 7": "RTW Investments",
+        "Investor 8": "Mingxin Capital",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/08/17/3345962/0/en/fulcrum-therapeutics-and-slate-medicines-announce-merger-agreement-to-advance-next-generation-migraine-therapies.html",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/08/17/3345962/0/en/fulcrum-therapeutics-and-slate-medicines-announce-merger-agreement-to-advance-next-generation-migraine-therapies.html",
+        "date": "2026-08-17",
+        "Private placement_parsed": {
+          "raw": "$245M",
+          "currency": "USD",
+          "musd": 245.0,
+          "musd_native": 245.0
+        },
+        "value_musd": 245.0,
+        "investors": [
+          {
+            "name": "Frazier Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "RA Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Deep Track Capital",
+            "lead": false
+          },
+          {
+            "name": "Foresite Capital",
+            "lead": false
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "RTW Investments",
+            "lead": false
+          },
+          {
+            "name": "Mingxin Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-08-14",
         "Company": "Redx Pharma",
         "Target": "Skye Bioscience",
@@ -4236,6 +4727,158 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-08-20",
+      "company": "Siran Bio",
+      "value_musd": 59.0,
+      "name": "Sunshine Ronghui Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-20",
+      "company": "Siran Bio",
+      "value_musd": 59.0,
+      "name": "SDIC Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-20",
+      "company": "Siran Bio",
+      "value_musd": 59.0,
+      "name": "Huatai Zijin",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "Section 32",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "Thiel Bio",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "Founders Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "Breyer Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "Blue Venture Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Network Bio",
+      "value_musd": 50.0,
+      "name": "JSL Health Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Kynexis",
+      "value_musd": 47.0,
+      "name": "Novartis Venture Fund",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Kynexis",
+      "value_musd": 47.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Kynexis",
+      "value_musd": 47.0,
+      "name": "Ysios Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-19",
+      "company": "Kynexis",
+      "value_musd": 47.0,
+      "name": "Sunstone Life Science Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "Newpath Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "Euclidean Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "SV Health Investors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-08-17",
+      "company": "Leal Therapeutics",
+      "value_musd": 30.0,
+      "name": "Chugai Venture Fund",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-08-13",
@@ -5514,6 +6157,70 @@
       "company": "Ambros Therapeutics",
       "value_musd": 150.0,
       "name": "Balyasny Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "Frazier Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "RA Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "Deep Track Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "Foresite Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "RTW Investments",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-08-17",
+      "company": "Slate Medicines",
+      "value_musd": 245.0,
+      "name": "Mingxin Capital",
       "lead": false
     },
     {

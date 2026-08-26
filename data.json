@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T02:17:53+00:00",
+  "generated": "2026-08-26T02:24:42+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -899,6 +899,37 @@
       }
     ],
     "Licensing": [
+      {
+        "Date": "2026-08-25",
+        "Buyer": "Sentivera",
+        "Seller": "Haisco Pharmaceutical",
+        "Structure": "Licensing",
+        "Scope": "Ex-China rights",
+        "Upfront": "$75.89M",
+        "Total Deal Value": "$1.5B",
+        "Modality": null,
+        "Lead indication(s)": "Type 2 inflammatory diseases",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/haisco-enters-into-exclusive-license-agreement-with-new-us-venture-founded-by-population-health-partners-and-arch-venture-partners-302859307.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/haisco-enters-into-exclusive-license-agreement-with-new-us-venture-founded-by-population-health-partners-and-arch-venture-partners-302859307.html",
+        "date": "2026-08-25",
+        "Upfront_parsed": {
+          "raw": "$75.89M",
+          "currency": "USD",
+          "musd": 75.89,
+          "musd_native": 75.89
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
       {
         "Date": "2026-08-24",
         "Buyer": "Roche",

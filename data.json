@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T06:46:14+00:00",
+  "generated": "2026-10-03T06:06:22+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-01",
+        "Buyer": "Sanofi",
+        "Seller": "Regeneron",
+        "Structure": "R&D collaboration",
+        "Upfront": "$1B",
+        "Total Deal Value": "$8B",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Immunology",
+        "Source": "Link",
+        "URL": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-10-01-05-00-00-3372517",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-10-01-05-00-00-3372517",
+        "date": "2026-10-01",
+        "Upfront_parsed": {
+          "raw": "$1B",
+          "currency": "USD",
+          "musd": 1000.0,
+          "musd_native": 1000.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$8B",
+          "currency": "USD",
+          "musd": 8000.0,
+          "musd_native": 8000.0
+        },
+        "value_musd": 8000.0,
+        "investors": []
+      },
       {
         "Date": "2026-09-02",
         "Buyer": "Medicus Pharma",
@@ -985,6 +1015,63 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-10-02",
+        "Buyer": "Novartis",
+        "Seller": "Abogen Biosciences",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$575M",
+        "Total Deal Value": "$7.78B",
+        "Modality": "T cell engager",
+        "Lead indication(s)": "Immunology",
+        "Source": "Link",
+        "URL": "https://www.abogenbio.com/news/company/news2026/277.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.abogenbio.com/news/company/news2026/277.html",
+        "date": "2026-10-02",
+        "Upfront_parsed": {
+          "raw": "$575M",
+          "currency": "USD",
+          "musd": 575.0,
+          "musd_native": 575.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$7.78B",
+          "currency": "USD",
+          "musd": 7780.0,
+          "musd_native": 7780.0
+        },
+        "value_musd": 7780.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-28",
+        "Buyer": "3SBio",
+        "Seller": "MindRank",
+        "Structure": "LIcensing",
+        "Scope": "Greater China rights",
+        "Upfront": null,
+        "Total Deal Value": "$260M",
+        "Modality": "GLP-1",
+        "Lead indication(s)": "Obesity",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/28/3369948/0/en/mindrank-partners-with-3sbio-to-commercialize-its-ai-designed-oral-glp-1-in-china.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/09/28/3369948/0/en/mindrank-partners-with-3sbio-to-commercialize-its-ai-designed-oral-glp-1-in-china.html",
+        "date": "2026-09-28",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$260M",
+          "currency": "USD",
+          "musd": 260.0,
+          "musd_native": 260.0
+        },
+        "value_musd": 260.0,
+        "investors": []
+      },
+      {
         "Date": "2026-09-09",
         "Buyer": "Tectora Therapeutics",
         "Seller": "Schrodinger",
@@ -1847,6 +1934,218 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-01",
+        "Company": "TriGemX",
+        "Round": null,
+        "Amount": "$94M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Migraine",
+        "Geography": "US",
+        "Lead 1": "The Column Group",
+        "Lead 2": "TCGX",
+        "Investor 3": "Viking Global Investors",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/kallyope-rebrands-after-novo-obesity-deal-gets-94m-for-phase-3-migraine-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-58ea1744-2cb0801d&utm_medium=email&utm_campaign=2545%20-%20Did%20Anthropics%20AI%20really%20do%20science%20Enterprise&utm_content=2545%20-%20Did%20Anthropics%20AI%20really%20do%20science%20Enterprise+CID_937afcfdfca2bdc74f8f3f4a2424a55a&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20After%20Novo%20obesity%20deal%20Kallyope%20rebrands%20and%20gets%2094M%20for%20migraine%20trials",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/kallyope-rebrands-after-novo-obesity-deal-gets-94m-for-phase-3-migraine-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-58ea1744-2cb0801d&utm_medium=email&utm_campaign=2545%20-%20Did%20Anthropics%20AI%20really%20do%20science%20Enterprise&utm_content=2545%20-%20Did%20Anthropics%20AI%20really%20do%20science%20Enterprise+CID_937afcfdfca2bdc74f8f3f4a2424a55a&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20After%20Novo%20obesity%20deal%20Kallyope%20rebrands%20and%20gets%2094M%20for%20migraine%20trials",
+        "date": "2026-10-01",
+        "Amount_parsed": {
+          "raw": "$94M",
+          "currency": "USD",
+          "musd": 94.0,
+          "musd_native": 94.0
+        },
+        "value_musd": 94.0,
+        "investors": [
+          {
+            "name": "The Column Group",
+            "lead": true
+          },
+          {
+            "name": "TCGX",
+            "lead": true
+          },
+          {
+            "name": "Viking Global Investors",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-01",
+        "Company": "Skopos Bio",
+        "Round": "Seed",
+        "Amount": "$12M",
+        "Modality": "Radiopharma",
+        "Lead indication(s)": "Oncology",
+        "Geography": "US",
+        "Lead 1": "Tenmile",
+        "Lead 2": "Tin Alley Ventures",
+        "Investor 3": "Yosemite",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.linkedin.com/posts/our-newest-portfolio-company-skopos-bio-share-7511177575302492160-KJ5u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQe3I4BkDzkvaegjOzM1vosVBPrB11LiGU",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.linkedin.com/posts/our-newest-portfolio-company-skopos-bio-share-7511177575302492160-KJ5u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABQe3I4BkDzkvaegjOzM1vosVBPrB11LiGU",
+        "date": "2026-10-01",
+        "Amount_parsed": {
+          "raw": "$12M",
+          "currency": "USD",
+          "musd": 12.0,
+          "musd_native": 12.0
+        },
+        "value_musd": 12.0,
+        "investors": [
+          {
+            "name": "Tenmile",
+            "lead": true
+          },
+          {
+            "name": "Tin Alley Ventures",
+            "lead": true
+          },
+          {
+            "name": "Yosemite",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-30",
+        "Company": "Astrocyte Pharmaceuticals",
+        "Round": "Series B",
+        "Amount": "$9.5M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "TBI",
+        "Geography": "US",
+        "Lead 1": "DeepWork Capital",
+        "Lead 2": null,
+        "Investor 3": "MintPharma Capital",
+        "Investor 4": "Waterstar Capital",
+        "Investor 5": "Dynagrow Capital",
+        "Investor 6": "Angel Star Ventures",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/astrocyte-pharmaceuticals-secures-9-5-million-series-b-to-advance-phase-2-clinical-development-of-breakthrough-tbi-and-concussion-therapy-ast-004--302893833.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/astrocyte-pharmaceuticals-secures-9-5-million-series-b-to-advance-phase-2-clinical-development-of-breakthrough-tbi-and-concussion-therapy-ast-004--302893833.html",
+        "date": "2026-09-30",
+        "Amount_parsed": {
+          "raw": "$9.5M",
+          "currency": "USD",
+          "musd": 9.5,
+          "musd_native": 9.5
+        },
+        "value_musd": 9.5,
+        "investors": [
+          {
+            "name": "DeepWork Capital",
+            "lead": true
+          },
+          {
+            "name": "MintPharma Capital",
+            "lead": false
+          },
+          {
+            "name": "Waterstar Capital",
+            "lead": false
+          },
+          {
+            "name": "Dynagrow Capital",
+            "lead": false
+          },
+          {
+            "name": "Angel Star Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-30",
+        "Company": "Varda Space Industries",
+        "Round": "Series D",
+        "Amount": "$251M",
+        "Modality": "Space pharmaceuticals",
+        "Lead indication(s)": null,
+        "Geography": "US",
+        "Lead 1": "Lux Capital",
+        "Lead 2": "Natural Capital",
+        "Investor 3": "Founders Fund",
+        "Investor 4": "Khosla Ventures",
+        "Investor 5": "Caffeinated Capital",
+        "Investor 6": "General Catalyst",
+        "Investor 7": "8090 Industries",
+        "Investor 8": "Giant Step",
+        "Investor 9": "Also Capital",
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/varda-announces-251-million-series-d-to-scale-space-based-pharmaceutical-processing-302893651.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/varda-announces-251-million-series-d-to-scale-space-based-pharmaceutical-processing-302893651.html",
+        "date": "2026-09-30",
+        "Amount_parsed": {
+          "raw": "$251M",
+          "currency": "USD",
+          "musd": 251.0,
+          "musd_native": 251.0
+        },
+        "value_musd": 251.0,
+        "investors": [
+          {
+            "name": "Lux Capital",
+            "lead": true
+          },
+          {
+            "name": "Natural Capital",
+            "lead": true
+          },
+          {
+            "name": "Founders Fund",
+            "lead": false
+          },
+          {
+            "name": "Khosla Ventures",
+            "lead": false
+          },
+          {
+            "name": "Caffeinated Capital",
+            "lead": false
+          },
+          {
+            "name": "General Catalyst",
+            "lead": false
+          },
+          {
+            "name": "8090 Industries",
+            "lead": false
+          },
+          {
+            "name": "Giant Step",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-09-09",
         "Company": "Ridge Biotechnologies",
@@ -5855,6 +6154,158 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "TriGemX",
+      "value_musd": 94.0,
+      "name": "The Column Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "TriGemX",
+      "value_musd": 94.0,
+      "name": "TCGX",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "TriGemX",
+      "value_musd": 94.0,
+      "name": "Viking Global Investors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "Skopos Bio",
+      "value_musd": 12.0,
+      "name": "Tenmile",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "Skopos Bio",
+      "value_musd": 12.0,
+      "name": "Tin Alley Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-01",
+      "company": "Skopos Bio",
+      "value_musd": 12.0,
+      "name": "Yosemite",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Astrocyte Pharmaceuticals",
+      "value_musd": 9.5,
+      "name": "DeepWork Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Astrocyte Pharmaceuticals",
+      "value_musd": 9.5,
+      "name": "MintPharma Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Astrocyte Pharmaceuticals",
+      "value_musd": 9.5,
+      "name": "Waterstar Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Astrocyte Pharmaceuticals",
+      "value_musd": 9.5,
+      "name": "Dynagrow Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Astrocyte Pharmaceuticals",
+      "value_musd": 9.5,
+      "name": "Angel Star Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Lux Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Natural Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Founders Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Khosla Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Caffeinated Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "General Catalyst",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "8090 Industries",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-30",
+      "company": "Varda Space Industries",
+      "value_musd": 251.0,
+      "name": "Giant Step",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-09-09",

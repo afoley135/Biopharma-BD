@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T06:36:05+00:00",
+  "generated": "2026-10-06T07:15:43+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -50,6 +50,121 @@
           "musd_native": 8000.0
         },
         "value_musd": 8000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-24",
+        "Buyer": "Roche",
+        "Seller": "Atavistik Bio",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$70M",
+        "Total Deal Value": "$2B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Cardiovascular, renal, and metabolic",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/24/3368181/0/en/atavistik-bio-announces-strategic-research-collaboration-with-roche-to-discover-and-develop-novel-allosteric-therapeutics.html?_gl=1*isceed*_up*MQ..*_ga*MjQxMTg0NjM1LjE3OTAyNDc3NDA.*_ga_B6167QB2TF*czE3OTAyNDc3NDAkbzEkZzAkdDE3OTAyNDc3NDAkajYwJGwwJGgxMzE4NjQ5MzQ2*_ga_ERWPGTJ5X8*czE3OTAyNDc3NDAkbzEkZzAkdDE3OTAyNDc3NDAkajYwJGwwJGgw",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/09/24/3368181/0/en/atavistik-bio-announces-strategic-research-collaboration-with-roche-to-discover-and-develop-novel-allosteric-therapeutics.html?_gl=1*isceed*_up*MQ..*_ga*MjQxMTg0NjM1LjE3OTAyNDc3NDA.*_ga_B6167QB2TF*czE3OTAyNDc3NDAkbzEkZzAkdDE3OTAyNDc3NDAkajYwJGwwJGgxMzE4NjQ5MzQ2*_ga_ERWPGTJ5X8*czE3OTAyNDc3NDAkbzEkZzAkdDE3OTAyNDc3NDAkajYwJGwwJGgw",
+        "date": "2026-09-24",
+        "Upfront_parsed": {
+          "raw": "$70M",
+          "currency": "USD",
+          "musd": 70.0,
+          "musd_native": 70.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2B",
+          "currency": "USD",
+          "musd": 2000.0,
+          "musd_native": 2000.0
+        },
+        "value_musd": 2000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-24",
+        "Buyer": "Roche",
+        "Seller": "Earendil Labs",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$55M",
+        "Total Deal Value": "$1.55B",
+        "Modality": "Bispecific antibodies",
+        "Lead indication(s)": "Oncology",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/earendil-labs-announces-research-collaboration-with-genentech-to-discover-and-develop-therapeutic-bispecific-antibodies-in-oncology-302888622.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/earendil-labs-announces-research-collaboration-with-genentech-to-discover-and-develop-therapeutic-bispecific-antibodies-in-oncology-302888622.html",
+        "date": "2026-09-24",
+        "Upfront_parsed": {
+          "raw": "$55M",
+          "currency": "USD",
+          "musd": 55.0,
+          "musd_native": 55.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.55B",
+          "currency": "USD",
+          "musd": 1550.0,
+          "musd_native": 1550.0
+        },
+        "value_musd": 1550.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-22",
+        "Buyer": "Lexeo Therapeutics",
+        "Seller": "Mantle Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "$8.3M",
+        "Total Deal Value": "$21.3M",
+        "Modality": "Antibodies",
+        "Lead indication(s)": "Friedreich ataxia",
+        "Source": "Link",
+        "URL": "https://ir.lexeotx.com/news-releases/news-release-details/lexeo-therapeutics-enters-agreement-acquire-mantle-therapeutics",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://ir.lexeotx.com/news-releases/news-release-details/lexeo-therapeutics-enters-agreement-acquire-mantle-therapeutics",
+        "date": "2026-09-22",
+        "Upfront_parsed": {
+          "raw": "$8.3M",
+          "currency": "USD",
+          "musd": 8.3,
+          "musd_native": 8.3
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$21.3M",
+          "currency": "USD",
+          "musd": 21.3,
+          "musd_native": 21.3
+        },
+        "value_musd": 21.3,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-22",
+        "Buyer": "Boehringer Ingelheim",
+        "Seller": "Envisagenics",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1B",
+        "Modality": "RNA splicing",
+        "Lead indication(s)": "Oncology",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/22/3366249/0/en/envisagenics-and-boehringer-ingelheim-enter-multi-target-collaboration-to-develop-first-in-class-precision-therapies-based-on-rna-splicing-derived-targets-for-hard-to-treat-cancers.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/09/22/3366249/0/en/envisagenics-and-boehringer-ingelheim-enter-multi-target-collaboration-to-develop-first-in-class-precision-therapies-based-on-rna-splicing-derived-targets-for-hard-to-treat-cancers.html",
+        "date": "2026-09-22",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1B",
+          "currency": "USD",
+          "musd": 1000.0,
+          "musd_native": 1000.0
+        },
+        "value_musd": 1000.0,
         "investors": []
       },
       {
@@ -1046,6 +1161,94 @@
         "investors": []
       },
       {
+        "Date": "2026-09-29",
+        "Buyer": "Novo Nordisk",
+        "Seller": "Hengrui",
+        "Structure": "Licensing",
+        "Scope": "Ex-China rights",
+        "Upfront": "$300M",
+        "Total Deal Value": "$2.5B",
+        "Modality": "Peptide",
+        "Lead indication(s)": "Obesity",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/hengrui-pharma-and-novo-enter-exclusive-license-agreement-for-once-weekly-oral-glp-1gip-dual-receptor-agonist-hrs-1596-302892378.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/hengrui-pharma-and-novo-enter-exclusive-license-agreement-for-once-weekly-oral-glp-1gip-dual-receptor-agonist-hrs-1596-302892378.html",
+        "date": "2026-09-29",
+        "Upfront_parsed": {
+          "raw": "$300M",
+          "currency": "USD",
+          "musd": 300.0,
+          "musd_native": 300.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.5B",
+          "currency": "USD",
+          "musd": 2500.0,
+          "musd_native": 2500.0
+        },
+        "value_musd": 2500.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-28",
+        "Buyer": "Tolerance Bio",
+        "Seller": "Tanabe Pharma",
+        "Structure": "Licensing",
+        "Scope": "Ex-Japan rights",
+        "Upfront": null,
+        "Total Deal Value": "$560M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260928078387/en/Tolerance-Bio-Licenses-Clinical-Stage-Anti-IL-33-Monoclonal-Antibody-from-Tanabe-Pharma-to-Expand-Thymus-Focused-Clinical-Pipeline",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20260928078387/en/Tolerance-Bio-Licenses-Clinical-Stage-Anti-IL-33-Monoclonal-Antibody-from-Tanabe-Pharma-to-Expand-Thymus-Focused-Clinical-Pipeline",
+        "date": "2026-09-28",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$560M",
+          "currency": "USD",
+          "musd": 560.0,
+          "musd_native": 560.0
+        },
+        "value_musd": 560.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-28",
+        "Buyer": "Merck",
+        "Seller": "SciBrunch Therapeutics",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$400M",
+        "Total Deal Value": "$2.13B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Oncology",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260928125137/en/Merck-Enters-into-Exclusive-Global-License-Agreement-with-SciBrunch-Therapeutics-for-SPR2015-an-Investigational-Oral-KRAS-G12D-ON-Inhibitor",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20260928125137/en/Merck-Enters-into-Exclusive-Global-License-Agreement-with-SciBrunch-Therapeutics-for-SPR2015-an-Investigational-Oral-KRAS-G12D-ON-Inhibitor",
+        "date": "2026-09-28",
+        "Upfront_parsed": {
+          "raw": "$400M",
+          "currency": "USD",
+          "musd": 400.0,
+          "musd_native": 400.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.13B",
+          "currency": "USD",
+          "musd": 2130.0,
+          "musd_native": 2130.0
+        },
+        "value_musd": 2130.0,
+        "investors": []
+      },
+      {
         "Date": "2026-09-28",
         "Buyer": "3SBio",
         "Seller": "MindRank",
@@ -1069,6 +1272,120 @@
           "musd_native": 260.0
         },
         "value_musd": 260.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-25",
+        "Buyer": "Shanghai Henlius Biotech",
+        "Seller": "Amberstone Biosciences",
+        "Structure": "Licensing",
+        "Scope": null,
+        "Upfront": "$4M",
+        "Total Deal Value": "$888M",
+        "Modality": "T cell engager",
+        "Lead indication(s)": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://endpoints.news/legends-five-year-data-suggests-carvykti-could-be-a-cure-addex-indivior-split/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6fb57f00-1befe859&utm_medium=email&utm_campaign=2541%20-%20Endpoints%2011%20And%20the%20winners%20are%20Enterprise&utm_content=2541%20-%20Endpoints%2011%20And%20the%20winners%20are%20Enterprise+CID_a666609699f374bb483caa4c9210f053&utm_source=ENDPOINTS%20emails&utm_term=Legends%20five-year%20data%20suggests%20Carvykti%20could%20be%20a%20cure%20Addex%20and%20Indivior%20split%20up",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/legends-five-year-data-suggests-carvykti-could-be-a-cure-addex-indivior-split/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-6fb57f00-1befe859&utm_medium=email&utm_campaign=2541%20-%20Endpoints%2011%20And%20the%20winners%20are%20Enterprise&utm_content=2541%20-%20Endpoints%2011%20And%20the%20winners%20are%20Enterprise+CID_a666609699f374bb483caa4c9210f053&utm_source=ENDPOINTS%20emails&utm_term=Legends%20five-year%20data%20suggests%20Carvykti%20could%20be%20a%20cure%20Addex%20and%20Indivior%20split%20up",
+        "date": "2026-09-25",
+        "Upfront_parsed": {
+          "raw": "$4M",
+          "currency": "USD",
+          "musd": 4.0,
+          "musd_native": 4.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$888M",
+          "currency": "USD",
+          "musd": 888.0,
+          "musd_native": 888.0
+        },
+        "value_musd": 888.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-24",
+        "Buyer": "Novo Nordisk",
+        "Seller": "Nanexa AB",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": "$1.3B",
+        "Modality": "Long-acting injectables",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://nanexa.com/mfn_news/nanexa-and-novo-enter-into-eur-1-165-billion-global-license-and-collaboration-agreement-for-long-acting-injectables/",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://nanexa.com/mfn_news/nanexa-and-novo-enter-into-eur-1-165-billion-global-license-and-collaboration-agreement-for-long-acting-injectables/",
+        "date": "2026-09-24",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.3B",
+          "currency": "USD",
+          "musd": 1300.0,
+          "musd_native": 1300.0
+        },
+        "value_musd": 1300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-24",
+        "Buyer": "Lilly",
+        "Seller": "InnoCare",
+        "Structure": "Licensing",
+        "Scope": null,
+        "Upfront": "$100M",
+        "Total Deal Value": "$3.35B",
+        "Modality": null,
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "http://innocarepharma.com/en/news/activity/en020260924-InnoCare-Announces-Collaboration-with-Lilly",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "http://innocarepharma.com/en/news/activity/en020260924-InnoCare-Announces-Collaboration-with-Lilly",
+        "date": "2026-09-24",
+        "Upfront_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$3.35B",
+          "currency": "USD",
+          "musd": 3350.0,
+          "musd_native": 3350.0
+        },
+        "value_musd": 3350.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-22",
+        "Buyer": "Novartis",
+        "Seller": "BoomRay",
+        "Structure": "LIcensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": "$900M",
+        "Modality": "Radiopharmaceuticals",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/boomray-enters-exclusive-global-license-agreement-with-novartis-for-a-novel-radioligand-therapy-asset-302885500.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/boomray-enters-exclusive-global-license-agreement-with-novartis-for-a-novel-radioligand-therapy-asset-302885500.html",
+        "date": "2026-09-22",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$900M",
+          "currency": "USD",
+          "musd": 900.0,
+          "musd_native": 900.0
+        },
+        "value_musd": 900.0,
         "investors": []
       },
       {
@@ -2142,6 +2459,546 @@
           },
           {
             "name": "Giant Step",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-29",
+        "Company": "Ortet",
+        "Round": null,
+        "Amount": "$500M",
+        "Modality": null,
+        "Lead indication(s)": null,
+        "Geography": "US",
+        "Lead 1": "Thoreau",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/spark-co-founder-steven-altschuler-is-back-with-an-immune-resetting-biotech/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Spark%20co-founder%20Steven%20Altschuler%20is%20back%20with%20an%20immune-resetting%20biotech",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/spark-co-founder-steven-altschuler-is-back-with-an-immune-resetting-biotech/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Spark%20co-founder%20Steven%20Altschuler%20is%20back%20with%20an%20immune-resetting%20biotech",
+        "date": "2026-09-29",
+        "Amount_parsed": {
+          "raw": "$500M",
+          "currency": "USD",
+          "musd": 500.0,
+          "musd_native": 500.0
+        },
+        "value_musd": 500.0,
+        "investors": [
+          {
+            "name": "Thoreau",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-29",
+        "Company": "ai3Bio",
+        "Round": "Series A",
+        "Amount": "$48M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "Autoimmune",
+        "Geography": "US",
+        "Lead 1": "UPMC Enterprises",
+        "Lead 2": "Ziff Capital Partners",
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/spark-co-founder-steven-altschuler-is-back-with-an-immune-resetting-biotech/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Spark%20co-founder%20Steven%20Altschuler%20is%20back%20with%20an%20immune-resetting%20biotech",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/spark-co-founder-steven-altschuler-is-back-with-an-immune-resetting-biotech/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Spark%20co-founder%20Steven%20Altschuler%20is%20back%20with%20an%20immune-resetting%20biotech",
+        "date": "2026-09-29",
+        "Amount_parsed": {
+          "raw": "$48M",
+          "currency": "USD",
+          "musd": 48.0,
+          "musd_native": 48.0
+        },
+        "value_musd": 48.0,
+        "investors": [
+          {
+            "name": "UPMC Enterprises",
+            "lead": true
+          },
+          {
+            "name": "Ziff Capital Partners",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-29",
+        "Company": "AptaDir",
+        "Round": "Seed",
+        "Amount": "$45M",
+        "Modality": "RNA inhibitors",
+        "Lead indication(s)": "Genetic medicine",
+        "Geography": "Italy",
+        "Lead 1": "4BIO Capital",
+        "Lead 2": null,
+        "Investor 3": "EXTEND",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/29/3370373/0/en/aptadir-raises-a-40m-45m-seed-financing-to-advance-first-in-class-demethylating-medicines.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/09/29/3370373/0/en/aptadir-raises-a-40m-45m-seed-financing-to-advance-first-in-class-demethylating-medicines.html",
+        "date": "2026-09-29",
+        "Amount_parsed": {
+          "raw": "$45M",
+          "currency": "USD",
+          "musd": 45.0,
+          "musd_native": 45.0
+        },
+        "value_musd": 45.0,
+        "investors": [
+          {
+            "name": "4BIO Capital",
+            "lead": true
+          },
+          {
+            "name": "EXTEND",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-29",
+        "Company": "Breye Therapeutics",
+        "Round": "Series A",
+        "Amount": "$76.6M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Retinal disease",
+        "Geography": "Denmark",
+        "Lead 1": "Mission BioCapital",
+        "Lead 2": "Novo Holdings",
+        "Investor 3": "Sound Bioventures",
+        "Investor 4": "Ljungstr\u00f6m Family Office",
+        "Investor 5": "Innovestor Life Science",
+        "Investor 6": "EIFO",
+        "Investor 7": "Catalyze Capital",
+        "Investor 8": "Modi Ventures",
+        "Investor 9": "Pappas Capital",
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://breye.com/breye-therapeutics-raises-e67-5-million-in-over-subscribed-series-a-financing/",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://breye.com/breye-therapeutics-raises-e67-5-million-in-over-subscribed-series-a-financing/",
+        "date": "2026-09-29",
+        "Amount_parsed": {
+          "raw": "$76.6M",
+          "currency": "USD",
+          "musd": 76.6,
+          "musd_native": 76.6
+        },
+        "value_musd": 76.6,
+        "investors": [
+          {
+            "name": "Mission BioCapital",
+            "lead": true
+          },
+          {
+            "name": "Novo Holdings",
+            "lead": true
+          },
+          {
+            "name": "Sound Bioventures",
+            "lead": false
+          },
+          {
+            "name": "Ljungstr\u00f6m Family Office",
+            "lead": false
+          },
+          {
+            "name": "Innovestor Life Science",
+            "lead": false
+          },
+          {
+            "name": "EIFO",
+            "lead": false
+          },
+          {
+            "name": "Catalyze Capital",
+            "lead": false
+          },
+          {
+            "name": "Modi Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-29",
+        "Company": "AnaCardio",
+        "Round": "Series B",
+        "Amount": "$70.9M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Heart failure",
+        "Geography": "Sweden",
+        "Lead 1": "Novo Holdings",
+        "Lead 2": "Ljungstr\u00f6m Family Office",
+        "Investor 3": "Helsinn",
+        "Investor 4": "Pureos Bioventures",
+        "Investor 5": "Sound Bioventures",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/swedish-biotech-anacardio-raises-70-9m-to-advance-safer-heart-failure-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Swedish%20biotech%20AnaCardio%20raises%20709M%20for%20safer%20heart%20drug",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/swedish-biotech-anacardio-raises-70-9m-to-advance-safer-heart-failure-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-9715dc1a-e34f4b43&utm_medium=email&utm_campaign=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise&utm_content=2543%20-%20Metsera%20alums%20target%20sleep%20disorders%20Enterprise+CID_54d7dc92b34327c9a56414b60d5dd378&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Swedish%20biotech%20AnaCardio%20raises%20709M%20for%20safer%20heart%20drug",
+        "date": "2026-09-29",
+        "Amount_parsed": {
+          "raw": "$70.9M",
+          "currency": "USD",
+          "musd": 70.9,
+          "musd_native": 70.9
+        },
+        "value_musd": 70.9,
+        "investors": [
+          {
+            "name": "Novo Holdings",
+            "lead": true
+          },
+          {
+            "name": "Ljungstr\u00f6m Family Office",
+            "lead": true
+          },
+          {
+            "name": "Helsinn",
+            "lead": false
+          },
+          {
+            "name": "Pureos Bioventures",
+            "lead": false
+          },
+          {
+            "name": "Sound Bioventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-27",
+        "Company": "Sleptay Biomedical",
+        "Round": "Series A",
+        "Amount": "$50M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Depression",
+        "Geography": "China",
+        "Lead 1": "Decheng Capital",
+        "Lead 2": null,
+        "Investor 3": "Huatai-Genscript Fund",
+        "Investor 4": "China Merchants Venture Capital",
+        "Investor 5": "Morningside Venture Capital",
+        "Investor 6": "Shunwei Capital",
+        "Investor 7": "Qianju Capital",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://mp.weixin.qq.com/s/btYumsaniCSqkfgNAS1gPg",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://mp.weixin.qq.com/s/btYumsaniCSqkfgNAS1gPg",
+        "date": "2026-09-27",
+        "Amount_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "value_musd": 50.0,
+        "investors": [
+          {
+            "name": "Decheng Capital",
+            "lead": true
+          },
+          {
+            "name": "Huatai-Genscript Fund",
+            "lead": false
+          },
+          {
+            "name": "China Merchants Venture Capital",
+            "lead": false
+          },
+          {
+            "name": "Morningside Venture Capital",
+            "lead": false
+          },
+          {
+            "name": "Shunwei Capital",
+            "lead": false
+          },
+          {
+            "name": "Qianju Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-24",
+        "Company": "BigHat Biosciences",
+        "Round": "Series C",
+        "Amount": "$75M",
+        "Modality": "AI protein design",
+        "Lead indication(s)": "Solid tumor",
+        "Geography": "US",
+        "Lead 1": "DFJ Growth",
+        "Lead 2": "Premji Invest",
+        "Investor 3": "Catalio Capital Management",
+        "Investor 4": "LG Technology Ventures",
+        "Investor 5": "Sigmas Group",
+        "Investor 6": "8VC",
+        "Investor 7": "Alexandria Venture Investments",
+        "Investor 8": "Amgen Ventures",
+        "Investor 9": "a16z",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260923302250/en/BigHat-Biosciences-Announces-%2475-Million-Series-C-Financing-to-Advance-AI-Designed-Therapeutics-and-Leading-Agentic-Data-Platform-for-Rapid-Protein-Design",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260923302250/en/BigHat-Biosciences-Announces-%2475-Million-Series-C-Financing-to-Advance-AI-Designed-Therapeutics-and-Leading-Agentic-Data-Platform-for-Rapid-Protein-Design",
+        "date": "2026-09-24",
+        "Amount_parsed": {
+          "raw": "$75M",
+          "currency": "USD",
+          "musd": 75.0,
+          "musd_native": 75.0
+        },
+        "value_musd": 75.0,
+        "investors": [
+          {
+            "name": "DFJ Growth",
+            "lead": true
+          },
+          {
+            "name": "Premji Invest",
+            "lead": true
+          },
+          {
+            "name": "Catalio Capital Management",
+            "lead": false
+          },
+          {
+            "name": "LG Technology Ventures",
+            "lead": false
+          },
+          {
+            "name": "Sigmas Group",
+            "lead": false
+          },
+          {
+            "name": "8VC",
+            "lead": false
+          },
+          {
+            "name": "Alexandria Venture Investments",
+            "lead": false
+          },
+          {
+            "name": "Amgen Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-24",
+        "Company": "Kasvu Therapeutics",
+        "Round": "Series A",
+        "Amount": "$34M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Major depressive disorder",
+        "Geography": "Finland",
+        "Lead 1": "Hadean Ventures",
+        "Lead 2": null,
+        "Investor 3": "Tesi (Finnish Industry Investment)",
+        "Investor 4": "Innovestor Life Science Fund",
+        "Investor 5": "Finnish Drug Discovery Center",
+        "Investor 6": "Stephen Industries",
+        "Investor 7": "Nordic Science Investments",
+        "Investor 8": "Helsinki University Funds",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/24/3367998/0/en/kasvu-therapeutics-raises-30-million-series-a-financing-round-led-by-hadean-ventures-to-advance-its-novel-trkb-potentiator-into-clinical-development-targeting-neuropsychiatric-diso.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/09/24/3367998/0/en/kasvu-therapeutics-raises-30-million-series-a-financing-round-led-by-hadean-ventures-to-advance-its-novel-trkb-potentiator-into-clinical-development-targeting-neuropsychiatric-diso.html",
+        "date": "2026-09-24",
+        "Amount_parsed": {
+          "raw": "$34M",
+          "currency": "USD",
+          "musd": 34.0,
+          "musd_native": 34.0
+        },
+        "value_musd": 34.0,
+        "investors": [
+          {
+            "name": "Hadean Ventures",
+            "lead": true
+          },
+          {
+            "name": "Tesi (Finnish Industry Investment)",
+            "lead": false
+          },
+          {
+            "name": "Innovestor Life Science Fund",
+            "lead": false
+          },
+          {
+            "name": "Finnish Drug Discovery Center",
+            "lead": false
+          },
+          {
+            "name": "Stephen Industries",
+            "lead": false
+          },
+          {
+            "name": "Nordic Science Investments",
+            "lead": false
+          },
+          {
+            "name": "Helsinki University Funds",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-23",
+        "Company": "Enveda",
+        "Round": "Series E",
+        "Amount": "$311M",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "Atopic dermatitis",
+        "Geography": "US",
+        "Lead 1": "Catalio Capital Management",
+        "Lead 2": null,
+        "Investor 3": "Durable Capital Partners",
+        "Investor 4": "ICONIQ",
+        "Investor 5": "Lightspeed",
+        "Investor 6": "Surveyor Capital",
+        "Investor 7": "T. Rowe Price Investment Management",
+        "Investor 8": "Digitalis Ventures",
+        "Investor 9": "Alderline Group",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260923027166/en/Enveda-Raises-%24311-Million-From-Leading-AI-and-Biotech-Investors-to-Bring-Pharma-Into-the-21st-Century",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260923027166/en/Enveda-Raises-%24311-Million-From-Leading-AI-and-Biotech-Investors-to-Bring-Pharma-Into-the-21st-Century",
+        "date": "2026-09-23",
+        "Amount_parsed": {
+          "raw": "$311M",
+          "currency": "USD",
+          "musd": 311.0,
+          "musd_native": 311.0
+        },
+        "value_musd": 311.0,
+        "investors": [
+          {
+            "name": "Catalio Capital Management",
+            "lead": true
+          },
+          {
+            "name": "Durable Capital Partners",
+            "lead": false
+          },
+          {
+            "name": "ICONIQ",
+            "lead": false
+          },
+          {
+            "name": "Lightspeed",
+            "lead": false
+          },
+          {
+            "name": "Surveyor Capital",
+            "lead": false
+          },
+          {
+            "name": "T. Rowe Price Investment Management",
+            "lead": false
+          },
+          {
+            "name": "Digitalis Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-23",
+        "Company": "Basecamp Research",
+        "Round": "Series C",
+        "Amount": "$140M",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "Oncology",
+        "Geography": "US",
+        "Lead 1": "S32",
+        "Lead 2": null,
+        "Investor 3": "Menlo Ventures",
+        "Investor 4": "NVentures",
+        "Investor 5": "Rockefeller Foundation",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/ai-startup-basecamp-research-raises-140m-series-c-shares-pipeline/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c41adc03-b0404b5a&utm_medium=email&utm_campaign=2539%20-%20The%20drug%20industrys%20care%20gap%20pregnancy%20Enterprise&utm_content=2539%20-%20The%20drug%20industrys%20care%20gap%20pregnancy%20Enterprise+CID_d50ea655523f9b89f7618c19542f8b83&utm_source=ENDPOINTS%20emails&utm_term=Basecamp%20raises%20140M%20Series%20C%20unveils%20six-program%20pipeline%20in%20test%20of%20its%20AI",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/ai-startup-basecamp-research-raises-140m-series-c-shares-pipeline/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c41adc03-b0404b5a&utm_medium=email&utm_campaign=2539%20-%20The%20drug%20industrys%20care%20gap%20pregnancy%20Enterprise&utm_content=2539%20-%20The%20drug%20industrys%20care%20gap%20pregnancy%20Enterprise+CID_d50ea655523f9b89f7618c19542f8b83&utm_source=ENDPOINTS%20emails&utm_term=Basecamp%20raises%20140M%20Series%20C%20unveils%20six-program%20pipeline%20in%20test%20of%20its%20AI",
+        "date": "2026-09-23",
+        "Amount_parsed": {
+          "raw": "$140M",
+          "currency": "USD",
+          "musd": 140.0,
+          "musd_native": 140.0
+        },
+        "value_musd": 140.0,
+        "investors": [
+          {
+            "name": "S32",
+            "lead": true
+          },
+          {
+            "name": "Menlo Ventures",
+            "lead": false
+          },
+          {
+            "name": "NVentures",
+            "lead": false
+          },
+          {
+            "name": "Rockefeller Foundation",
             "lead": false
           }
         ]
@@ -5008,6 +5865,84 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-09-05",
+        "IPO date": "2026-09-25",
+        "Company": "ADARx Pharmaceutical",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": "$446.3M",
+        "Modality": "RNAi",
+        "Lead indication": "HAE",
+        "Investor 1": "OrbiMed",
+        "Investor 2": "Lilly Asia Ventures",
+        "Investor 3": "SR One",
+        "Investor 4": "Bain Capital",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": null,
+        "Target source": null,
+        "IPO source": "https://endpoints.news/adarx-prices-446-3m-nasdaq-debut-continuing-industrys-ipo-momentum/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-b6933c0d-c2c9ab54&utm_medium=email&utm_campaign=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise&utm_content=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise+CID_87dacd6a4441d076b6daf7f608e84531&utm_source=ENDPOINTS%20emails&utm_term=Updated%20ADARx%20prices%204463M%20Nasdaq%20debut%20continuing%20industrys%20IPO%20momentum",
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-09-05",
+        "Amount_parsed": {
+          "raw": "$446.3M",
+          "currency": "USD",
+          "musd": 446.3,
+          "musd_native": 446.3
+        },
+        "value_musd": 446.3,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": true
+          },
+          {
+            "name": "Lilly Asia Ventures",
+            "lead": false
+          },
+          {
+            "name": "SR One",
+            "lead": false
+          },
+          {
+            "name": "Bain Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Listing date": null,
+        "IPO date": null,
+        "Company": "Viking Therapeutics",
+        "Target price": null,
+        "Target raise": "$500M",
+        "Amount": null,
+        "Modality": "Peptides",
+        "Lead indication": "Obesity",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": null,
+        "Target source": "https://www.prnewswire.com/news-releases/viking-therapeutics-prices-upsized-500-million-offering-of-common-stock-and-convertible-senior-notes-302888812.html",
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": null,
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
         "Listing date": "2026-08-31",
         "IPO date": null,
         "Company": "Electra Therapeutics",
@@ -6304,6 +7239,406 @@
       "company": "Varda Space Industries",
       "value_musd": 251.0,
       "name": "Giant Step",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Ortet",
+      "value_musd": 500.0,
+      "name": "Thoreau",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "ai3Bio",
+      "value_musd": 48.0,
+      "name": "UPMC Enterprises",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "ai3Bio",
+      "value_musd": 48.0,
+      "name": "Ziff Capital Partners",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AptaDir",
+      "value_musd": 45.0,
+      "name": "4BIO Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AptaDir",
+      "value_musd": 45.0,
+      "name": "EXTEND",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Mission BioCapital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Novo Holdings",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Sound Bioventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Ljungstr\u00f6m Family Office",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Innovestor Life Science",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "EIFO",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Catalyze Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "Breye Therapeutics",
+      "value_musd": 76.6,
+      "name": "Modi Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AnaCardio",
+      "value_musd": 70.9,
+      "name": "Novo Holdings",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AnaCardio",
+      "value_musd": 70.9,
+      "name": "Ljungstr\u00f6m Family Office",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AnaCardio",
+      "value_musd": 70.9,
+      "name": "Helsinn",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AnaCardio",
+      "value_musd": 70.9,
+      "name": "Pureos Bioventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-29",
+      "company": "AnaCardio",
+      "value_musd": 70.9,
+      "name": "Sound Bioventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "Decheng Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "Huatai-Genscript Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "China Merchants Venture Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "Morningside Venture Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "Shunwei Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-27",
+      "company": "Sleptay Biomedical",
+      "value_musd": 50.0,
+      "name": "Qianju Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "DFJ Growth",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "Premji Invest",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "Catalio Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "LG Technology Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "Sigmas Group",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "8VC",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "Alexandria Venture Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "BigHat Biosciences",
+      "value_musd": 75.0,
+      "name": "Amgen Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Hadean Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Tesi (Finnish Industry Investment)",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Innovestor Life Science Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Finnish Drug Discovery Center",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Stephen Industries",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Nordic Science Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-24",
+      "company": "Kasvu Therapeutics",
+      "value_musd": 34.0,
+      "name": "Helsinki University Funds",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "Catalio Capital Management",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "Durable Capital Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "ICONIQ",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "Lightspeed",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "Surveyor Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "T. Rowe Price Investment Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Enveda",
+      "value_musd": 311.0,
+      "name": "Digitalis Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Basecamp Research",
+      "value_musd": 140.0,
+      "name": "S32",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Basecamp Research",
+      "value_musd": 140.0,
+      "name": "Menlo Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Basecamp Research",
+      "value_musd": 140.0,
+      "name": "NVentures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-23",
+      "company": "Basecamp Research",
+      "value_musd": 140.0,
+      "name": "Rockefeller Foundation",
       "lead": false
     },
     {
@@ -8025,6 +9360,38 @@
       "value_musd": 330.0,
       "name": "ARCH",
       "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-05",
+      "company": "ADARx Pharmaceutical",
+      "value_musd": 446.3,
+      "name": "OrbiMed",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-05",
+      "company": "ADARx Pharmaceutical",
+      "value_musd": 446.3,
+      "name": "Lilly Asia Ventures",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-05",
+      "company": "ADARx Pharmaceutical",
+      "value_musd": 446.3,
+      "name": "SR One",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-05",
+      "company": "ADARx Pharmaceutical",
+      "value_musd": 446.3,
+      "name": "Bain Capital",
+      "lead": false
     },
     {
       "category": "IPO",

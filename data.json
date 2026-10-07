@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T07:15:43+00:00",
+  "generated": "2026-10-07T06:54:34+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -165,6 +165,26 @@
           "musd_native": 1000.0
         },
         "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-15",
+        "Buyer": "Lilly",
+        "Seller": null,
+        "Structure": null,
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": null,
+        "Lead indication(s)": null,
+        "Source": null,
+        "URL": null,
+        "category": "Deals",
+        "side": "deal",
+        "url": null,
+        "date": "2026-09-15",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
         "investors": []
       },
       {
@@ -1389,6 +1409,53 @@
         "investors": []
       },
       {
+        "Date": "2026-09-15",
+        "Buyer": "GSK",
+        "Seller": "Chimagen Biosciences",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": "$750M",
+        "Modality": "T cell engager",
+        "Lead indication(s)": "Multiple myeloma",
+        "Source": "Link",
+        "URL": "https://www.gsk.com/en-gb/media/press-releases/gsk-to-acquire-potential-best-in-class-t-cell-engager-tce-for-multiple-myeloma-from-chimagen-biosciences/",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-to-acquire-potential-best-in-class-t-cell-engager-tce-for-multiple-myeloma-from-chimagen-biosciences/",
+        "date": "2026-09-15",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$750M",
+          "currency": "USD",
+          "musd": 750.0,
+          "musd_native": 750.0
+        },
+        "value_musd": 750.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-14",
+        "Buyer": "GENFIT",
+        "Seller": "Inotrem S.A.",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Peptide",
+        "Lead indication(s)": "Liver failure",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/14/3361387/0/en/genfit-advances-nangibotide-in-phase-2-clinical-investigation-in-aclf.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/09/14/3361387/0/en/genfit-advances-nangibotide-in-phase-2-clinical-investigation-in-aclf.html",
+        "date": "2026-09-14",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
         "Date": "2026-09-09",
         "Buyer": "Tectora Therapeutics",
         "Seller": "Schrodinger",
@@ -1552,6 +1619,37 @@
           "musd_native": 1000.0
         },
         "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-08-26",
+        "Buyer": "SK Biopharmaceutical",
+        "Seller": "Biohaven",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$350M",
+        "Total Deal Value": "$795M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Focal epilepsy",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/biohaven-and-sk-biopharmaceuticals-enter-into-strategic-global-licensing-agreement-for-novel-kv7-ion-channel-platform-and-opakalim-lead-candidate-for-epilepsy-302860299.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/biohaven-and-sk-biopharmaceuticals-enter-into-strategic-global-licensing-agreement-for-novel-kv7-ion-channel-platform-and-opakalim-lead-candidate-for-epilepsy-302860299.html",
+        "date": "2026-08-26",
+        "Upfront_parsed": {
+          "raw": "$350M",
+          "currency": "USD",
+          "musd": 350.0,
+          "musd_native": 350.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$795M",
+          "currency": "USD",
+          "musd": 795.0,
+          "musd_native": 795.0
+        },
+        "value_musd": 795.0,
         "investors": []
       },
       {
@@ -2764,6 +2862,64 @@
         ]
       },
       {
+        "Date": "2026-09-26",
+        "Company": "Faro AI",
+        "Round": "Series B",
+        "Amount": "$37M",
+        "Modality": "AI clinical trial design",
+        "Lead indication(s)": null,
+        "Geography": "US",
+        "Lead 1": "Merck Global Health Innovation Fund",
+        "Lead 2": "S32",
+        "Investor 3": "General Catalyst",
+        "Investor 4": "Northpond Ventures",
+        "Investor 5": "Polaris Partners",
+        "Investor 6": "Zetta Venture Partners",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/exclusive-faro-raises-37m-series-b-to-speed-up-clinical-trials-with-ai/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-55f98e39-21a31960&utm_medium=email&utm_campaign=1227%20-%20Akeso%20Summit%20claim%20trial%20victory%20in%20biliary%20tract%20cancer%20Enterprise&utm_content=1227%20-%20Akeso%20Summit%20claim%20trial%20victory%20in%20biliary%20tract%20cancer%20Enterprise+CID_f00f25a78676b02c5fa191807743574a&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Can%20AI%20chop%20clinical%20trial%20timelines%20in%20half%20Faro%20raises%2037M%20to%20find%20out",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/exclusive-faro-raises-37m-series-b-to-speed-up-clinical-trials-with-ai/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-55f98e39-21a31960&utm_medium=email&utm_campaign=1227%20-%20Akeso%20Summit%20claim%20trial%20victory%20in%20biliary%20tract%20cancer%20Enterprise&utm_content=1227%20-%20Akeso%20Summit%20claim%20trial%20victory%20in%20biliary%20tract%20cancer%20Enterprise+CID_f00f25a78676b02c5fa191807743574a&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Can%20AI%20chop%20clinical%20trial%20timelines%20in%20half%20Faro%20raises%2037M%20to%20find%20out",
+        "date": "2026-09-26",
+        "Amount_parsed": {
+          "raw": "$37M",
+          "currency": "USD",
+          "musd": 37.0,
+          "musd_native": 37.0
+        },
+        "value_musd": 37.0,
+        "investors": [
+          {
+            "name": "Merck Global Health Innovation Fund",
+            "lead": true
+          },
+          {
+            "name": "S32",
+            "lead": true
+          },
+          {
+            "name": "General Catalyst",
+            "lead": false
+          },
+          {
+            "name": "Northpond Ventures",
+            "lead": false
+          },
+          {
+            "name": "Polaris Partners",
+            "lead": false
+          },
+          {
+            "name": "Zetta Venture Partners",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-09-24",
         "Company": "BigHat Biosciences",
         "Round": "Series C",
@@ -2999,6 +3155,214 @@
           },
           {
             "name": "Rockefeller Foundation",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-15",
+        "Company": "RegCell",
+        "Round": "Series A",
+        "Amount": "$44M",
+        "Modality": "Cell therapy",
+        "Lead indication(s)": "Autoimmune disease",
+        "Geography": "US",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Playground Global",
+        "Investor 4": "Global Brain",
+        "Investor 5": "LG Technology Ventures",
+        "Investor 6": "Fast Track Initiative",
+        "Investor 7": "Others (not disclosed)",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/regcell-lands-44m-series-a-to-take-nobel-winning-tregs-into-clinic/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-5403c9a9-20595ef0&utm_medium=email&utm_campaign=1240%20-%20GSKs%20latest%20China%20deal%20Enterprise&utm_content=1240%20-%20GSKs%20latest%20China%20deal%20Enterprise+CID_77d5ba60135f26db72f993e34a416b2f&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20RegCell%20gets%2066M%20boost%20to%20take%20Nobel-winning%20Tregs%20into%20clinic",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/regcell-lands-44m-series-a-to-take-nobel-winning-tregs-into-clinic/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-5403c9a9-20595ef0&utm_medium=email&utm_campaign=1240%20-%20GSKs%20latest%20China%20deal%20Enterprise&utm_content=1240%20-%20GSKs%20latest%20China%20deal%20Enterprise+CID_77d5ba60135f26db72f993e34a416b2f&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20RegCell%20gets%2066M%20boost%20to%20take%20Nobel-winning%20Tregs%20into%20clinic",
+        "date": "2026-09-15",
+        "Amount_parsed": {
+          "raw": "$44M",
+          "currency": "USD",
+          "musd": 44.0,
+          "musd_native": 44.0
+        },
+        "value_musd": 44.0,
+        "investors": [
+          {
+            "name": "Playground Global",
+            "lead": false
+          },
+          {
+            "name": "Global Brain",
+            "lead": false
+          },
+          {
+            "name": "LG Technology Ventures",
+            "lead": false
+          },
+          {
+            "name": "Fast Track Initiative",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-14",
+        "Company": "Shennon Biotechnologies",
+        "Round": null,
+        "Amount": "$12M",
+        "Modality": "T cell engagers",
+        "Lead indication(s)": "Solid tumor",
+        "Geography": "US",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Future Ventures",
+        "Investor 4": "NextGen Venture Partners",
+        "Investor 5": "Samos Investments",
+        "Investor 6": "Atypical Ventures",
+        "Investor 7": "Saras Capital",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260914821430/en/Shennon-Biotechnologies-Raises-%2412M-in-Financing-Appoints-Cyril-Konto-M.D.-as-Chief-Executive-Officer-and-Unveils-Precision-Immunotherapy-Pipeline",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260914821430/en/Shennon-Biotechnologies-Raises-%2412M-in-Financing-Appoints-Cyril-Konto-M.D.-as-Chief-Executive-Officer-and-Unveils-Precision-Immunotherapy-Pipeline",
+        "date": "2026-09-14",
+        "Amount_parsed": {
+          "raw": "$12M",
+          "currency": "USD",
+          "musd": 12.0,
+          "musd_native": 12.0
+        },
+        "value_musd": 12.0,
+        "investors": [
+          {
+            "name": "Future Ventures",
+            "lead": false
+          },
+          {
+            "name": "NextGen Venture Partners",
+            "lead": false
+          },
+          {
+            "name": "Samos Investments",
+            "lead": false
+          },
+          {
+            "name": "Atypical Ventures",
+            "lead": false
+          },
+          {
+            "name": "Saras Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-14",
+        "Company": "QL Biopharm",
+        "Round": "Series C",
+        "Amount": "$44M",
+        "Modality": "Peptides",
+        "Lead indication(s)": "Obesity",
+        "Geography": "China",
+        "Lead 1": "Cathay Capital",
+        "Lead 2": null,
+        "Investor 3": "Huatai Securities",
+        "Investor 4": "Tencent",
+        "Investor 5": "Lichen Investment",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/electra-aims-for-nearly-300m-ipo-enhertus-phase-3-lung-cancer-success/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-78a94aa9-0cf3ddf0&utm_medium=email&utm_campaign=2532%20-%20Akeso%20releases%20details%20on%20lung%20cancer%20success%20Enterprise&utm_content=2532%20-%20Akeso%20releases%20details%20on%20lung%20cancer%20success%20Enterprise+CID_33644815179396a42094bf7196a310a9&utm_source=ENDPOINTS%20emails&utm_term=Electra%20aims%20for%20nearly%20300M%20IPO%20Enhertus%20Phase%203%20lung%20cancer%20success",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/electra-aims-for-nearly-300m-ipo-enhertus-phase-3-lung-cancer-success/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-78a94aa9-0cf3ddf0&utm_medium=email&utm_campaign=2532%20-%20Akeso%20releases%20details%20on%20lung%20cancer%20success%20Enterprise&utm_content=2532%20-%20Akeso%20releases%20details%20on%20lung%20cancer%20success%20Enterprise+CID_33644815179396a42094bf7196a310a9&utm_source=ENDPOINTS%20emails&utm_term=Electra%20aims%20for%20nearly%20300M%20IPO%20Enhertus%20Phase%203%20lung%20cancer%20success",
+        "date": "2026-09-14",
+        "Amount_parsed": {
+          "raw": "$44M",
+          "currency": "USD",
+          "musd": 44.0,
+          "musd_native": 44.0
+        },
+        "value_musd": 44.0,
+        "investors": [
+          {
+            "name": "Cathay Capital",
+            "lead": true
+          },
+          {
+            "name": "Huatai Securities",
+            "lead": false
+          },
+          {
+            "name": "Tencent",
+            "lead": false
+          },
+          {
+            "name": "Lichen Investment",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-09",
+        "Company": "Caspian Therapeutics",
+        "Round": null,
+        "Amount": "$50M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Diabetes",
+        "Geography": "US",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Eli Lilly",
+        "Investor 4": "BVF Partners",
+        "Investor 5": "T1D Fund",
+        "Investor 6": "Invus",
+        "Investor 7": "Montanova Capital",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/kura-oncology-spins-out-diabetes-pipeline-with-50m-and-lillys-help/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b53c24c1-c166b398&utm_medium=email&utm_campaign=1236%20-%20Kura%20is%20spinning%20out%20its%20diabetes%20RD%20Enterprise&utm_content=1236%20-%20Kura%20is%20spinning%20out%20its%20diabetes%20RD%20Enterprise+CID_3d5ea156a7165a79638e3a0bee88a4b0&utm_source=ENDPOINTS%20emails&utm_term=Kura%20Oncology%20spins%20out%20diabetes%20pipeline%20with%2050M%20and%20Lillys%20help",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/kura-oncology-spins-out-diabetes-pipeline-with-50m-and-lillys-help/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b53c24c1-c166b398&utm_medium=email&utm_campaign=1236%20-%20Kura%20is%20spinning%20out%20its%20diabetes%20RD%20Enterprise&utm_content=1236%20-%20Kura%20is%20spinning%20out%20its%20diabetes%20RD%20Enterprise+CID_3d5ea156a7165a79638e3a0bee88a4b0&utm_source=ENDPOINTS%20emails&utm_term=Kura%20Oncology%20spins%20out%20diabetes%20pipeline%20with%2050M%20and%20Lillys%20help",
+        "date": "2026-09-09",
+        "Amount_parsed": {
+          "raw": "$50M",
+          "currency": "USD",
+          "musd": 50.0,
+          "musd_native": 50.0
+        },
+        "value_musd": 50.0,
+        "investors": [
+          {
+            "name": "Eli Lilly",
+            "lead": false
+          },
+          {
+            "name": "BVF Partners",
+            "lead": false
+          },
+          {
+            "name": "T1D Fund",
+            "lead": false
+          },
+          {
+            "name": "Invus",
+            "lead": false
+          },
+          {
+            "name": "Montanova Capital",
             "lead": false
           }
         ]
@@ -5946,8 +6310,8 @@
         "Listing date": "2026-08-31",
         "IPO date": null,
         "Company": "Electra Therapeutics",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$15 / share",
+        "Target raise": "$297M",
         "Amount": null,
         "Modality": "Monoclonal antibody",
         "Lead indication": "sHLH",
@@ -5960,7 +6324,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526374259/d61940ds1.htm#toc",
-        "Target source": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526389755/d61940ds1a.htm#toc61940_6",
         "IPO source": null,
         "category": "IPO",
         "side": "raise",
@@ -7435,6 +7799,54 @@
     },
     {
       "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "Merck Global Health Innovation Fund",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "S32",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "General Catalyst",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "Northpond Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "Polaris Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-26",
+      "company": "Faro AI",
+      "value_musd": 37.0,
+      "name": "Zetta Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
       "date": "2026-09-24",
       "company": "BigHat Biosciences",
       "value_musd": 75.0,
@@ -7639,6 +8051,150 @@
       "company": "Basecamp Research",
       "value_musd": 140.0,
       "name": "Rockefeller Foundation",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-15",
+      "company": "RegCell",
+      "value_musd": 44.0,
+      "name": "Playground Global",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-15",
+      "company": "RegCell",
+      "value_musd": 44.0,
+      "name": "Global Brain",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-15",
+      "company": "RegCell",
+      "value_musd": 44.0,
+      "name": "LG Technology Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-15",
+      "company": "RegCell",
+      "value_musd": 44.0,
+      "name": "Fast Track Initiative",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "Shennon Biotechnologies",
+      "value_musd": 12.0,
+      "name": "Future Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "Shennon Biotechnologies",
+      "value_musd": 12.0,
+      "name": "NextGen Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "Shennon Biotechnologies",
+      "value_musd": 12.0,
+      "name": "Samos Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "Shennon Biotechnologies",
+      "value_musd": 12.0,
+      "name": "Atypical Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "Shennon Biotechnologies",
+      "value_musd": 12.0,
+      "name": "Saras Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "QL Biopharm",
+      "value_musd": 44.0,
+      "name": "Cathay Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "QL Biopharm",
+      "value_musd": 44.0,
+      "name": "Huatai Securities",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "QL Biopharm",
+      "value_musd": 44.0,
+      "name": "Tencent",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-14",
+      "company": "QL Biopharm",
+      "value_musd": 44.0,
+      "name": "Lichen Investment",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-09",
+      "company": "Caspian Therapeutics",
+      "value_musd": 50.0,
+      "name": "Eli Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-09",
+      "company": "Caspian Therapeutics",
+      "value_musd": 50.0,
+      "name": "BVF Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-09",
+      "company": "Caspian Therapeutics",
+      "value_musd": 50.0,
+      "name": "T1D Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-09",
+      "company": "Caspian Therapeutics",
+      "value_musd": 50.0,
+      "name": "Invus",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-09",
+      "company": "Caspian Therapeutics",
+      "value_musd": 50.0,
+      "name": "Montanova Capital",
       "lead": false
     },
     {

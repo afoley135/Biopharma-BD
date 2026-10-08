@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T06:54:34+00:00",
+  "generated": "2026-10-08T07:02:27+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -170,21 +170,26 @@
       {
         "Date": "2026-09-15",
         "Buyer": "Lilly",
-        "Seller": null,
-        "Structure": null,
+        "Seller": "QurCan Therapeutics",
+        "Structure": "Discovery collaboration",
         "Upfront": null,
-        "Total Deal Value": null,
-        "Modality": null,
-        "Lead indication(s)": null,
-        "Source": null,
-        "URL": null,
+        "Total Deal Value": "$237M",
+        "Modality": "tLNP",
+        "Lead indication(s)": "CNS disease",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260908631407/en/QurCan-Therapeutics-Enters-Strategic-Research-and-Collaboration-Agreement-with-Lilly-to-Advance-Nucleic-Acid-Therapies-for-Central-and-Peripheral-Nervous-System-Diseases",
         "category": "Deals",
         "side": "deal",
-        "url": null,
+        "url": "https://www.businesswire.com/news/home/20260908631407/en/QurCan-Therapeutics-Enters-Strategic-Research-and-Collaboration-Agreement-with-Lilly-to-Advance-Nucleic-Acid-Therapies-for-Central-and-Peripheral-Nervous-System-Diseases",
         "date": "2026-09-15",
         "Upfront_parsed": null,
-        "Total Deal Value_parsed": null,
-        "value_musd": null,
+        "Total Deal Value_parsed": {
+          "raw": "$237M",
+          "currency": "USD",
+          "musd": 237.0,
+          "musd_native": 237.0
+        },
+        "value_musd": 237.0,
         "investors": []
       },
       {

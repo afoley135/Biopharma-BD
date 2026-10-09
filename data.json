@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T07:02:27+00:00",
+  "generated": "2026-10-09T07:10:41+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,196 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-08",
+        "Buyer": "Roche",
+        "Seller": "Defand Therapeutics",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1B",
+        "Modality": "Molecular glue degraders",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/roche-does-fourth-china-deal-since-august-teaming-with-defand-on-degraders/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f40e3314-8054a44d&utm_medium=email&utm_campaign=2550%20-%20Preeclampsia%20finally%20makes%20the%20world%20stage%20Enterprise&utm_content=2550%20-%20Preeclampsia%20finally%20makes%20the%20world%20stage%20Enterprise+CID_947356fa581d8590c7adb5e2bbd5b1a2&utm_source=ENDPOINTS%20emails&utm_term=Roche%20does%20fourth%20China%20deal%20since%20August%20teaming%20with%20Defand%20on%20degraders",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/roche-does-fourth-china-deal-since-august-teaming-with-defand-on-degraders/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-f40e3314-8054a44d&utm_medium=email&utm_campaign=2550%20-%20Preeclampsia%20finally%20makes%20the%20world%20stage%20Enterprise&utm_content=2550%20-%20Preeclampsia%20finally%20makes%20the%20world%20stage%20Enterprise+CID_947356fa581d8590c7adb5e2bbd5b1a2&utm_source=ENDPOINTS%20emails&utm_term=Roche%20does%20fourth%20China%20deal%20since%20August%20teaming%20with%20Defand%20on%20degraders",
+        "date": "2026-10-08",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1B",
+          "currency": "USD",
+          "musd": 1000.0,
+          "musd_native": 1000.0
+        },
+        "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-08",
+        "Buyer": "Viatris",
+        "Seller": "Pacira BioSciences",
+        "Structure": "Acquisition",
+        "Upfront": "$1.65B",
+        "Total Deal Value": "$1.65B",
+        "Modality": "Local anesthetic",
+        "Lead indication(s)": "Pain",
+        "Source": "Link",
+        "URL": "https://newsroom.viatris.com/2026-10-08-Viatris-Agrees-to-Acquire-Pacira-BioSciences,-Advancing-Its-Innovative-Medicines-Strategy-and-Becoming-a-Leader-in-Non-Opioid-Pain-Therapies",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://newsroom.viatris.com/2026-10-08-Viatris-Agrees-to-Acquire-Pacira-BioSciences,-Advancing-Its-Innovative-Medicines-Strategy-and-Becoming-a-Leader-in-Non-Opioid-Pain-Therapies",
+        "date": "2026-10-08",
+        "Upfront_parsed": {
+          "raw": "$1.65B",
+          "currency": "USD",
+          "musd": 1650.0,
+          "musd_native": 1650.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.65B",
+          "currency": "USD",
+          "musd": 1650.0,
+          "musd_native": 1650.0
+        },
+        "value_musd": 1650.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-07",
+        "Buyer": "AmyriAD Therapeutics",
+        "Seller": "Recognify Life Sciences",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Small molecule",
+        "Lead indication(s)": "CIAS",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/amyriad-therapeutics-acquires-recognify-life-sciences-expanding-its-clinical-stage-cognition-pipeline-with-rl-007-inidascamine-302900667.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/amyriad-therapeutics-acquires-recognify-life-sciences-expanding-its-clinical-stage-cognition-pipeline-with-rl-007-inidascamine-302900667.html",
+        "date": "2026-10-07",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-05",
+        "Buyer": "Roche",
+        "Seller": "Alector",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$100M",
+        "Total Deal Value": "$1.27B",
+        "Modality": "Enzyme replacement therapy",
+        "Lead indication(s)": "Parkinson's disease",
+        "Source": "Link",
+        "URL": "https://endpoints.news/roche-enlists-alector-in-parkinsons-deal-paying-100m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-99e932f3-edb3a5aa&utm_medium=email&utm_campaign=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise&utm_content=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise+CID_94eed5060721c3a9b6daf7dd4712fef3&utm_source=ENDPOINTS%20emails&utm_term=Roche%20enlists%20Alector%20in%20Parkinsons%20deal%20paying%20100M%20upfront",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/roche-enlists-alector-in-parkinsons-deal-paying-100m-upfront/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-99e932f3-edb3a5aa&utm_medium=email&utm_campaign=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise&utm_content=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise+CID_94eed5060721c3a9b6daf7dd4712fef3&utm_source=ENDPOINTS%20emails&utm_term=Roche%20enlists%20Alector%20in%20Parkinsons%20deal%20paying%20100M%20upfront",
+        "date": "2026-10-05",
+        "Upfront_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.27B",
+          "currency": "USD",
+          "musd": 1270.0,
+          "musd_native": 1270.0
+        },
+        "value_musd": 1270.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-05",
+        "Buyer": "Shionogi",
+        "Seller": "IntraBio Inc",
+        "Structure": "Acquisition",
+        "Upfront": "$2B",
+        "Total Deal Value": "$2B",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Niemann-Pick",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261005854293/en/Shionogi-Continues-Rare-Disease-Expansion-With-Planned-Acquisition-of-IntraBio-Inc.",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261005854293/en/Shionogi-Continues-Rare-Disease-Expansion-With-Planned-Acquisition-of-IntraBio-Inc.",
+        "date": "2026-10-05",
+        "Upfront_parsed": {
+          "raw": "$2B",
+          "currency": "USD",
+          "musd": 2000.0,
+          "musd_native": 2000.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2B",
+          "currency": "USD",
+          "musd": 2000.0,
+          "musd_native": 2000.0
+        },
+        "value_musd": 2000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-05",
+        "Buyer": "Lilly",
+        "Seller": "Gate Bioscience",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$870M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/10/05/3374492/0/en/gate-bioscience-expands-collaboration-and-license-agreement-with-lilly-to-target-difficult-to-drug-proteins.html?_gl=1*1jck1cq*_up*MQ..*_ga*MTAzOTEyMjUxMS4xNzkxMjAyMTQx*_ga_B6167QB2TF*czE3OTEyMDIxNDEkbzEkZzAkdDE3OTEyMDIxNDEkajYwJGwwJGg4MjUyNDU2ODM.*_ga_ERWPGTJ5X8*czE3OTEyMDIxNDEkbzEkZzAkdDE3OTEyMDIxNDEkajYwJGwwJGgw",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/10/05/3374492/0/en/gate-bioscience-expands-collaboration-and-license-agreement-with-lilly-to-target-difficult-to-drug-proteins.html?_gl=1*1jck1cq*_up*MQ..*_ga*MTAzOTEyMjUxMS4xNzkxMjAyMTQx*_ga_B6167QB2TF*czE3OTEyMDIxNDEkbzEkZzAkdDE3OTEyMDIxNDEkajYwJGwwJGg4MjUyNDU2ODM.*_ga_ERWPGTJ5X8*czE3OTEyMDIxNDEkbzEkZzAkdDE3OTEyMDIxNDEkajYwJGwwJGgw",
+        "date": "2026-10-05",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$870M",
+          "currency": "USD",
+          "musd": 870.0,
+          "musd_native": 870.0
+        },
+        "value_musd": 870.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-05",
+        "Buyer": "CSL",
+        "Seller": "Alentis Therapeutics",
+        "Structure": "Development collaboration",
+        "Upfront": "$355M",
+        "Total Deal Value": "$1.55B",
+        "Modality": "Monoclonal antibody",
+        "Lead indication(s)": "AAV-RPGN",
+        "Source": "Link",
+        "URL": "https://investors.csl.com/pdf/575f6202-11e9-425e-ab23-ce3804cbea7c/Platform/ListPage/CSL-enters-exclusive-agreement-with-Alentis-Therapeutics.pdf",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://investors.csl.com/pdf/575f6202-11e9-425e-ab23-ce3804cbea7c/Platform/ListPage/CSL-enters-exclusive-agreement-with-Alentis-Therapeutics.pdf",
+        "date": "2026-10-05",
+        "Upfront_parsed": {
+          "raw": "$355M",
+          "currency": "USD",
+          "musd": 355.0,
+          "musd_native": 355.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.55B",
+          "currency": "USD",
+          "musd": 1550.0,
+          "musd_native": 1550.0
+        },
+        "value_musd": 1550.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-01",
         "Buyer": "Sanofi",
@@ -165,6 +355,26 @@
           "musd_native": 1000.0
         },
         "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-16",
+        "Buyer": "Novo",
+        "Seller": "Anthropic",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://ml-eu.globenewswire.com/Resource/Download/10ea83c9-c14e-4e02-ad87-6fb11248ce29",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://ml-eu.globenewswire.com/Resource/Download/10ea83c9-c14e-4e02-ad87-6fb11248ce29",
+        "date": "2026-09-16",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
         "investors": []
       },
       {
@@ -1155,6 +1365,37 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-10-08",
+        "Buyer": "Ono Pharma",
+        "Seller": "Biohaven",
+        "Structure": "Licensing",
+        "Scope": "Japan, South Korea, Taiwan, ASEAN member states",
+        "Upfront": "$80M",
+        "Total Deal Value": "$100M",
+        "Modality": "IgG degraders",
+        "Lead indication(s)": "Graves disease",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/biohaven-enters-strategic-licensing-agreement-with-ono-pharma-for-extracellular-igg-degraders-in-japan-and-select-asian-regions-lead-candidate-bhv-1300-in-phase-3-for-graves-disease-302901852.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/biohaven-enters-strategic-licensing-agreement-with-ono-pharma-for-extracellular-igg-degraders-in-japan-and-select-asian-regions-lead-candidate-bhv-1300-in-phase-3-for-graves-disease-302901852.html",
+        "date": "2026-10-08",
+        "Upfront_parsed": {
+          "raw": "$80M",
+          "currency": "USD",
+          "musd": 80.0,
+          "musd_native": 80.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": []
+      },
+      {
         "Date": "2026-10-02",
         "Buyer": "Novartis",
         "Seller": "Abogen Biosciences",
@@ -1391,7 +1632,7 @@
         "Date": "2026-09-22",
         "Buyer": "Novartis",
         "Seller": "BoomRay",
-        "Structure": "LIcensing",
+        "Structure": "Licensing",
         "Scope": "Global rights",
         "Upfront": null,
         "Total Deal Value": "$900M",
@@ -1411,6 +1652,63 @@
           "musd_native": 900.0
         },
         "value_musd": 900.0,
+        "investors": []
+      },
+      {
+        "Date": "2025-09-21",
+        "Buyer": "Gr\u00fcnenthal",
+        "Seller": "Bayer",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": "$420M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://finance.yahoo.com/healthcare/articles/gr-nenthal-acquires-cancer-treatment-084200379.html?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGYYs9ooX_rHNUXdi7uZKYgezNLf5oM0XwZyUEEASxy3oeTY3eiyRcVA2BGqgczUitE8BIi3lNn4nAWNbL0jSssd-gHb3gFzoXq4KrF5Gl7w2IwQxG8dfhsh4_bZT3er_quQcuiq_wSTIQCZ7pQjmVFrW1XK-Xux_WUnorFykKZe&guccounter=2",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://finance.yahoo.com/healthcare/articles/gr-nenthal-acquires-cancer-treatment-084200379.html?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGYYs9ooX_rHNUXdi7uZKYgezNLf5oM0XwZyUEEASxy3oeTY3eiyRcVA2BGqgczUitE8BIi3lNn4nAWNbL0jSssd-gHb3gFzoXq4KrF5Gl7w2IwQxG8dfhsh4_bZT3er_quQcuiq_wSTIQCZ7pQjmVFrW1XK-Xux_WUnorFykKZe&guccounter=2",
+        "date": "2025-09-21",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$420M",
+          "currency": "USD",
+          "musd": 420.0,
+          "musd_native": 420.0
+        },
+        "value_musd": 420.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-17",
+        "Buyer": "SK Biopharmaceutical",
+        "Seller": "1ST Biotherapeutics",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$4M",
+        "Total Deal Value": "$315M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Parkinson's disease",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/17/3363724/0/en/1st-biotherapeutics-and-sk-biopharmaceuticals-announce-exclusive-global-license-agreement-for-parkinson-s-disease-candidate-1st-104.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/09/17/3363724/0/en/1st-biotherapeutics-and-sk-biopharmaceuticals-announce-exclusive-global-license-agreement-for-parkinson-s-disease-candidate-1st-104.html",
+        "date": "2026-09-17",
+        "Upfront_parsed": {
+          "raw": "$4M",
+          "currency": "USD",
+          "musd": 4.0,
+          "musd_native": 4.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$315M",
+          "currency": "USD",
+          "musd": 315.0,
+          "musd_native": 315.0
+        },
+        "value_musd": 315.0,
         "investors": []
       },
       {
@@ -2355,6 +2653,230 @@
     ],
     "Fundraises": [
       {
+        "Date": "2026-10-07",
+        "Company": "Matchpoint Therapeutics",
+        "Round": "Series B",
+        "Amount": "$150M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Autoimmune disease",
+        "Geography": "US",
+        "Lead 1": "Nextech Invest",
+        "Lead 2": "Norwest",
+        "Investor 3": "Invus",
+        "Investor 4": "BB Biotech",
+        "Investor 5": "T1D Fund",
+        "Investor 6": "BOLD Longevity Growth",
+        "Investor 7": "Access Biotechnology",
+        "Investor 8": "Atlas Venture",
+        "Investor 9": "Sanofi Ventures",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/10/07/3376342/0/en/matchpoint-therapeutics-announces-150-million-series-b-financing-to-advance-pipeline-of-first-in-class-oral-small-molecules-for-autoimmune-and-inflammatory-diseases.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/10/07/3376342/0/en/matchpoint-therapeutics-announces-150-million-series-b-financing-to-advance-pipeline-of-first-in-class-oral-small-molecules-for-autoimmune-and-inflammatory-diseases.html",
+        "date": "2026-10-07",
+        "Amount_parsed": {
+          "raw": "$150M",
+          "currency": "USD",
+          "musd": 150.0,
+          "musd_native": 150.0
+        },
+        "value_musd": 150.0,
+        "investors": [
+          {
+            "name": "Nextech Invest",
+            "lead": true
+          },
+          {
+            "name": "Norwest",
+            "lead": true
+          },
+          {
+            "name": "Invus",
+            "lead": false
+          },
+          {
+            "name": "BB Biotech",
+            "lead": false
+          },
+          {
+            "name": "T1D Fund",
+            "lead": false
+          },
+          {
+            "name": "BOLD Longevity Growth",
+            "lead": false
+          },
+          {
+            "name": "Access Biotechnology",
+            "lead": false
+          },
+          {
+            "name": "Atlas Venture",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-06",
+        "Company": "RougeTx",
+        "Round": null,
+        "Amount": "$58M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "HHT",
+        "Geography": "Netherlands",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Biogeneration Ventures",
+        "Investor 4": "Angelini Ventures",
+        "Investor 5": "Kurma Partners",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/kymathera-rouge-raise-vc-funding-vaxcyte-spyre-do-public-offerings/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=KymaThera%20Rouge%20raise%20VC%20funding%20Vaxcyte%20Spyre%20do%20public%20offerings",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/kymathera-rouge-raise-vc-funding-vaxcyte-spyre-do-public-offerings/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=KymaThera%20Rouge%20raise%20VC%20funding%20Vaxcyte%20Spyre%20do%20public%20offerings",
+        "date": "2026-10-06",
+        "Amount_parsed": {
+          "raw": "$58M",
+          "currency": "USD",
+          "musd": 58.0,
+          "musd_native": 58.0
+        },
+        "value_musd": 58.0,
+        "investors": [
+          {
+            "name": "Biogeneration Ventures",
+            "lead": false
+          },
+          {
+            "name": "Angelini Ventures",
+            "lead": false
+          },
+          {
+            "name": "Kurma Partners",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-06",
+        "Company": "KymaThera",
+        "Round": "Series B",
+        "Amount": "$80M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Breast cancer",
+        "Geography": "US",
+        "Lead 1": "Alta Partners",
+        "Lead 2": null,
+        "Investor 3": "Venrock",
+        "Investor 4": "Foresite Capital",
+        "Investor 5": "J. Wood Capital",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/kymathera-announces-80-million-series-b-financing-to-advance-k-1728-a-next-generation-pan-mutant-selective-pi3k-inhibitor-for-cancer-and-vascular-malformations-302899716.html?tc=eml_cleartime",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/kymathera-announces-80-million-series-b-financing-to-advance-k-1728-a-next-generation-pan-mutant-selective-pi3k-inhibitor-for-cancer-and-vascular-malformations-302899716.html?tc=eml_cleartime",
+        "date": "2026-10-06",
+        "Amount_parsed": {
+          "raw": "$80M",
+          "currency": "USD",
+          "musd": 80.0,
+          "musd_native": 80.0
+        },
+        "value_musd": 80.0,
+        "investors": [
+          {
+            "name": "Alta Partners",
+            "lead": true
+          },
+          {
+            "name": "Venrock",
+            "lead": false
+          },
+          {
+            "name": "Foresite Capital",
+            "lead": false
+          },
+          {
+            "name": "J. Wood Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-05",
+        "Company": "Sensible Bio",
+        "Round": "Series A",
+        "Amount": "$47M",
+        "Modality": "mRNA",
+        "Lead indication(s)": null,
+        "Geography": null,
+        "Lead 1": "Oxford Science Enterprises",
+        "Lead 2": null,
+        "Investor 3": "Slovakia & EU",
+        "Investor 4": "OTB Ventures",
+        "Investor 5": "In-Q-Tel",
+        "Investor 6": "Recode Ventures",
+        "Investor 7": "Isomer Capital",
+        "Investor 8": "Y Combinator",
+        "Investor 9": "Backed VC",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://endpoints.news/sensible-bio-secures-47m-series-a-for-mrna-therapy-manufacturing-platform/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-99e932f3-edb3a5aa&utm_medium=email&utm_campaign=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise&utm_content=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise+CID_94eed5060721c3a9b6daf7dd4712fef3&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Startup%20gets%2047M%20for%20mRNA%20therapy%20manufacturing%20platform",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/sensible-bio-secures-47m-series-a-for-mrna-therapy-manufacturing-platform/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-99e932f3-edb3a5aa&utm_medium=email&utm_campaign=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise&utm_content=2547%20-%20Shionogi%20to%20spend%202B%20on%20rare%20disease%20biotech%20Enterprise+CID_94eed5060721c3a9b6daf7dd4712fef3&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Startup%20gets%2047M%20for%20mRNA%20therapy%20manufacturing%20platform",
+        "date": "2026-10-05",
+        "Amount_parsed": {
+          "raw": "$47M",
+          "currency": "USD",
+          "musd": 47.0,
+          "musd_native": 47.0
+        },
+        "value_musd": 47.0,
+        "investors": [
+          {
+            "name": "Oxford Science Enterprises",
+            "lead": true
+          },
+          {
+            "name": "Slovakia & EU",
+            "lead": false
+          },
+          {
+            "name": "OTB Ventures",
+            "lead": false
+          },
+          {
+            "name": "In-Q-Tel",
+            "lead": false
+          },
+          {
+            "name": "Recode Ventures",
+            "lead": false
+          },
+          {
+            "name": "Isomer Capital",
+            "lead": false
+          },
+          {
+            "name": "Y Combinator",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Date": "2026-10-01",
         "Company": "TriGemX",
         "Round": null,
@@ -3160,6 +3682,301 @@
           },
           {
             "name": "Rockefeller Foundation",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-17",
+        "Company": "Connexus Therapeutics",
+        "Round": null,
+        "Amount": "$55M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Oncology",
+        "Geography": "China",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "OrbiMed",
+        "Investor 4": "HitGen",
+        "Investor 5": "Lilly Asia Ventures",
+        "Investor 6": "Sichuan Biokin Pharmaceutical",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/a-parkinsons-biotech-debut-fundraising-campaign-and-licensing-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-15500775-610a902c&utm_medium=email&utm_campaign=2535%20-%20Reverse%20merger%20mania%20continues%20Enterprise&utm_content=2535%20-%20Reverse%20merger%20mania%20continues%20Enterprise+CID_0bff8ad6937235cfe23716fbb6631be0&utm_source=ENDPOINTS%20emails&utm_term=A%20Parkinsons%20biotech%20debut%20fundraising%20campaign%20and%20licensing%20deal",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/a-parkinsons-biotech-debut-fundraising-campaign-and-licensing-deal/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-15500775-610a902c&utm_medium=email&utm_campaign=2535%20-%20Reverse%20merger%20mania%20continues%20Enterprise&utm_content=2535%20-%20Reverse%20merger%20mania%20continues%20Enterprise+CID_0bff8ad6937235cfe23716fbb6631be0&utm_source=ENDPOINTS%20emails&utm_term=A%20Parkinsons%20biotech%20debut%20fundraising%20campaign%20and%20licensing%20deal",
+        "date": "2026-09-17",
+        "Amount_parsed": {
+          "raw": "$55M",
+          "currency": "USD",
+          "musd": 55.0,
+          "musd_native": 55.0
+        },
+        "value_musd": 55.0,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "HitGen",
+            "lead": false
+          },
+          {
+            "name": "Lilly Asia Ventures",
+            "lead": false
+          },
+          {
+            "name": "Sichuan Biokin Pharmaceutical",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-17",
+        "Company": "Matisse Pharmaceuticals",
+        "Round": "Series A",
+        "Amount": "$16M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Sepsis",
+        "Geography": "Netherlands",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Brightlands Venture Partners",
+        "Investor 4": "LIOF",
+        "Investor 5": "Others (not disclosed)",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/17/3363898/0/en/matisse-pharmaceuticals-closed-series-a-financing-round-to-advance-isupartob-sodium-through-phase-2-clinical-development.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/09/17/3363898/0/en/matisse-pharmaceuticals-closed-series-a-financing-round-to-advance-isupartob-sodium-through-phase-2-clinical-development.html",
+        "date": "2026-09-17",
+        "Amount_parsed": {
+          "raw": "$16M",
+          "currency": "USD",
+          "musd": 16.0,
+          "musd_native": 16.0
+        },
+        "value_musd": 16.0,
+        "investors": [
+          {
+            "name": "Brightlands Venture Partners",
+            "lead": false
+          },
+          {
+            "name": "LIOF",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-17",
+        "Company": "Altis Labs",
+        "Round": "Series A",
+        "Amount": "$25M",
+        "Modality": "AI clinical trial design",
+        "Lead indication(s)": "Oncology",
+        "Geography": "US",
+        "Lead 1": "OrbiMed",
+        "Lead 2": "Qiming Venture Partners",
+        "Investor 3": "Innovation Endeavors",
+        "Investor 4": "Benchstrength",
+        "Investor 5": "Fusion Fund",
+        "Investor 6": "Lumira Ventures",
+        "Investor 7": "Others (not disclosed)",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260917703856/en/Altis-Labs-Raises-US%2425-Million-Series-A-Co-Led-by-OrbiMed-and-Qiming-Venture-Partners-USA-to-Accelerate-Clinical-Development-with-AI-Endpoints",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260917703856/en/Altis-Labs-Raises-US%2425-Million-Series-A-Co-Led-by-OrbiMed-and-Qiming-Venture-Partners-USA-to-Accelerate-Clinical-Development-with-AI-Endpoints",
+        "date": "2026-09-17",
+        "Amount_parsed": {
+          "raw": "$25M",
+          "currency": "USD",
+          "musd": 25.0,
+          "musd_native": 25.0
+        },
+        "value_musd": 25.0,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": true
+          },
+          {
+            "name": "Qiming Venture Partners",
+            "lead": true
+          },
+          {
+            "name": "Innovation Endeavors",
+            "lead": false
+          },
+          {
+            "name": "Benchstrength",
+            "lead": false
+          },
+          {
+            "name": "Fusion Fund",
+            "lead": false
+          },
+          {
+            "name": "Lumira Ventures",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-16",
+        "Company": "Circle Pharma",
+        "Round": "Series E",
+        "Amount": "$92.5M",
+        "Modality": "Macrocycles",
+        "Lead indication(s)": "Breast cancer",
+        "Geography": "US",
+        "Lead 1": "The Column Group",
+        "Lead 2": null,
+        "Investor 3": "Nextech Invest",
+        "Investor 4": "RA Capital Management",
+        "Investor 5": "Euclidean Capital",
+        "Investor 6": "Eli Lilly",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20260915467443/en/Circle-Pharma-Announces-%2492.5-Million-Series-E-Financing-to-Advance-First-in-class-Cyclin-D1-Program-into-Clinical-Development",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20260915467443/en/Circle-Pharma-Announces-%2492.5-Million-Series-E-Financing-to-Advance-First-in-class-Cyclin-D1-Program-into-Clinical-Development",
+        "date": "2026-09-16",
+        "Amount_parsed": {
+          "raw": "$92.5M",
+          "currency": "USD",
+          "musd": 92.5,
+          "musd_native": 92.5
+        },
+        "value_musd": 92.5,
+        "investors": [
+          {
+            "name": "The Column Group",
+            "lead": true
+          },
+          {
+            "name": "Nextech Invest",
+            "lead": false
+          },
+          {
+            "name": "RA Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Euclidean Capital",
+            "lead": false
+          },
+          {
+            "name": "Eli Lilly",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-16",
+        "Company": "Sling Therapeutics",
+        "Round": "Series C",
+        "Amount": "$123M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "TED",
+        "Geography": "US",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Forbion",
+        "Investor 4": "TPG Life Sciences",
+        "Investor 5": "Sectoral Asset Management",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6a7e8f5c-1e241805&utm_medium=email&utm_campaign=1241%20-%20Novartis%20drops%20mid-stage%20ALS%20drug%20Enterprise&utm_content=1241%20-%20Novartis%20drops%20mid-stage%20ALS%20drug%20Enterprise+CID_865231b1e44a3660d37026c26319e627&utm_source=ENDPOINTS%20emails&utm_term=Sling%20gets%20123M%20for%20Phase%203%20trial%20of%20ex-Astellas%20drug%20in%20thyroid%20eye%20disease",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6a7e8f5c-1e241805&utm_medium=email&utm_campaign=1241%20-%20Novartis%20drops%20mid-stage%20ALS%20drug%20Enterprise&utm_content=1241%20-%20Novartis%20drops%20mid-stage%20ALS%20drug%20Enterprise+CID_865231b1e44a3660d37026c26319e627&utm_source=ENDPOINTS%20emails&utm_term=Sling%20gets%20123M%20for%20Phase%203%20trial%20of%20ex-Astellas%20drug%20in%20thyroid%20eye%20disease",
+        "date": "2026-09-16",
+        "Amount_parsed": {
+          "raw": "$123M",
+          "currency": "USD",
+          "musd": 123.0,
+          "musd_native": 123.0
+        },
+        "value_musd": 123.0,
+        "investors": [
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "TPG Life Sciences",
+            "lead": false
+          },
+          {
+            "name": "Sectoral Asset Management",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-16",
+        "Company": "Nutshell Therapeutics",
+        "Round": "Series C",
+        "Amount": null,
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "Solid tumor",
+        "Geography": "China",
+        "Lead 1": "Trustar Capital",
+        "Lead 2": "Decheng Capital",
+        "Investor 3": "Fortune Capital",
+        "Investor 4": "Zhongsheng Xichuang Dingqi Fund",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/gilead-reaches-hiv-prep-agreements-hong-kong-investigates-cloudbreak-ipo/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-d7c3c064-a399573d&utm_medium=email&utm_campaign=2534%20-%20Mice%20with%20human%20brain%20cells%20Enterprise&utm_content=2534%20-%20Mice%20with%20human%20brain%20cells%20Enterprise+CID_74805b7e527dd6ecbf637aa400537d16&utm_source=ENDPOINTS%20emails&utm_term=Gilead%20reaches%20HIV%20PrEP%20agreements%20Hong%20Kong%20investigates%20Cloudbreak%20IPO",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/gilead-reaches-hiv-prep-agreements-hong-kong-investigates-cloudbreak-ipo/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-d7c3c064-a399573d&utm_medium=email&utm_campaign=2534%20-%20Mice%20with%20human%20brain%20cells%20Enterprise&utm_content=2534%20-%20Mice%20with%20human%20brain%20cells%20Enterprise+CID_74805b7e527dd6ecbf637aa400537d16&utm_source=ENDPOINTS%20emails&utm_term=Gilead%20reaches%20HIV%20PrEP%20agreements%20Hong%20Kong%20investigates%20Cloudbreak%20IPO",
+        "date": "2026-09-16",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Trustar Capital",
+            "lead": true
+          },
+          {
+            "name": "Decheng Capital",
+            "lead": true
+          },
+          {
+            "name": "Fortune Capital",
+            "lead": false
+          },
+          {
+            "name": "Zhongsheng Xichuang Dingqi Fund",
             "lead": false
           }
         ]
@@ -6234,6 +7051,143 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-10-06",
+        "IPO date": null,
+        "Company": "Lycia Therapeutics",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "Protein degradation",
+        "Lead indication": "Food allergy",
+        "Investor 1": "Versant Ventures",
+        "Investor 2": "Venrock Healthcare Capital Partners",
+        "Investor 3": "Redmile",
+        "Investor 4": "RTW",
+        "Investor 5": "Janus Henderson",
+        "Investor 6": "Blue Owl",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
+        "Target source": null,
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-06",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Versant Ventures",
+            "lead": true
+          },
+          {
+            "name": "Venrock Healthcare Capital Partners",
+            "lead": false
+          },
+          {
+            "name": "Redmile",
+            "lead": false
+          },
+          {
+            "name": "RTW",
+            "lead": false
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "Blue Owl",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Listing date": "2026-10-06",
+        "IPO date": null,
+        "Company": "TRexBio",
+        "Target price": "$15 / share",
+        "Target raise": "$111M",
+        "Amount": null,
+        "Modality": "TRegs",
+        "Lead indication": "Atopic dermatitis",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm#use_of_proceeds",
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-06",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Listing date": "2026-10-06",
+        "IPO date": null,
+        "Company": "Retension Pharmaceuticals",
+        "Target price": "$12 / share",
+        "Target raise": "$34M",
+        "Amount": null,
+        "Modality": "Small molecule",
+        "Lead indication": "Hypertension",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": null,
+        "Target source": null,
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-06",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Listing date": "2026-09-16",
+        "IPO date": null,
+        "Company": "Sensorion",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "Gene therapy",
+        "Lead indication": "Hearing loss",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": "https://www.businesswire.com/news/home/20260915034926/en/Sensorion-Announces-Confidential-Submission-of-Draft-Registration-Statement-to-the-SEC-for-Potential-U.S.-Initial-Public-Offering",
+        "Target source": null,
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-09-16",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
         "Listing date": "2026-09-05",
         "IPO date": "2026-09-25",
         "Company": "ADARx Pharmaceutical",
@@ -7460,6 +8414,182 @@
   "investors": [
     {
       "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "Nextech Invest",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "Norwest",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "Invus",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "BB Biotech",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "T1D Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "BOLD Longevity Growth",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "Access Biotechnology",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-07",
+      "company": "Matchpoint Therapeutics",
+      "value_musd": 150.0,
+      "name": "Atlas Venture",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "RougeTx",
+      "value_musd": 58.0,
+      "name": "Biogeneration Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "RougeTx",
+      "value_musd": 58.0,
+      "name": "Angelini Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "RougeTx",
+      "value_musd": 58.0,
+      "name": "Kurma Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "KymaThera",
+      "value_musd": 80.0,
+      "name": "Alta Partners",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "KymaThera",
+      "value_musd": 80.0,
+      "name": "Venrock",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "KymaThera",
+      "value_musd": 80.0,
+      "name": "Foresite Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-06",
+      "company": "KymaThera",
+      "value_musd": 80.0,
+      "name": "J. Wood Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "Oxford Science Enterprises",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "Slovakia & EU",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "OTB Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "In-Q-Tel",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "Recode Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "Isomer Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-05",
+      "company": "Sensible Bio",
+      "value_musd": 47.0,
+      "name": "Y Combinator",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
       "date": "2026-10-01",
       "company": "TriGemX",
       "value_musd": 94.0,
@@ -8056,6 +9186,198 @@
       "company": "Basecamp Research",
       "value_musd": 140.0,
       "name": "Rockefeller Foundation",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Connexus Therapeutics",
+      "value_musd": 55.0,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Connexus Therapeutics",
+      "value_musd": 55.0,
+      "name": "HitGen",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Connexus Therapeutics",
+      "value_musd": 55.0,
+      "name": "Lilly Asia Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Connexus Therapeutics",
+      "value_musd": 55.0,
+      "name": "Sichuan Biokin Pharmaceutical",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Matisse Pharmaceuticals",
+      "value_musd": 16.0,
+      "name": "Brightlands Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Matisse Pharmaceuticals",
+      "value_musd": 16.0,
+      "name": "LIOF",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "OrbiMed",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "Qiming Venture Partners",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "Innovation Endeavors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "Benchstrength",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "Fusion Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-17",
+      "company": "Altis Labs",
+      "value_musd": 25.0,
+      "name": "Lumira Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Circle Pharma",
+      "value_musd": 92.5,
+      "name": "The Column Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Circle Pharma",
+      "value_musd": 92.5,
+      "name": "Nextech Invest",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Circle Pharma",
+      "value_musd": 92.5,
+      "name": "RA Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Circle Pharma",
+      "value_musd": 92.5,
+      "name": "Euclidean Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Circle Pharma",
+      "value_musd": 92.5,
+      "name": "Eli Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Sling Therapeutics",
+      "value_musd": 123.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Sling Therapeutics",
+      "value_musd": 123.0,
+      "name": "TPG Life Sciences",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Sling Therapeutics",
+      "value_musd": 123.0,
+      "name": "Sectoral Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Nutshell Therapeutics",
+      "value_musd": null,
+      "name": "Trustar Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Nutshell Therapeutics",
+      "value_musd": null,
+      "name": "Decheng Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Nutshell Therapeutics",
+      "value_musd": null,
+      "name": "Fortune Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-09-16",
+      "company": "Nutshell Therapeutics",
+      "value_musd": null,
+      "name": "Zhongsheng Xichuang Dingqi Fund",
       "lead": false
     },
     {
@@ -9921,6 +11243,54 @@
       "value_musd": 330.0,
       "name": "ARCH",
       "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "Versant Ventures",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "Venrock Healthcare Capital Partners",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "Redmile",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "RTW",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-06",
+      "company": "Lycia Therapeutics",
+      "value_musd": null,
+      "name": "Blue Owl",
+      "lead": false
     },
     {
       "category": "IPO",

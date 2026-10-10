@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T07:10:41+00:00",
+  "generated": "2026-10-10T06:43:50+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,26 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-09",
+        "Buyer": "GSK",
+        "Seller": "Chai Discovery",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Antibody",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/chai-discovery-signs-gsk-deal-to-make-biologics-with-ai/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-7b55c42c-0f0f5375&utm_medium=email&utm_campaign=1258%20-%20GSK%20joins%20AI%20startup%20Chais%20roster%20of%20partners%20Enterprise&utm_content=1258%20-%20GSK%20joins%20AI%20startup%20Chais%20roster%20of%20partners%20Enterprise+CID_f4b446eb7f875e55ab5c6a507802d8ee&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20AI%20startup%20Chai%20lands%20GSK%20deal%20its%206th%20pharma%20partner%20in%209%20months",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/chai-discovery-signs-gsk-deal-to-make-biologics-with-ai/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-7b55c42c-0f0f5375&utm_medium=email&utm_campaign=1258%20-%20GSK%20joins%20AI%20startup%20Chais%20roster%20of%20partners%20Enterprise&utm_content=1258%20-%20GSK%20joins%20AI%20startup%20Chais%20roster%20of%20partners%20Enterprise+CID_f4b446eb7f875e55ab5c6a507802d8ee&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20AI%20startup%20Chai%20lands%20GSK%20deal%20its%206th%20pharma%20partner%20in%209%20months",
+        "date": "2026-10-09",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
       {
         "Date": "2026-10-08",
         "Buyer": "Roche",
@@ -355,6 +375,111 @@
           "musd_native": 1000.0
         },
         "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-21",
+        "Buyer": "Telix Pharmaceuticals",
+        "Seller": "ITM Isotope Technologies",
+        "Structure": "Acquisition",
+        "Upfront": "$1.65B",
+        "Total Deal Value": "$2.35B",
+        "Modality": "Radioisotope manufacturing",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/telix-and-radioisotope-maker-itm-merge-in-deal-worth-up-to-2-35b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-fad2796e-8e88ee37&utm_medium=email&utm_campaign=2537%20-%20Novo%20shares%20low-dose%20wins%20for%20CagriSema%20Enterprise&utm_content=2537%20-%20Novo%20shares%20low-dose%20wins%20for%20CagriSema%20Enterprise+CID_8de8c9f9eb0f901b73a3efadfd1ce859&utm_source=ENDPOINTS%20emails&utm_term=Telix%20and%20radioisotope%20maker%20ITM%20merge%20in%20deal%20worth%20up%20to%20235B",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/telix-and-radioisotope-maker-itm-merge-in-deal-worth-up-to-2-35b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-fad2796e-8e88ee37&utm_medium=email&utm_campaign=2537%20-%20Novo%20shares%20low-dose%20wins%20for%20CagriSema%20Enterprise&utm_content=2537%20-%20Novo%20shares%20low-dose%20wins%20for%20CagriSema%20Enterprise+CID_8de8c9f9eb0f901b73a3efadfd1ce859&utm_source=ENDPOINTS%20emails&utm_term=Telix%20and%20radioisotope%20maker%20ITM%20merge%20in%20deal%20worth%20up%20to%20235B",
+        "date": "2026-09-21",
+        "Upfront_parsed": {
+          "raw": "$1.65B",
+          "currency": "USD",
+          "musd": 1650.0,
+          "musd_native": 1650.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.35B",
+          "currency": "USD",
+          "musd": 2350.0,
+          "musd_native": 2350.0
+        },
+        "value_musd": 2350.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-21",
+        "Buyer": "AbbVie",
+        "Seller": "Iambic Therapeutics",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Immunology",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/abbvie-and-iambic-announce-collaboration-to-accelerate-ai-driven-drug-discovery-302883724.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/abbvie-and-iambic-announce-collaboration-to-accelerate-ai-driven-drug-discovery-302883724.html",
+        "date": "2026-09-21",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-17",
+        "Buyer": "Roche",
+        "Seller": "Dualitas",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$36.5M",
+        "Total Deal Value": "$1B",
+        "Modality": "Bispecific antibodies",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/roche-turns-to-dualitas-to-find-new-bispecific-approaches-for-immunology/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-dd634e58-a939d901&utm_medium=email&utm_campaign=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise&utm_content=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise+CID_ae6d7af0d580d2ae586121d082e78378&utm_source=ENDPOINTS%20emails&utm_term=Roche%20turns%20to%20Dualitas%20to%20find%20new%20bispecific%20approaches%20for%20immunology",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/roche-turns-to-dualitas-to-find-new-bispecific-approaches-for-immunology/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-dd634e58-a939d901&utm_medium=email&utm_campaign=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise&utm_content=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise+CID_ae6d7af0d580d2ae586121d082e78378&utm_source=ENDPOINTS%20emails&utm_term=Roche%20turns%20to%20Dualitas%20to%20find%20new%20bispecific%20approaches%20for%20immunology",
+        "date": "2026-09-17",
+        "Upfront_parsed": {
+          "raw": "$36.5M",
+          "currency": "USD",
+          "musd": 36.5,
+          "musd_native": 36.5
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1B",
+          "currency": "USD",
+          "musd": 1000.0,
+          "musd_native": 1000.0
+        },
+        "value_musd": 1000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-09-17",
+        "Buyer": "Novo",
+        "Seller": "Orbis Medicines",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1.4B",
+        "Modality": "Macrocycles",
+        "Lead indication(s)": "Cardiometabolic diseases",
+        "Source": "Link",
+        "URL": "https://endpoints.news/lilly-backed-orbis-does-up-to-1-4b-macrocycle-deal-with-novo/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-dd634e58-a939d901&utm_medium=email&utm_campaign=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise&utm_content=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise+CID_ae6d7af0d580d2ae586121d082e78378&utm_source=ENDPOINTS%20emails&utm_term=Lilly-backed%20Orbis%20does%20up%20to%2014B%20macrocycle%20deal%20with%20Novo",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/lilly-backed-orbis-does-up-to-1-4b-macrocycle-deal-with-novo/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-dd634e58-a939d901&utm_medium=email&utm_campaign=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise&utm_content=1242%20-%20Novos%2014%20billion%20macrocycle%20deal%20Enterprise+CID_ae6d7af0d580d2ae586121d082e78378&utm_source=ENDPOINTS%20emails&utm_term=Lilly-backed%20Orbis%20does%20up%20to%2014B%20macrocycle%20deal%20with%20Novo",
+        "date": "2026-09-17",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.4B",
+          "currency": "USD",
+          "musd": 1400.0,
+          "musd_native": 1400.0
+        },
+        "value_musd": 1400.0,
         "investors": []
       },
       {
@@ -2652,6 +2777,44 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-09",
+        "Company": "Onyx Bio",
+        "Round": "Seed",
+        "Amount": "$8M",
+        "Modality": "Virtual immune system",
+        "Lead indication(s)": null,
+        "Geography": "US",
+        "Lead 1": "Dimension Capital",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/city-therapeutics-targets-158m-ipo-iambic-seeks-135m-nasdaq-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6e88b14-b2b21c4d&utm_medium=email&utm_campaign=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise&utm_content=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise+CID_e12075864ff2bef43c180e57c365429e&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20targets%20158M%20IPO%20Iambic%20seeks%20135M%20Nasdaq%20debut",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/city-therapeutics-targets-158m-ipo-iambic-seeks-135m-nasdaq-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6e88b14-b2b21c4d&utm_medium=email&utm_campaign=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise&utm_content=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise+CID_e12075864ff2bef43c180e57c365429e&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20targets%20158M%20IPO%20Iambic%20seeks%20135M%20Nasdaq%20debut",
+        "date": "2026-10-09",
+        "Amount_parsed": {
+          "raw": "$8M",
+          "currency": "USD",
+          "musd": 8.0,
+          "musd_native": 8.0
+        },
+        "value_musd": 8.0,
+        "investors": [
+          {
+            "name": "Dimension Capital",
+            "lead": true
+          }
+        ]
+      },
       {
         "Date": "2026-10-07",
         "Company": "Matchpoint Therapeutics",
@@ -7051,6 +7214,34 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-10-09",
+        "IPO date": null,
+        "Company": "Iambic Therapeutics",
+        "Target price": "$16 / share",
+        "Target raise": "$135M",
+        "Amount": null,
+        "Modality": "AI drug discovery",
+        "Lead indication": "Solid tumor",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": null,
+        "Target source": "https://endpoints.news/city-therapeutics-targets-158m-ipo-iambic-seeks-135m-nasdaq-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6e88b14-b2b21c4d&utm_medium=email&utm_campaign=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise&utm_content=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise+CID_e12075864ff2bef43c180e57c365429e&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20targets%20158M%20IPO%20Iambic%20seeks%20135M%20Nasdaq%20debut",
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-09",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
         "Listing date": "2026-10-06",
         "IPO date": null,
         "Company": "Lycia Therapeutics",
@@ -7104,12 +7295,61 @@
         ]
       },
       {
-        "Listing date": "2026-10-06",
+        "Listing date": "2026-09-25",
         "IPO date": null,
+        "Company": "City Therapeutics",
+        "Target price": "$18 / share",
+        "Target raise": "$158M",
+        "Amount": null,
+        "Modality": "RNAi",
+        "Lead indication": "Thrombosis",
+        "Investor 1": "ARCH",
+        "Investor 2": "Fidelity",
+        "Investor 3": "Invus",
+        "Investor 4": "John Maraganore",
+        "Investor 5": "Viking",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": "https://endpoints.news/alnylam-alumni-led-rnai-biotech-city-therapeutics-files-for-ipo/",
+        "Target source": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926114815/tm2619715-8_s1a.htm#TOC",
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-09-25",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "ARCH",
+            "lead": true
+          },
+          {
+            "name": "Fidelity",
+            "lead": false
+          },
+          {
+            "name": "Invus",
+            "lead": false
+          },
+          {
+            "name": "John Maraganore",
+            "lead": false
+          },
+          {
+            "name": "Viking",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Listing date": "2026-09-21",
+        "IPO date": "2026-10-09",
         "Company": "TRexBio",
         "Target price": "$15 / share",
         "Target raise": "$111M",
-        "Amount": null,
+        "Amount": "$117M",
         "Modality": "TRegs",
         "Lead indication": "Atopic dermatitis",
         "Investor 1": null,
@@ -7120,24 +7360,29 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
-        "Listing URL": null,
+        "Listing URL": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526395671/ck0002139097-20260918.htm#toc_page",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm#use_of_proceeds",
-        "IPO source": null,
+        "IPO source": "https://www.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html",
         "category": "IPO",
         "side": "raise",
         "url": null,
-        "date": "2026-10-06",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "date": "2026-09-21",
+        "Amount_parsed": {
+          "raw": "$117M",
+          "currency": "USD",
+          "musd": 117.0,
+          "musd_native": 117.0
+        },
+        "value_musd": 117.0,
         "investors": []
       },
       {
-        "Listing date": "2026-10-06",
-        "IPO date": null,
+        "Listing date": "2026-09-21",
+        "IPO date": "2026-10-09",
         "Company": "Retension Pharmaceuticals",
         "Target price": "$12 / share",
         "Target raise": "$34M",
-        "Amount": null,
+        "Amount": "$45M",
         "Modality": "Small molecule",
         "Lead indication": "Hypertension",
         "Investor 1": null,
@@ -7148,15 +7393,20 @@
         "Investor 6": null,
         "Investor 7": null,
         "Investor 8": null,
-        "Listing URL": null,
+        "Listing URL": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026101499/ea0276911-07.htm",
         "Target source": null,
-        "IPO source": null,
+        "IPO source": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html",
         "category": "IPO",
         "side": "raise",
         "url": null,
-        "date": "2026-10-06",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "date": "2026-09-21",
+        "Amount_parsed": {
+          "raw": "$45M",
+          "currency": "USD",
+          "musd": 45.0,
+          "musd_native": 45.0
+        },
+        "value_musd": 45.0,
         "investors": []
       },
       {
@@ -7191,8 +7441,8 @@
         "Listing date": "2026-09-05",
         "IPO date": "2026-09-25",
         "Company": "ADARx Pharmaceutical",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$16 / share",
+        "Target raise": "$318M",
         "Amount": "$446.3M",
         "Modality": "RNAi",
         "Lead indication": "HAE",
@@ -7205,7 +7455,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": null,
-        "Target source": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526396007/d903461ds1a.htm#toc",
         "IPO source": "https://endpoints.news/adarx-prices-446-3m-nasdaq-debut-continuing-industrys-ipo-momentum/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-b6933c0d-c2c9ab54&utm_medium=email&utm_campaign=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise&utm_content=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise+CID_87dacd6a4441d076b6daf7f608e84531&utm_source=ENDPOINTS%20emails&utm_term=Updated%20ADARx%20prices%204463M%20Nasdaq%20debut%20continuing%20industrys%20IPO%20momentum",
         "category": "IPO",
         "side": "raise",
@@ -7267,11 +7517,11 @@
       },
       {
         "Listing date": "2026-08-31",
-        "IPO date": null,
+        "IPO date": "2026-09-17",
         "Company": "Electra Therapeutics",
         "Target price": "$15 / share",
         "Target raise": "$297M",
-        "Amount": null,
+        "Amount": "$350M",
         "Modality": "Monoclonal antibody",
         "Lead indication": "sHLH",
         "Investor 1": "OrbiMed",
@@ -7284,13 +7534,18 @@
         "Investor 8": null,
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526374259/d61940ds1.htm#toc",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526389755/d61940ds1a.htm#toc61940_6",
-        "IPO source": null,
+        "IPO source": "https://www.globenewswire.com/news-release/2026/09/18/3364440/0/en/electra-therapeutics-announces-pricing-of-upsized-350-0-million-initial-public-offering.html",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-08-31",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$350M",
+          "currency": "USD",
+          "musd": 350.0,
+          "musd_native": 350.0
+        },
+        "value_musd": 350.0,
         "investors": [
           {
             "name": "OrbiMed",
@@ -7704,6 +7959,142 @@
       }
     ],
     "Reverse mergers": [
+      {
+        "Date": "2026-09-17",
+        "Company": "Marea Therapeutics",
+        "Target": "Lisata Therapeutics",
+        "Target residual ownership": "2.39%",
+        "Private placement": "$225M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication": "Cardioendocrine disease",
+        "Investor 1": "RA Capital",
+        "Investor 2": "Forbion",
+        "Investor 3": "Third Rock Ventures",
+        "Investor 4": "Alpha Wave",
+        "Investor 5": "Perceptive Advisors",
+        "Investor 6": "Sofinnova Investments",
+        "Investor 7": "Omega Funds",
+        "Investor 8": "Surveyor Capital",
+        "Investor 9": "Columbia Threadneedle Investments",
+        "Investor 10": "Nantahala Capital",
+        "Investor 11": "Affinity Asset Advisors",
+        "Investor 12": "Others",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/09/17/3364095/18623/en/lisata-therapeutics-announces-acquisition-of-marea-therapeutics-and-225-million-concurrent-private-placement.html",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/09/17/3364095/18623/en/lisata-therapeutics-announces-acquisition-of-marea-therapeutics-and-225-million-concurrent-private-placement.html",
+        "date": "2026-09-17",
+        "Private placement_parsed": {
+          "raw": "$225M",
+          "currency": "USD",
+          "musd": 225.0,
+          "musd_native": 225.0
+        },
+        "value_musd": 225.0,
+        "investors": [
+          {
+            "name": "RA Capital",
+            "lead": true
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "Third Rock Ventures",
+            "lead": false
+          },
+          {
+            "name": "Alpha Wave",
+            "lead": false
+          },
+          {
+            "name": "Perceptive Advisors",
+            "lead": false
+          },
+          {
+            "name": "Sofinnova Investments",
+            "lead": false
+          },
+          {
+            "name": "Omega Funds",
+            "lead": false
+          },
+          {
+            "name": "Surveyor Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-09-17",
+        "Company": "North Immunology",
+        "Target": "Aethlon Medical",
+        "Target residual ownership": "4.75%",
+        "Private placement": "$180M",
+        "Modality": "Bispecific antibody",
+        "Lead indication": "Atopic dermatitis",
+        "Investor 1": "Bain Capital Life Sciences",
+        "Investor 2": "Janus Henderson",
+        "Investor 3": "Deep Track Capital",
+        "Investor 4": "Longitude Capital",
+        "Investor 5": "Soleus Capital",
+        "Investor 6": "Invus",
+        "Investor 7": "Sirenia Capital Management",
+        "Investor 8": "Farallon Capital Management",
+        "Investor 9": "Adage Capital Partners",
+        "Investor 10": "TCGX",
+        "Investor 11": null,
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/aethlon-medical--north-immunology-announce-merger-to-advance-novel-il-13-x-il-18-bispecific-antibody-for-atopic-dermatitis-302881438.html",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/aethlon-medical--north-immunology-announce-merger-to-advance-novel-il-13-x-il-18-bispecific-antibody-for-atopic-dermatitis-302881438.html",
+        "date": "2026-09-17",
+        "Private placement_parsed": {
+          "raw": "$180M",
+          "currency": "USD",
+          "musd": 180.0,
+          "musd_native": 180.0
+        },
+        "value_musd": 180.0,
+        "investors": [
+          {
+            "name": "Bain Capital Life Sciences",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "Deep Track Capital",
+            "lead": false
+          },
+          {
+            "name": "Longitude Capital",
+            "lead": false
+          },
+          {
+            "name": "Soleus Capital",
+            "lead": false
+          },
+          {
+            "name": "Invus",
+            "lead": false
+          },
+          {
+            "name": "Sirenia Capital Management",
+            "lead": false
+          },
+          {
+            "name": "Farallon Capital Management",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-08-21",
         "Company": "Ambros Therapeutics",
@@ -8412,6 +8803,14 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-09",
+      "company": "Onyx Bio",
+      "value_musd": 8.0,
+      "name": "Dimension Capital",
+      "lead": true
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-07",
@@ -11294,6 +11693,46 @@
     },
     {
       "category": "IPO",
+      "date": "2026-09-25",
+      "company": "City Therapeutics",
+      "value_musd": null,
+      "name": "ARCH",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-25",
+      "company": "City Therapeutics",
+      "value_musd": null,
+      "name": "Fidelity",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-25",
+      "company": "City Therapeutics",
+      "value_musd": null,
+      "name": "Invus",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-25",
+      "company": "City Therapeutics",
+      "value_musd": null,
+      "name": "John Maraganore",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-09-25",
+      "company": "City Therapeutics",
+      "value_musd": null,
+      "name": "Viking",
+      "lead": false
+    },
+    {
+      "category": "IPO",
       "date": "2026-09-05",
       "company": "ADARx Pharmaceutical",
       "value_musd": 446.3,
@@ -11328,7 +11767,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "OrbiMed",
       "lead": true
     },
@@ -11336,7 +11775,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "Westlake BioPartners",
       "lead": false
     },
@@ -11344,7 +11783,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "Redmile Biopharma",
       "lead": false
     },
@@ -11352,7 +11791,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "Sanofi Aventis",
       "lead": false
     },
@@ -11360,7 +11799,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "EQT Life Sciences",
       "lead": false
     },
@@ -11368,7 +11807,7 @@
       "category": "IPO",
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
-      "value_musd": null,
+      "value_musd": 350.0,
       "name": "New Leaf Ventures",
       "lead": false
     },
@@ -11562,6 +12001,134 @@
       "company": "Apnimed",
       "value_musd": 192.0,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "RA Capital",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Third Rock Ventures",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Alpha Wave",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Perceptive Advisors",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Sofinnova Investments",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Omega Funds",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "Marea Therapeutics",
+      "value_musd": 225.0,
+      "name": "Surveyor Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Bain Capital Life Sciences",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Deep Track Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Longitude Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Soleus Capital",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Invus",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Sirenia Capital Management",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-09-17",
+      "company": "North Immunology",
+      "value_musd": 180.0,
+      "name": "Farallon Capital Management",
       "lead": false
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T07:25:57+00:00",
+  "generated": "2026-10-14T05:53:20+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,31 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-13",
+        "Buyer": "Pfizer",
+        "Seller": "Enodia Therapeutics",
+        "Structure": "R&D collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$500M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261013658594/en/Enodia-Therapeutics-Announces-Research-Collaboration-and-License-Agreement-with-Pfizer-to-Develop-Sec61-Targeting-Small-Molecules",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261013658594/en/Enodia-Therapeutics-Announces-Research-Collaboration-and-License-Agreement-with-Pfizer-to-Develop-Sec61-Targeting-Small-Molecules",
+        "date": "2026-10-13",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$500M",
+          "currency": "USD",
+          "musd": 500.0,
+          "musd_native": 500.0
+        },
+        "value_musd": 500.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-09",
         "Buyer": "GSK",
@@ -1490,6 +1515,37 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-10-13",
+        "Buyer": "Roche",
+        "Seller": "Rona Therapeutics",
+        "Structure": "Licensing",
+        "Scope": "Worldwide rights",
+        "Upfront": "$100M",
+        "Total Deal Value": "$1.16B",
+        "Modality": "RNAi",
+        "Lead indication(s)": "Obesity",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases-302905730.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases-302905730.html",
+        "date": "2026-10-13",
+        "Upfront_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.16B",
+          "currency": "USD",
+          "musd": 1160.0,
+          "musd_native": 1160.0
+        },
+        "value_musd": 1160.0,
+        "investors": []
+      },
+      {
         "Date": "2026-10-08",
         "Buyer": "Ono Pharma",
         "Seller": "Biohaven",
@@ -2777,6 +2833,230 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-13",
+        "Company": "Allygen Biologics",
+        "Round": "Series A",
+        "Amount": "$45M",
+        "Modality": "ADC",
+        "Lead indication(s)": "Solid tumor",
+        "Geography": "China",
+        "Lead 1": "Sherpa Venture Capital",
+        "Lead 2": null,
+        "Investor 3": "Beijing Medical and Healthcare Industry Investment Fund",
+        "Investor 4": "Qiming Venture Partners",
+        "Investor 5": "Zhuhai Science & Technology Industry Group",
+        "Investor 6": "Huagai Capital",
+        "Investor 7": "Taiyu Investment",
+        "Investor 8": "W Capital",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://mp.weixin.qq.com/s/BKBMr9hyXg1mftgz2y7ifg",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://mp.weixin.qq.com/s/BKBMr9hyXg1mftgz2y7ifg",
+        "date": "2026-10-13",
+        "Amount_parsed": {
+          "raw": "$45M",
+          "currency": "USD",
+          "musd": 45.0,
+          "musd_native": 45.0
+        },
+        "value_musd": 45.0,
+        "investors": [
+          {
+            "name": "Sherpa Venture Capital",
+            "lead": true
+          },
+          {
+            "name": "Beijing Medical and Healthcare Industry Investment Fund",
+            "lead": false
+          },
+          {
+            "name": "Qiming Venture Partners",
+            "lead": false
+          },
+          {
+            "name": "Zhuhai Science & Technology Industry Group",
+            "lead": false
+          },
+          {
+            "name": "Huagai Capital",
+            "lead": false
+          },
+          {
+            "name": "Taiyu Investment",
+            "lead": false
+          },
+          {
+            "name": "W Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-13",
+        "Company": "Souffl\u00e9 Therapeutics",
+        "Round": "Series B",
+        "Amount": "$135M",
+        "Modality": "siRNA",
+        "Lead indication(s)": "FSHD",
+        "Geography": "US",
+        "Lead 1": "Juvia Group",
+        "Lead 2": null,
+        "Investor 3": "TCG Crossover",
+        "Investor 4": "BB Biotech",
+        "Investor 5": "Fidelity Management",
+        "Investor 6": "Balyasny Asset Management",
+        "Investor 7": "Amgen Ventures",
+        "Investor 8": "ARCH Venture Partners",
+        "Investor 9": "Bessemer Venture Partners",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://www.souffletx.com/news/press-releases/101326/",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.souffletx.com/news/press-releases/101326/",
+        "date": "2026-10-13",
+        "Amount_parsed": {
+          "raw": "$135M",
+          "currency": "USD",
+          "musd": 135.0,
+          "musd_native": 135.0
+        },
+        "value_musd": 135.0,
+        "investors": [
+          {
+            "name": "Juvia Group",
+            "lead": true
+          },
+          {
+            "name": "TCG Crossover",
+            "lead": false
+          },
+          {
+            "name": "BB Biotech",
+            "lead": false
+          },
+          {
+            "name": "Fidelity Management",
+            "lead": false
+          },
+          {
+            "name": "Balyasny Asset Management",
+            "lead": false
+          },
+          {
+            "name": "Amgen Ventures",
+            "lead": false
+          },
+          {
+            "name": "ARCH Venture Partners",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-12",
+        "Company": "Desentum",
+        "Round": null,
+        "Amount": "$31M",
+        "Modality": "Immunotherapy",
+        "Lead indication(s)": "Allergy",
+        "Geography": "Finland",
+        "Lead 1": "Springvest",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://desentum.fi/news/desentum-raises-e28-million-to-develop-safer-more-effective-allergen-immunotherapy/",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://desentum.fi/news/desentum-raises-e28-million-to-develop-safer-more-effective-allergen-immunotherapy/",
+        "date": "2026-10-12",
+        "Amount_parsed": {
+          "raw": "$31M",
+          "currency": "USD",
+          "musd": 31.0,
+          "musd_native": 31.0
+        },
+        "value_musd": 31.0,
+        "investors": [
+          {
+            "name": "Springvest",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-12",
+        "Company": "Undecimal",
+        "Round": "Seed",
+        "Amount": "$18M",
+        "Modality": "siRNA",
+        "Lead indication(s)": "Renovascular disease",
+        "Geography": "US",
+        "Lead 1": "4BIO Capital",
+        "Lead 2": "IQ Capital",
+        "Investor 3": "Verve Ventures",
+        "Investor 4": "Harel Tech",
+        "Investor 5": "Entree Capital",
+        "Investor 6": "Kerna Ventures",
+        "Investor 7": "Saras Capital",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/undecimal-bio-launches-with-18m-to-advance-sirna-beyond-liver-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3b3a9c22-4f600b7b&utm_medium=email&utm_campaign=2552%20-%20Brent%20Saunders%20second%20Bausch%20stint%20ends%20Enterprise&utm_content=2552%20-%20Brent%20Saunders%20second%20Bausch%20stint%20ends%20Enterprise+CID_3a7e2c450ca3c8f06b57579d85222015&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Undecimal%20Bio%20launches%20with%2018M%20to%20take%20siRNA%20beyond%20the%20liver",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/undecimal-bio-launches-with-18m-to-advance-sirna-beyond-liver-disease/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3b3a9c22-4f600b7b&utm_medium=email&utm_campaign=2552%20-%20Brent%20Saunders%20second%20Bausch%20stint%20ends%20Enterprise&utm_content=2552%20-%20Brent%20Saunders%20second%20Bausch%20stint%20ends%20Enterprise+CID_3a7e2c450ca3c8f06b57579d85222015&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Undecimal%20Bio%20launches%20with%2018M%20to%20take%20siRNA%20beyond%20the%20liver",
+        "date": "2026-10-12",
+        "Amount_parsed": {
+          "raw": "$18M",
+          "currency": "USD",
+          "musd": 18.0,
+          "musd_native": 18.0
+        },
+        "value_musd": 18.0,
+        "investors": [
+          {
+            "name": "4BIO Capital",
+            "lead": true
+          },
+          {
+            "name": "IQ Capital",
+            "lead": true
+          },
+          {
+            "name": "Verve Ventures",
+            "lead": false
+          },
+          {
+            "name": "Harel Tech",
+            "lead": false
+          },
+          {
+            "name": "Entree Capital",
+            "lead": false
+          },
+          {
+            "name": "Kerna Ventures",
+            "lead": false
+          },
+          {
+            "name": "Saras Capital",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-09",
         "Company": "Onyx Bio",
@@ -7216,6 +7496,112 @@
       {
         "Listing date": "2026-10-09",
         "IPO date": null,
+        "Company": "Bambusa Therapeutics",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "Bispecific antibodies",
+        "Lead indication": "Atopic dermatitis",
+        "Investor 1": "Salvia Investment",
+        "Investor 2": "RA Capital",
+        "Investor 3": "Biotechnology Value Fund",
+        "Investor 4": "INCE Capital",
+        "Investor 5": "Dawn Holdco",
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026065557/bambusa-sx1.htm#i791b62ca74664cd78c8cd97a44e2cff4_58",
+        "Target source": null,
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-09",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Salvia Investment",
+            "lead": true
+          },
+          {
+            "name": "RA Capital",
+            "lead": false
+          },
+          {
+            "name": "Biotechnology Value Fund",
+            "lead": false
+          },
+          {
+            "name": "INCE Capital",
+            "lead": false
+          },
+          {
+            "name": "Dawn Holdco",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Listing date": "2026-10-09",
+        "IPO date": null,
+        "Company": "Aspen Neuroscience",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "iPSC therapy",
+        "Lead indication": "Parkinson's disease",
+        "Investor 1": "OrbiMed",
+        "Investor 2": "Gilead",
+        "Investor 3": "Frazier Life Sciences",
+        "Investor 4": "ARCH Venture Fund",
+        "Investor 5": "Q Healthcare Holding",
+        "Investor 6": "Abu Dhabi Investment Authority",
+        "Investor 7": "Medical Excellence Capital Partners",
+        "Investor 8": null,
+        "Listing URL": "sec.gov/Archives/edgar/data/2124080/000119312526419104/na-20261009.htm#principal_stockholders",
+        "Target source": null,
+        "IPO source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": null,
+        "date": "2026-10-09",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": true
+          },
+          {
+            "name": "Gilead",
+            "lead": false
+          },
+          {
+            "name": "Frazier Life Sciences",
+            "lead": false
+          },
+          {
+            "name": "ARCH Venture Fund",
+            "lead": false
+          },
+          {
+            "name": "Q Healthcare Holding",
+            "lead": false
+          },
+          {
+            "name": "Abu Dhabi Investment Authority",
+            "lead": false
+          },
+          {
+            "name": "Medical Excellence Capital Partners",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Listing date": "2026-10-09",
+        "IPO date": null,
         "Company": "Iambic Therapeutics",
         "Target price": "$16 / share",
         "Target raise": "$135M",
@@ -7959,6 +8345,54 @@
       }
     ],
     "Reverse mergers": [
+      {
+        "Date": "2026-10-13",
+        "Company": "Velaris Therapeutics",
+        "Target": "Alaunos Therapeutics",
+        "Target residual ownership": null,
+        "Private placement": "$350M",
+        "Modality": "Monoclonal antibody",
+        "Lead indication": "PAH",
+        "Investor 1": "Fairmount Funds",
+        "Investor 2": "Venrock Healthcare Partners",
+        "Investor 3": "BB Biotech",
+        "Investor 4": "Others (not disclosed)",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/paragon-spins-out-ninth-biotech-sending-cardiopulmonary-drugs-to-alaunos/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-3a93e403-4ec9735a&utm_medium=email&utm_campaign=1260%20-%20Paragon%20launches%20ninth%20biotech%20reunites%20Apogee%20vets%20Enterprise&utm_content=1260%20-%20Paragon%20launches%20ninth%20biotech%20reunites%20Apogee%20vets%20Enterprise+CID_05f17e898676968456e07e5393b55fed&utm_source=ENDPOINTS%20emails&utm_term=Paragon%20spins%20out%20ninth%20biotech%20sending%20cardiopulmonary%20drugs%20to%20Alaunos",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": "https://endpoints.news/paragon-spins-out-ninth-biotech-sending-cardiopulmonary-drugs-to-alaunos/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-3a93e403-4ec9735a&utm_medium=email&utm_campaign=1260%20-%20Paragon%20launches%20ninth%20biotech%20reunites%20Apogee%20vets%20Enterprise&utm_content=1260%20-%20Paragon%20launches%20ninth%20biotech%20reunites%20Apogee%20vets%20Enterprise+CID_05f17e898676968456e07e5393b55fed&utm_source=ENDPOINTS%20emails&utm_term=Paragon%20spins%20out%20ninth%20biotech%20sending%20cardiopulmonary%20drugs%20to%20Alaunos",
+        "date": "2026-10-13",
+        "Private placement_parsed": {
+          "raw": "$350M",
+          "currency": "USD",
+          "musd": 350.0,
+          "musd_native": 350.0
+        },
+        "value_musd": 350.0,
+        "investors": [
+          {
+            "name": "Fairmount Funds",
+            "lead": true
+          },
+          {
+            "name": "Venrock Healthcare Partners",
+            "lead": false
+          },
+          {
+            "name": "BB Biotech",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-09-17",
         "Company": "Marea Therapeutics",
@@ -8803,6 +9237,182 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Sherpa Venture Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Beijing Medical and Healthcare Industry Investment Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Qiming Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Zhuhai Science & Technology Industry Group",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Huagai Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "Taiyu Investment",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Allygen Biologics",
+      "value_musd": 45.0,
+      "name": "W Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "Juvia Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "TCG Crossover",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "BB Biotech",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "Fidelity Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "Balyasny Asset Management",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "Amgen Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-13",
+      "company": "Souffl\u00e9 Therapeutics",
+      "value_musd": 135.0,
+      "name": "ARCH Venture Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Desentum",
+      "value_musd": 31.0,
+      "name": "Springvest",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "4BIO Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "IQ Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "Verve Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "Harel Tech",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "Entree Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "Kerna Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-12",
+      "company": "Undecimal",
+      "value_musd": 18.0,
+      "name": "Saras Capital",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-09",
@@ -11645,6 +12255,102 @@
     },
     {
       "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Bambusa Therapeutics",
+      "value_musd": null,
+      "name": "Salvia Investment",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Bambusa Therapeutics",
+      "value_musd": null,
+      "name": "RA Capital",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Bambusa Therapeutics",
+      "value_musd": null,
+      "name": "Biotechnology Value Fund",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Bambusa Therapeutics",
+      "value_musd": null,
+      "name": "INCE Capital",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Bambusa Therapeutics",
+      "value_musd": null,
+      "name": "Dawn Holdco",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "OrbiMed",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "Gilead",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "Frazier Life Sciences",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "ARCH Venture Fund",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "Q Healthcare Holding",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "Abu Dhabi Investment Authority",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-09",
+      "company": "Aspen Neuroscience",
+      "value_musd": null,
+      "name": "Medical Excellence Capital Partners",
+      "lead": false
+    },
+    {
+      "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
       "value_musd": null,
@@ -12001,6 +12707,30 @@
       "company": "Apnimed",
       "value_musd": 192.0,
       "name": "Miller",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-10-13",
+      "company": "Velaris Therapeutics",
+      "value_musd": 350.0,
+      "name": "Fairmount Funds",
+      "lead": true
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-10-13",
+      "company": "Velaris Therapeutics",
+      "value_musd": 350.0,
+      "name": "Venrock Healthcare Partners",
+      "lead": false
+    },
+    {
+      "category": "Reverse mergers",
+      "date": "2026-10-13",
+      "company": "Velaris Therapeutics",
+      "value_musd": 350.0,
+      "name": "BB Biotech",
       "lead": false
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T05:53:20+00:00",
+  "generated": "2026-10-15T05:37:39+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,66 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-14",
+        "Buyer": "Gilead",
+        "Seller": "Vir Biotechnology",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$90M",
+        "Total Deal Value": "$1.9B",
+        "Modality": "Bispecific antibodies",
+        "Lead indication(s)": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx",
+        "date": "2026-10-14",
+        "Upfront_parsed": {
+          "raw": "$90M",
+          "currency": "USD",
+          "musd": 90.0,
+          "musd_native": 90.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.9B",
+          "currency": "USD",
+          "musd": 1900.0,
+          "musd_native": 1900.0
+        },
+        "value_musd": 1900.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-13",
+        "Buyer": "Zealand Pharma",
+        "Seller": "Generate Biomedicines",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$30M",
+        "Total Deal Value": "$1.23B",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "Metabolic diseases",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/10/13/3380177/0/en/zealand-pharma-and-generate-biomedicines-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases.html?_gl=1*1ou0em2*_up*MQ..*_ga*MTkzMDMzNDU2Mi4xNzkxOTI0MDMy*_ga_B6167QB2TF*czE3OTE5MjQwMzIkbzEkZzAkdDE3OTE5MjQwMzIkajYwJGwwJGgxNjUwMzMwMTc0*_ga_ERWPGTJ5X8*czE3OTE5MjQwMzIkbzEkZzAkdDE3OTE5MjQwMzIkajYwJGwwJGgw",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/10/13/3380177/0/en/zealand-pharma-and-generate-biomedicines-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases.html?_gl=1*1ou0em2*_up*MQ..*_ga*MTkzMDMzNDU2Mi4xNzkxOTI0MDMy*_ga_B6167QB2TF*czE3OTE5MjQwMzIkbzEkZzAkdDE3OTE5MjQwMzIkajYwJGwwJGgxNjUwMzMwMTc0*_ga_ERWPGTJ5X8*czE3OTE5MjQwMzIkbzEkZzAkdDE3OTE5MjQwMzIkajYwJGwwJGgw",
+        "date": "2026-10-13",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.23B",
+          "currency": "USD",
+          "musd": 1230.0,
+          "musd_native": 1230.0
+        },
+        "value_musd": 1230.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-13",
         "Buyer": "Pfizer",
@@ -1836,7 +1896,7 @@
         "investors": []
       },
       {
-        "Date": "2025-09-21",
+        "Date": "2026-09-21",
         "Buyer": "Gr\u00fcnenthal",
         "Seller": "Bayer",
         "Structure": "Licensing",
@@ -1850,7 +1910,7 @@
         "category": "Licensing",
         "side": "deal",
         "url": "https://finance.yahoo.com/healthcare/articles/gr-nenthal-acquires-cancer-treatment-084200379.html?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGYYs9ooX_rHNUXdi7uZKYgezNLf5oM0XwZyUEEASxy3oeTY3eiyRcVA2BGqgczUitE8BIi3lNn4nAWNbL0jSssd-gHb3gFzoXq4KrF5Gl7w2IwQxG8dfhsh4_bZT3er_quQcuiq_wSTIQCZ7pQjmVFrW1XK-Xux_WUnorFykKZe&guccounter=2",
-        "date": "2025-09-21",
+        "date": "2026-09-21",
         "Upfront_parsed": null,
         "Total Deal Value_parsed": {
           "raw": "$420M",
@@ -2833,6 +2893,64 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-14",
+        "Company": "Altay Therapeutics",
+        "Round": "Series A",
+        "Amount": "$37M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "FSHD",
+        "Geography": "US",
+        "Lead 1": "Sound Bioventures",
+        "Lead 2": "HealthCap",
+        "Investor 3": "Fountain Healthcare Partners",
+        "Investor 4": "Biogen New Ventures",
+        "Investor 5": "Pappas Capital",
+        "Investor 6": "Global BioAccess Fund",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261014001074/en/Altay-Therapeutics-Closes-%2437-Million-Series-A-Financing-to-Advance-First-Oral-DUX4-Inhibitor-for-FSHD-into-the-Clinic",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20261014001074/en/Altay-Therapeutics-Closes-%2437-Million-Series-A-Financing-to-Advance-First-Oral-DUX4-Inhibitor-for-FSHD-into-the-Clinic",
+        "date": "2026-10-14",
+        "Amount_parsed": {
+          "raw": "$37M",
+          "currency": "USD",
+          "musd": 37.0,
+          "musd_native": 37.0
+        },
+        "value_musd": 37.0,
+        "investors": [
+          {
+            "name": "Sound Bioventures",
+            "lead": true
+          },
+          {
+            "name": "HealthCap",
+            "lead": true
+          },
+          {
+            "name": "Fountain Healthcare Partners",
+            "lead": false
+          },
+          {
+            "name": "Biogen New Ventures",
+            "lead": false
+          },
+          {
+            "name": "Pappas Capital",
+            "lead": false
+          },
+          {
+            "name": "Global BioAccess Fund",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-13",
         "Company": "Allygen Biologics",
@@ -9237,6 +9355,54 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "Sound Bioventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "HealthCap",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "Fountain Healthcare Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "Biogen New Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "Pappas Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-14",
+      "company": "Altay Therapeutics",
+      "value_musd": 37.0,
+      "name": "Global BioAccess Fund",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-13",

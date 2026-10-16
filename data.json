@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T05:37:39+00:00",
+  "generated": "2026-10-16T05:32:14+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-15",
+        "Buyer": "AstraZeneca",
+        "Seller": "insitro",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$40M",
+        "Total Deal Value": "$1.5B",
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": "Cardiometabolic diseases",
+        "Source": "Link",
+        "URL": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html",
+        "date": "2026-10-15",
+        "Upfront_parsed": {
+          "raw": "$40M",
+          "currency": "USD",
+          "musd": 40.0,
+          "musd_native": 40.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-14",
         "Buyer": "Gilead",
@@ -2893,6 +2923,118 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-15",
+        "Company": "Haibo Pharmaceutical",
+        "Round": "Series B",
+        "Amount": "$14.9M",
+        "Modality": "Molecular glue",
+        "Lead indication(s)": "Oncology",
+        "Geography": "China",
+        "Lead 1": "Chengdu Future Industry Fund",
+        "Lead 2": null,
+        "Investor 3": "Yufu High Quality Fund",
+        "Investor 4": "Yueyin Medical Fund",
+        "Investor 5": "Hengdian Capital",
+        "Investor 6": "Penglai Capital",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://mp.weixin.qq.com/s/7NvxB8wcfAaN6bzRFcX6fQ",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://mp.weixin.qq.com/s/7NvxB8wcfAaN6bzRFcX6fQ",
+        "date": "2026-10-15",
+        "Amount_parsed": {
+          "raw": "$14.9M",
+          "currency": "USD",
+          "musd": 14.9,
+          "musd_native": 14.9
+        },
+        "value_musd": 14.9,
+        "investors": [
+          {
+            "name": "Chengdu Future Industry Fund",
+            "lead": true
+          },
+          {
+            "name": "Yufu High Quality Fund",
+            "lead": false
+          },
+          {
+            "name": "Yueyin Medical Fund",
+            "lead": false
+          },
+          {
+            "name": "Hengdian Capital",
+            "lead": false
+          },
+          {
+            "name": "Penglai Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-15",
+        "Company": "OMass Therapeutics",
+        "Round": "Series C",
+        "Amount": "$310M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "CAH",
+        "Geography": "UK",
+        "Lead 1": null,
+        "Lead 2": null,
+        "Investor 3": "Bain Capital Life Sciences",
+        "Investor 4": "Forbion",
+        "Investor 5": "Novo Holdings",
+        "Investor 6": "Janus Henderson",
+        "Investor 7": "SV Health Investors",
+        "Investor 8": "Jefferson Life Sciences",
+        "Investor 9": "Syncona",
+        "Investor 10": "Sanofi Ventures",
+        "Source": "Link",
+        "URL": "https://endpoints.news/omass-therapeutics-collects-310m-to-chase-neurocrine-vertex-in-genetic-adrenal-disorder/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-12803764-66daa03d&utm_medium=email&utm_campaign=1262%20-%20OMass%20gets%20310M%20to%20take%20on%20Neurocrine%20Vertex%20Enterprise&utm_content=1262%20-%20OMass%20gets%20310M%20to%20take%20on%20Neurocrine%20Vertex%20Enterprise+CID_0e435295ff58cad40e5b899bb6efa023&utm_source=ENDPOINTS%20emails&utm_term=OMass%20Therapeutics%20collects%20310M%20to%20chase%20Neurocrine%20Vertex%20in%20genetic%20adrenal%20disorder",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/omass-therapeutics-collects-310m-to-chase-neurocrine-vertex-in-genetic-adrenal-disorder/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-12803764-66daa03d&utm_medium=email&utm_campaign=1262%20-%20OMass%20gets%20310M%20to%20take%20on%20Neurocrine%20Vertex%20Enterprise&utm_content=1262%20-%20OMass%20gets%20310M%20to%20take%20on%20Neurocrine%20Vertex%20Enterprise+CID_0e435295ff58cad40e5b899bb6efa023&utm_source=ENDPOINTS%20emails&utm_term=OMass%20Therapeutics%20collects%20310M%20to%20chase%20Neurocrine%20Vertex%20in%20genetic%20adrenal%20disorder",
+        "date": "2026-10-15",
+        "Amount_parsed": {
+          "raw": "$310M",
+          "currency": "USD",
+          "musd": 310.0,
+          "musd_native": 310.0
+        },
+        "value_musd": 310.0,
+        "investors": [
+          {
+            "name": "Bain Capital Life Sciences",
+            "lead": false
+          },
+          {
+            "name": "Forbion",
+            "lead": false
+          },
+          {
+            "name": "Novo Holdings",
+            "lead": false
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "SV Health Investors",
+            "lead": false
+          },
+          {
+            "name": "Jefferson Life Sciences",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-14",
         "Company": "Altay Therapeutics",
@@ -7719,11 +7861,11 @@
       },
       {
         "Listing date": "2026-10-09",
-        "IPO date": null,
+        "IPO date": "2026-10-14",
         "Company": "Iambic Therapeutics",
         "Target price": "$16 / share",
         "Target raise": "$135M",
-        "Amount": null,
+        "Amount": "$150M",
         "Modality": "AI drug discovery",
         "Lead indication": "Solid tumor",
         "Investor 1": null,
@@ -7736,13 +7878,18 @@
         "Investor 8": null,
         "Listing URL": null,
         "Target source": "https://endpoints.news/city-therapeutics-targets-158m-ipo-iambic-seeks-135m-nasdaq-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6e88b14-b2b21c4d&utm_medium=email&utm_campaign=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise&utm_content=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise+CID_e12075864ff2bef43c180e57c365429e&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20targets%20158M%20IPO%20Iambic%20seeks%20135M%20Nasdaq%20debut",
-        "IPO source": null,
+        "IPO source": "https://www.businesswire.com/news/home/20261014222850/en/Iambic-Announces-Pricing-of-Initial-Public-Offering",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-10-09",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$150M",
+          "currency": "USD",
+          "musd": 150.0,
+          "musd_native": 150.0
+        },
+        "value_musd": 150.0,
         "investors": []
       },
       {
@@ -9355,6 +9502,94 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "Haibo Pharmaceutical",
+      "value_musd": 14.9,
+      "name": "Chengdu Future Industry Fund",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "Haibo Pharmaceutical",
+      "value_musd": 14.9,
+      "name": "Yufu High Quality Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "Haibo Pharmaceutical",
+      "value_musd": 14.9,
+      "name": "Yueyin Medical Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "Haibo Pharmaceutical",
+      "value_musd": 14.9,
+      "name": "Hengdian Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "Haibo Pharmaceutical",
+      "value_musd": 14.9,
+      "name": "Penglai Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "Bain Capital Life Sciences",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "Forbion",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "Novo Holdings",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "SV Health Investors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-15",
+      "company": "OMass Therapeutics",
+      "value_musd": 310.0,
+      "name": "Jefferson Life Sciences",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-14",

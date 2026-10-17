@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T05:32:14+00:00",
+  "generated": "2026-10-17T05:22:02+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -2923,6 +2923,156 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-16",
+        "Company": "Estuary Biotherapeutics",
+        "Round": "Series A",
+        "Amount": "$93M",
+        "Modality": "Gene therapy",
+        "Lead indication(s)": "Kidney disease",
+        "Geography": "US",
+        "Lead 1": "RA Capital",
+        "Lead 2": null,
+        "Investor 3": "Deep Track Capital",
+        "Investor 4": "Biogen New Ventures",
+        "Investor 5": "UPMC Enterprises",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/estuary-debuts-with-103m-to-develop-kidney-disease-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=Estuary%20debuts%20with%20103M%20to%20develop%20kidney%20disease%20gene%20therapies",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/estuary-debuts-with-103m-to-develop-kidney-disease-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=Estuary%20debuts%20with%20103M%20to%20develop%20kidney%20disease%20gene%20therapies",
+        "date": "2026-10-16",
+        "Amount_parsed": {
+          "raw": "$93M",
+          "currency": "USD",
+          "musd": 93.0,
+          "musd_native": 93.0
+        },
+        "value_musd": 93.0,
+        "investors": [
+          {
+            "name": "RA Capital",
+            "lead": true
+          },
+          {
+            "name": "Deep Track Capital",
+            "lead": false
+          },
+          {
+            "name": "Biogen New Ventures",
+            "lead": false
+          },
+          {
+            "name": "UPMC Enterprises",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-16",
+        "Company": "Estuary Biotherapeutics",
+        "Round": "Seed",
+        "Amount": "$10M",
+        "Modality": "Gene therapy",
+        "Lead indication(s)": "Kidney disease",
+        "Geography": "US",
+        "Lead 1": "4BIO Capital",
+        "Lead 2": "GV",
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/estuary-debuts-with-103m-to-develop-kidney-disease-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=Estuary%20debuts%20with%20103M%20to%20develop%20kidney%20disease%20gene%20therapies",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/estuary-debuts-with-103m-to-develop-kidney-disease-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=Estuary%20debuts%20with%20103M%20to%20develop%20kidney%20disease%20gene%20therapies",
+        "date": "2026-10-16",
+        "Amount_parsed": {
+          "raw": "$10M",
+          "currency": "USD",
+          "musd": 10.0,
+          "musd_native": 10.0
+        },
+        "value_musd": 10.0,
+        "investors": [
+          {
+            "name": "4BIO Capital",
+            "lead": true
+          },
+          {
+            "name": "GV",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-16",
+        "Company": "Microbiotica",
+        "Round": "Series C",
+        "Amount": "$48M",
+        "Modality": "Microbiome",
+        "Lead indication(s)": "Ulcerative colitis",
+        "Geography": "UK",
+        "Lead 1": "British Business Bank",
+        "Lead 2": null,
+        "Investor 3": "Tencent",
+        "Investor 4": "IP Group",
+        "Investor 5": "Cambridge Innovation Capital",
+        "Investor 6": "Flerie Invest",
+        "Investor 7": "Seventure Partners",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.cic.vc/microbiotica-raises-36-million-48-million-in-series-c-financing-to-advance-pipeline-into-phase-2-clinical-development/",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.cic.vc/microbiotica-raises-36-million-48-million-in-series-c-financing-to-advance-pipeline-into-phase-2-clinical-development/",
+        "date": "2026-10-16",
+        "Amount_parsed": {
+          "raw": "$48M",
+          "currency": "USD",
+          "musd": 48.0,
+          "musd_native": 48.0
+        },
+        "value_musd": 48.0,
+        "investors": [
+          {
+            "name": "British Business Bank",
+            "lead": true
+          },
+          {
+            "name": "Tencent",
+            "lead": false
+          },
+          {
+            "name": "IP Group",
+            "lead": false
+          },
+          {
+            "name": "Cambridge Innovation Capital",
+            "lead": false
+          },
+          {
+            "name": "Flerie Invest",
+            "lead": false
+          },
+          {
+            "name": "Seventure Partners",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-15",
         "Company": "Haibo Pharmaceutical",
@@ -7947,11 +8097,11 @@
       },
       {
         "Listing date": "2026-09-25",
-        "IPO date": null,
+        "IPO date": "2026-10-16",
         "Company": "City Therapeutics",
         "Target price": "$18 / share",
         "Target raise": "$158M",
-        "Amount": null,
+        "Amount": "$200M",
         "Modality": "RNAi",
         "Lead indication": "Thrombosis",
         "Investor 1": "ARCH",
@@ -7964,13 +8114,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/alnylam-alumni-led-rnai-biotech-city-therapeutics-files-for-ipo/",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926114815/tm2619715-8_s1a.htm#TOC",
-        "IPO source": null,
+        "IPO source": "https://endpoints.news/city-therapeutics-lands-200m-ipo-as-it-builds-an-alnylam-2-0-in-rnai-field/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20lands%20200M%20IPO%20as%20it%20builds%20an%20Alnylam%2020%20in%20RNAi%20field",
         "category": "IPO",
         "side": "raise",
         "url": null,
         "date": "2026-09-25",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$200M",
+          "currency": "USD",
+          "musd": 200.0,
+          "musd_native": 200.0
+        },
+        "value_musd": 200.0,
         "investors": [
           {
             "name": "ARCH",
@@ -9502,6 +9657,102 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 93.0,
+      "name": "RA Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 93.0,
+      "name": "Deep Track Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 93.0,
+      "name": "Biogen New Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 93.0,
+      "name": "UPMC Enterprises",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 10.0,
+      "name": "4BIO Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Estuary Biotherapeutics",
+      "value_musd": 10.0,
+      "name": "GV",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "British Business Bank",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "Tencent",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "IP Group",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "Cambridge Innovation Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "Flerie Invest",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-16",
+      "company": "Microbiotica",
+      "value_musd": 48.0,
+      "name": "Seventure Partners",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-15",
@@ -12802,7 +13053,7 @@
       "category": "IPO",
       "date": "2026-09-25",
       "company": "City Therapeutics",
-      "value_musd": null,
+      "value_musd": 200.0,
       "name": "ARCH",
       "lead": true
     },
@@ -12810,7 +13061,7 @@
       "category": "IPO",
       "date": "2026-09-25",
       "company": "City Therapeutics",
-      "value_musd": null,
+      "value_musd": 200.0,
       "name": "Fidelity",
       "lead": false
     },
@@ -12818,7 +13069,7 @@
       "category": "IPO",
       "date": "2026-09-25",
       "company": "City Therapeutics",
-      "value_musd": null,
+      "value_musd": 200.0,
       "name": "Invus",
       "lead": false
     },
@@ -12826,7 +13077,7 @@
       "category": "IPO",
       "date": "2026-09-25",
       "company": "City Therapeutics",
-      "value_musd": null,
+      "value_musd": 200.0,
       "name": "John Maraganore",
       "lead": false
     },
@@ -12834,7 +13085,7 @@
       "category": "IPO",
       "date": "2026-09-25",
       "company": "City Therapeutics",
-      "value_musd": null,
+      "value_musd": 200.0,
       "name": "Viking",
       "lead": false
     },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T05:48:48+00:00",
+  "generated": "2026-10-20T05:42:40+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,111 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-19",
+        "Buyer": "Sanofi",
+        "Seller": "ScionxBio",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Long-acting RNA",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/sanofi-taps-new-startup-scionxbio-for-long-acting-rna/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-53282cc9-2772bb90&utm_medium=email&utm_campaign=2557%20-%20Buying%20Silence%20to%20start%20the%20week%20Enterprise&utm_content=2557%20-%20Buying%20Silence%20to%20start%20the%20week%20Enterprise+CID_aedcc525a26f693ed5d52d27e80fd7e4&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Sanofi%20taps%20new%20startup%20ScionxBio%20for%20long-acting%20RNA",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/sanofi-taps-new-startup-scionxbio-for-long-acting-rna/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-53282cc9-2772bb90&utm_medium=email&utm_campaign=2557%20-%20Buying%20Silence%20to%20start%20the%20week%20Enterprise&utm_content=2557%20-%20Buying%20Silence%20to%20start%20the%20week%20Enterprise+CID_aedcc525a26f693ed5d52d27e80fd7e4&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Sanofi%20taps%20new%20startup%20ScionxBio%20for%20long-acting%20RNA",
+        "date": "2026-10-19",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-19",
+        "Buyer": "Lilly",
+        "Seller": "Metis TechBio",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$1.1B",
+        "Modality": "LNP",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900041.pdf",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900041.pdf",
+        "date": "2026-10-19",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.1B",
+          "currency": "USD",
+          "musd": 1100.0,
+          "musd_native": 1100.0
+        },
+        "value_musd": 1100.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-19",
+        "Buyer": "Merck KGaA",
+        "Seller": "Silence Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": "$1.3B",
+        "Total Deal Value": "$1.3B",
+        "Modality": "siRNA",
+        "Lead indication(s)": "Polycythemia vera",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261019777870/en/Merck-KGaA-Darmstadt-Germany-to-Acquire-Silence-Therapeutics-Strengthening-Rare-Disease-Pipeline-with-Innovative-siRNA-Asset",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261019777870/en/Merck-KGaA-Darmstadt-Germany-to-Acquire-Silence-Therapeutics-Strengthening-Rare-Disease-Pipeline-with-Innovative-siRNA-Asset",
+        "date": "2026-10-19",
+        "Upfront_parsed": {
+          "raw": "$1.3B",
+          "currency": "USD",
+          "musd": 1300.0,
+          "musd_native": 1300.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.3B",
+          "currency": "USD",
+          "musd": 1300.0,
+          "musd_native": 1300.0
+        },
+        "value_musd": 1300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-16",
+        "Buyer": "Roche",
+        "Seller": "Hansoh Pharma",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$400M",
+        "Total Deal Value": "$15B",
+        "Modality": "ADC",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/roche-does-400m-upfront-15b-deal-with-chinas-hansoh/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ee9563f1-9acff4a8&utm_medium=email&utm_campaign=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise&utm_content=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise+CID_895a03d333903549791faddf8ad49ef2&utm_source=ENDPOINTS%20emails&utm_term=Roche%20does%20400M%20upfront%2015B%20deal%20with%20Chinas%20Hansoh",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/roche-does-400m-upfront-15b-deal-with-chinas-hansoh/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ee9563f1-9acff4a8&utm_medium=email&utm_campaign=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise&utm_content=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise+CID_895a03d333903549791faddf8ad49ef2&utm_source=ENDPOINTS%20emails&utm_term=Roche%20does%20400M%20upfront%2015B%20deal%20with%20Chinas%20Hansoh",
+        "date": "2026-10-16",
+        "Upfront_parsed": {
+          "raw": "$400M",
+          "currency": "USD",
+          "musd": 400.0,
+          "musd_native": 400.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$15B",
+          "currency": "USD",
+          "musd": 15000.0,
+          "musd_native": 15000.0
+        },
+        "value_musd": 15000.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-15",
         "Buyer": "AstraZeneca",
@@ -2923,6 +3028,72 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-19",
+        "Company": "Nouscom",
+        "Round": "Series D",
+        "Amount": "$135M",
+        "Modality": "Cancer vaccine",
+        "Lead indication(s)": "Lynch syndrome",
+        "Geography": "Switzerland",
+        "Lead 1": "M Ventures",
+        "Lead 2": "Revelation Partners",
+        "Investor 3": "Angelini Industries",
+        "Investor 4": "European Investment Bank",
+        "Investor 5": "Neva SGR",
+        "Investor 6": "5AM Ventures",
+        "Investor 7": "Andera Partners",
+        "Investor 8": "Bpifrance",
+        "Investor 9": "CDP Venture Capital",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://endpoints.news/nouscom-raises-135m-in-series-d-round-for-lead-cancer-vaccine/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ee9563f1-9acff4a8&utm_medium=email&utm_campaign=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise&utm_content=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise+CID_895a03d333903549791faddf8ad49ef2&utm_source=ENDPOINTS%20emails&utm_term=Nouscom%20raises%20135M%20in%20Series%20D%20for%20lead%20cancer%20vaccine",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/nouscom-raises-135m-in-series-d-round-for-lead-cancer-vaccine/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ee9563f1-9acff4a8&utm_medium=email&utm_campaign=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise&utm_content=1264%20-%20Roche%20strikes%2015B%20deal%20with%20Chinas%20Hansoh%20Enterprise+CID_895a03d333903549791faddf8ad49ef2&utm_source=ENDPOINTS%20emails&utm_term=Nouscom%20raises%20135M%20in%20Series%20D%20for%20lead%20cancer%20vaccine",
+        "date": "2026-10-19",
+        "Amount_parsed": {
+          "raw": "$135M",
+          "currency": "USD",
+          "musd": 135.0,
+          "musd_native": 135.0
+        },
+        "value_musd": 135.0,
+        "investors": [
+          {
+            "name": "M Ventures",
+            "lead": true
+          },
+          {
+            "name": "Revelation Partners",
+            "lead": true
+          },
+          {
+            "name": "Angelini Industries",
+            "lead": false
+          },
+          {
+            "name": "European Investment Bank",
+            "lead": false
+          },
+          {
+            "name": "Neva SGR",
+            "lead": false
+          },
+          {
+            "name": "5AM Ventures",
+            "lead": false
+          },
+          {
+            "name": "Andera Partners",
+            "lead": false
+          },
+          {
+            "name": "Bpifrance",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-16",
         "Company": "Estuary Biotherapeutics",
@@ -9657,6 +9828,70 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "M Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "Revelation Partners",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "Angelini Industries",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "European Investment Bank",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "Neva SGR",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "5AM Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "Andera Partners",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-19",
+      "company": "Nouscom",
+      "value_musd": 135.0,
+      "name": "Bpifrance",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-16",

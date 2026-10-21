@@ -63,9 +63,14 @@ def csv_url(cat):
 
 # investor columns differ by sheet; list every column that can hold one
 INVESTOR_COLS = ["Lead 1", "Lead 2", "Investor 1", "Investor 2", "Investor 3",
-                 "Investor 4", "Investor 5", "Investor 6", "Investor 7", "Investor 8"]
+                 "Investor 4", "Investor 5", "Investor 6", "Investor 7", "Investor 8",
+                 "Investor 9", "Investor 10"]
 LEAD_COLS = {"Lead 1", "Lead 2", "Investor 1"}   # treated as lead / notable
 NULLISH = {"", "n/a", "na", "not disclosed", "nan", "none", "-", "tbd", "undisclosed"}
+# header variants across tabs -> one canonical name the dashboard expects
+COL_ALIASES = {"Lead indication(s)": "Indication", "Lead indication": "Indication",
+               "Indication(s)": "Indication", "Focus Area": "Indication",
+               "Focus area": "Indication"}
 URL_COLS = {"URL", "Url", "url", "Source URL", "Source url", "Link URL"}
 
 # find the header row by matching known columns -- resilient to a blank
@@ -84,6 +89,16 @@ def _tidy(df):
     df = df.loc[:, ~df.columns.str.startswith("Unnamed")]
     df = df.loc[:, df.columns != ""]
     return df
+
+def _alias(df):
+    """Rename header variants to canonical names. First match wins; a column
+    whose canonical name already exists is left alone (no duplicate headers)."""
+    ren, taken = {}, set(df.columns)
+    for c in df.columns:
+        tgt = COL_ALIASES.get(c)
+        if tgt and tgt not in taken:
+            ren[c] = tgt; taken.add(tgt)
+    return df.rename(columns=ren)
 
 def load(cat):
     if USE_SHEETS:
@@ -108,11 +123,11 @@ def load(cat):
                 for x in raw.iloc[h]]
         df = raw.iloc[h + 1:].copy()
         df.columns = cols
-        return _tidy(df)
+        return _alias(_tidy(df))
     if cat not in LOCAL:          # e.g. a Sheets-only tab, in local test mode
         return pd.DataFrame()
     f, sheet = LOCAL[cat]
-    return _tidy(pd.read_excel(f, sheet_name=sheet, header=1))
+    return _alias(_tidy(pd.read_excel(f, sheet_name=sheet, header=1)))
 
 def source_urls(cat, id_header):
     """Map identifier -> source article URL from the Source cell hyperlinks.
@@ -191,6 +206,7 @@ ID_HEADER = {"Deals": "Seller", "Licensing": "Seller", "Fundraises": "Company",
 
 for cat in CATEGORIES:
     df = load(cat)
+    print(f"[build] {cat} columns: {list(df.columns)}")
     urls = source_urls(cat, ID_HEADER[cat])
     url_col = next((c for c in df.columns if c in URL_COLS), None)
     recs = []
@@ -200,8 +216,9 @@ for cat in CATEGORIES:
         r["side"] = SIDE[cat]           # 'deal' or 'raise' — drives the split
         idv = clean_str(row.get(ID_HEADER[cat]))
         # source link: explicit URL column (Sheets) or extracted hyperlink (Excel)
-        r["url"] = (clean_str(row[url_col]) if url_col else None) \
-                   or (urls.get(idv) if idv else None)
+        url = (clean_str(row[url_col]) if url_col else None) \
+              or (urls.get(idv) if idv else None)
+        r["url"] = url if url and url.lower().startswith("http") else None
         # dates
         for dcol in ("Date", "Listing date", "IPO date"):
             if dcol in df.columns:

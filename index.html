@@ -331,11 +331,11 @@ function chartRound(){
 
 /* ---------- database tables ---------- */
 const COLS={
-  "Deals":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Modality","Indication(s)","Source"],
-  "Licensing":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Focus Area","Source"],
-  "Fundraises":["date","Company","Round","Amount","Focus Area","__inv","Source"],
-  "IPO":["date","Company","Amount","Modality","Lead indication","__inv","Listing source"],
-  "Reverse mergers":["date","Company","Target","Private placement","Focus Area","__inv","Source"],
+  "Deals":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Modality","Indication","Source"],
+  "Licensing":["date","Buyer","Seller","Structure","Upfront","Total Deal Value","Modality","Source"],
+  "Fundraises":["date","Company","Round","Amount","Modality","__inv","Source"],
+  "Reverse mergers":["date","Company","Target","Private placement","Modality","__inv","Source"],
+  "IPO":["date","Company","Amount","Modality","Indication","__inv","Listing source"],
 };
 const HEAD={date:"Date","__inv":"Investors"};
 const INTERNAL=new Set(["category","side","url","date","investors","value_musd",

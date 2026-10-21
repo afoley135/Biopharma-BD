@@ -64,14 +64,14 @@ def csv_url(cat):
 # investor columns differ by sheet; list every column that can hold one
 INVESTOR_COLS = ["Lead 1", "Lead 2", "Investor 1", "Investor 2", "Investor 3",
                  "Investor 4", "Investor 5", "Investor 6", "Investor 7", "Investor 8",
-                 "Investor 9", "Investor 10"]
+                 "Investor 9", "Investor 10", "Investor 11", "Investor 12", "Investor"]
 LEAD_COLS = {"Lead 1", "Lead 2", "Investor 1"}   # treated as lead / notable
 NULLISH = {"", "n/a", "na", "not disclosed", "nan", "none", "-", "tbd", "undisclosed"}
 # header variants across tabs -> one canonical name the dashboard expects
 COL_ALIASES = {"Lead indication(s)": "Indication", "Lead indication": "Indication",
                "Indication(s)": "Indication", "Focus Area": "Indication",
-               "Focus area": "Indication"}
-URL_COLS = {"URL", "Url", "url", "Source URL", "Source url", "Link URL"}
+               "Focus area": "Indication", "IPO source": "Listing source"}
+URL_COLS = {"URL", "Url", "url", "Source URL", "Source url", "Link URL", "Listing URL"}
 
 # find the header row by matching known columns -- resilient to a blank
 # first row or a shifted header in any tab

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:42:40+00:00",
+  "generated": "2026-10-21T05:46:23+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,56 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-20",
+        "Buyer": "Ambrose Healthcare",
+        "Seller": "AM-Pharma",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": "$181M",
+        "Modality": "Recombinant protein",
+        "Lead indication(s)": "Hypophosphatasia",
+        "Source": "Link",
+        "URL": "https://www.ambrosehc.com/news/ambrose-healthcare-acquires-am-pharma-for-up-to-%E2%82%AC161-million-expanding-its-rare-disease-pipeline-and-gaining-a-european-base",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.ambrosehc.com/news/ambrose-healthcare-acquires-am-pharma-for-up-to-%E2%82%AC161-million-expanding-its-rare-disease-pipeline-and-gaining-a-european-base",
+        "date": "2026-10-20",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$181M",
+          "currency": "USD",
+          "musd": 181.0,
+          "musd_native": 181.0
+        },
+        "value_musd": 181.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-20",
+        "Buyer": "Astellas",
+        "Seller": "AI Proteins",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$400M",
+        "Modality": "Miniproteins",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/exclusive-astellas-partners-with-boston-miniproteins-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a6632f44-d239b81d&utm_medium=email&utm_campaign=2558%20-%20Third-quarter%20sentiment%20Dont%20worry%20be%20happy%20Enterprise&utm_content=2558%20-%20Third-quarter%20sentiment%20Dont%20worry%20be%20happy%20Enterprise+CID_2c37c33355ff9aa2e9d04829a78947aa&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Astellas%20partners%20with%20Boston%20miniproteins%20startup",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/exclusive-astellas-partners-with-boston-miniproteins-startup/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a6632f44-d239b81d&utm_medium=email&utm_campaign=2558%20-%20Third-quarter%20sentiment%20Dont%20worry%20be%20happy%20Enterprise&utm_content=2558%20-%20Third-quarter%20sentiment%20Dont%20worry%20be%20happy%20Enterprise+CID_2c37c33355ff9aa2e9d04829a78947aa&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Astellas%20partners%20with%20Boston%20miniproteins%20startup",
+        "date": "2026-10-20",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$400M",
+          "currency": "USD",
+          "musd": 400.0,
+          "musd_native": 400.0
+        },
+        "value_musd": 400.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-19",
         "Buyer": "Sanofi",
@@ -8217,8 +8267,8 @@
         "Listing date": "2026-10-06",
         "IPO date": null,
         "Company": "Lycia Therapeutics",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$17 / share",
+        "Target raise": "$227M",
         "Amount": null,
         "Modality": "Protein degradation",
         "Lead indication": "Food allergy",
@@ -8231,7 +8281,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
-        "Target source": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm#ie859af0e8277420daf536485784f3d4d_529",
         "IPO source": null,
         "category": "IPO",
         "side": "raise",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T15:55:38+00:00",
+  "generated": "2026-10-22T16:38:07+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -774,7 +774,7 @@
       },
       {
         "Date": "2026-09-17",
-        "Buyer": "Novo",
+        "Buyer": "Novo Nordisk",
         "Seller": "Orbis Medicines",
         "Structure": "Discovery collaboration",
         "Upfront": null,
@@ -799,7 +799,7 @@
       },
       {
         "Date": "2026-09-16",
-        "Buyer": "Novo",
+        "Buyer": "Novo Nordisk",
         "Seller": "Anthropic",
         "Structure": "Discovery collaboration",
         "Upfront": null,
@@ -1419,7 +1419,7 @@
       },
       {
         "Date": "2026-07-09",
-        "Buyer": "Tarsus",
+        "Buyer": "Tarsus Pharmaceuticals",
         "Seller": "iRenix Medical",
         "Structure": "Acquisition",
         "Upfront": "$75M",
@@ -2547,7 +2547,7 @@
       },
       {
         "Date": "2026-08-13",
-        "Buyer": "Perceptive",
+        "Buyer": "Perceptive Advisors",
         "Seller": "Ovid Therapeutics",
         "Structure": "Licensing",
         "Scope": "Global rights",
@@ -2797,7 +2797,7 @@
       {
         "Date": "2026-07-17",
         "Buyer": "Dimerix",
-        "Seller": "Mission",
+        "Seller": "Mission BioCapital",
         "Structure": "Licensing",
         "Scope": null,
         "Upfront": "$5M",
@@ -2875,7 +2875,7 @@
       {
         "Date": "2026-07-14",
         "Buyer": "Spero",
-        "Seller": "Innovent",
+        "Seller": "Innovent Biologics",
         "Structure": "Licensing",
         "Scope": null,
         "Upfront": null,
@@ -3678,7 +3678,7 @@
             "lead": false
           },
           {
-            "name": "Fidelity Management",
+            "name": "Fidelity",
             "lead": false
           },
           {
@@ -4110,7 +4110,7 @@
             "lead": true
           },
           {
-            "name": "Viking Global Investors",
+            "name": "Viking",
             "lead": false
           }
         ]
@@ -4576,7 +4576,7 @@
             "lead": false
           },
           {
-            "name": "Morningside Venture Capital",
+            "name": "Morningside",
             "lead": false
           },
           {
@@ -4758,7 +4758,7 @@
             "lead": false
           },
           {
-            "name": "Innovestor Life Science Fund",
+            "name": "Innovestor Life Science",
             "lead": false
           },
           {
@@ -5086,7 +5086,7 @@
             "lead": false
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": false
           },
           {
@@ -5585,7 +5585,7 @@
             "lead": true
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": true
           }
         ]
@@ -5759,7 +5759,7 @@
             "lead": false
           },
           {
-            "name": "Janus Henderson Investors",
+            "name": "Janus Henderson",
             "lead": false
           },
           {
@@ -6029,7 +6029,7 @@
             "lead": false
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": false
           },
           {
@@ -6037,7 +6037,7 @@
             "lead": false
           },
           {
-            "name": "Catalio",
+            "name": "Catalio Capital Management",
             "lead": false
           },
           {
@@ -6083,7 +6083,7 @@
             "lead": true
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": true
           },
           {
@@ -6153,7 +6153,7 @@
             "lead": false
           },
           {
-            "name": "YuanBio Venture Capital",
+            "name": "Yuanbio Venture Capital",
             "lead": false
           },
           {
@@ -6647,7 +6647,7 @@
             "lead": true
           },
           {
-            "name": "Janus Henderson Investors",
+            "name": "Janus Henderson",
             "lead": true
           },
           {
@@ -6776,7 +6776,7 @@
             "lead": true
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": false
           },
           {
@@ -7576,7 +7576,7 @@
             "lead": true
           },
           {
-            "name": "Alpha Wave",
+            "name": "Alpha Wave Global",
             "lead": true
           },
           {
@@ -7717,7 +7717,7 @@
             "lead": false
           },
           {
-            "name": "Dimension",
+            "name": "Dimension Capital",
             "lead": false
           },
           {
@@ -7942,7 +7942,7 @@
             "lead": false
           },
           {
-            "name": "Bpifrance Investissement",
+            "name": "Bpifrance",
             "lead": false
           }
         ]
@@ -8088,7 +8088,7 @@
             "lead": false
           },
           {
-            "name": "Venrock Healthcare Partners",
+            "name": "Venrock",
             "lead": false
           },
           {
@@ -8284,7 +8284,7 @@
             "lead": true
           },
           {
-            "name": "ARCH",
+            "name": "ARCH Venture Partners",
             "lead": true
           }
         ]
@@ -8380,7 +8380,7 @@
             "lead": false
           },
           {
-            "name": "ARCH Venture Fund",
+            "name": "ARCH Venture Partners",
             "lead": false
           },
           {
@@ -8392,7 +8392,7 @@
             "lead": false
           },
           {
-            "name": "Medical Excellence Capital Partners",
+            "name": "Medical Excellence Capital",
             "lead": false
           }
         ]
@@ -8462,7 +8462,7 @@
             "lead": true
           },
           {
-            "name": "Venrock Healthcare Capital Partners",
+            "name": "Venrock",
             "lead": false
           },
           {
@@ -8516,7 +8516,7 @@
         "value_musd": 200.0,
         "investors": [
           {
-            "name": "ARCH",
+            "name": "ARCH Venture Partners",
             "lead": true
           },
           {
@@ -8750,11 +8750,11 @@
             "lead": false
           },
           {
-            "name": "Redmile Biopharma",
+            "name": "Redmile",
             "lead": false
           },
           {
-            "name": "Sanofi Aventis",
+            "name": "Sanofi",
             "lead": false
           },
           {
@@ -8828,7 +8828,7 @@
         "value_musd": 346.0,
         "investors": [
           {
-            "name": "WestLake Biopartners",
+            "name": "Westlake BioPartners",
             "lead": true
           },
           {
@@ -8840,7 +8840,7 @@
             "lead": false
           },
           {
-            "name": "Blue Owl Healthcare",
+            "name": "Blue Owl",
             "lead": false
           }
         ]
@@ -9069,7 +9069,7 @@
             "lead": true
           },
           {
-            "name": "Alpha Wave",
+            "name": "Alpha Wave Global",
             "lead": false
           },
           {
@@ -9192,7 +9192,7 @@
             "lead": true
           },
           {
-            "name": "Venrock Healthcare Partners",
+            "name": "Venrock",
             "lead": false
           },
           {
@@ -9248,7 +9248,7 @@
             "lead": false
           },
           {
-            "name": "Alpha Wave",
+            "name": "Alpha Wave Global",
             "lead": false
           },
           {
@@ -9484,7 +9484,7 @@
             "lead": false
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": false
           },
           {
@@ -9500,7 +9500,7 @@
             "lead": false
           },
           {
-            "name": "RTW Investments",
+            "name": "RTW",
             "lead": false
           },
           {
@@ -9612,7 +9612,7 @@
             "lead": false
           },
           {
-            "name": "venBio Partners",
+            "name": "venBio",
             "lead": false
           },
           {
@@ -9688,7 +9688,7 @@
             "lead": false
           },
           {
-            "name": "RA Capital Management",
+            "name": "RA Capital",
             "lead": false
           },
           {
@@ -9756,7 +9756,7 @@
         "value_musd": 200.0,
         "investors": [
           {
-            "name": "RTW Investments",
+            "name": "RTW",
             "lead": true
           },
           {
@@ -9768,7 +9768,7 @@
             "lead": false
           },
           {
-            "name": "venBio Partners",
+            "name": "venBio",
             "lead": false
           },
           {
@@ -9962,7 +9962,7 @@
             "lead": false
           },
           {
-            "name": "Blue Owl Healthcare Opportunities",
+            "name": "Blue Owl",
             "lead": false
           },
           {
@@ -10553,7 +10553,7 @@
       "date": "2026-10-13",
       "company": "Souffl\u00e9 Therapeutics",
       "value_musd": 135.0,
-      "name": "Fidelity Management",
+      "name": "Fidelity",
       "lead": false
     },
     {
@@ -10873,7 +10873,7 @@
       "date": "2026-10-01",
       "company": "TriGemX",
       "value_musd": 94.0,
-      "name": "Viking Global Investors",
+      "name": "Viking",
       "lead": false
     },
     {
@@ -11193,7 +11193,7 @@
       "date": "2026-09-27",
       "company": "Sleptay Biomedical",
       "value_musd": 50.0,
-      "name": "Morningside Venture Capital",
+      "name": "Morningside",
       "lead": false
     },
     {
@@ -11353,7 +11353,7 @@
       "date": "2026-09-24",
       "company": "Kasvu Therapeutics",
       "value_musd": 34.0,
-      "name": "Innovestor Life Science Fund",
+      "name": "Innovestor Life Science",
       "lead": false
     },
     {
@@ -11601,7 +11601,7 @@
       "date": "2026-09-16",
       "company": "Circle Pharma",
       "value_musd": 92.5,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": false
     },
     {
@@ -11929,7 +11929,7 @@
       "date": "2026-09-09",
       "company": "Tectora Therapeutics",
       "value_musd": 55.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": true
     },
     {
@@ -12073,7 +12073,7 @@
       "date": "2026-09-09",
       "company": "Encoded Therapeutics",
       "value_musd": 275.0,
-      "name": "Janus Henderson Investors",
+      "name": "Janus Henderson",
       "lead": false
     },
     {
@@ -12273,7 +12273,7 @@
       "date": "2026-09-03",
       "company": "Superluminal",
       "value_musd": 60.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": false
     },
     {
@@ -12289,7 +12289,7 @@
       "date": "2026-09-03",
       "company": "Superluminal",
       "value_musd": 60.0,
-      "name": "Catalio",
+      "name": "Catalio Capital Management",
       "lead": false
     },
     {
@@ -12313,7 +12313,7 @@
       "date": "2026-09-02",
       "company": "Typewriter Therapeutics",
       "value_musd": 56.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": true
     },
     {
@@ -12385,7 +12385,7 @@
       "date": "2026-08-27",
       "company": "AusperBio",
       "value_musd": 120.0,
-      "name": "YuanBio Venture Capital",
+      "name": "Yuanbio Venture Capital",
       "lead": false
     },
     {
@@ -12697,7 +12697,7 @@
       "date": "2026-08-11",
       "company": "Epicrispr Biotechnologies",
       "value_musd": 90.0,
-      "name": "Janus Henderson Investors",
+      "name": "Janus Henderson",
       "lead": true
     },
     {
@@ -12753,7 +12753,7 @@
       "date": "2026-08-11",
       "company": "Infinimmune",
       "value_musd": 75.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": false
     },
     {
@@ -13201,7 +13201,7 @@
       "date": "2026-07-15",
       "company": "AdvanCell",
       "value_musd": 315.0,
-      "name": "Alpha Wave",
+      "name": "Alpha Wave Global",
       "lead": true
     },
     {
@@ -13281,7 +13281,7 @@
       "date": "2026-07-14",
       "company": "Chai Discovery",
       "value_musd": 400.0,
-      "name": "Dimension",
+      "name": "Dimension Capital",
       "lead": false
     },
     {
@@ -13393,7 +13393,7 @@
       "date": "2026-07-07",
       "company": "Cyllene Therapeutics",
       "value_musd": 35.64,
-      "name": "Bpifrance Investissement",
+      "name": "Bpifrance",
       "lead": false
     },
     {
@@ -13481,7 +13481,7 @@
       "date": "2026-06-26",
       "company": "Lycia Therapeutics",
       "value_musd": 75.0,
-      "name": "Venrock Healthcare Partners",
+      "name": "Venrock",
       "lead": false
     },
     {
@@ -13601,7 +13601,7 @@
       "date": "2026-06-24",
       "company": "Ollin Biosciences",
       "value_musd": 330.0,
-      "name": "ARCH",
+      "name": "ARCH Venture Partners",
       "lead": true
     },
     {
@@ -13673,7 +13673,7 @@
       "date": "2026-10-09",
       "company": "Aspen Neuroscience",
       "value_musd": null,
-      "name": "ARCH Venture Fund",
+      "name": "ARCH Venture Partners",
       "lead": false
     },
     {
@@ -13697,7 +13697,7 @@
       "date": "2026-10-09",
       "company": "Aspen Neuroscience",
       "value_musd": null,
-      "name": "Medical Excellence Capital Partners",
+      "name": "Medical Excellence Capital",
       "lead": false
     },
     {
@@ -13713,7 +13713,7 @@
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
       "value_musd": null,
-      "name": "Venrock Healthcare Capital Partners",
+      "name": "Venrock",
       "lead": false
     },
     {
@@ -13753,7 +13753,7 @@
       "date": "2026-09-25",
       "company": "City Therapeutics",
       "value_musd": 200.0,
-      "name": "ARCH",
+      "name": "ARCH Venture Partners",
       "lead": true
     },
     {
@@ -13841,7 +13841,7 @@
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
       "value_musd": 350.0,
-      "name": "Redmile Biopharma",
+      "name": "Redmile",
       "lead": false
     },
     {
@@ -13849,7 +13849,7 @@
       "date": "2026-08-31",
       "company": "Electra Therapeutics",
       "value_musd": 350.0,
-      "name": "Sanofi Aventis",
+      "name": "Sanofi",
       "lead": false
     },
     {
@@ -13873,7 +13873,7 @@
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
       "value_musd": 346.0,
-      "name": "WestLake Biopartners",
+      "name": "Westlake BioPartners",
       "lead": true
     },
     {
@@ -13897,7 +13897,7 @@
       "date": "2026-07-17",
       "company": "Latigo Biotherapeutics",
       "value_musd": 346.0,
-      "name": "Blue Owl Healthcare",
+      "name": "Blue Owl",
       "lead": false
     },
     {
@@ -14025,7 +14025,7 @@
       "date": "2026-07-10",
       "company": "Apnimed",
       "value_musd": 192.0,
-      "name": "Alpha Wave",
+      "name": "Alpha Wave Global",
       "lead": false
     },
     {
@@ -14073,7 +14073,7 @@
       "date": "2026-10-13",
       "company": "Velaris Therapeutics",
       "value_musd": 350.0,
-      "name": "Venrock Healthcare Partners",
+      "name": "Venrock",
       "lead": false
     },
     {
@@ -14113,7 +14113,7 @@
       "date": "2026-09-17",
       "company": "Marea Therapeutics",
       "value_musd": 225.0,
-      "name": "Alpha Wave",
+      "name": "Alpha Wave Global",
       "lead": false
     },
     {
@@ -14369,7 +14369,7 @@
       "date": "2026-08-17",
       "company": "Slate Medicines",
       "value_musd": 245.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": false
     },
     {
@@ -14401,7 +14401,7 @@
       "date": "2026-08-17",
       "company": "Slate Medicines",
       "value_musd": 245.0,
-      "name": "RTW Investments",
+      "name": "RTW",
       "lead": false
     },
     {
@@ -14481,7 +14481,7 @@
       "date": "2026-07-29",
       "company": "Caldera Therapeutics",
       "value_musd": 278.0,
-      "name": "venBio Partners",
+      "name": "venBio",
       "lead": false
     },
     {
@@ -14561,7 +14561,7 @@
       "date": "2026-07-29",
       "company": "Vidya Therapeutics",
       "value_musd": 200.0,
-      "name": "RA Capital Management",
+      "name": "RA Capital",
       "lead": false
     },
     {
@@ -14625,7 +14625,7 @@
       "date": "2026-07-27",
       "company": "Yarrow Bioscience",
       "value_musd": 200.0,
-      "name": "RTW Investments",
+      "name": "RTW",
       "lead": true
     },
     {
@@ -14649,7 +14649,7 @@
       "date": "2026-07-27",
       "company": "Yarrow Bioscience",
       "value_musd": 200.0,
-      "name": "venBio Partners",
+      "name": "venBio",
       "lead": false
     },
     {
@@ -14753,7 +14753,7 @@
       "date": "2026-07-09",
       "company": "Scipher Medicine",
       "value_musd": 30.0,
-      "name": "Blue Owl Healthcare Opportunities",
+      "name": "Blue Owl",
       "lead": false
     },
     {

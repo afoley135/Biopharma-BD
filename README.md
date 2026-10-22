@@ -10,6 +10,7 @@ GitHub Action rebuilds `data.json` from the source and the page redeploys.
 - `deals.html` / `fundraises.html` — analysis pages (top modalities, indications,
   buyers/investors, fastest growing); shared code in `analysis.js`
 - `site.css` — styles shared by all pages
+- `name_aliases.csv` — merges company/investor name variants ("RA Capital Management" → "RA Capital"); the build log lists new possible duplicates to add here
 - `.github/workflows/refresh.yml` — nightly rebuild + commit (installs pandas, openpyxl)
 
 ## Source of truth: Google Sheets (current setup)

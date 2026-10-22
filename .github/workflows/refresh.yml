@@ -10,7 +10,7 @@ on:
     - cron: "0 1 * * *"
   push:
     branches: [ main ]
-    paths: [ "*.xlsx", "build.py" ]     # rebuild when you commit fresh data
+    paths: [ "*.xlsx", "build.py", "name_aliases.csv" ]   # rebuild on new data / name fixes
   workflow_dispatch: {}                  # manual "Run workflow" button
 
 permissions:

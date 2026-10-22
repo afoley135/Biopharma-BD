@@ -1,0 +1,55 @@
+# Company & investor name cleanup, applied by build.py on every build.
+# One row per variant: alias = how it appears in the sheet, canonical = the name to show.
+# Matching ignores case, punctuation and legal suffixes (Inc, LLC, Ltd...), so
+# list each wording once. A row like "Merck,Merck" marks a name as reviewed and
+# separate, so the build log stops flagging it as a possible duplicate.
+alias,canonical
+ARCH,ARCH Venture Partners
+ARCH Venture Fund,ARCH Venture Partners
+Alpha Wave,Alpha Wave Global
+Blue Owl Healthcare,Blue Owl
+Blue Owl Healthcare Opportunities,Blue Owl
+Bpifrance Investissement,Bpifrance
+Catalio,Catalio Capital Management
+Dimension,Dimension Capital
+Fidelity Management,Fidelity
+Innovestor Life Science Fund,Innovestor Life Science
+Janus Henderson Investors,Janus Henderson
+Medical Excellence Capital Partners,Medical Excellence Capital
+Morningside Venture Capital,Morningside
+RA Capital Management,RA Capital
+Redmile Biopharma,Redmile
+RTW Investments,RTW
+venBio Partners,venBio
+Venrock Healthcare Capital Partners,Venrock
+Venrock Healthcare Partners,Venrock
+Viking Global Investors,Viking
+Sanofi Aventis,Sanofi
+Novo,Novo Nordisk
+Tarsus,Tarsus Pharmaceuticals
+Innovent,Innovent Biologics
+Mission,Mission BioCapital
+Perceptive,Perceptive Advisors
+# reviewed and kept separate (different firms, or a corporate venture arm)
+Merck,Merck
+Merck KGaA,Merck KGaA
+Lilly,Lilly
+Lilly Asia Ventures,Lilly Asia Ventures
+Bain Capital,Bain Capital
+Bain Capital Life Sciences,Bain Capital Life Sciences
+Bain Capital Ventures,Bain Capital Ventures
+Fidelity Ventures,Fidelity Ventures
+Pfizer,Pfizer
+Pfizer Ventures,Pfizer Ventures
+Sanofi Ventures,Sanofi Ventures
+Merck KGaA (M Ventures),Merck KGaA (M Ventures)
+AbbVie,AbbVie
+AbbVie Ventures,AbbVie Ventures
+Boehringer Ingelheim,Boehringer Ingelheim
+Boehringer Ingelheim Venture Fund,Boehringer Ingelheim Venture Fund
+Novartis,Novartis
+Novartis Venture Fund,Novartis Venture Fund
+Regeneron,Regeneron
+Regeneron Ventures,Regeneron Ventures
+Roche,Roche
+Roche Venture Fund,Roche Venture Fund

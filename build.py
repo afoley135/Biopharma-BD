@@ -20,7 +20,7 @@ The <GID> is per-tab -- fill the GID map below (one number per tab).
 USE_SHEETS = False falls back to the local .xlsx files (for testing).
 Parsing is identical either way.
 """
-import json, math, re, datetime
+import csv, json, math, os, re, datetime
 import pandas as pd
 
 # --- config -----------------------------------------------------------
@@ -72,6 +72,11 @@ COL_ALIASES = {"Lead indication(s)": "Indication", "Lead indication": "Indicatio
                "Indication(s)": "Indication", "Focus Area": "Indication",
                "Focus area": "Indication", "IPO source": "Listing source"}
 URL_COLS = {"URL", "Url", "url", "Source URL", "Source url", "Link URL", "Listing URL"}
+
+# company / investor names entered several ways ("RA Capital" vs "RA Capital
+# Management") are merged using name_aliases.csv -- see canon_name() below
+NAME_COLS = ("Buyer", "Seller", "Company", "Target")
+ALIAS_FILE = "name_aliases.csv"
 
 # find the header row by matching known columns -- resilient to a blank
 # first row or a shifted header in any tab
@@ -184,6 +189,44 @@ def parse_date(v):
     except Exception:
         return None
 
+# ---------- name cleanup ----------
+def _fold(name):
+    """Spelling-insensitive key: case, punctuation, '&' and legal suffixes."""
+    s = name.lower().replace("&", " and ")
+    s = re.sub(r"[^\w\s]", " ", s)
+    s = re.sub(r"\b(llc|lp|inc|ltd|plc|gmbh|ag|sa|corp|co)\b", " ", s)
+    return " ".join(s.split())
+
+ALIASES, REVIEWED = {}, set()     # folded alias -> canonical; names already decided
+if os.path.exists(ALIAS_FILE):
+    with open(ALIAS_FILE, newline="", encoding="utf-8") as fh:
+        for row in csv.DictReader(l for l in fh if not l.lstrip().startswith("#")):
+            alias, canon = (row.get("alias") or "").strip(), (row.get("canonical") or "").strip()
+            if alias and canon:
+                ALIASES[_fold(alias)] = canon
+                REVIEWED.update({_fold(alias), _fold(canon)})
+_spelling = {}                     # folded key -> first spelling seen
+
+def canon_name(name):
+    if name is None:
+        return None
+    k = _fold(name)
+    if k in ALIASES:
+        return ALIASES[k]
+    return _spelling.setdefault(k, name)   # "YuanBio" and "Yuanbio" -> one spelling
+
+def report_near_duplicates(names):
+    """Print names that look like one firm under two names ("Venrock" /
+    "Venrock Healthcare Partners") so they can be added to name_aliases.csv."""
+    keys = sorted({_fold(n): n for n in names}.items())
+    pairs = [(a[1], b[1]) for a in keys for b in keys
+             if b[0].startswith(a[0] + " ") and not {a[0], b[0]} & REVIEWED]
+    if pairs:
+        print(f"[build] {len(pairs)} possible duplicate names -- add to {ALIAS_FILE} "
+              f"if they're the same firm (alias,canonical), or as 'name,name' to keep separate:")
+        for a, b in pairs:
+            print(f"    {a}  <->  {b}")
+
 def investors_from(row):
     out = []
     for col in INVESTOR_COLS:
@@ -193,6 +236,9 @@ def investors_from(row):
         if name is None:
             continue
         if name.lower().startswith("other"):   # 'Others (not disclosed)'
+            continue
+        name = canon_name(name)
+        if any(iv["name"] == name for iv in out):   # same firm listed twice
             continue
         out.append({"name": name, "lead": col in LEAD_COLS})
     return out
@@ -212,6 +258,9 @@ for cat in CATEGORIES:
     recs = []
     for _, row in df.iterrows():
         r = {c: clean_str(row[c]) for c in df.columns}
+        for ncol in NAME_COLS:
+            if ncol in r:
+                r[ncol] = canon_name(r[ncol])
         r["category"] = cat
         r["side"] = SIDE[cat]           # 'deal' or 'raise' — drives the split
         idv = clean_str(row.get(ID_HEADER[cat]))
@@ -246,6 +295,10 @@ for cat in CATEGORIES:
                                   **iv})
         recs.append(r)
     records[cat] = recs
+
+report_near_duplicates([iv["name"] for iv in investor_rows] +
+                       [r[c] for recs in records.values() for r in recs
+                        for c in NAME_COLS if r.get(c)])
 
 data = {
     "generated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),

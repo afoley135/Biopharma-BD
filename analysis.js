@@ -21,8 +21,7 @@ const SYNONYMS = {
   "radiopharmaceutical": "radiopharma",
   "hepatatis b": "hepatitis b",
   "soild tumor": "solid tumor",
-  "ra capital management": "ra capital",
-};
+};   // company & investor names are cleaned in build.py (name_aliases.csv)
 function groupKey(s){
   let k = s.trim().replace(/\s+/g," ");
   // fold a lowercase plural ("antibodies", "diseases"), never an acronym ("ALS")

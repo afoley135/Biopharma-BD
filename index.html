@@ -43,16 +43,20 @@
 
   <section class="grid">
     <div class="card">
-      <h3>Top acquirers &amp; dealmakers <span class="sub">by disclosed value</span></h3>
+      <h3>Top acquirers &amp; dealmakers <span class="sub">by total deal value</span></h3>
       <div class="chart-wrap"><canvas id="chAcq" height="240"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Top acquirers &amp; dealmakers <span class="sub">by upfront</span></h3>
+      <div class="chart-wrap"><canvas id="chAcqUp" height="240"></canvas></div>
     </div>
     <div class="card">
       <h3>Most active investors <span class="sub">by financings</span></h3>
       <div class="chart-wrap"><canvas id="chInv" height="240"></canvas></div>
     </div>
-    <div class="card wide">
+    <div class="card">
       <h3>Capital by month <span class="sub">deals vs. financings ($M)</span></h3>
-      <div class="chart-wrap"><canvas id="chTime" height="150"></canvas></div>
+      <div class="chart-wrap"><canvas id="chTime" height="240"></canvas></div>
     </div>
     <div class="card">
       <h3>Deal &amp; raise size distribution <span class="sub">count by band</span></h3>
@@ -135,15 +139,15 @@ const hBar=(scaleMax)=>({indexAxis:'y',responsive:true,maintainAspectRatio:false
   scales:{x:{grid:{color:gridClr},border:{display:false},ticks:{callback:v=>fmtM(v)}},
           y:yCat}});
 
-/* ---------- top acquirers ---------- */
-function chartAcquirers(){
+/* ---------- top acquirers (by total value, or by upfront) ---------- */
+function chartAcquirers(canvas, value){
   const m={};
   allRecords().filter(isDeal).forEach(r=>{
-    const b=r.Buyer; if(!b) return;
-    m[b]=m[b]||{v:0,n:0}; m[b].n++; if(r.value_musd) m[b].v+=r.value_musd;
+    const b=r.Buyer, v=value(r); if(!b) return;
+    m[b]=m[b]||{v:0,n:0}; m[b].n++; if(v) m[b].v+=v;
   });
-  const rows=Object.entries(m).sort((a,b)=>b[1].v-a[1].v).slice(0,8);
-  new Chart(chAcq,{type:'bar',
+  const rows=Object.entries(m).filter(r=>r[1].v>0).sort((a,b)=>b[1].v-a[1].v).slice(0,8);
+  new Chart(canvas,{type:'bar',
     data:{labels:rows.map(r=>r[0]),
       datasets:[{data:rows.map(r=>r[1].v),backgroundColor:css('--deal'),
                  borderRadius:4,barThickness:16}]},
@@ -215,10 +219,11 @@ function chartRound(){
     const rd=r.Round; if(!rd||r.value_musd==null) return;
     m[rd]=m[rd]||{sum:0,n:0}; m[rd].sum+=r.value_musd; m[rd].n++;
   });
-  const order=["Seed","Series A","Series B","Series C","Series D","Extension"];
-  const rows=Object.entries(m).map(([k,v])=>[k,v.sum/v.n,v.n])
-    .sort((a,b)=>{const ia=order.indexOf(a[0]),ib=order.indexOf(b[0]);
-      return (ia<0?99:ia)-(ib<0?99:ib);});
+  // stage order: Pre-seed, Seed, Series A, B, C…; extensions are left out
+  const stage=k=>/^pre-?seed$/i.test(k)?0 : /^seed$/i.test(k)?1
+    : /^series ([a-z])$/i.test(k)?2+k.slice(-1).toUpperCase().charCodeAt(0)-65 : 99;
+  const rows=Object.entries(m).filter(([k])=>!/extension/i.test(k))
+    .map(([k,v])=>[k,v.sum/v.n,v.n]).sort((a,b)=>stage(a[0])-stage(b[0])||a[0].localeCompare(b[0]));
   new Chart(chRound,{type:'bar',
     data:{labels:rows.map(r=>r[0]),
       datasets:[{data:rows.map(r=>r[1]),backgroundColor:css('--raise'),borderRadius:4,barThickness:26}]},
@@ -343,7 +348,9 @@ function boot(){
            ? DATA.categories : Object.keys(DATA.records||{});
   curCat = CATS[0];
   renderHero();
-  chartAcquirers();chartInvestors();chartTime();chartBuckets();chartRound();
+  chartAcquirers(chAcq, r=>r.value_musd);
+  chartAcquirers(chAcqUp, r=>(r.Upfront_parsed||{}).musd);
+  chartInvestors();chartTime();chartBuckets();chartRound();
   renderTabs();renderTable();
   document.getElementById("search").addEventListener("input",e=>{
     filter=e.target.value.toLowerCase().trim();renderTable();});

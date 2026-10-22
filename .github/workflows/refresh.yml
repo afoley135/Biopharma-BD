@@ -1,13 +1,15 @@
 name: Refresh dashboard data
 
 # Runs every evening + whenever you push new data + on demand.
-# Cron is in UTC. 01:00 UTC ≈ 9pm ET (EDT) / 8pm ET (EST).
+# Cron is in UTC. 00:37 UTC ≈ 8:37pm ET (EDT) / 7:37pm ET (EST).
+# Off the top of the hour on purpose: GitHub delays scheduled runs when it's
+# busy, and :00 is the busiest minute (runs at 01:00 were starting 4-6h late).
 # Note: GitHub's scheduled runs can be delayed minutes-to-an-hour under load,
 # and scheduled workflows auto-disable after 60 days with no repo activity —
 # the daily commit below keeps the repo active, so that won't trigger.
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "37 0 * * *"
   push:
     branches: [ main ]
     paths: [ "*.xlsx", "build.py", "name_aliases.csv" ]   # rebuild on new data / name fixes

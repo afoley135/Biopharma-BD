@@ -8,112 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<style>
-:root{
-  --bg:#F5F6F8; --surface:#FFFFFF; --line:#E4E7EC; --line2:#EEF0F3;
-  --ink:#12161C; --muted:#5A6472; --faint:#8A93A0;
-  --deal:#3B4B7A;      /* M&A / deals  */
-  --deal-soft:#8894BC;
-  --raise:#0E7C6B;     /* fundraises   */
-  --raise-soft:#5FB3A3;
-  --amber:#B45309;     /* licensing/other */
-  --amber-soft:#D9A066;
-  --radius:14px;
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{
-  margin:0;background:var(--bg);color:var(--ink);
-  font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-}
-.mono{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
-h1,h2,h3{font-family:'Space Grotesk',sans-serif;margin:0;letter-spacing:-.01em}
-a{color:var(--deal);text-decoration:none}
-a:hover{text-decoration:underline}
-
-/* top bar */
-.topbar{
-  position:sticky;top:0;z-index:20;background:rgba(245,246,248,.85);
-  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
-}
-.topbar-in{max-width:1180px;margin:0 auto;padding:16px 24px;
-  display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.brand{display:flex;align-items:baseline;gap:12px}
-.brand h1{font-size:20px;font-weight:700}
-.brand .tag{font-size:12px;color:var(--muted);font-weight:500;
-  border-left:1px solid var(--line);padding-left:12px}
-.updated{font-size:12px;color:var(--faint)}
-.updated b{color:var(--muted);font-weight:600}
-.dot{display:inline-block;width:6px;height:6px;border-radius:50%;
-  background:var(--raise);margin-right:5px;vertical-align:middle}
-
-main{max-width:1180px;margin:0 auto;padding:28px 24px 80px}
-
-/* hero */
-.hero{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-  padding:26px 28px;margin-bottom:26px}
-.hero-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:20px}
-.hero-total .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:600}
-.hero-total .val{font-family:'Space Grotesk';font-size:44px;font-weight:700;line-height:1;margin-top:6px}
-.hero-total .val small{font-size:20px;color:var(--muted);font-weight:500}
-.hero-meta{text-align:right;font-size:12px;color:var(--muted);line-height:1.7}
-.hero-meta .mono{color:var(--ink);font-weight:500}
-/* split bar (signature element) */
-.splitbar{height:34px;border-radius:8px;overflow:hidden;display:flex;
-  border:1px solid var(--line)}
-.splitbar span{display:flex;align-items:center;padding:0 12px;color:#fff;
-  font-family:'IBM Plex Mono';font-size:12px;font-weight:500;white-space:nowrap;min-width:0}
-.seg-deal{background:var(--deal)} .seg-raise{background:var(--raise)}
-.splitkey{display:flex;gap:22px;margin-top:12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
-.splitkey i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:middle}
-
-/* grid */
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:26px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
-.card.wide{grid-column:1/-1}
-.card h3{font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:space-between}
-.card h3 .sub{font-size:11px;color:var(--faint);font-weight:500;letter-spacing:.04em;text-transform:uppercase}
-.chart-wrap{position:relative;margin-top:14px}
-.note{font-size:11px;color:var(--faint);margin-top:10px}
-
-/* database */
-.db{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.db-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px 0;flex-wrap:wrap;gap:12px}
-.tabs{display:flex;gap:2px;flex-wrap:wrap}
-.tab{font-family:'Space Grotesk';font-size:13px;font-weight:500;color:var(--muted);
-  background:none;border:none;padding:8px 14px;border-radius:8px 8px 0 0;cursor:pointer}
-.tab .n{font-family:'IBM Plex Mono';font-size:11px;color:var(--faint);margin-left:6px}
-.tab.active{color:var(--ink);background:var(--bg)}
-.tab:hover:not(.active){color:var(--ink)}
-.search{border:1px solid var(--line);border-radius:8px;padding:7px 12px;font-family:'Inter';
-  font-size:13px;width:220px;max-width:40vw;color:var(--ink)}
-.search:focus{outline:none;border-color:var(--deal)}
-.table-scroll{overflow-x:auto;margin-top:14px}
-table{border-collapse:collapse;width:100%;font-size:13px}
-th{font-family:'Space Grotesk';font-weight:500;font-size:11px;letter-spacing:.04em;
-  text-transform:uppercase;color:var(--faint);text-align:left;padding:10px 14px;
-  border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
-th:hover{color:var(--muted)}
-td{padding:11px 14px;border-bottom:1px solid var(--line2);vertical-align:top}
-tr:last-child td{border-bottom:none}
-tbody tr:hover{background:var(--bg)}
-.val-cell{font-family:'IBM Plex Mono';font-weight:500;white-space:nowrap}
-.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;
-  font-weight:500;white-space:nowrap}
-.pill-deal{background:#EAEDF5;color:var(--deal)}
-.pill-raise{background:#E4F2EE;color:var(--raise)}
-.pill-amber{background:#F6ECDE;color:var(--amber)}
-.lead-tag{font-size:10px;color:var(--raise);font-weight:600;margin-left:5px}
-.empty{padding:40px;text-align:center;color:var(--faint);font-size:13px}
-
-@media(max-width:820px){
-  .grid{grid-template-columns:1fr}
-  .hero-total .val{font-size:34px}
-  main{padding:20px 16px 60px}
-  .topbar-in{padding:14px 16px}
-}
-</style>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="topbar"><div class="topbar-in">
@@ -121,6 +16,11 @@ tbody tr:hover{background:var(--bg)}
     <h1>Capital&nbsp;Flow</h1>
     <span class="tag">Biopharma M&amp;A &amp; fundraise intelligence</span>
   </div>
+  <nav class="nav">
+    <a href="index.html" class="active">Overview</a>
+    <a href="deals.html">Deals &amp; Licensing</a>
+    <a href="fundraises.html">Fundraises</a>
+  </nav>
   <div class="updated"><span class="dot"></span>Data updated <b id="genDate">—</b> · auto-refreshes nightly</div>
 </div></div>
 
@@ -171,6 +71,7 @@ tbody tr:hover{background:var(--bg)}
       <input class="search" id="search" placeholder="Filter table…">
     </div>
     <div class="table-scroll"><div id="tableHost"></div></div>
+    <div class="db-foot" id="tableFoot"></div>
   </section>
 </main>
 
@@ -357,7 +258,8 @@ function colsFor(cat){
   if(recs.some(r=>r.url)) out.push("Source");
   return out;
 }
-let curCat=null, sortCol=null, sortDir=1, filter="";
+let curCat=null, sortCol=null, sortDir=1, filter="", expanded=false;
+const ROWS_COLLAPSED=15;   // rows shown per tab until "Show all" is clicked
 
 function pillClass(cat){
   const deal=(DATA.side||{})[cat]==="deal";
@@ -385,6 +287,8 @@ function renderTable(){
   cols.forEach(c=>h+=`<th data-c="${c}">${HEAD[c]||c}</th>`);
   h+="</tr></thead><tbody>";
   if(!rows.length) h+=`<tr><td colspan="${cols.length}"><div class="empty">No rows match “${filter}”.</div></td></tr>`;
+  const total=rows.length;
+  if(!expanded) rows=rows.slice(0,ROWS_COLLAPSED);
   rows.forEach(r=>{
     h+="<tr>";
     cols.forEach(c=>{
@@ -413,6 +317,15 @@ function renderTable(){
     if(sortCol===c) sortDir*=-1; else {sortCol=c;sortDir=1;}
     renderTable();
   });
+  const foot=document.getElementById("tableFoot");
+  foot.innerHTML = total>ROWS_COLLAPSED
+    ? `<span>Showing <b class="mono">${rows.length}</b> of <b class="mono">${total}</b></span>`+
+      `<button class="btn" id="toggleRows">${expanded?"Show fewer":"Show all "+total}</button>` : "";
+  const btn=document.getElementById("toggleRows");
+  if(btn) btn.onclick=()=>{
+    expanded=!expanded; renderTable();
+    if(!expanded) document.querySelector(".db").scrollIntoView({block:"start"});
+  };
 }
 function renderTabs(){
   const t=document.getElementById("tabs");
@@ -421,7 +334,7 @@ function renderTabs(){
     return `<button class="tab${c===curCat?' active':''}" data-c="${c}">${c}<span class="n">${n}</span></button>`;
   }).join("");
   t.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
-    curCat=b.dataset.c;sortCol=null;renderTabs();renderTable();});
+    curCat=b.dataset.c;sortCol=null;expanded=false;renderTabs();renderTable();});
 }
 
 /* ---------- boot ---------- */

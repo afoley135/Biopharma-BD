@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T05:46:23+00:00",
+  "generated": "2026-10-22T05:48:38+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,51 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-20",
+        "Buyer": "OpenAI",
+        "Seller": "Orchestra Bio",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "AI drug discovery",
+        "Lead indication(s)": null,
+        "Source": "Link",
+        "URL": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+        "date": "2026-10-20",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-10-20",
+        "Buyer": "Alcon",
+        "Seller": "Neurotech",
+        "Structure": "Acquisition",
+        "Upfront": "$550M",
+        "Total Deal Value": null,
+        "Modality": "Cell therapy",
+        "Lead indication(s)": "Idiopathic Macular Telangiectasia Type 2",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261020151062/en/Alcon-Acquires-Neurotech-and-ENCELTO-the-Only-FDA-Approved-Treatment-for-MacTel-Type-2",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261020151062/en/Alcon-Acquires-Neurotech-and-ENCELTO-the-Only-FDA-Approved-Treatment-for-MacTel-Type-2",
+        "date": "2026-10-20",
+        "Upfront_parsed": {
+          "raw": "$550M",
+          "currency": "USD",
+          "musd": 550.0,
+          "musd_native": 550.0
+        },
+        "Total Deal Value_parsed": null,
+        "value_musd": 550.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-20",
         "Buyer": "Ambrose Healthcare",
@@ -3078,6 +3123,56 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-21",
+        "Company": "Arctic Therapeutics",
+        "Round": null,
+        "Amount": "$21.5M",
+        "Modality": "Small molecule",
+        "Lead indication(s)": "Dementia",
+        "Geography": "Iceland",
+        "Lead 1": "Pekron",
+        "Lead 2": "Sanos Group",
+        "Investor 3": "Kaldbakur and Landv\u00e6ttir",
+        "Investor 4": "AxUM Securities",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/arctic-therapeutics-closes-oversubscribed-us21-5-million-financing-302915215.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/arctic-therapeutics-closes-oversubscribed-us21-5-million-financing-302915215.html",
+        "date": "2026-10-21",
+        "Amount_parsed": {
+          "raw": "$21.5M",
+          "currency": "USD",
+          "musd": 21.5,
+          "musd_native": 21.5
+        },
+        "value_musd": 21.5,
+        "investors": [
+          {
+            "name": "Pekron",
+            "lead": true
+          },
+          {
+            "name": "Sanos Group",
+            "lead": true
+          },
+          {
+            "name": "Kaldbakur and Landv\u00e6ttir",
+            "lead": false
+          },
+          {
+            "name": "AxUM Securities",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-19",
         "Company": "Nouscom",
@@ -9878,6 +9973,38 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-21",
+      "company": "Arctic Therapeutics",
+      "value_musd": 21.5,
+      "name": "Pekron",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-21",
+      "company": "Arctic Therapeutics",
+      "value_musd": 21.5,
+      "name": "Sanos Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-21",
+      "company": "Arctic Therapeutics",
+      "value_musd": 21.5,
+      "name": "Kaldbakur and Landv\u00e6ttir",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-21",
+      "company": "Arctic Therapeutics",
+      "value_musd": 21.5,
+      "name": "AxUM Securities",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-19",

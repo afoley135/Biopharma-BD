@@ -6,11 +6,11 @@ GitHub Action rebuilds `data.json` from the source and the page redeploys.
 ## Files
 - `build.py` — parses the trackers, cleans values (currency, dates, investors,
   source links) → `data.json`
-- `index.html` — the dashboard; fetches `data.json` at load
-- `dashboard_preview.html` — same dashboard with data embedded (opens with no
-  server, for quick local viewing)
-- `.github/workflows/refresh.yml` — nightly rebuild + commit
-- `requirements.txt` — pandas, openpyxl
+- `index.html` — overview dashboard and the per-tab tables; fetches `data.json` at load
+- `deals.html` / `fundraises.html` — analysis pages (top modalities, indications,
+  buyers/investors, fastest growing); shared code in `analysis.js`
+- `site.css` — styles shared by all pages
+- `.github/workflows/refresh.yml` — nightly rebuild + commit (installs pandas, openpyxl)
 
 ## Source of truth: Google Sheets (current setup)
 

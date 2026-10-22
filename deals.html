@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deals & Licensing — Capital Flow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  <div class="brand">
+    <h1>Capital&nbsp;Flow</h1>
+    <span class="tag">Biopharma M&amp;A &amp; fundraise intelligence</span>
+  </div>
+  <nav class="nav">
+    <a href="index.html">Overview</a>
+    <a href="deals.html" class="active">Deals &amp; Licensing</a>
+    <a href="fundraises.html">Fundraises</a>
+  </nav>
+  <div class="updated"><span class="dot"></span>Data updated <b id="genDate">—</b> · auto-refreshes nightly</div>
+</div></div>
+
+<main>
+  <section class="page-head">
+    <h2>Deals &amp; Licensing</h2>
+    <p>Where pharma is spending: M&amp;A and licensing combined, ranked by disclosed value and deal count. Undisclosed values are left out of $ rankings but still count as deals.</p>
+  </section>
+
+  <div class="section-lbl">Modalities</div>
+  <section class="grid" id="modality"></section>
+
+  <div class="section-lbl">Indications</div>
+  <section class="grid" id="indication"></section>
+
+  <div class="section-lbl">Momentum</div>
+  <section class="grid" id="growth"></section>
+  <p class="note" id="winNote" style="margin:-14px 0 26px"></p>
+
+  <div class="section-lbl">Buyers</div>
+  <section class="grid" id="buyers"></section>
+
+</main>
+
+<script src="analysis.js"></script>
+<script>
+const money = k => r => (r[k+"_parsed"]||{}).musd ?? null;
+const total = r => r.value_musd;          // total deal value, else upfront
+const upfront = money("Upfront");
+const by = (field, value) => recs => recs.map(r=>({label:r[field], value:value(r), date:r.date}));
+const disclosed = (what, value) => (ev, recs) =>
+  `${recs.filter(r=>value(r)!=null).length} of ${recs.length} deals disclose ${what}; `+
+  `${ev.filter(e=>!e.label).length} have none listed for this field.`;
+
+bootAnalysis({
+  cats: ["Deals", "Licensing"], color: "--deal", soft: "--deal-soft", unit: "deal",
+  sections: [
+    {host: "modality", cards: [
+      {title: "Top modalities", sub: "by total deal value", by: "v",
+       events: by("Modality", total), note: disclosed("a value", total)},
+      {title: "Top modalities", sub: "by upfront", by: "v",
+       events: by("Modality", upfront), note: disclosed("an upfront", upfront)}]},
+    {host: "indication", cards: [
+      {title: "Top indications", sub: "by total deal value", by: "v",
+       events: by("Indication", total), note: disclosed("a value", total)},
+      {title: "Top indications", sub: "by upfront", by: "v",
+       events: by("Indication", upfront), note: disclosed("an upfront", upfront)}]},
+    {host: "growth", cards: [
+      {title: "Fastest-growing modalities", sub: "# deals", kind: "growth",
+       events: by("Modality", total)},
+      {title: "Fastest-growing indications", sub: "# deals", kind: "growth",
+       events: by("Indication", total)}]},
+    {host: "buyers", cards: [
+      {title: "Most active buyers", sub: "by total deal value", by: "v",
+       events: by("Buyer", total), note: disclosed("a value", total)},
+      {title: "Most active buyers", sub: "by # deals", by: "n",
+       events: by("Buyer", total),
+       note: () => "Licensing deals count the licensee as the buyer."}]},
+  ],
+});
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T16:38:07+00:00",
+  "generated": "2026-10-23T05:47:37+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-22",
+        "Buyer": "Menarini Group",
+        "Seller": "Georgiamune",
+        "Structure": "Asset acquisition",
+        "Upfront": "$45M",
+        "Total Deal Value": "$1.1B",
+        "Modality": "Small molecule",
+        "Indication": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://endpoints.news/georgiamune-sells-solid-tumor-drug-to-italys-menarini-for-up-to-1-1b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3bf1f84a-4fab6f13&utm_medium=email&utm_campaign=2560%20-%20GLP-1s%20advance%20against%20alcoholism%20addictions%20Enterprise&utm_content=2560%20-%20GLP-1s%20advance%20against%20alcoholism%20addictions%20Enterprise+CID_876f86407b670ae96f5f356eff6a05e4&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Georgiamune%20sells%20solid%20tumor%20drug%20to%20Italys%20Menarini%20for%20up%20to%2011B",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/georgiamune-sells-solid-tumor-drug-to-italys-menarini-for-up-to-1-1b/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3bf1f84a-4fab6f13&utm_medium=email&utm_campaign=2560%20-%20GLP-1s%20advance%20against%20alcoholism%20addictions%20Enterprise&utm_content=2560%20-%20GLP-1s%20advance%20against%20alcoholism%20addictions%20Enterprise+CID_876f86407b670ae96f5f356eff6a05e4&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Georgiamune%20sells%20solid%20tumor%20drug%20to%20Italys%20Menarini%20for%20up%20to%2011B",
+        "date": "2026-10-22",
+        "Upfront_parsed": {
+          "raw": "$45M",
+          "currency": "USD",
+          "musd": 45.0,
+          "musd_native": 45.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.1B",
+          "currency": "USD",
+          "musd": 1100.0,
+          "musd_native": 1100.0
+        },
+        "value_musd": 1100.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-20",
         "Buyer": "OpenAI",
@@ -8292,6 +8322,43 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-10-21",
+        "IPO date": null,
+        "Company": "Rezera",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "Small molecule",
+        "Indication": "Peripheral artery disease",
+        "Investor 1": "Novo Holdings",
+        "Investor 2": "Blue Owl Capital",
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Listing URL": "https://www.sec.gov/Archives/edgar/data/2141583/000110465926117853/tmq-20261021xdrsa.htm",
+        "Target source": null,
+        "Listing source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": "https://www.sec.gov/Archives/edgar/data/2141583/000110465926117853/tmq-20261021xdrsa.htm",
+        "date": "2026-10-21",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Novo Holdings",
+            "lead": true
+          },
+          {
+            "name": "Blue Owl Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Listing date": "2026-10-09",
         "IPO date": null,
         "Company": "Bambusa Therapeutics",
@@ -13603,6 +13670,22 @@
       "value_musd": 330.0,
       "name": "ARCH Venture Partners",
       "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-21",
+      "company": "Rezera",
+      "value_musd": null,
+      "name": "Novo Holdings",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-21",
+      "company": "Rezera",
+      "value_musd": null,
+      "name": "Blue Owl Capital",
+      "lead": false
     },
     {
       "category": "IPO",

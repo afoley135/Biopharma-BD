@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T05:49:22+00:00",
+  "generated": "2026-10-27T06:01:22+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,36 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-10-22",
+        "Buyer": "Gilead",
+        "Seller": "PepStar Therapeutics Limited",
+        "Structure": "Asset acquisition",
+        "Upfront": "$1.275B",
+        "Total Deal Value": "$1.275B",
+        "Modality": "Peptide",
+        "Indication": "Autoimmune disease",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261022181871/en/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261022181871/en/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD",
+        "date": "2026-10-22",
+        "Upfront_parsed": {
+          "raw": "$1.275B",
+          "currency": "USD",
+          "musd": 1275.0,
+          "musd_native": 1275.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$1.275B",
+          "currency": "USD",
+          "musd": 1275.0,
+          "musd_native": 1275.0
+        },
+        "value_musd": 1275.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-22",
         "Buyer": "Menarini Group",
@@ -1835,6 +1865,37 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-10-23",
+        "Buyer": "Roche",
+        "Seller": "ZymeWorks",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$55M",
+        "Total Deal Value": "$813M",
+        "Modality": "T cell engager",
+        "Indication": "SCLC",
+        "Source": "Link",
+        "URL": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration",
+        "date": "2026-10-23",
+        "Upfront_parsed": {
+          "raw": "$55M",
+          "currency": "USD",
+          "musd": 55.0,
+          "musd_native": 55.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$813M",
+          "currency": "USD",
+          "musd": 813.0,
+          "musd_native": 813.0
+        },
+        "value_musd": 813.0,
+        "investors": []
+      },
+      {
         "Date": "2026-10-13",
         "Buyer": "Roche",
         "Seller": "Rona Therapeutics",
@@ -3153,6 +3214,206 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-10-23",
+        "Company": "Hexagon Bio",
+        "Round": "Series C",
+        "Amount": "$62M",
+        "Modality": "ADC",
+        "Indication": "Solid tumor",
+        "Geography": "US",
+        "Lead 1": "The Column Group",
+        "Lead 2": null,
+        "Investor 3": "Nextech Invest",
+        "Investor 4": "Deviation Capital",
+        "Investor 5": "8VC",
+        "Investor 6": "Canada Pension Plan",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/10/23/3387153/0/en/hexagon-bio-raises-62-million-series-c-financing-to-advance-hex-360-into-the-clinic-and-expand-pipeline-of-antibody-drug-conjugates-with-novel-payload-mechanisms.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/10/23/3387153/0/en/hexagon-bio-raises-62-million-series-c-financing-to-advance-hex-360-into-the-clinic-and-expand-pipeline-of-antibody-drug-conjugates-with-novel-payload-mechanisms.html",
+        "date": "2026-10-23",
+        "Amount_parsed": {
+          "raw": "$62M",
+          "currency": "USD",
+          "musd": 62.0,
+          "musd_native": 62.0
+        },
+        "value_musd": 62.0,
+        "investors": [
+          {
+            "name": "The Column Group",
+            "lead": true
+          },
+          {
+            "name": "Nextech Invest",
+            "lead": false
+          },
+          {
+            "name": "Deviation Capital",
+            "lead": false
+          },
+          {
+            "name": "8VC",
+            "lead": false
+          },
+          {
+            "name": "Canada Pension Plan",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-23",
+        "Company": "Pathos AI",
+        "Round": "Series E",
+        "Amount": "$237M",
+        "Modality": "AI drug discovery",
+        "Indication": "NSCLC",
+        "Geography": "US",
+        "Lead 1": "BMS",
+        "Lead 2": null,
+        "Investor 3": "Others (not disclosed)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline",
+        "date": "2026-10-23",
+        "Amount_parsed": {
+          "raw": "$237M",
+          "currency": "USD",
+          "musd": 237.0,
+          "musd_native": 237.0
+        },
+        "value_musd": 237.0,
+        "investors": [
+          {
+            "name": "BMS",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-23",
+        "Company": "Star Therapeutics",
+        "Round": null,
+        "Amount": "$200M",
+        "Modality": null,
+        "Indication": null,
+        "Geography": "US",
+        "Lead 1": "OrbiMed",
+        "Lead 2": "Janus Henderson",
+        "Investor 3": "Others (not disclosed)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/star-therapeutics-gets-200m-to-try-repeating-its-vega-electra-successes/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d3a31fb8-a7f988e1&utm_medium=email&utm_campaign=1268%20-%20Moderna%20and%20Mercks%20cancer%20vaccine%20letdown%20Enterprise&utm_content=1268%20-%20Moderna%20and%20Mercks%20cancer%20vaccine%20letdown%20Enterprise+CID_9d068aa5e3db1a2694fa5bb428a1b011&utm_source=ENDPOINTS%20emails&utm_term=Star%20Therapeutics%20gets%20200M%20to%20try%20repeating%20its%20Vega%20Electra%20successes",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/star-therapeutics-gets-200m-to-try-repeating-its-vega-electra-successes/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d3a31fb8-a7f988e1&utm_medium=email&utm_campaign=1268%20-%20Moderna%20and%20Mercks%20cancer%20vaccine%20letdown%20Enterprise&utm_content=1268%20-%20Moderna%20and%20Mercks%20cancer%20vaccine%20letdown%20Enterprise+CID_9d068aa5e3db1a2694fa5bb428a1b011&utm_source=ENDPOINTS%20emails&utm_term=Star%20Therapeutics%20gets%20200M%20to%20try%20repeating%20its%20Vega%20Electra%20successes",
+        "date": "2026-10-23",
+        "Amount_parsed": {
+          "raw": "$200M",
+          "currency": "USD",
+          "musd": 200.0,
+          "musd_native": 200.0
+        },
+        "value_musd": 200.0,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-10-22",
+        "Company": "Warp Sciences",
+        "Round": null,
+        "Amount": "$215M",
+        "Modality": "CRO",
+        "Indication": null,
+        "Geography": "US",
+        "Lead 1": "Lightspeed",
+        "Lead 2": null,
+        "Investor 3": "Premji Invest",
+        "Investor 4": "Mayfield",
+        "Investor 5": "IVP",
+        "Investor 6": "Lux",
+        "Investor 7": "Conviction",
+        "Investor 8": "Menlo Ventures",
+        "Investor 9": "01 Advisors",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+        "date": "2026-10-22",
+        "Amount_parsed": {
+          "raw": "$215M",
+          "currency": "USD",
+          "musd": 215.0,
+          "musd_native": 215.0
+        },
+        "value_musd": 215.0,
+        "investors": [
+          {
+            "name": "Lightspeed",
+            "lead": true
+          },
+          {
+            "name": "Premji Invest",
+            "lead": false
+          },
+          {
+            "name": "Mayfield",
+            "lead": false
+          },
+          {
+            "name": "IVP",
+            "lead": false
+          },
+          {
+            "name": "Lux",
+            "lead": false
+          },
+          {
+            "name": "Conviction",
+            "lead": false
+          },
+          {
+            "name": "Menlo Ventures",
+            "lead": false
+          },
+          {
+            "name": "01 Advisors",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-10-21",
         "Company": "Arctic Therapeutics",
@@ -8322,6 +8583,63 @@
     ],
     "IPO": [
       {
+        "Listing date": "2026-10-23",
+        "IPO date": null,
+        "Company": "Windward Bio",
+        "Target price": null,
+        "Target raise": null,
+        "Amount": null,
+        "Modality": "Small molecule",
+        "Indication": "Asthma",
+        "Investor 1": "Santarelli",
+        "Investor 2": "Novo Holdings",
+        "Investor 3": "OrbiMed",
+        "Investor 4": "SR One",
+        "Investor 5": "Omega Funds",
+        "Investor 6": "RTW Investments",
+        "Investor 7": "Blue Owl Capital",
+        "Investor 8": null,
+        "Listing URL": "https://www.sec.gov/Archives/edgar/data/2145089/000119312526430315/d111653df1.htm",
+        "Target source": null,
+        "Listing source": null,
+        "category": "IPO",
+        "side": "raise",
+        "url": "https://www.sec.gov/Archives/edgar/data/2145089/000119312526430315/d111653df1.htm",
+        "date": "2026-10-23",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Santarelli",
+            "lead": true
+          },
+          {
+            "name": "Novo Holdings",
+            "lead": false
+          },
+          {
+            "name": "OrbiMed",
+            "lead": false
+          },
+          {
+            "name": "SR One",
+            "lead": false
+          },
+          {
+            "name": "Omega Funds",
+            "lead": false
+          },
+          {
+            "name": "RTW",
+            "lead": false
+          },
+          {
+            "name": "Blue Owl Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
         "Listing date": "2026-10-21",
         "IPO date": null,
         "Company": "Rezera",
@@ -8362,8 +8680,8 @@
         "Listing date": "2026-10-09",
         "IPO date": null,
         "Company": "Bambusa Therapeutics",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$16 / share",
+        "Target raise": "$135M",
         "Amount": null,
         "Modality": "Bispecific antibodies",
         "Indication": "Atopic dermatitis",
@@ -8376,7 +8694,7 @@
         "Investor 7": null,
         "Investor 8": null,
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026065557/bambusa-sx1.htm#i791b62ca74664cd78c8cd97a44e2cff4_58",
-        "Target source": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026067119/bambusa-sx1a1.htm",
         "Listing source": null,
         "category": "IPO",
         "side": "raise",
@@ -8411,8 +8729,8 @@
         "Listing date": "2026-10-09",
         "IPO date": null,
         "Company": "Aspen Neuroscience",
-        "Target price": null,
-        "Target raise": null,
+        "Target price": "$16 / share",
+        "Target raise": "$135M",
         "Amount": null,
         "Modality": "iPSC therapy",
         "Indication": "Parkinson's disease",
@@ -8425,7 +8743,7 @@
         "Investor 7": "Medical Excellence Capital Partners",
         "Investor 8": null,
         "Listing URL": "sec.gov/Archives/edgar/data/2124080/000119312526419104/na-20261009.htm#principal_stockholders",
-        "Target source": null,
+        "Target source": "https://www.sec.gov/Archives/edgar/data/2124080/000119312526431023/na-20261026.htm",
         "Listing source": null,
         "category": "IPO",
         "side": "raise",
@@ -8499,11 +8817,11 @@
       },
       {
         "Listing date": "2026-10-06",
-        "IPO date": null,
+        "IPO date": "2026-10-22",
         "Company": "Lycia Therapeutics",
         "Target price": "$17 / share",
         "Target raise": "$227M",
-        "Amount": null,
+        "Amount": "$317.5M",
         "Modality": "Protein degradation",
         "Indication": "Food allergy",
         "Investor 1": "Versant Ventures",
@@ -8516,13 +8834,18 @@
         "Investor 8": null,
         "Listing URL": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
         "Target source": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm#ie859af0e8277420daf536485784f3d4d_529",
-        "Listing source": null,
+        "Listing source": "https://www.globenewswire.com/news-release/2026/10/22/3387000/0/en/lycia-therapeutics-announces-pricing-of-upsized-initial-public-offering.html",
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
         "date": "2026-10-06",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$317.5M",
+          "currency": "USD",
+          "musd": 317.5,
+          "musd_native": 317.5
+        },
+        "value_musd": 317.5,
         "investors": [
           {
             "name": "Versant Ventures",
@@ -10183,6 +10506,134 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Hexagon Bio",
+      "value_musd": 62.0,
+      "name": "The Column Group",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Hexagon Bio",
+      "value_musd": 62.0,
+      "name": "Nextech Invest",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Hexagon Bio",
+      "value_musd": 62.0,
+      "name": "Deviation Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Hexagon Bio",
+      "value_musd": 62.0,
+      "name": "8VC",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Hexagon Bio",
+      "value_musd": 62.0,
+      "name": "Canada Pension Plan",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Pathos AI",
+      "value_musd": 237.0,
+      "name": "BMS",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Star Therapeutics",
+      "value_musd": 200.0,
+      "name": "OrbiMed",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-23",
+      "company": "Star Therapeutics",
+      "value_musd": 200.0,
+      "name": "Janus Henderson",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Lightspeed",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Premji Invest",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Mayfield",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "IVP",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Lux",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Conviction",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "Menlo Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-10-22",
+      "company": "Warp Sciences",
+      "value_musd": 215.0,
+      "name": "01 Advisors",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-10-21",
@@ -13673,6 +14124,62 @@
     },
     {
       "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "Santarelli",
+      "lead": true
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "Novo Holdings",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "OrbiMed",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "SR One",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "Omega Funds",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "RTW",
+      "lead": false
+    },
+    {
+      "category": "IPO",
+      "date": "2026-10-23",
+      "company": "Windward Bio",
+      "value_musd": null,
+      "name": "Blue Owl Capital",
+      "lead": false
+    },
+    {
+      "category": "IPO",
       "date": "2026-10-21",
       "company": "Rezera",
       "value_musd": null,
@@ -13787,7 +14294,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "Versant Ventures",
       "lead": true
     },
@@ -13795,7 +14302,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "Venrock",
       "lead": false
     },
@@ -13803,7 +14310,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "Redmile",
       "lead": false
     },
@@ -13811,7 +14318,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "RTW",
       "lead": false
     },
@@ -13819,7 +14326,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "Janus Henderson",
       "lead": false
     },
@@ -13827,7 +14334,7 @@
       "category": "IPO",
       "date": "2026-10-06",
       "company": "Lycia Therapeutics",
-      "value_musd": null,
+      "value_musd": 317.5,
       "name": "Blue Owl",
       "lead": false
     },

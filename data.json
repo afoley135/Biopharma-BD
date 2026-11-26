@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T09:37:31+00:00",
+  "generated": "2026-11-26T09:12:37+00:00",
   "fx": {
     "EUR_USD": 1.08,
     "GBP_USD": 1.27
@@ -22,6 +22,276 @@
   },
   "records": {
     "Deals": [
+      {
+        "Date": "2026-11-25",
+        "Buyer": "Schr\u00f6dinger",
+        "Seller": "ENPICOM B.V.",
+        "Structure": "Acquisition",
+        "Upfront": "$24M",
+        "Total Deal Value": "$24M",
+        "Modality": "Bioinformatics platform",
+        "Indication": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261124467594/en/Schrdinger-Acquires-ENPICOM-to-Establish-End-to-End-Computational-Platform-for-Biologics-Discovery",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261124467594/en/Schrdinger-Acquires-ENPICOM-to-Establish-End-to-End-Computational-Platform-for-Biologics-Discovery",
+        "date": "2026-11-25",
+        "Upfront_parsed": {
+          "raw": "$24M",
+          "currency": "USD",
+          "musd": 24.0,
+          "musd_native": 24.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$24M",
+          "currency": "USD",
+          "musd": 24.0,
+          "musd_native": 24.0
+        },
+        "value_musd": 24.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-24",
+        "Buyer": "Sanofi",
+        "Seller": "Insmed",
+        "Structure": "Acquisition",
+        "Upfront": "$41B",
+        "Total Deal Value": "$41B",
+        "Modality": "Inhaled medicines",
+        "Indication": "Respiratory",
+        "Source": "Link",
+        "URL": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-11-24-06-30-00-3409002",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-11-24-06-30-00-3409002",
+        "date": "2026-11-24",
+        "Upfront_parsed": {
+          "raw": "$41B",
+          "currency": "USD",
+          "musd": 41000.0,
+          "musd_native": 41000.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$41B",
+          "currency": "USD",
+          "musd": 41000.0,
+          "musd_native": 41000.0
+        },
+        "value_musd": 41000.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-23",
+        "Buyer": "Lilly",
+        "Seller": "LoQus23 Therapeutics",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": "$725M",
+        "Modality": "Small molecule",
+        "Indication": "Huntington's disease",
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/11/23/3408071/0/en/loqus23-therapeutics-acquired-by-lilly-to-accelerate-development-of-novel-small-molecule-therapy-for-huntington-s-disease.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.globenewswire.com/news-release/2026/11/23/3408071/0/en/loqus23-therapeutics-acquired-by-lilly-to-accelerate-development-of-novel-small-molecule-therapy-for-huntington-s-disease.html",
+        "date": "2026-11-23",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$725M",
+          "currency": "USD",
+          "musd": 725.0,
+          "musd_native": 725.0
+        },
+        "value_musd": 725.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-19",
+        "Buyer": "Merck",
+        "Seller": "Isomorphic Labs",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Small molecule",
+        "Indication": "Oncology",
+        "Source": "Link",
+        "URL": "https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/Press%20Release%20Isomorphic%20Labs_19%20Nov%202026.pdf",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/Press%20Release%20Isomorphic%20Labs_19%20Nov%202026.pdf",
+        "date": "2026-11-19",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-19",
+        "Buyer": "AbbVie",
+        "Seller": "Disco Pharmaceuticals",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$40M",
+        "Total Deal Value": "$2.5B",
+        "Modality": "ADC",
+        "Indication": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://endpoints.news/abbvvie-and-disco-strike-deal-worth-more-than-2-5b-for-solid-tumor-targets/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-216ab13f-55302666&utm_medium=email&utm_campaign=1287%20-%20How%20Overtons%20FDA%20nomination%20fell%20apart%20Enterprise&utm_content=1287%20-%20How%20Overtons%20FDA%20nomination%20fell%20apart%20Enterprise+CID_15476cc2c7943d828df80cce8a6c0339&utm_source=ENDPOINTS%20emails&utm_term=AbbVie%20and%20Disco%20strike%20deal%20worth%20up%20to%20254B%20for%20solid%20tumor%20targets",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/abbvvie-and-disco-strike-deal-worth-more-than-2-5b-for-solid-tumor-targets/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-216ab13f-55302666&utm_medium=email&utm_campaign=1287%20-%20How%20Overtons%20FDA%20nomination%20fell%20apart%20Enterprise&utm_content=1287%20-%20How%20Overtons%20FDA%20nomination%20fell%20apart%20Enterprise+CID_15476cc2c7943d828df80cce8a6c0339&utm_source=ENDPOINTS%20emails&utm_term=AbbVie%20and%20Disco%20strike%20deal%20worth%20up%20to%20254B%20for%20solid%20tumor%20targets",
+        "date": "2026-11-19",
+        "Upfront_parsed": {
+          "raw": "$40M",
+          "currency": "USD",
+          "musd": 40.0,
+          "musd_native": 40.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.5B",
+          "currency": "USD",
+          "musd": 2500.0,
+          "musd_native": 2500.0
+        },
+        "value_musd": 2500.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-16",
+        "Buyer": "Lilly",
+        "Seller": "Stipple Bio",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": "$5.9B",
+        "Modality": "Antibody discovery",
+        "Indication": "Oncology",
+        "Source": "Link",
+        "URL": "https://endpoints.news/lilly-strikes-up-to-5-9b-cancer-deal-with-stipple-bio/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d9de6c0b-ad84fb52&utm_medium=email&utm_campaign=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise&utm_content=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise+CID_436f5d691639c9bae9596bd04a22f08f&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20strikes%20up%20to%2059B%20cancer%20deal%20with%20Stipple%20Bio",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/lilly-strikes-up-to-5-9b-cancer-deal-with-stipple-bio/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d9de6c0b-ad84fb52&utm_medium=email&utm_campaign=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise&utm_content=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise+CID_436f5d691639c9bae9596bd04a22f08f&utm_source=ENDPOINTS%20emails&utm_term=Lilly%20strikes%20up%20to%2059B%20cancer%20deal%20with%20Stipple%20Bio",
+        "date": "2026-11-16",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$5.9B",
+          "currency": "USD",
+          "musd": 5900.0,
+          "musd_native": 5900.0
+        },
+        "value_musd": 5900.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-16",
+        "Buyer": "Lilly",
+        "Seller": "Calytrix Bio",
+        "Structure": "Acquisition",
+        "Upfront": null,
+        "Total Deal Value": "$1.5B",
+        "Modality": "Monoclonal antibody",
+        "Indication": "Essential thrombocythemia",
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/calytrix-bio-enters-an-agreement-to-be-acquired-by-lilly-to-advance-outcomes-for-patients-living-with-essential-thrombocythemia-and-myelofibrosis-302940325.html",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.prnewswire.com/news-releases/calytrix-bio-enters-an-agreement-to-be-acquired-by-lilly-to-advance-outcomes-for-patients-living-with-essential-thrombocythemia-and-myelofibrosis-302940325.html",
+        "date": "2026-11-16",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$1.5B",
+          "currency": "USD",
+          "musd": 1500.0,
+          "musd_native": 1500.0
+        },
+        "value_musd": 1500.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-16",
+        "Buyer": "J&J",
+        "Seller": "Ollin Biosciences",
+        "Structure": "Acquisition",
+        "Upfront": "$2.2B",
+        "Total Deal Value": "$3.3B",
+        "Modality": "Bispecific antibodies",
+        "Indication": "Retinal vascular diseases",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261116907414/en/Johnson-Johnson-to-acquire-Ollin-Biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261116907414/en/Johnson-Johnson-to-acquire-Ollin-Biosciences-and-late-stage-bispecific-antibody-with-best-in-class-potential-in-ophthalmology",
+        "date": "2026-11-16",
+        "Upfront_parsed": {
+          "raw": "$2.2B",
+          "currency": "USD",
+          "musd": 2200.0,
+          "musd_native": 2200.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$3.3B",
+          "currency": "USD",
+          "musd": 3300.0,
+          "musd_native": 3300.0
+        },
+        "value_musd": 3300.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-16",
+        "Buyer": "Biogen",
+        "Seller": "TRIMTECH Therapeutics",
+        "Structure": "Discovery collaboration",
+        "Upfront": null,
+        "Total Deal Value": "$433M",
+        "Modality": "Small molecule",
+        "Indication": "Neurodegenerative disease",
+        "Source": "Link",
+        "URL": "https://trimtechtherapeutics.com/trimtech-therapeutics-enters-strategic-research-collaboration-with-biogen-to-advance-small-molecule-degraders-for-neurodegenerative-disease/",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://trimtechtherapeutics.com/trimtech-therapeutics-enters-strategic-research-collaboration-with-biogen-to-advance-small-molecule-degraders-for-neurodegenerative-disease/",
+        "date": "2026-11-16",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": {
+          "raw": "$433M",
+          "currency": "USD",
+          "musd": 433.0,
+          "musd_native": 433.0
+        },
+        "value_musd": 433.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-16",
+        "Buyer": "Novartis",
+        "Seller": "OBI Pharma",
+        "Structure": "Discovery collaboration",
+        "Upfront": "$30M",
+        "Total Deal Value": "$2B",
+        "Modality": "ADC",
+        "Indication": "Oncology",
+        "Source": "Link",
+        "URL": "https://endpoints.news/car-t-costs-falling-in-china-novartis-and-biogen-strike-deals-obesityweek-readouts/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-374ed018-43144741&utm_medium=email&utm_campaign=2577%20-%20Two%20big%20pharma%20deals%20to%20start%20the%20week%20Enterprise&utm_content=2577%20-%20Two%20big%20pharma%20deals%20to%20start%20the%20week%20Enterprise+CID_d1cda31624b9ab42f826850f39542ecd&utm_source=ENDPOINTS%20emails&utm_term=China%20offers%20CAR-T%20for%2040000%20Novartis%20and%20Biogen%20both%20strike%20deals",
+        "category": "Deals",
+        "side": "deal",
+        "url": "https://endpoints.news/car-t-costs-falling-in-china-novartis-and-biogen-strike-deals-obesityweek-readouts/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-374ed018-43144741&utm_medium=email&utm_campaign=2577%20-%20Two%20big%20pharma%20deals%20to%20start%20the%20week%20Enterprise&utm_content=2577%20-%20Two%20big%20pharma%20deals%20to%20start%20the%20week%20Enterprise+CID_d1cda31624b9ab42f826850f39542ecd&utm_source=ENDPOINTS%20emails&utm_term=China%20offers%20CAR-T%20for%2040000%20Novartis%20and%20Biogen%20both%20strike%20deals",
+        "date": "2026-11-16",
+        "Upfront_parsed": {
+          "raw": "$30M",
+          "currency": "USD",
+          "musd": 30.0,
+          "musd_native": 30.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2B",
+          "currency": "USD",
+          "musd": 2000.0,
+          "musd_native": 2000.0
+        },
+        "value_musd": 2000.0,
+        "investors": []
+      },
       {
         "Date": "2026-11-10",
         "Buyer": "AstraZeneca",
@@ -2070,6 +2340,120 @@
     ],
     "Licensing": [
       {
+        "Date": "2026-11-25",
+        "Buyer": "Bayer",
+        "Seller": "Hansoh Pharmaceutical",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": "$150M",
+        "Total Deal Value": "$3.25B",
+        "Modality": "ADC",
+        "Indication": "Solid tumor",
+        "Source": "Link",
+        "URL": "https://endpoints.news/bayer-goes-to-hansoh-for-adc-deal-worth-150m-up-front/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-df467f2d-ab1ce874&utm_medium=email&utm_campaign=2584%20-%20Bristol%20Myers%20messy%20lupus%20data%20Enterprise&utm_content=2584%20-%20Bristol%20Myers%20messy%20lupus%20data%20Enterprise+CID_8b14a7cee16f5cd55d6836944695dcf1&utm_source=ENDPOINTS%20emails&utm_term=Bayer%20pays%20Hansoh%20150M%20upfront%20for%20ADC",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://endpoints.news/bayer-goes-to-hansoh-for-adc-deal-worth-150m-up-front/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-df467f2d-ab1ce874&utm_medium=email&utm_campaign=2584%20-%20Bristol%20Myers%20messy%20lupus%20data%20Enterprise&utm_content=2584%20-%20Bristol%20Myers%20messy%20lupus%20data%20Enterprise+CID_8b14a7cee16f5cd55d6836944695dcf1&utm_source=ENDPOINTS%20emails&utm_term=Bayer%20pays%20Hansoh%20150M%20upfront%20for%20ADC",
+        "date": "2026-11-25",
+        "Upfront_parsed": {
+          "raw": "$150M",
+          "currency": "USD",
+          "musd": 150.0,
+          "musd_native": 150.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$3.25B",
+          "currency": "USD",
+          "musd": 3250.0,
+          "musd_native": 3250.0
+        },
+        "value_musd": 3250.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-25",
+        "Buyer": "MPN Therapeutics",
+        "Seller": "Rallybio",
+        "Structure": "Licensing",
+        "Scope": "Global rights",
+        "Upfront": null,
+        "Total Deal Value": null,
+        "Modality": "Monoclonal antibody",
+        "Indication": "Polycythemia vera",
+        "Source": "Link",
+        "URL": "https://finance.yahoo.com/healthcare/articles/mpn-therapeutics-acquires-antibody-candidate-140000361.html",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://finance.yahoo.com/healthcare/articles/mpn-therapeutics-acquires-antibody-candidate-140000361.html",
+        "date": "2026-11-25",
+        "Upfront_parsed": null,
+        "Total Deal Value_parsed": null,
+        "value_musd": null,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-18",
+        "Buyer": "Pfizer",
+        "Seller": "Starna Therapeutics",
+        "Structure": "Licensing",
+        "Scope": "Ex-China rights",
+        "Upfront": "$330M",
+        "Total Deal Value": "$2.6B",
+        "Modality": "in vivo CAR-T",
+        "Indication": "Autoimmune",
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261118535937/en/Pfizer-Enters-into-Exclusive-Licensing-Agreement-with-Starna-Therapeutics-for-Autoimmune-Diseases",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://www.businesswire.com/news/home/20261118535937/en/Pfizer-Enters-into-Exclusive-Licensing-Agreement-with-Starna-Therapeutics-for-Autoimmune-Diseases",
+        "date": "2026-11-18",
+        "Upfront_parsed": {
+          "raw": "$330M",
+          "currency": "USD",
+          "musd": 330.0,
+          "musd_native": 330.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$2.6B",
+          "currency": "USD",
+          "musd": 2600.0,
+          "musd_native": 2600.0
+        },
+        "value_musd": 2600.0,
+        "investors": []
+      },
+      {
+        "Date": "2026-11-12",
+        "Buyer": "Vor Bio",
+        "Seller": "RemeGen",
+        "Structure": "Licensing",
+        "Scope": "Ex-China rights",
+        "Upfront": "$56M",
+        "Total Deal Value": "$356M",
+        "Modality": "Recombinant fusion protein",
+        "Indication": "SLE",
+        "Source": "Link",
+        "URL": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-expands-strategic-partnership-remegen-adding-next",
+        "category": "Licensing",
+        "side": "deal",
+        "url": "https://ir.vorbio.com/news-releases/news-release-details/vor-bio-expands-strategic-partnership-remegen-adding-next",
+        "date": "2026-11-12",
+        "Upfront_parsed": {
+          "raw": "$56M",
+          "currency": "USD",
+          "musd": 56.0,
+          "musd_native": 56.0
+        },
+        "Total Deal Value_parsed": {
+          "raw": "$356M",
+          "currency": "USD",
+          "musd": 356.0,
+          "musd_native": 356.0
+        },
+        "value_musd": 356.0,
+        "investors": []
+      },
+      {
         "Date": "2026-11-09",
         "Buyer": "Abeona Therapeutics",
         "Seller": "Ellodi Pharmaceuticals",
@@ -3714,6 +4098,617 @@
       }
     ],
     "Fundraises": [
+      {
+        "Date": "2026-11-25",
+        "Company": "CirCode Biomed",
+        "Round": "Series A",
+        "Amount": null,
+        "Modality": "Circular RNA",
+        "Indication": "Ischemic heart disease",
+        "Geography": "China",
+        "Lead 1": "Fosun Health Capital",
+        "Lead 2": null,
+        "Investor 3": "Others (not disclosed)",
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.prnewswire.com/news-releases/circode-biomed-closes-series-a-financing-to-advance-the-worlds-leading-circular-rna-therapeutics-pipeline-302950525.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.prnewswire.com/news-releases/circode-biomed-closes-series-a-financing-to-advance-the-worlds-leading-circular-rna-therapeutics-pipeline-302950525.html",
+        "date": "2026-11-25",
+        "Amount_parsed": null,
+        "value_musd": null,
+        "investors": [
+          {
+            "name": "Fosun Health Capital",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-23",
+        "Company": "Ritzey Therapeutics",
+        "Round": "Series A",
+        "Amount": "$112.5M",
+        "Modality": "Small molecule",
+        "Indication": "Down syndrome",
+        "Geography": "US",
+        "Lead 1": "Vida Ventures",
+        "Lead 2": null,
+        "Investor 3": "EcoR1 Capital",
+        "Investor 4": "Fidelity",
+        "Investor 5": "Perceptive Advisors",
+        "Investor 6": "Montanova",
+        "Investor 7": "Alexandria Venture Investments",
+        "Investor 8": "FMB Research",
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/after-14b-intra-cellular-success-sharon-mates-returns-with-new-biotech-ritzey-therapeutics/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-5a0a1be8-2e508cb1&utm_medium=email&utm_campaign=1289%20-%20Lilly%20buys%20another%20biotech%20Sharon%20Mates%20new%20startup%20Enterprise&utm_content=1289%20-%20Lilly%20buys%20another%20biotech%20Sharon%20Mates%20new%20startup%20Enterprise+CID_e0b40eac81ecec9a943c484d0131defc&utm_source=ENDPOINTS%20emails&utm_term=After%2014B%20Intra-Cellular%20success%20Sharon%20Mates%20returns%20with%20new%20biotech",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/after-14b-intra-cellular-success-sharon-mates-returns-with-new-biotech-ritzey-therapeutics/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-5a0a1be8-2e508cb1&utm_medium=email&utm_campaign=1289%20-%20Lilly%20buys%20another%20biotech%20Sharon%20Mates%20new%20startup%20Enterprise&utm_content=1289%20-%20Lilly%20buys%20another%20biotech%20Sharon%20Mates%20new%20startup%20Enterprise+CID_e0b40eac81ecec9a943c484d0131defc&utm_source=ENDPOINTS%20emails&utm_term=After%2014B%20Intra-Cellular%20success%20Sharon%20Mates%20returns%20with%20new%20biotech",
+        "date": "2026-11-23",
+        "Amount_parsed": {
+          "raw": "$112.5M",
+          "currency": "USD",
+          "musd": 112.5,
+          "musd_native": 112.5
+        },
+        "value_musd": 112.5,
+        "investors": [
+          {
+            "name": "Vida Ventures",
+            "lead": true
+          },
+          {
+            "name": "EcoR1 Capital",
+            "lead": false
+          },
+          {
+            "name": "Fidelity",
+            "lead": false
+          },
+          {
+            "name": "Perceptive Advisors",
+            "lead": false
+          },
+          {
+            "name": "Montanova",
+            "lead": false
+          },
+          {
+            "name": "Alexandria Venture Investments",
+            "lead": false
+          },
+          {
+            "name": "FMB Research",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-23",
+        "Company": "Ontop Biotech",
+        "Round": "Series B",
+        "Amount": "$55M",
+        "Modality": "Oligonucleotide",
+        "Indication": null,
+        "Geography": "China",
+        "Lead 1": "Honghui Capital",
+        "Lead 2": "Longpan Investment",
+        "Investor 3": "Xingze Capital",
+        "Investor 4": "Others (not disclosed)",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://mp.weixin.qq.com/s/uSS1rOrp3xU33zI0m-6s3g",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://mp.weixin.qq.com/s/uSS1rOrp3xU33zI0m-6s3g",
+        "date": "2026-11-23",
+        "Amount_parsed": {
+          "raw": "$55M",
+          "currency": "USD",
+          "musd": 55.0,
+          "musd_native": 55.0
+        },
+        "value_musd": 55.0,
+        "investors": [
+          {
+            "name": "Honghui Capital",
+            "lead": true
+          },
+          {
+            "name": "Longpan Investment",
+            "lead": true
+          },
+          {
+            "name": "Xingze Capital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-23",
+        "Company": "Apiary Therapeutics",
+        "Round": "Seed",
+        "Amount": "$7.3M",
+        "Modality": "iPSC",
+        "Indication": null,
+        "Geography": "US",
+        "Lead 1": "Genesys Capital",
+        "Lead 2": "BDC Life Sciences Venture Fund",
+        "Investor 3": "InBC Investment Corp",
+        "Investor 4": "Mission BioCapital",
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.businesswire.com/news/home/20261123341904/en/Apiary-Therapeutics-Closes-%247.3-Million-Seed-Financing-to-Advance-Engineered-B-Cell-Platform-for-Long-Lasting-Protein-Therapies",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.businesswire.com/news/home/20261123341904/en/Apiary-Therapeutics-Closes-%247.3-Million-Seed-Financing-to-Advance-Engineered-B-Cell-Platform-for-Long-Lasting-Protein-Therapies",
+        "date": "2026-11-23",
+        "Amount_parsed": {
+          "raw": "$7.3M",
+          "currency": "USD",
+          "musd": 7.3,
+          "musd_native": 7.3
+        },
+        "value_musd": 7.3,
+        "investors": [
+          {
+            "name": "Genesys Capital",
+            "lead": true
+          },
+          {
+            "name": "BDC Life Sciences Venture Fund",
+            "lead": true
+          },
+          {
+            "name": "InBC Investment Corp",
+            "lead": false
+          },
+          {
+            "name": "Mission BioCapital",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-18",
+        "Company": "Boltz",
+        "Round": "Series A",
+        "Amount": "$110M",
+        "Modality": "AI biology models",
+        "Indication": null,
+        "Geography": "UK",
+        "Lead 1": "Bessemer Venture Partners",
+        "Lead 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/ai-bio-startup-boltz-raises-110m-series-a/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-a8528050-dc081709&utm_medium=email&utm_campaign=1286%20-%20Pfizer%20joins%20in%20vivo%20CAR-T%20race%20Enterprise&utm_content=1286%20-%20Pfizer%20joins%20in%20vivo%20CAR-T%20race%20Enterprise+CID_7aa571b688134fbbc528c793d910e5eb&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Boltz%20raises%20110M%20as%20usage%20of%20its%20AI%20drug%20design%20software%20jumps%2050-fold",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/ai-bio-startup-boltz-raises-110m-series-a/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-a8528050-dc081709&utm_medium=email&utm_campaign=1286%20-%20Pfizer%20joins%20in%20vivo%20CAR-T%20race%20Enterprise&utm_content=1286%20-%20Pfizer%20joins%20in%20vivo%20CAR-T%20race%20Enterprise+CID_7aa571b688134fbbc528c793d910e5eb&utm_source=ENDPOINTS%20emails&utm_term=Exclusive%20Boltz%20raises%20110M%20as%20usage%20of%20its%20AI%20drug%20design%20software%20jumps%2050-fold",
+        "date": "2026-11-18",
+        "Amount_parsed": {
+          "raw": "$110M",
+          "currency": "USD",
+          "musd": 110.0,
+          "musd_native": 110.0
+        },
+        "value_musd": 110.0,
+        "investors": [
+          {
+            "name": "Bessemer Venture Partners",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-18",
+        "Company": "VitriVax",
+        "Round": "Series C",
+        "Amount": "$87M",
+        "Modality": "Vaccine",
+        "Indication": "Lyme disease",
+        "Geography": "US",
+        "Lead 1": "F-Prime",
+        "Lead 2": "NEA",
+        "Investor 3": "RA Capital",
+        "Investor 4": "Sanofi Ventures",
+        "Investor 5": "Lilly",
+        "Investor 6": "Others (not disclosed)",
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://vitrivaxbio.com/vitrivax-announces-87-million-series-c-financing-to-advance-lyme-disease-vaccine-candidate/",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://vitrivaxbio.com/vitrivax-announces-87-million-series-c-financing-to-advance-lyme-disease-vaccine-candidate/",
+        "date": "2026-11-18",
+        "Amount_parsed": {
+          "raw": "$87M",
+          "currency": "USD",
+          "musd": 87.0,
+          "musd_native": 87.0
+        },
+        "value_musd": 87.0,
+        "investors": [
+          {
+            "name": "F-Prime",
+            "lead": true
+          },
+          {
+            "name": "NEA",
+            "lead": true
+          },
+          {
+            "name": "RA Capital",
+            "lead": false
+          },
+          {
+            "name": "Sanofi Ventures",
+            "lead": false
+          },
+          {
+            "name": "Lilly",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-17",
+        "Company": "Marrow Therapeutics",
+        "Round": "Series B",
+        "Amount": "$120M",
+        "Modality": "siRNA",
+        "Indication": "Sickle cell disease",
+        "Geography": "US",
+        "Lead 1": "OrbiMed",
+        "Lead 2": "Others (not disclosed)",
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/marrow-raises-173m-for-sirna-drug-competing-with-crispr-therapy-for-sickle-cell/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d9de6c0b-ad84fb52&utm_medium=email&utm_campaign=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise&utm_content=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise+CID_436f5d691639c9bae9596bd04a22f08f&utm_source=ENDPOINTS%20emails&utm_term=Marrow%20raises%20173M%20for%20siRNA%20drug%20to%20compete%20with%20one-time%20CRISPR%20therapy%20for%20sickle%20cell",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/marrow-raises-173m-for-sirna-drug-competing-with-crispr-therapy-for-sickle-cell/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d9de6c0b-ad84fb52&utm_medium=email&utm_campaign=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise&utm_content=1285%20-%20Shopaholic%20Lilly%20grabs%20another%20deal%20Enterprise+CID_436f5d691639c9bae9596bd04a22f08f&utm_source=ENDPOINTS%20emails&utm_term=Marrow%20raises%20173M%20for%20siRNA%20drug%20to%20compete%20with%20one-time%20CRISPR%20therapy%20for%20sickle%20cell",
+        "date": "2026-11-17",
+        "Amount_parsed": {
+          "raw": "$120M",
+          "currency": "USD",
+          "musd": 120.0,
+          "musd_native": 120.0
+        },
+        "value_musd": 120.0,
+        "investors": [
+          {
+            "name": "OrbiMed",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-17",
+        "Company": "Isomorphic Labs",
+        "Round": "Series C",
+        "Amount": "$5B",
+        "Modality": "AI drug discovery",
+        "Indication": null,
+        "Geography": "UK",
+        "Lead 1": "Greenoaks",
+        "Lead 2": "Sequoia Capital",
+        "Investor 3": "a16z",
+        "Investor 4": "Alphabet",
+        "Investor 5": "Thrive Capital",
+        "Investor 6": "MGX",
+        "Investor 7": "GV",
+        "Investor 8": "CapitalG",
+        "Investor 9": "Temasek",
+        "Investor 10": "Others",
+        "Source": "Link",
+        "URL": "https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/ISOMORPHIC_LABS_FUNDING_17-11-26.pdf",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/ISOMORPHIC_LABS_FUNDING_17-11-26.pdf",
+        "date": "2026-11-17",
+        "Amount_parsed": {
+          "raw": "$5B",
+          "currency": "USD",
+          "musd": 5000.0,
+          "musd_native": 5000.0
+        },
+        "value_musd": 5000.0,
+        "investors": [
+          {
+            "name": "Greenoaks",
+            "lead": true
+          },
+          {
+            "name": "Sequoia Capital",
+            "lead": true
+          },
+          {
+            "name": "a16z",
+            "lead": false
+          },
+          {
+            "name": "Alphabet",
+            "lead": false
+          },
+          {
+            "name": "Thrive Capital",
+            "lead": false
+          },
+          {
+            "name": "MGX",
+            "lead": false
+          },
+          {
+            "name": "GV",
+            "lead": false
+          },
+          {
+            "name": "CapitalG",
+            "lead": false
+          },
+          {
+            "name": "Temasek",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-17",
+        "Company": "Commit Biologics",
+        "Round": "Seed",
+        "Amount": "$60M",
+        "Modality": "Bispecific antibody",
+        "Indication": "Oncology",
+        "Geography": "Denmark",
+        "Lead 1": "Ackermans & van Haaren",
+        "Lead 2": null,
+        "Investor 3": "AbbVie Ventures",
+        "Investor 4": "M Ventures",
+        "Investor 5": "Bioqube Ventures",
+        "Investor 6": "Korys",
+        "Investor 7": "Novo Holdings",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://www.globenewswire.com/news-release/2026/11/17/3404263/0/en/commit-biologics-announces-final-close-of-60-million-seed-financing-to-advance-complement-powered-immune-engagers-toward-the-clinic.html",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://www.globenewswire.com/news-release/2026/11/17/3404263/0/en/commit-biologics-announces-final-close-of-60-million-seed-financing-to-advance-complement-powered-immune-engagers-toward-the-clinic.html",
+        "date": "2026-11-17",
+        "Amount_parsed": {
+          "raw": "$60M",
+          "currency": "USD",
+          "musd": 60.0,
+          "musd_native": 60.0
+        },
+        "value_musd": 60.0,
+        "investors": [
+          {
+            "name": "Ackermans & van Haaren",
+            "lead": true
+          },
+          {
+            "name": "AbbVie Ventures",
+            "lead": false
+          },
+          {
+            "name": "M Ventures",
+            "lead": false
+          },
+          {
+            "name": "Bioqube Ventures",
+            "lead": false
+          },
+          {
+            "name": "Korys",
+            "lead": false
+          },
+          {
+            "name": "Novo Holdings",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-16",
+        "Company": "Seawolf Therapeutics",
+        "Round": null,
+        "Amount": "$100M",
+        "Modality": "Non-viral DNA delivery",
+        "Indication": "Obesity",
+        "Geography": "US",
+        "Lead 1": "Versant Ventures",
+        "Lead 2": null,
+        "Investor 3": "Lilly",
+        "Investor 4": "Novartis Venture Fund",
+        "Investor 5": "MPM BioImpact",
+        "Investor 6": "CRISPR Therapeutics",
+        "Investor 7": "Others (not disclosed)",
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/seawolf-launches-with-100m-to-make-non-viral-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-8053111c-f4098645&utm_medium=email&utm_campaign=1284%20-%20Summit%20Akeso%20shares%20fall%20on%20ivonescimab%20veto%20Enterprise&utm_content=1284%20-%20Summit%20Akeso%20shares%20fall%20on%20ivonescimab%20veto%20Enterprise+CID_1349e8663d970eee86bc78564a1a453f&utm_source=ENDPOINTS%20emails&utm_term=Seawolf%20launches%20with%20100M%20to%20make%20non-viral%20gene%20therapies%20for%20obesity%20muscle%20loss%20and%20osteoporosis",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/seawolf-launches-with-100m-to-make-non-viral-gene-therapies/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-8053111c-f4098645&utm_medium=email&utm_campaign=1284%20-%20Summit%20Akeso%20shares%20fall%20on%20ivonescimab%20veto%20Enterprise&utm_content=1284%20-%20Summit%20Akeso%20shares%20fall%20on%20ivonescimab%20veto%20Enterprise+CID_1349e8663d970eee86bc78564a1a453f&utm_source=ENDPOINTS%20emails&utm_term=Seawolf%20launches%20with%20100M%20to%20make%20non-viral%20gene%20therapies%20for%20obesity%20muscle%20loss%20and%20osteoporosis",
+        "date": "2026-11-16",
+        "Amount_parsed": {
+          "raw": "$100M",
+          "currency": "USD",
+          "musd": 100.0,
+          "musd_native": 100.0
+        },
+        "value_musd": 100.0,
+        "investors": [
+          {
+            "name": "Versant Ventures",
+            "lead": true
+          },
+          {
+            "name": "Lilly",
+            "lead": false
+          },
+          {
+            "name": "Novartis Venture Fund",
+            "lead": false
+          },
+          {
+            "name": "MPM BioImpact",
+            "lead": false
+          },
+          {
+            "name": "CRISPR Therapeutics",
+            "lead": false
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-13",
+        "Company": "Orakl Oncology",
+        "Round": "Series A",
+        "Amount": "$34M",
+        "Modality": "AI clinical trial design",
+        "Indication": "Oncology",
+        "Geography": "France",
+        "Lead 1": "Norrsken",
+        "Lead 2": "Singular",
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/regeneron-posts-mid-stage-pots-data-kyverna-completes-car-t-filing/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-13ba8423-67e0137a&utm_medium=email&utm_campaign=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise&utm_content=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise+CID_4c04e3110062fcbb1295f1408e149675&utm_source=ENDPOINTS%20emails&utm_term=Regeneron%20posts%20mid-stage%20POTS%20data%20Kyverna%20completes%20CAR-T%20filing",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/regeneron-posts-mid-stage-pots-data-kyverna-completes-car-t-filing/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-13ba8423-67e0137a&utm_medium=email&utm_campaign=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise&utm_content=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise+CID_4c04e3110062fcbb1295f1408e149675&utm_source=ENDPOINTS%20emails&utm_term=Regeneron%20posts%20mid-stage%20POTS%20data%20Kyverna%20completes%20CAR-T%20filing",
+        "date": "2026-11-13",
+        "Amount_parsed": {
+          "raw": "$34M",
+          "currency": "USD",
+          "musd": 34.0,
+          "musd_native": 34.0
+        },
+        "value_musd": 34.0,
+        "investors": [
+          {
+            "name": "Norrsken",
+            "lead": true
+          },
+          {
+            "name": "Singular",
+            "lead": true
+          }
+        ]
+      },
+      {
+        "Date": "2026-11-11",
+        "Company": "Neurosterix",
+        "Round": "Series B",
+        "Amount": "$105M",
+        "Modality": "Small molecule",
+        "Indication": "Schizophrenia",
+        "Geography": "US",
+        "Lead 1": "RTW Investments",
+        "Lead 2": null,
+        "Investor 3": "Janus Henderson Investors",
+        "Investor 4": "GV",
+        "Investor 5": "Ikarian Capital",
+        "Investor 6": "Affinity Asset Advisors",
+        "Investor 7": "Dellora Investments",
+        "Investor 8": "Perceptive Advisors",
+        "Investor 9": "Acorn Bioventures",
+        "Investor 10": null,
+        "Source": "Link",
+        "URL": "https://endpoints.news/neurosterix-pulls-in-105m-for-schizophrenia-drug-recruits-cobenfy-vets/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-e9a8b68e-9df221d7&utm_medium=email&utm_campaign=1282%20-%20BMS%20reorgs%20RD%20Plenge%20to%20exit%20Enterprise&utm_content=1282%20-%20BMS%20reorgs%20RD%20Plenge%20to%20exit%20Enterprise+CID_129b907373f56de6881bad5268fd14e4&utm_source=ENDPOINTS%20emails&utm_term=Neurosterix%20pulls%20in%20105M%20for%20schizophrenia%20drug%20taps%20Cobenfy%20vets",
+        "category": "Fundraises",
+        "side": "raise",
+        "url": "https://endpoints.news/neurosterix-pulls-in-105m-for-schizophrenia-drug-recruits-cobenfy-vets/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-e9a8b68e-9df221d7&utm_medium=email&utm_campaign=1282%20-%20BMS%20reorgs%20RD%20Plenge%20to%20exit%20Enterprise&utm_content=1282%20-%20BMS%20reorgs%20RD%20Plenge%20to%20exit%20Enterprise+CID_129b907373f56de6881bad5268fd14e4&utm_source=ENDPOINTS%20emails&utm_term=Neurosterix%20pulls%20in%20105M%20for%20schizophrenia%20drug%20taps%20Cobenfy%20vets",
+        "date": "2026-11-11",
+        "Amount_parsed": {
+          "raw": "$105M",
+          "currency": "USD",
+          "musd": 105.0,
+          "musd_native": 105.0
+        },
+        "value_musd": 105.0,
+        "investors": [
+          {
+            "name": "RTW",
+            "lead": true
+          },
+          {
+            "name": "Janus Henderson",
+            "lead": false
+          },
+          {
+            "name": "GV",
+            "lead": false
+          },
+          {
+            "name": "Ikarian Capital",
+            "lead": false
+          },
+          {
+            "name": "Affinity Asset Advisors",
+            "lead": false
+          },
+          {
+            "name": "Dellora Investments",
+            "lead": false
+          },
+          {
+            "name": "Perceptive Advisors",
+            "lead": false
+          },
+          {
+            "name": "Acorn Bioventures",
+            "lead": false
+          }
+        ]
+      },
       {
         "Date": "2026-11-11",
         "Company": "VectorY Therapeutics",
@@ -9682,11 +10677,11 @@
     "IPO": [
       {
         "Listing date": "2026-10-23",
-        "IPO date": null,
+        "IPO date": "2026-11-13",
         "Company": "Windward Bio",
         "Target price": null,
         "Target raise": null,
-        "Amount": null,
+        "Amount": "$175M",
         "Modality": "Small molecule",
         "Indication": "Asthma",
         "Investor 1": "Santarelli",
@@ -9699,13 +10694,19 @@
         "Investor 8": null,
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2145089/000119312526430315/d111653df1.htm",
         "Target source": null,
-        "Listing source": null,
+        "Listing source": "https://endpoints.news/windward-bio-hits-nasdaq-with-175m-ipo-plus-another-50m-from-sanofi/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-13ba8423-67e0137a&utm_medium=email&utm_campaign=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise&utm_content=2576%20-%20The%2030th%20biotech%20IPO%20of%20the%20year%20is%20%20Enterprise+CID_4c04e3110062fcbb1295f1408e149675&utm_source=ENDPOINTS%20emails&utm_term=Windward%20Bio%20hits%20Nasdaq%20with%20175M%20IPO%20plus%20another%2050M%20from%20Sanofi",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2145089/000119312526430315/d111653df1.htm",
         "date": "2026-10-23",
-        "Amount_parsed": null,
-        "value_musd": null,
+        "Amount_parsed": {
+          "raw": "$175M",
+          "currency": "USD",
+          "musd": 175.0,
+          "musd_native": 175.0
+        },
+        "value_musd": 175.0,
         "investors": [
           {
             "name": "Santarelli",
@@ -9757,6 +10758,7 @@
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2141583/000110465926117853/tmq-20261021xdrsa.htm",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2141583/000110465926122953/tmq-20261105xs1.htm#TOC",
         "Listing source": null,
+        "Postpone source": "https://endpoints.news/rezera-postpones-a-planned-200m-ipo-shortly-before-expected-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-308ef583-44d462da&utm_medium=email&utm_campaign=1182%20-%20The%20FDA%20commissioner%20vouchers%20uncertain%20future%20Enterprise&utm_content=1182%20-%20The%20FDA%20commissioner%20vouchers%20uncertain%20future%20Enterprise+CID_990257828ce2c8fb41b14e205660f06c&utm_source=ENDPOINTS%20emails&utm_term=Rezera%20postpones%20a%20planned%20200M%20IPO%20shortly%20before%20expected%20debut",
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2141583/000110465926117853/tmq-20261021xdrsa.htm",
@@ -9794,6 +10796,7 @@
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026065557/bambusa-sx1.htm#i791b62ca74664cd78c8cd97a44e2cff4_58",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026067119/bambusa-sx1a1.htm",
         "Listing source": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026065557/bambusa-sx1.htm#i791b62ca74664cd78c8cd97a44e2cff4_58",
@@ -9848,6 +10851,7 @@
         "Listing URL": "sec.gov/Archives/edgar/data/2124080/000119312526419104/na-20261009.htm#principal_stockholders",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2124080/000119312526431023/na-20261026.htm",
         "Listing source": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": null,
@@ -9910,6 +10914,7 @@
         "Listing URL": null,
         "Target source": "https://endpoints.news/city-therapeutics-targets-158m-ipo-iambic-seeks-135m-nasdaq-debut/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-c6e88b14-b2b21c4d&utm_medium=email&utm_campaign=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise&utm_content=2551%20-%20Has%20RevMed%20left%20room%20in%20pancreatic%20cancer%20Enterprise+CID_e12075864ff2bef43c180e57c365429e&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20targets%20158M%20IPO%20Iambic%20seeks%20135M%20Nasdaq%20debut",
         "Listing source": "https://www.businesswire.com/news/home/20261014222850/en/Iambic-Announces-Pricing-of-Initial-Public-Offering",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": null,
@@ -9943,6 +10948,7 @@
         "Listing URL": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
         "Target source": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm#ie859af0e8277420daf536485784f3d4d_529",
         "Listing source": "https://www.globenewswire.com/news-release/2026/10/22/3387000/0/en/lycia-therapeutics-announces-pricing-of-upsized-initial-public-offering.html",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/lycia-seeks-ipo-for-antibody-degrader-work-as-trexbio-retension-forge-ahead/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-dd5da6f0-a90731a9&utm_medium=email&utm_campaign=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise&utm_content=2548%20-%20ArriVents%20Phase%203%20failure%20Enterprise+CID_c72bcc2e544a5739296e1fbf88bf1919&utm_source=ENDPOINTS%20emails&utm_term=Lycia%20seeks%20IPO%20for%20antibody%20degraders%20as%20TRexBio%20Retension%20set%20terms",
@@ -10001,6 +11007,7 @@
         "Listing URL": "https://endpoints.news/alnylam-alumni-led-rnai-biotech-city-therapeutics-files-for-ipo/",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926114815/tm2619715-8_s1a.htm#TOC",
         "Listing source": "https://endpoints.news/city-therapeutics-lands-200m-ipo-as-it-builds-an-alnylam-2-0-in-rnai-field/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-389acf9d-4cc058c4&utm_medium=email&utm_campaign=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise&utm_content=2556%20-%20China%20plans%20restrictions%20on%20some%20biotech%20exports%20Enterprise+CID_db4de2b4c3ecba74ec9c3a13e7809d2c&utm_source=ENDPOINTS%20emails&utm_term=City%20Therapeutics%20lands%20200M%20IPO%20as%20it%20builds%20an%20Alnylam%2020%20in%20RNAi%20field",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/alnylam-alumni-led-rnai-biotech-city-therapeutics-files-for-ipo/",
@@ -10055,6 +11062,7 @@
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526395671/ck0002139097-20260918.htm#toc_page",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm#use_of_proceeds",
         "Listing source": "https://www.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526395671/ck0002139097-20260918.htm#toc_page",
@@ -10088,6 +11096,7 @@
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026101499/ea0276911-07.htm",
         "Target source": null,
         "Listing source": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2002988/000121390026101499/ea0276911-07.htm",
@@ -10121,6 +11130,7 @@
         "Listing URL": "https://www.businesswire.com/news/home/20260915034926/en/Sensorion-Announces-Confidential-Submission-of-Draft-Registration-Statement-to-the-SEC-for-Potential-U.S.-Initial-Public-Offering",
         "Target source": null,
         "Listing source": null,
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.businesswire.com/news/home/20260915034926/en/Sensorion-Announces-Confidential-Submission-of-Draft-Registration-Statement-to-the-SEC-for-Potential-U.S.-Initial-Public-Offering",
@@ -10149,6 +11159,7 @@
         "Listing URL": null,
         "Target source": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526396007/d903461ds1a.htm#toc",
         "Listing source": "https://endpoints.news/adarx-prices-446-3m-nasdaq-debut-continuing-industrys-ipo-momentum/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-b6933c0d-c2c9ab54&utm_medium=email&utm_campaign=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise&utm_content=Drugmakers%20want%20clarity%20on%20FDAs%20evolving%20one%20trial%20policy%20Enterprise+CID_87dacd6a4441d076b6daf7f608e84531&utm_source=ENDPOINTS%20emails&utm_term=Updated%20ADARx%20prices%204463M%20Nasdaq%20debut%20continuing%20industrys%20IPO%20momentum",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": null,
@@ -10199,6 +11210,7 @@
         "Listing URL": null,
         "Target source": "https://www.prnewswire.com/news-releases/viking-therapeutics-prices-upsized-500-million-offering-of-common-stock-and-convertible-senior-notes-302888812.html",
         "Listing source": null,
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": null,
@@ -10227,6 +11239,7 @@
         "Listing URL": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526374259/d61940ds1.htm#toc",
         "Target source": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526389755/d61940ds1a.htm#toc61940_6",
         "Listing source": "https://www.globenewswire.com/news-release/2026/09/18/3364440/0/en/electra-therapeutics-announces-pricing-of-upsized-350-0-million-initial-public-offering.html",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://www.sec.gov/Archives/edgar/data/2088082/000119312526374259/d61940ds1.htm#toc",
@@ -10285,6 +11298,7 @@
         "Listing URL": "https://endpoints.news/arrowhead-buys-prv-for-215m-twist-hopes-to-raise-300m-in-public-offering/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-fbf5c371-8faf5428&utm_medium=email&utm_campaign=2505%20-%20No%20big%20deal%20Enterprise&utm_content=2505%20-%20No%20big%20deal%20Enterprise+CID_6a7821518746c81285e2445bf3a77023&utm_source=ENDPOINTS%20emails&utm_term=Arrowhead%20buys%20PRV%20for%20215M%20Twist%20hopes%20to%20raise%20300M%20in%20public%20offering",
         "Target source": "https://endpoints.news/arrowhead-buys-prv-for-215m-twist-hopes-to-raise-300m-in-public-offering/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-fbf5c371-8faf5428&utm_medium=email&utm_campaign=2505%20-%20No%20big%20deal%20Enterprise&utm_content=2505%20-%20No%20big%20deal%20Enterprise+CID_6a7821518746c81285e2445bf3a77023&utm_source=ENDPOINTS%20emails&utm_term=Arrowhead%20buys%20PRV%20for%20215M%20Twist%20hopes%20to%20raise%20300M%20in%20public%20offering",
         "Listing source": null,
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/arrowhead-buys-prv-for-215m-twist-hopes-to-raise-300m-in-public-offering/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-fbf5c371-8faf5428&utm_medium=email&utm_campaign=2505%20-%20No%20big%20deal%20Enterprise&utm_content=2505%20-%20No%20big%20deal%20Enterprise+CID_6a7821518746c81285e2445bf3a77023&utm_source=ENDPOINTS%20emails&utm_term=Arrowhead%20buys%20PRV%20for%20215M%20Twist%20hopes%20to%20raise%20300M%20in%20public%20offering",
@@ -10313,6 +11327,7 @@
         "Listing URL": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-010c3127-7556a67e&utm_medium=email&utm_campaign=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise&utm_content=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise+CID_bc31b1bd363ad7e4cda26ce273ab5238&utm_source=ENDPOINTS%20emails&utm_term=Updated%20BlossomHill%20and%20Latigo%20join%20flourishing%20IPO%20queue%20with%20cancer%20pain%20drugs",
         "Target source": "https://endpoints.news/curium-buys-radiopharma-rival-lantheus-for-8b-sandoz-settles-price-fixing-case/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3a11282d-4e4bbf74&utm_medium=email&utm_campaign=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise&utm_content=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise+CID_b365945e6bfb7d776ea6cf1725537b78&utm_source=ENDPOINTS%20emails&utm_term=Curium%20buys%20Lantheus%20for%208B%20Sandoz%20settles%20price-fixing%20cases",
         "Listing source": "https://endpoints.news/blossomhill-latigo-cap-four-ipo-week-with-combined-496m-haul/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d72f9e30-a3750969&utm_medium=email&utm_campaign=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise&utm_content=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise+CID_695ccd6726ac6c4add8e9ba9b1ca74fd&utm_source=ENDPOINTS%20emails&utm_term=BlossomHill%20Latigo%20cap%20four-IPO%20week%20with%20combined%20496M%20haul",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=524130ce-010c3127-7556a67e&utm_medium=email&utm_campaign=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise&utm_content=1099%20-%20Whats%20behind%20Celcuitys%20post-approval%20stock%20dip%20Enterprise+CID_bc31b1bd363ad7e4cda26ce273ab5238&utm_source=ENDPOINTS%20emails&utm_term=Updated%20BlossomHill%20and%20Latigo%20join%20flourishing%20IPO%20queue%20with%20cancer%20pain%20drugs",
@@ -10363,6 +11378,7 @@
         "Listing URL": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b611f023-c24b677a&utm_medium=email&utm_campaign=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise&utm_content=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise+CID_c13b17e553fe8443290a006a883c2289&utm_source=ENDPOINTS%20emails&utm_term=Tagrisso-chasing%20BlossomHill%20enters%20Nasdaq%20queue%20as%20biotech%20IPOs%20flourish",
         "Target source": "https://endpoints.news/curium-buys-radiopharma-rival-lantheus-for-8b-sandoz-settles-price-fixing-case/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-3a11282d-4e4bbf74&utm_medium=email&utm_campaign=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise&utm_content=2503%20-%20Should%20Chinas%20biotech%20work%20ethic%20be%20a%20wake-up%20call%20Enterprise+CID_b365945e6bfb7d776ea6cf1725537b78&utm_source=ENDPOINTS%20emails&utm_term=Curium%20buys%20Lantheus%20for%208B%20Sandoz%20settles%20price-fixing%20cases",
         "Listing source": "https://endpoints.news/blossomhill-latigo-cap-four-ipo-week-with-combined-496m-haul/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-d72f9e30-a3750969&utm_medium=email&utm_campaign=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise&utm_content=1214%20-%20BlossomHill%20Latigo%20IPOs%20raise%20nearly%20500M%20combined%20Enterprise+CID_695ccd6726ac6c4add8e9ba9b1ca74fd&utm_source=ENDPOINTS%20emails&utm_term=BlossomHill%20Latigo%20cap%20four-IPO%20week%20with%20combined%20496M%20haul",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-b611f023-c24b677a&utm_medium=email&utm_campaign=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise&utm_content=2492%20-%20The%20vaccine%20that%20might%20hold%20a%20key%20to%20Alzheimers%20prevention%20Enterprise+CID_c13b17e553fe8443290a006a883c2289&utm_source=ENDPOINTS%20emails&utm_term=Tagrisso-chasing%20BlossomHill%20enters%20Nasdaq%20queue%20as%20biotech%20IPOs%20flourish",
@@ -10413,6 +11429,7 @@
         "Listing URL": "https://endpoints.news/kelun-pads-efficacy-profile-of-merck-partnered-adc-europe-will-have-to-wait-for-boehringers-hernexeos/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-ae349699-da6e01c0&utm_medium=email&utm_campaign=2491%20-%20What%20if%20Alzheimers%20isnt%20a%20single%20disease%20Enterprise&utm_content=2491%20-%20What%20if%20Alzheimers%20isnt%20a%20single%20disease%20Enterprise+CID_d52327ec92022f0f7dedc9db5e76c14e&utm_source=ENDPOINTS%20emails&utm_term=Kelun%20pads%20efficacy%20profile%20of%20Merck-partnered%20ADC%20Europe%20will%20have%20to%20wait%20for%20Boehringers%20Hernexeos",
         "Target source": "https://www.sec.gov/Archives/edgar/data/1903784/000118518526003162/vogenxs1a1072526.htm#a_004",
         "Listing source": null,
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/kelun-pads-efficacy-profile-of-merck-partnered-adc-europe-will-have-to-wait-for-boehringers-hernexeos/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-ae349699-da6e01c0&utm_medium=email&utm_campaign=2491%20-%20What%20if%20Alzheimers%20isnt%20a%20single%20disease%20Enterprise&utm_content=2491%20-%20What%20if%20Alzheimers%20isnt%20a%20single%20disease%20Enterprise+CID_d52327ec92022f0f7dedc9db5e76c14e&utm_source=ENDPOINTS%20emails&utm_term=Kelun%20pads%20efficacy%20profile%20of%20Merck-partnered%20ADC%20Europe%20will%20have%20to%20wait%20for%20Boehringers%20Hernexeos",
@@ -10446,6 +11463,7 @@
         "Listing URL": "https://endpoints.news/braveheart-files-for-ipo-to-fund-phase-3-of-hengruis-cytokinetics-rival/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20files%20for%20IPO%20to%20fund%20Phase%203%20of%20Hengruis%20Cytokinetics%20rival",
         "Target source": "https://endpoints.news/pfizers-phase-3-win-for-litfulo-braveheart-attovia-eye-ipos-of-275m-182m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-17d5108c-638f87d5&utm_medium=email&utm_campaign=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise&utm_content=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise+CID_7348845e5b87a2d932232a6d2d396528&utm_source=ENDPOINTS%20emails&utm_term=Pfizers%20Phase%203%20win%20for%20Litfulo%20Braveheart%20Attovia%20eye%20IPOs%20of%20275M%20182M",
         "Listing source": "https://endpoints.news/braveheart-lands-383m-ipo-to-take-hengrui-cardio-drug-into-phase-3/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-b64d2d19-c217ba40&utm_medium=email&utm_campaign=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise&utm_content=1213%20-%20The%20orexin%20era%20has%20begun%20Enterprise+CID_3d55afd3d5bad01256f8d6e1fc2fc445&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20lands%20383M%20IPO%20to%20take%20Hengrui%20cardio%20drug%20into%20Phase%203",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/braveheart-files-for-ipo-to-fund-phase-3-of-hengruis-cytokinetics-rival/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-80b96add-f4e3fd84&utm_medium=email&utm_campaign=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise&utm_content=2490%20-%20Braveheart%20Attovia%20join%20the%20IPO%20barrage%20Enterprise+CID_e94bc1364f43f06c7e3d9c3143dc5edf&utm_source=ENDPOINTS%20emails&utm_term=Braveheart%20files%20for%20IPO%20to%20fund%20Phase%203%20of%20Hengruis%20Cytokinetics%20rival",
@@ -10496,6 +11514,7 @@
         "Listing URL": "https://endpoints.news/ii-startup-attovia-files-to-go-public-as-biotech-listings-momentum-builds/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-37a4abd9-43fe3c80&utm_medium=email&utm_campaign=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise&utm_content=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise+CID_38c87d35ddb7da8c2e559543093b824c&utm_source=ENDPOINTS%20emails&utm_term=II%20startup%20Attovia%20files%20to%20go%20public%20as%20biotech%20listings%20momentum%20builds",
         "Target source": "https://endpoints.news/pfizers-phase-3-win-for-litfulo-braveheart-attovia-eye-ipos-of-275m-182m/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-17d5108c-638f87d5&utm_medium=email&utm_campaign=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise&utm_content=2501%20-%20Alnylams%20earnings%20deliver%20a%2010B%20punishment%20Enterprise+CID_7348845e5b87a2d932232a6d2d396528&utm_source=ENDPOINTS%20emails&utm_term=Pfizers%20Phase%203%20win%20for%20Litfulo%20Braveheart%20Attovia%20eye%20IPOs%20of%20275M%20182M",
         "Listing source": "https://endpoints.news/attovia-extends-biotech-ipo-streak-with-289m-listing-for-three-ii-drugs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-28c41381-5c9e84d8&utm_medium=email&utm_campaign=1212%20-%20Novo%20Nordisk%20is%20under%20pressure%20as%20Lilly%20continues%20ascent%20Enterprise&utm_content=1212%20-%20Novo%20Nordisk%20is%20under%20pressure%20as%20Lilly%20continues%20ascent%20Enterprise+CID_0ced5079c2870b7cdd20c39953eb90ef&utm_source=ENDPOINTS%20emails&utm_term=Attovia%20extends%20biotech%20IPO%20streak%20with%20289M%20listing%20for%20three%20II%20drugs",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/ii-startup-attovia-files-to-go-public-as-biotech-listings-momentum-builds/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-37a4abd9-43fe3c80&utm_medium=email&utm_campaign=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise&utm_content=1197%20-%20Veradermics%20debuts%20hair%20loss%20drug%20data%20in%20women%20Enterprise+CID_38c87d35ddb7da8c2e559543093b824c&utm_source=ENDPOINTS%20emails&utm_term=II%20startup%20Attovia%20files%20to%20go%20public%20as%20biotech%20listings%20momentum%20builds",
@@ -10550,6 +11569,7 @@
         "Listing URL": "https://endpoints.news/apnimed-files-for-ipo-as-fda-reviews-its-sleep-apnea-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-71ae0985-05f49edc&utm_medium=email&utm_campaign=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise&utm_content=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise+CID_cc14948236fdb065bcd857b2e13a7bd4&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20files%20for%20IPO%20as%20FDA%20reviews%20its%20sleep%20apnea%20drug",
         "Target source": "https://endpoints.news/yarrow-to-begin-trading-as-it-targets-graves-fda-approves-otsukas-adhd-pill/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-35087655-4152e10c&utm_medium=email&utm_campaign=2498%20-%20Looking%20for%20a%20fresh%20start%20Sarepta%20taps%20outsider%20as%20new%20CEO%20Enterprise&utm_content=2498%20-%20Looking%20for%20a%20fresh%20start%20Sarepta%20taps%20outsider%20as%20new%20CEO%20Enterprise+CID_800b85dc7c548ee84f3bc2a35b167d93&utm_source=ENDPOINTS%20emails&utm_term=Yarrow%20to%20begin%20trading%20as%20it%20targets%20Graves%20FDA%20approves%20Otsukas%20ADHD%20pill",
         "Listing source": "https://endpoints.news/apnimed-raises-192m-ipo-for-potential-2027-sleep-apnea-drug-launch/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-c073c4c1-b4295398&utm_medium=email&utm_campaign=1209%20-%20Apnimed%20gets%20192M%20in%20biotechs%20latest%20IPO%20Enterprise&utm_content=1209%20-%20Apnimed%20gets%20192M%20in%20biotechs%20latest%20IPO%20Enterprise+CID_ad91dcb03569d926fa8277a6a27d969d&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20raises%20192M%20IPO%20for%20potential%202027%20sleep%20apnea%20drug%20launch",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/apnimed-files-for-ipo-as-fda-reviews-its-sleep-apnea-drug/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-71ae0985-05f49edc&utm_medium=email&utm_campaign=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise&utm_content=1195%20-%20Biotechs%20raise%20their%20guard%20as%20RD%20race%20with%20China%20accelerates%20Enterprise+CID_cc14948236fdb065bcd857b2e13a7bd4&utm_source=ENDPOINTS%20emails&utm_term=Apnimed%20files%20for%20IPO%20as%20FDA%20reviews%20its%20sleep%20apnea%20drug",
@@ -10608,6 +11628,7 @@
         "Listing URL": "https://endpoints.news/meiragtx-strikes-royalty-deal-fores-2023-series-d-continues/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a05d9683-d40701da&utm_medium=email&utm_campaign=2484%20-%20The%20time%20is%20now%20to%20make%20an%20MA%20move%20Enterprise&utm_content=2484%20-%20The%20time%20is%20now%20to%20make%20an%20MA%20move%20Enterprise+CID_730bb7670ac03649ca2aed8b1328bd36&utm_source=ENDPOINTS%20emails&utm_term=MeiraGTx%20strikes%20royalty%20deal%20Fores%202023%20Series%20D%20continues",
         "Target source": null,
         "Listing source": null,
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/meiragtx-strikes-royalty-deal-fores-2023-series-d-continues/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a05d9683-d40701da&utm_medium=email&utm_campaign=2484%20-%20The%20time%20is%20now%20to%20make%20an%20MA%20move%20Enterprise&utm_content=2484%20-%20The%20time%20is%20now%20to%20make%20an%20MA%20move%20Enterprise+CID_730bb7670ac03649ca2aed8b1328bd36&utm_source=ENDPOINTS%20emails&utm_term=MeiraGTx%20strikes%20royalty%20deal%20Fores%202023%20Series%20D%20continues",
@@ -10636,6 +11657,7 @@
         "Listing URL": "https://endpoints.news/scribe-therapeutics-files-for-ipo-in-test-of-appetite-for-early-stage-biotechs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Scribe%20Therapeutics%20files%20for%20IPO%20in%20test%20of%20public%20appetite%20for%20earlier-stage%20biotechs",
         "Target source": "https://endpoints.news/scribes-96m-ipo-scholar-rock-awaits-site-classification-for-apitegromab/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=79153abc-a5949886-d1ce0fdf&utm_medium=email&utm_campaign=2493%20-%20What%20Anthropic%20wants%20in%20biotech%20Enterprise&utm_content=2493%20-%20What%20Anthropic%20wants%20in%20biotech%20Enterprise+CID_d647eec16c34b098c5f6366c6345d0c1&utm_source=ENDPOINTS%20emails&utm_term=Scribes%2096M%20IPO%20Scholar%20Rock%20awaits%20site%20classification%20for%20apitegromab",
         "Listing source": "https://endpoints.news/gene-editor-scribe-starts-second-half-ipo-spree-with-129m-listing/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-ccfa781f-b8a0ef46&utm_medium=email&utm_campaign=1204%20-%20Sanofi%20drops%20OX40L%20drug%20in%20eczema%20Enterprise&utm_content=1204%20-%20Sanofi%20drops%20OX40L%20drug%20in%20eczema%20Enterprise+CID_1e8be48f1ffeaef9ff7152ae32c831fd&utm_source=ENDPOINTS%20emails&utm_term=Gene%20editor%20Scribe%20Therapeutics%20starts%20second-half%20IPO%20spree%20with%20129M%20listing",
+        "Postpone source": null,
         "category": "IPO",
         "side": "raise",
         "url": "https://endpoints.news/scribe-therapeutics-files-for-ipo-in-test-of-appetite-for-early-stage-biotechs/?u=61dd93dd-d6ad-42ae-8a69-898f48a18950&s=email&c=ead60ced-6365d7ea-173f40b3&utm_medium=email&utm_campaign=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise&utm_content=1190%20-%20Novartis%20to%20snap%20up%20an%20ADC%20biotech%20Enterprise+CID_eccff869cf6ae33cc73c88dc195d3caa&utm_source=ENDPOINTS%20emails&utm_term=Scribe%20Therapeutics%20files%20for%20IPO%20in%20test%20of%20public%20appetite%20for%20earlier-stage%20biotechs",
@@ -10651,6 +11673,41 @@
       }
     ],
     "Reverse mergers": [
+      {
+        "Date": "2026-11-20",
+        "Company": "Avenzo Therapeutics",
+        "Target": "Rallybio",
+        "Target residual ownership": "2.80%",
+        "Private placement": "$215M",
+        "Modality": "Bispecific antibody",
+        "Indication": "Solid tumor",
+        "Investor 1": null,
+        "Investor 2": null,
+        "Investor 3": null,
+        "Investor 4": null,
+        "Investor 5": null,
+        "Investor 6": null,
+        "Investor 7": null,
+        "Investor 8": null,
+        "Investor 9": null,
+        "Investor 10": null,
+        "Investor 11": null,
+        "Investor 12": null,
+        "Source": "Link",
+        "URL": "Link",
+        "category": "Reverse mergers",
+        "side": "raise",
+        "url": null,
+        "date": "2026-11-20",
+        "Private placement_parsed": {
+          "raw": "$215M",
+          "currency": "USD",
+          "musd": 215.0,
+          "musd_native": 215.0
+        },
+        "value_musd": 215.0,
+        "investors": []
+      },
       {
         "Date": "2026-10-27",
         "Company": "Prana Therapies",
@@ -11698,6 +12755,422 @@
     ]
   },
   "investors": [
+    {
+      "category": "Fundraises",
+      "date": "2026-11-25",
+      "company": "CirCode Biomed",
+      "value_musd": null,
+      "name": "Fosun Health Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "Vida Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "EcoR1 Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "Fidelity",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "Perceptive Advisors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "Montanova",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "Alexandria Venture Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ritzey Therapeutics",
+      "value_musd": 112.5,
+      "name": "FMB Research",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ontop Biotech",
+      "value_musd": 55.0,
+      "name": "Honghui Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ontop Biotech",
+      "value_musd": 55.0,
+      "name": "Longpan Investment",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Ontop Biotech",
+      "value_musd": 55.0,
+      "name": "Xingze Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Apiary Therapeutics",
+      "value_musd": 7.3,
+      "name": "Genesys Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Apiary Therapeutics",
+      "value_musd": 7.3,
+      "name": "BDC Life Sciences Venture Fund",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Apiary Therapeutics",
+      "value_musd": 7.3,
+      "name": "InBC Investment Corp",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-23",
+      "company": "Apiary Therapeutics",
+      "value_musd": 7.3,
+      "name": "Mission BioCapital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "Boltz",
+      "value_musd": 110.0,
+      "name": "Bessemer Venture Partners",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "VitriVax",
+      "value_musd": 87.0,
+      "name": "F-Prime",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "VitriVax",
+      "value_musd": 87.0,
+      "name": "NEA",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "VitriVax",
+      "value_musd": 87.0,
+      "name": "RA Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "VitriVax",
+      "value_musd": 87.0,
+      "name": "Sanofi Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-18",
+      "company": "VitriVax",
+      "value_musd": 87.0,
+      "name": "Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Marrow Therapeutics",
+      "value_musd": 120.0,
+      "name": "OrbiMed",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "Greenoaks",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "Sequoia Capital",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "a16z",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "Alphabet",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "Thrive Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "MGX",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "GV",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "CapitalG",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Isomorphic Labs",
+      "value_musd": 5000.0,
+      "name": "Temasek",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "Ackermans & van Haaren",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "AbbVie Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "M Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "Bioqube Ventures",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "Korys",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-17",
+      "company": "Commit Biologics",
+      "value_musd": 60.0,
+      "name": "Novo Holdings",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-16",
+      "company": "Seawolf Therapeutics",
+      "value_musd": 100.0,
+      "name": "Versant Ventures",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-16",
+      "company": "Seawolf Therapeutics",
+      "value_musd": 100.0,
+      "name": "Lilly",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-16",
+      "company": "Seawolf Therapeutics",
+      "value_musd": 100.0,
+      "name": "Novartis Venture Fund",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-16",
+      "company": "Seawolf Therapeutics",
+      "value_musd": 100.0,
+      "name": "MPM BioImpact",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-16",
+      "company": "Seawolf Therapeutics",
+      "value_musd": 100.0,
+      "name": "CRISPR Therapeutics",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-13",
+      "company": "Orakl Oncology",
+      "value_musd": 34.0,
+      "name": "Norrsken",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-13",
+      "company": "Orakl Oncology",
+      "value_musd": 34.0,
+      "name": "Singular",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "RTW",
+      "lead": true
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Janus Henderson",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "GV",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Ikarian Capital",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Affinity Asset Advisors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Dellora Investments",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Perceptive Advisors",
+      "lead": false
+    },
+    {
+      "category": "Fundraises",
+      "date": "2026-11-11",
+      "company": "Neurosterix",
+      "value_musd": 105.0,
+      "name": "Acorn Bioventures",
+      "lead": false
+    },
     {
       "category": "Fundraises",
       "date": "2026-11-11",
@@ -15766,7 +17239,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "Santarelli",
       "lead": true
     },
@@ -15774,7 +17247,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "Novo Holdings",
       "lead": false
     },
@@ -15782,7 +17255,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "OrbiMed",
       "lead": false
     },
@@ -15790,7 +17263,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "SR One",
       "lead": false
     },
@@ -15798,7 +17271,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "Omega Funds",
       "lead": false
     },
@@ -15806,7 +17279,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "RTW",
       "lead": false
     },
@@ -15814,7 +17287,7 @@
       "category": "IPO",
       "date": "2026-10-23",
       "company": "Windward Bio",
-      "value_musd": null,
+      "value_musd": 175.0,
       "name": "Blue Owl Capital",
       "lead": false
     },
